@@ -44,13 +44,13 @@ let
               href="https://weekly.nixos.org/rss.xml"
               type="application/rss+xml"
               rel="alternate"
-              title="This ~Week in NixOS - Full RSS Feed"
+              title="This Week in NixOS - Full RSS Feed"
               />
           <link
               href="https://weekly.nixos.org/atom.xml"
               type="application/atom+xml"
               rel="alternate"
-              title="This ~Week in NixOS - Full Atom Feed"
+              title="This Week in NixOS - Full Atom Feed"
               />
           -->
 
@@ -66,9 +66,7 @@ let
 
           <header class="site-header">
             <div class="container wrapper">
-              <a class="site-title" href="/">
-                ${title}
-              </a>
+              <a class="site-title" href="/">This Week in NixOS</a>
             </div>
           </header>
 
@@ -111,7 +109,7 @@ let
 
     index = posts:
       templates.base
-        { title = "This \"Week\" in NixOS";
+        { title = "This Week in NixOS";
           content = 
             ''
               <div class="row">
@@ -160,22 +158,21 @@ let
             '';
         };
 
-    post = content:
+    post = title: timestamp: url: content:
       templates.base
-        { title = "This \"Week\" in NixOS";
+        { title = "${title} - This Week in NixOS";
           content = ''
             <div class="post">
 
-              <!-- XXX here is a placeholder for blog post header data -->
               <header class="post-header">
                 <div class="row post-title">
                   <div class="col-xs-12 col-sm-4">
                     <span class="small text-muted time-prefix">
-                      <time pubdate="pubdate" datetime="2016-08-23T00:00:00-04:00">23 AUG 2016</time>
+                      <time pubdate="pubdate" datetime="${timestamp}">${timestamp}</time>
                     </span>
                   </div>
                   <div class="col-xs-12 col-sm-8 text-right custom-xs-text-left">
-                    <a href="https://this-week-in-rust.org/blog/2016/08/23/this-week-in-rust-144/">This Week in Rust 144</a>
+                    <a href="/${url}">${title}</a>
                   </div>
                 </div>
               </header>
@@ -227,6 +224,9 @@ let
           humandate = date;
           html =
             templates.post
+              title
+              datetime
+              href
               (readFile (pkgs.runCommand "${date}-${title}-content.html" {} ''
                 ${markdown}/bin/markdown < ${markdown-path} > $out
               ''));
@@ -252,4 +252,4 @@ in pkgs.runCommand "nixos-weekly" {} ''
   '') posts}
 
   touch $out/.nojekyll
-    ''
+''
