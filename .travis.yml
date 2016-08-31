@@ -43,3 +43,25 @@ after_success:
       echo "==========================================================";
     fi
   fi;
+- if [ "$TRAVIS_TAG" != "" ]; then
+    mv gh-pages/preview tmp-preview;
+    rm -rf gh-pages/*;
+    cp -RL result/* gh-pages/;
+    mv tmp-preview gh-pages/preview;
+    COMMIT_MSG="Release of $TRAVIS_TAG (commit '$TRAVIS_COMMIT') built by Travis-CI \\#$((TRAVIS_JOB_ID - 1))"
+    cd gh-pages;
+    git add .;
+    if [[ -n `git diff --cached --exit-code` ]]; then
+      echo "= git status =============================================";
+      git status;
+      echo "= git commit =============================================";
+      git config user.name 'NixOS Weekly Robot';
+      git config user.email 'weekly@nixos.org';
+      git commit -a -m "$COMMIT_MSG";
+      git push git@github.com:NixOS/nixos-weekly.git HEAD:gh-pages;
+    else
+      echo "==========================================================";
+      echo "No changes. Nothing to commit";
+      echo "==========================================================";
+    fi
+  fi;
