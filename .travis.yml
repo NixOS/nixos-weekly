@@ -1,39 +1,39 @@
 language: nix
 branches:
   only:
-    - master
-    - /^2016-*$/
-    - /^2017-*$/
-    - /^2018-*$/
+  - master
+  - /^2016-*$/
+  - /^2017-*$/
+  - /^2018-*$/
 script:
-  - if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "master" ]; then
-      nix-build default.nix;
-    fi
+- if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "master" ]; then
+    nix-build default.nix -o result;
+  fi
 
 before_install:
-  - openssl aes-256-cbc -K $encrypted_88bda2ae685f_key -iv $encrypted_88bda2ae685f_iv -in deploy_rsa.enc -out deploy_rsa -d
-  - eval "$(ssh-agent -s)"
-  - chmod 600 $TRAVIS_BUILD_DIR/deploy_rsa
-  - ssh-add $TRAVIS_BUILD_DIR/deploy_rsa
+- openssl aes-256-cbc -K $encrypted_88bda2ae685f_key -iv $encrypted_88bda2ae685f_iv -in deploy_rsa.enc -out deploy_rsa -d
+- eval "$(ssh-agent -s)"
+- chmod 600 $TRAVIS_BUILD_DIR/deploy_rsa
+- ssh-add $TRAVIS_BUILD_DIR/deploy_rsa
 
 after_success:
-  - git clone .git gh-pages -b gh-pages
-  - if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "master" ]; then
-      mkdir gh-pages/preview
-      rm -rf gh-pages/preview/*
-      cp -R result/* gh-pages/preview/
-      if [[ -n `git diff --exit-code` ]]; then
-        git config user.name 'NixOS Weekly Robot'
-        git config user.email 'weekly@nixos.org'
-        echo "= git status ============================================="
-        git status
-        echo "= git commit ============================================="
-        git add .
-        git commit -a -m "Travis commit: $"
-        git push git@github.com:NixOS/nixos-weekly.git HEAD:gh-pages
-      else
-        echo "=========================================================="
-        echo "No changes nothing to commit"
-        echo "=========================================================="
-      fi
+- git clone .git gh-pages -b gh-pages
+- if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "master" ]; then
+    mkdir gh-pages/preview
+    rm -rf gh-pages/preview/*
+    cp -R result/* gh-pages/preview/
+    if [[ -n `git diff --exit-code` ]]; then
+      git config user.name 'NixOS Weekly Robot'
+      git config user.email 'weekly@nixos.org'
+      echo "= git status ============================================="
+      git status
+      echo "= git commit ============================================="
+      git add .
+      git commit -a -m "Committed by Travis-CI build number \#$((TRAVIS_JOB_ID - 1))"
+      git push git@github.com:NixOS/nixos-weekly.git HEAD:gh-pages
+    else
+      echo "=========================================================="
+      echo "No changes nothing to commit"
+      echo "=========================================================="
     fi
+  fi
