@@ -17,9 +17,9 @@ before_install:
 - ssh-add $TRAVIS_BUILD_DIR/deploy_rsa
 
 after_success:
-- git clone .git gh-pages -b gh-pages
+- git clone git@github.com:NixOS/nixos-weekly.git gh-pages -b gh-pages
 - if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "master" ]; then
-    mkdir gh-pages/preview;
+    mkdir -p gh-pages/preview;
     rm -rf gh-pages/preview/*;
     cp -R result/* gh-pages/preview/;
     if [[ -n `git diff --exit-code` ]]; then
