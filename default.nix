@@ -1,6 +1,7 @@
 { pkgs ? import <nixpkgs> {}
 , postsDir ? ./posts
 , styleCSS ? ./style.css
+, siteUrl ? "http://weekly.nixos.org"
 }:
 
 with pkgs.lib;
@@ -41,13 +42,13 @@ let
 
           <!-- TODO: https://github.com/garbas/nixos-weekly/issues/7
           <link
-              href="https://weekly.nixos.org/rss.xml"
+              href="${siteUrl}/rss.xml"
               type="application/rss+xml"
               rel="alternate"
               title="This Week in NixOS - Full RSS Feed"
               />
           <link
-              href="https://weekly.nixos.org/atom.xml"
+              href="${siteUrl}/atom.xml"
               type="application/atom+xml"
               rel="alternate"
               title="This Week in NixOS - Full Atom Feed"
@@ -56,17 +57,17 @@ let
 
           <link
               rel="stylesheet"
-              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+              href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
           <link
               rel="stylesheet"
-              href="/index.css">
+              href="${siteUrl}/index.css">
         </head>
 
         <body>
 
           <header class="site-header">
             <div class="container wrapper">
-              <a class="site-title" href="/">This Week in NixOS</a>
+              <a class="site-title" href="${siteUrl}">This Week in NixOS</a>
             </div>
           </header>
 
@@ -82,7 +83,7 @@ let
                 <div class="col-sm-12 col-xs-12">
                   <ul class="list-unstyled">
                     <li><a href="https://nixos.org">NixOS</a></li>
-                    <li><a href="https://github.com/garbas/nixos-weekly">Source Code</a></li>
+                    <li><a href="https://github.com/nixos/nixos-weekly">Source Code</a></li>
                   </ul>
                 </div>
               </div>
@@ -147,9 +148,9 @@ let
                     </li>
                     '') posts}
 
-                    <!-- TODO:  
+                    <!-- TODO: https://github.com/NixOS/nixos-weekly/issues/8
                     <li class="text-right">
-                      <a href="https://this-week-in-rust.org/blog/archives/index.html">View more &rarr;</a>
+                      <a href="${siteUrl}/archives.html">View more &rarr;</a>
                     </li>
                     -->
                   </ul>
@@ -172,7 +173,7 @@ let
                     </span>
                   </div>
                   <div class="col-xs-12 col-sm-8 text-right custom-xs-text-left">
-                    <a href="/${url}">${title}</a>
+                    <a href="${url}">${title}</a>
                   </div>
                 </div>
               </header>
@@ -226,7 +227,7 @@ let
             templates.post
               title
               datetime
-              href
+              "${siteUrl}/${href}"
               (readFile (pkgs.runCommand "${date}-${title}-content.html" {} ''
                 ${markdown}/bin/markdown < ${markdown-path} > $out
               ''));
