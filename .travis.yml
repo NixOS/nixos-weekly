@@ -22,6 +22,7 @@ after_success:
     mkdir -p gh-pages/preview;
     rm -rf gh-pages/preview/*;
     cp -R result/* gh-pages/preview/;
+    cd gh-pages;
     if [[ -n `git diff --exit-code` ]]; then
       git config user.name 'NixOS Weekly Robot';
       git config user.email 'weekly@nixos.org';
