@@ -36,8 +36,8 @@ let
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width">
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="author" content="NixOS Contributors" />
-          <meta name="copyright" content="NixOS Contributors" />
+          <meta name="author" content="NixOS Contributors">
+          <meta name="copyright" content="NixOS Contributors">
           <title>${title}</title>
 
           <!-- TODO: https://github.com/garbas/nixos-weekly/issues/7
@@ -231,44 +231,45 @@ let
     in
       "${day} ${month} ${year}";
 
-  parse-post = markdown-name: let
-    result = match "(....-..-..)-(.*)\.md" markdown-name;
-    date = elemAt result 0;
-    title = elemAt result 1;
-  in
-    if result != null
-      then
-        rec {
-          inherit title;
-          markdown-path = "${postsDir}/${markdown-name}";
-          href = "posts/${date}-${title}.html";
-          timestamp = date;
-          html =
-            templates.post
-              title
-              timestamp
-              "${siteUrl}/${href}"
-              (readFile (pkgs.runCommand "${date}-${title}-content.html" {} ''
-                ${markdown}/bin/markdown < ${markdown-path} > $out
-              ''));
-        }
+  parsePost = filename:
+    let
+      result = match "(....-..-..)-(.*)\.md" filename;
+      timestamp = elemAt result 0;
+      id = elemAt result 1;
+      path = "${postsDir}/${filename}";
+      href = "${substring 0 4 timestamp}/${timestamp}-${id}.html";
+      html = pkgs.runCommand "${timestamp}-${id}.html" {} ''
+        ${markdown}/bin/markdown < ${path} > $out
+      '';
+      title = readFile (pkgs.runCommand "${timestamp}-${id}.title" {} ''
+        ${pkgs.xidel}/bin/xidel ${html} -e "//h1[1]/node()" -q > $out
+        echo -n `tr -d '\n' < $out` > $out
+      '');
+    in
+      if result == null then
+        abort "Post (${filename}) not in correct form (YYYY-MM-DD-<id>.md)."
+      else if title == "" then
+        abort "Post (${filename}) does not include title (h1)."
       else
-        null;
+        {
+          inherit timestamp href title;
+          html = templates.post title timestamp "${siteUrl}/${href}" (readFile html);
+        };
 
   posts =
     filter (x: x != null)
-           (map parse-post
+           (map parsePost
                 (attrNames (filterAttrs (_: v: v == "regular")
                            (readDir postsDir))));
 
 in pkgs.runCommand "nixos-weekly" {} ''
-  mkdir $out
+  mkdir -p $out
 
   ln -s ${pkgs.writeText "nixos-weekly-index.html" (templates.index posts)} $out/index.html
   ln -s ${styleCSS} $out/index.css
 
-  mkdir $out/posts
   ${concatMapStringsSep "\n" ({ html, href, ... }: ''
+    mkdir -p `dirname $out/${href}`
     cp ${pkgs.writeText "nixos-weekly-post.html" html} $out/${href}
   '') posts}
 
