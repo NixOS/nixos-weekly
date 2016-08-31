@@ -252,5 +252,9 @@ in pkgs.runCommand "nixos-weekly" {} ''
     cp ${pkgs.writeText "nixos-weekly-post.html" html} $out/${href}
   '') posts}
 
+  echo "${siteUrl}" > $out/CNAME
+  sed -i -e "s|https://||" $out/CNAME
+  sed -i -e "s|http://||" $out/CNAME
+
   touch $out/.nojekyll
 ''
