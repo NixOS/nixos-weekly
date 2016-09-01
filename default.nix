@@ -295,15 +295,8 @@ let
             <div class="post">
 
               <header class="post-header">
-                <div class="row post-title">
-                  <div class="col-xs-12 col-sm-4">
-                    <span class="small text-muted time-prefix">
-                      <time pubdate="pubdate" datetime="${timestamp}">${prettyTimestamp timestamp}</time>
-                    </span>
-                  </div>
-                  <div class="col-xs-12 col-sm-8 text-right custom-xs-text-left">
-                    <a href="${siteUrl}/${href}">${title}</a>
-                  </div>
+                <div class="text-center">
+                  <time pubdate="pubdate" datetime="${timestamp}">${prettyTimestamp timestamp}</time>
                 </div>
               </header>
 
