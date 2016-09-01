@@ -312,8 +312,9 @@ let
       timestamp = elemAt result 0;
       id = elemAt result 1;
       path = "${postsDir}/${filename}";
-      href = "${substring 0 4 timestamp}/${timestamp}-${id}.html";
-      html = pkgs.runCommand "${timestamp}-${id}.html" {} ''
+      year = substring 0 4 timestamp;
+      href = "posts/${timestamp}-${id}.html";
+      html = pkgs.runCommand "${timestamp}.html" {} ''
         ${markdown}/bin/markdown < ${path} > $out
       '';
       title = readFile (pkgs.runCommand "${timestamp}-${id}.title" {} ''
