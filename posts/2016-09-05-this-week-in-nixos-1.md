@@ -10,7 +10,6 @@
 ## New contributors 
 
 
-## Upcoming Events
 
 
 ## Tweet / Quote of the week

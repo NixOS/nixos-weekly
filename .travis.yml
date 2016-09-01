@@ -26,7 +26,6 @@ after_success:
     mkdir -p gh-pages/preview;
     rm -rf gh-pages/preview/*;
     cp -RL result/* gh-pages/preview/;
-    COMMIT_MSG="Preview of '$TRAVIS_COMMIT' commit built by Travis-CI \\#$((TRAVIS_JOB_ID - 1))"
     cd gh-pages;
     git add .;
     if [[ -n `git diff --cached --exit-code` ]]; then
@@ -35,7 +34,7 @@ after_success:
       echo "= git commit =============================================";
       git config user.name 'NixOS Weekly Robot';
       git config user.email 'weekly@nixos.org';
-      git commit -a -m "$COMMIT_MSG";
+      git commit -a -m "Preview of '$TRAVIS_COMMIT' commit built by Travis-CI \\#$((TRAVIS_JOB_ID - 1))";
       git push git@github.com:NixOS/nixos-weekly.git HEAD:gh-pages;
     else
       echo "==========================================================";
@@ -48,7 +47,6 @@ after_success:
     rm -rf gh-pages/*;
     cp -RL result/* gh-pages/;
     mv tmp-preview gh-pages/preview;
-    COMMIT_MSG="Release of $TRAVIS_TAG (commit '$TRAVIS_COMMIT') built by Travis-CI \\#$((TRAVIS_JOB_ID - 1))"
     cd gh-pages;
     git add .;
     if [[ -n `git diff --cached --exit-code` ]]; then
@@ -57,7 +55,7 @@ after_success:
       echo "= git commit =============================================";
       git config user.name 'NixOS Weekly Robot';
       git config user.email 'weekly@nixos.org';
-      git commit -a -m "$COMMIT_MSG";
+      git commit -a -m "Release of $TRAVIS_TAG (commit '$TRAVIS_COMMIT') built by Travis-CI \\#$((TRAVIS_JOB_ID - 1))";
       git push git@github.com:NixOS/nixos-weekly.git HEAD:gh-pages;
     else
       echo "==========================================================";
