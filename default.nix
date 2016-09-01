@@ -2,6 +2,7 @@
 , postsDir ? ./posts
 , styleCSS ? ./style.css
 , siteUrl ? "http://weekly.nixos.org"
+, current_timestamp  # date -u +%Y-%M-%dT%TZ
 }:
 
 with pkgs.lib;
@@ -24,6 +25,45 @@ let
   }) {};
 
   templates = {
+    atom = 
+      ''
+        <feed xmlns="http://www.w3.org/2005/Atom"
+              xmlns:planet="http://namespace.uri/"
+              xmlns:indexing="urn:atom-extension:indexing"
+              indexing:index="no">
+
+          <access:restriction xmlns:access="http://www.bloglines.com/about/specs/fac-1.0" relationship="deny"/>
+
+          <title>NixOS Weekly</title>
+          <updated>${current_timestamp}</updated>
+          <generator uri="${siteUrl}">NixOS Weekly</generator>
+          <author>
+            <name>NixOS Weekly Team</name>
+            <email>weekly@nixos.org</email>
+          </author>
+          <id>${siteUrl}/atom.xml</id>
+          <link href="${siteUrl}/atom.xml" rel="self" type="application/atom+xml"/>
+          <link href="${siteUrl}" rel="alternate"/>
+
+          ${concatMapStringsSep "\n" (
+            { html, href, title, id, timestamp }:
+            ''
+              <entry>
+                <id>${siteUrl}/${href}</id>
+                <link href="${siteUrl}/${href}" rel="alternate" type="text/html"/>
+                <updated>${timestamp}T00:00:00Z</updated>
+                <title>${title}</title>
+                <summary type="xhtml">
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                    ${html}
+                  </div>
+                </summary>
+              </entry>
+            ''
+          ) posts}
+
+        </feed>
+      '';
     base = 
       { title
       , content
@@ -40,20 +80,12 @@ let
           <meta name="copyright" content="NixOS Contributors">
           <title>${title}</title>
 
-          <!-- TODO: https://github.com/garbas/nixos-weekly/issues/7
-          <link
-              href="${siteUrl}/rss.xml"
-              type="application/rss+xml"
-              rel="alternate"
-              title="This Week in NixOS - Full RSS Feed"
-              />
           <link
               href="${siteUrl}/atom.xml"
               type="application/atom+xml"
               rel="alternate"
               title="This Week in NixOS - Full Atom Feed"
               />
-          -->
 
           <link
               rel="stylesheet"
@@ -252,8 +284,8 @@ let
         abort "Post (${filename}) does not include title (h1)."
       else
         {
-          inherit timestamp href title;
-          html = templates.post title timestamp "${siteUrl}/${href}" (readFile html);
+          inherit timestamp href title id;
+          html = readFile html;
         };
 
   posts =
@@ -268,10 +300,12 @@ in pkgs.runCommand "nixos-weekly" {} ''
   ln -s ${pkgs.writeText "nixos-weekly-index.html" (templates.index posts)} $out/index.html
   ln -s ${styleCSS} $out/index.css
 
-  ${concatMapStringsSep "\n" ({ html, href, ... }: ''
+  ${concatMapStringsSep "\n" ({ html, href, title, timestamp, ... }: ''
     mkdir -p `dirname $out/${href}`
-    cp ${pkgs.writeText "nixos-weekly-post.html" html} $out/${href}
+    cp ${pkgs.writeText "nixos-weekly-post.html" (templates.post title timestamp "${siteUrl}/${href}" html)} $out/${href}
   '') posts}
+
+  cp ${pkgs.writeText "nixos-weekly-atom.xml" templates.atom} $out/atom.xml
 
   echo "${siteUrl}" > $out/CNAME
   sed -i -e "s|https://||" $out/CNAME
