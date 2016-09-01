@@ -333,10 +333,12 @@ let
         };
 
   posts =
-    filter (x: x != null)
-           (map parsePost
-                (attrNames (filterAttrs (_: v: v == "regular")
-                           (readDir postsDir))));
+    sort
+      (a: b: lessThan b.timestamp a.timestamp)
+      (filter (x: x != null)
+             (map parsePost
+                  (attrNames (filterAttrs (_: v: v == "regular")
+                             (readDir postsDir)))));
 
 in pkgs.runCommand "nixos-weekly" {} ''
   mkdir -p $out
