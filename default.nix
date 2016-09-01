@@ -3,6 +3,12 @@
 , statisDir ? ./static
 , siteUrl ? "http://weekly.nixos.org"
 , current_timestamp  # date -u +%Y-%m-%dT%TZ
+
+, postsOnIndexPage ? 10
+
+# null to have all older posts on first archive page
+, postsPerArchivePage ? 100
+
 }:
 
 with pkgs.lib;
@@ -25,6 +31,54 @@ let
   }) {};
 
   templates = {
+    archive =
+      { nextPage
+      , posts
+      , prevPage
+      }:
+      templates.base
+        { title = "This Week in NixOS";
+          content =
+            ''
+              <div class="row">
+                <div class="col-md-12">
+                  <ul class="list-unstyled past-issues">
+                    <li class="nav-header disabled"><h2>Past issues</h2></li>
+
+                    ${concatMapStringsSep "\n" ({ timestamp, href, title, ... }: ''
+                    <li>
+                      <div class="row post-title">
+                        <div class="col-xs-12 col-sm-4">
+                          <span class="small text-muted time-prefix">
+                            <time pubdate="pubdate" datetime="${timestamp}">${prettyTimestamp timestamp}</time>
+                          </span>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 text-right custom-xs-text-left">
+                          <a href="${href}">${title}</a>
+                        </div>
+                      </div>
+                    </li>
+                    '') posts}
+
+                    ${optionalString (prevPage != null) ''
+                      <a href="${prevPage}">&larr; newer</a>
+                    ''}
+
+                    ${optionalString (nextPage != null) ''
+                      <a href="${nextPage}">older &rarr;</a>
+                    ''}
+
+                    <!-- TODO: https://github.com/NixOS/nixos-weekly/issues/8
+                    <li class="text-right">
+                      <a href="${siteUrl}/archives.html">View more &rarr;</a>
+                    </li>
+                    -->
+                  </ul>
+                </div>
+              </div>
+            '';
+        };
+
     atom = 
       ''
         <feed xmlns="http://www.w3.org/2005/Atom"
@@ -162,7 +216,11 @@ let
       </form>
     '';
 
-    index = posts:
+    index =
+      { nextPage
+      , posts
+      , prevPage
+      }:
       templates.base
         { title = "This Week in NixOS";
           content = 
@@ -204,6 +262,14 @@ let
                       </div>
                     </li>
                     '') posts}
+
+                    ${optionalString (prevPage != null) ''
+                      <a href="${prevPage}">&larr; newer</a>
+                    ''}
+
+                    ${optionalString (nextPage != null) ''
+                      <a href="${nextPage}">older &rarr;</a>
+                    ''}
 
                     <!-- TODO: https://github.com/NixOS/nixos-weekly/issues/8
                     <li class="text-right">
@@ -340,6 +406,44 @@ let
                   (attrNames (filterAttrs (_: v: v == "regular")
                              (readDir postsDir)))));
 
+  pages =
+    let
+      chunks =
+        [(take postsOnIndexPage posts)] ++
+        (if postsPerArchivePage == null
+          then [(drop postsOnIndexPage posts)]
+          else chunksOf postsPerArchivePage (drop postsOnIndexPage posts));
+    in
+      [{
+        name = "index.html";
+        nextPage = if length chunks > 1 then "archive1.html" else null;
+        posts = head chunks;
+        prevPage = null;
+        template = templates.index;
+      }]
+      ++
+      imap (i: chunk: {
+        name = "archive${toString i}.html";
+        nextPage =
+          if length chunks > i + 1 then "archive${toString (i + 1)}.html" else null;
+        posts = chunk;
+        prevPage =
+          if i == 1
+            then "index.html"
+            else "archive${toString (i - 1)}.html";
+        template = templates.archive;
+      }) (tail chunks);
+
+  chunksOf = k:
+    let
+      f = ys: xs:
+        if xs == []
+          then ys
+          else f (ys ++ [(take k xs)]) (drop k xs);
+    in
+      f [];
+
+
 in pkgs.runCommand "nixos-weekly" {} ''
   mkdir -p $out
 
@@ -348,7 +452,9 @@ in pkgs.runCommand "nixos-weekly" {} ''
     ln -s $file $out/
   done
 
-  ln -s ${pkgs.writeText "nixos-weekly-index.html" (templates.index posts)} $out/index.html
+  ${concatMapStrings ({ nextPage, name, posts, prevPage, template }: ''
+    ln -s ${pkgs.writeText "nixos-weekly-${name}" (template { inherit nextPage posts prevPage; })} $out/${name}
+  '') pages}
 
   ${concatMapStringsSep "\n" ({ html, href, title, timestamp, id }: ''
     mkdir -p `dirname $out/${href}`
