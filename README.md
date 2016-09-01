@@ -11,7 +11,7 @@ Find more at http://weekly.nixos.org
 ## Want to help shape NixOS weekly?
 
 NixOS weekly is a community driven project. Everybody in NixOS community is
-extremly busy and nobody alone can afford to monitor what is happening. The
+extremely busy and nobody alone can afford to monitor what is happening. The
 only way to avoid burnout is to do it together.
 
 Ways to contribute:
@@ -20,7 +20,7 @@ Ways to contribute:
   open a Pull Request and contribute links / content for next blog post
   release. (TODO: add link)
 
-- **Write script to automate stuff.** Not everybody is a writter and enjoys
+- **Write script to automate stuff.** Not everybody is a writer and enjoys
   writing blog posts. But some of us are quite good at writing scripts that
   make our life easier. Look at the issue tracker for possible issues that
   require some programming skills. (TODO: add link)
@@ -33,7 +33,7 @@ Ways to contribute:
 
 ## Rules that editor should follow
 
-TODO: write some guidelines for editors for now we dont have any but maybe we
+TODO: write some guidelines for editors for now we don't have any but maybe we
       should have some
 
 
@@ -41,15 +41,15 @@ TODO: write some guidelines for editors for now we dont have any but maybe we
 ## FAQ
 
 
-## Why did you write yet another static blog generator tool?
+### Why did you write yet another static blog generator tool?
 
 We couldn't agree what to use and we all love Nix. In the end it turned out to
 be implemented in ~30 lines of code. You start wondering if Nix is not only
-ment to be for package management, but also for statis blog generating :)
+ment to be for package management, but also for static blog generating. :)
 
 
-## Is there enough things happening in a week to have weekly news?
+### Is there enough things happening in a week to have weekly news?
 
 Probably not (yet). While calling this NixOS Weekly, we will have blog releases
 every 2 weeks and after a month we will see if we need to change the frequency.
-Until we try we wont know for sure.
+Until we try we won't know for sure.
