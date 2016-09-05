@@ -60,8 +60,8 @@ NixOS Weekly is licensed under the [Creative Commons Attribution-ShareAlike 4.0
 International Public License][cc-by-sa-4.0].
 
 In short this means that you can share and adapt the material for any purpose
-as long as you **give appropriate credit**, **indicate if any changes were
-made** and redistribute your modifications under the **same license**. For full
-details, see [COPYING](/COPYING).
+as long as you *give appropriate credit*, *indicate if any changes were made*
+and redistribute your modifications under the *same license*. For full details,
+see [COPYING](/COPYING).
 
 [cc-by-sa-4.0]: https://creativecommons.org/licenses/by-sa/4.0/
