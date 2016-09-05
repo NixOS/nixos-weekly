@@ -8,9 +8,9 @@ Find more at http://weekly.nixos.org
     We are just starting and are looking for help from community.
 
 
-## Want to help shape NixOS weekly?
+## Want to help shape NixOS Weekly?
 
-NixOS weekly is a community driven project. Everybody in NixOS community is
+NixOS Weekly is a community driven project. Everybody in NixOS community is
 extremely busy and nobody alone can afford to monitor what is happening. The
 only way to avoid burnout is to do it together.
 
@@ -45,7 +45,7 @@ TODO: write some guidelines for editors for now we don't have any but maybe we
 
 We couldn't agree what to use and we all love Nix. In the end it turned out to
 be implemented in ~30 lines of code. You start wondering if Nix is not only
-ment to be for package management, but also for static blog generating. :)
+meant to be for package management, but also for static blog generating. :)
 
 
 ### Is there enough things happening in a week to have weekly news?
@@ -56,8 +56,8 @@ Until we try we won't know for sure.
 
 ## License
 
-NixOS weekly content is licensed under the [Creative Commons
-Attribution-ShareAlike 4.0 International Public License][cc-by-sa-4.0].
+NixOS Weekly is licensed under the [Creative Commons Attribution-ShareAlike 4.0
+International Public License][cc-by-sa-4.0].
 
 In short this means that you can share and adapt the material for any purpose
 as long as you **give appropriate credit**, **indicate if any changes were
