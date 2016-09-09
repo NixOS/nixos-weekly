@@ -20,21 +20,31 @@ Ways to contribute:
   open a Pull Request and contribute links / content for next blog post
   release. (TODO: add link)
 
-- **Write script to automate stuff.** Not everybody is a writer and enjoys
+- **Write script(s) to automate "stuff".** Not everybody is a writer and enjoys
   writing blog posts. But some of us are quite good at writing scripts that
   make our life easier. Look at the issue tracker for possible issues that
   require some programming skills. (TODO: add link)
 
-- **Become an Editor.** For every blog post release there is going to be only
-  one person in charge. This person will follow happenings in community,
-  collect links and make sure that blog post release happens in time.
-  (TODO: add link)
+- **Become an Editor.** For every blog post release there is going to be one
+  person in charge and we call this an Editor. The sole responsability of this
+  role is that blog post release happens on time and that we have an editor for
+  next release. To become and editor all you have to do is volunteer.
 
 
-## Rules that editor should follow
+## Rules that editor can follow
 
-TODO: write some guidelines for editors for now we don't have any but maybe we
-      should have some
+- Be short. NixOS Weekly is a collection of links and not a regular blog post
+  you would write.
+
+- One or max 2 images are more then enough. Remember we just collect links to
+  interesting content.
+
+- 
+
+- Techincal details: TODO write as we do our first release
+    - how to build the blog
+    - how is blog published
+    - how is blog preview happening
 
 
 
