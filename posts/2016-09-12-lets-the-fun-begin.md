@@ -67,7 +67,7 @@ TODO: invite to contribute, also mention this blg is written in Nix, how kewl
 is that!
 
 Thank you for reading this. Since nobody is perfect we might forget something
-or simple mispelled it. [Let us know][new-issue] if we messed it up.
+or simply misspell it. [Let us know][new-issue] if we messed it up.
 
 
 [1]: https://media.ccc.de/v/froscon2016-1830-nixos
