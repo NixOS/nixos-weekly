@@ -6,7 +6,7 @@
   <access:restriction xmlns:access="http://www.bloglines.com/about/specs/fac-1.0" relationship="deny"/>
 
   <title>NixOS Weekly</title>
-  <updated>2016-09-09T13:04:45Z</updated>
+  <updated>2016-09-09T13:40:39Z</updated>
   <generator uri="http://weekly.nixos.org/preview">NixOS Weekly</generator>
   <author>
     <name>NixOS Weekly Team</name>
@@ -90,7 +90,7 @@ August 1, 2016.</p>
 is that!</p>
 
 <p>Thank you for reading this. Since nobody is perfect we might forget something
-or simple mispelled it. <a href="https://github.com/nixos/nixos-weekly/issues/new">Let us know</a> if we messed it up.</p>
+or simply misspell it. <a href="https://github.com/nixos/nixos-weekly/issues/new">Let us know</a> if we messed it up.</p>
 
     </div>
   </summary>
