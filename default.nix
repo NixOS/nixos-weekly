@@ -50,7 +50,7 @@ let
         else if month' == "07" then "JUL"
         else if month' == "08" then "AUG"
         else if month' == "09" then "SEP"
-        else if month' == "10" then "OKT"
+        else if month' == "10" then "OCT"
         else if month' == "11" then "NOV"
         else if month' == "12" then "DEC"
         else abort "Unknown month (${month'}) for date (${timestamp}).";
