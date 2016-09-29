@@ -91,6 +91,15 @@ pkgs.lib // rec {
   */
   sortPosts = sort (a: b: lessThan b.timestamp a.timestamp);
 
+  /* Group posts for index and archive pages
+  */
+  groupPosts = conf: posts: {
+    index = take conf.postsOnIndexPage posts;
+    archive = if conf.postsPerArchivePage == null
+              then [ (drop conf.postsOnIndexPage posts) ]
+              else chunksOf conf.postsPerArchivePage (drop conf.postsOnIndexPage posts);
+  };
+
   chunksOf = k:
     let
       f = ys: xs:
@@ -99,6 +108,30 @@ pkgs.lib // rec {
           else f (ys ++ [(take k xs)]) (drop k xs);
     in
       f [];
+
+  /* Generate the index page
+  */
+  generateIndex = template: groupedPosts: {
+    inherit template;
+    name = "index.html";
+    nextPage = if length groupedPosts.archive > 1 then "archive-1.html" else null;
+    posts = groupedPosts.index;
+    prevPage = null;
+  };
+
+  /* Generate the archives pages
+  */
+  generateArchives = template: archivePosts:
+    imap (i: posts: {
+      inherit posts template;
+      name = "archive-${toString i}.html";
+      nextPage =
+        if length archivePosts >= i + 1 then "archive-${toString (i + 1)}.html" else null;
+      prevPage =
+        if i == 1
+          then "index.html"
+          else "archive-${toString (i - 1)}.html";
+    }) archivePosts;
 
   generateSite = { conf, templates, pages, posts }:
     pkgs.runCommand conf.siteId {} ''

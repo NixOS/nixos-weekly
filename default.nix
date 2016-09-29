@@ -32,32 +32,9 @@ let
             (getPosts conf.postsDir
              ++ optionals previewMode (getPosts conf.draftsDir));
 
-  pages =
-    let
-      chunks =
-        [(take conf.postsOnIndexPage posts)] ++
-        (if conf.postsPerArchivePage == null
-          then [(drop conf.postsOnIndexPage posts)]
-          else chunksOf conf.postsPerArchivePage (drop conf.postsOnIndexPage posts));
-    in
-      [{
-        name = "index.html";
-        nextPage = if length chunks > 1 then "archive1.html" else null;
-        posts = head chunks;
-        prevPage = null;
-        template = templates.index;
-      }]
-      ++
-      imap (i: chunk: {
-        name = "archive${toString i}.html";
-        nextPage =
-          if length chunks > i + 1 then "archive${toString (i + 1)}.html" else null;
-        posts = chunk;
-        prevPage =
-          if i == 1
-            then "index.html"
-            else "archive${toString (i - 1)}.html";
-        template = templates.archive;
-      }) (tail chunks);
+  groupedPosts = groupPosts conf posts;
+
+  pages = [ (generateIndex templates.index groupedPosts) ]
+          ++ generateArchives templates.archive groupedPosts.archive;
 
 in generateSite { inherit templates conf pages posts; }
