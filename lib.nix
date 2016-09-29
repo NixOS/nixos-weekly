@@ -97,4 +97,29 @@ pkgs.lib // rec {
     in
       f [];
 
+  generateSite = { conf, templates, pages, posts }:
+    pkgs.runCommand conf.siteId {} ''
+      mkdir -p $out
+
+      for file in ${conf.staticDir}/*; do
+        ln -s $file $out/
+      done
+
+      ${concatMapStrings (page: ''
+        ln -s ${pkgs.writeText "${conf.siteId}-${page.name}" (page.template page)} $out/${page.name}
+      '') pages}
+
+      ${concatMapStringsSep "\n" (post: ''
+        mkdir -p `dirname $out/${post.href}`
+        ln -s ${pkgs.writeText "${conf.siteId}-post-${post.id}.html" (templates.post.full post) } $out/${post.href}
+      '') posts}
+
+      ln -s ${pkgs.writeText "${conf.siteId}-atom.xml" (templates.atom posts)} $out/atom.xml
+
+      echo "${conf.siteUrl}" > $out/CNAME
+      sed -i -e "s|https://||" $out/CNAME
+      sed -i -e "s|http://||" $out/CNAME
+
+      touch $out/.nojekyll
+    '';
 }

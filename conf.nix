@@ -8,10 +8,13 @@
   # URL of the website
   siteUrl = "http://weekly.nixos.org";
 
-  # maximum number of posts on the index page
+  # Id of the site
+  siteId = "nixos-weekly";
+
+  # Maximum number of posts on the index page
   postsOnIndexPage = 10;
 
-  # maximum number of posts per archive page
+  # Maximum number of posts per archive page
   # null to have all older posts on first archive page
   postsPerArchivePage = 100;
 }

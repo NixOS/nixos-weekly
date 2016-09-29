@@ -53,29 +53,4 @@ let
         template = templates.archive;
       }) (tail chunks);
 
-
-in pkgs.runCommand "nixos-weekly" {} ''
-  mkdir -p $out
-
-
-  for file in ${conf.staticDir}/*; do
-    ln -s $file $out/
-  done
-
-  ${concatMapStrings (page: ''
-    ln -s ${pkgs.writeText "nixos-weekly-${page.name}" (page.template page)} $out/${page.name}
-  '') pages}
-
-  ${concatMapStringsSep "\n" (post: ''
-    mkdir -p `dirname $out/${post.href}`
-    ln -s ${pkgs.writeText "nixos-weekly-post.html" (templates.post.full post) } $out/${post.href}
-  '') posts}
-
-  ln -s ${pkgs.writeText "nixos-weekly-atom.xml" (templates.atom posts)} $out/atom.xml
-
-  echo "${conf.siteUrl}" > $out/CNAME
-  sed -i -e "s|https://||" $out/CNAME
-  sed -i -e "s|http://||" $out/CNAME
-
-  touch $out/.nojekyll
-''
+in generateSite { inherit templates conf pages posts; }
