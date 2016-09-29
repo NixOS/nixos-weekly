@@ -2,6 +2,9 @@
   # Directory where posts are located
   postsDir = ./posts;
 
+  # Directory where drafts are located
+  draftsDir = ./drafts;
+
   # Directory where static files are located
   staticDir = ./static;
 

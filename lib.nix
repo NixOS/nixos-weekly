@@ -79,15 +79,18 @@ pkgs.lib // rec {
           html = readFile html;
         };
 
-  /* Get and sort all the posts from a directory as post attribute sets
+  /* Get all the posts from a directory as post attribute sets
   */
   getPosts = postsDir:
-    sort
-      (a: b: lessThan b.timestamp a.timestamp)
-      (filter (x: x != null)
-             (map (parsePost postsDir)
-                  (attrNames (filterAttrs (_: v: v == "regular")
-                             (readDir postsDir)))));
+    (filter (x: x != null)
+           (map (parsePost postsDir)
+                (attrNames (filterAttrs (_: v: v == "regular")
+                           (readDir postsDir)))));
+
+  /* Sort a list of posts
+  */
+  sortPosts = sort (a: b: lessThan b.timestamp a.timestamp);
+
   chunksOf = k:
     let
       f = ys: xs:

@@ -4,9 +4,14 @@
 
  nix-build --argstr current_timestamp `date -u +%Y-%m-%dT%TZ`
 
+or with drafts preview enabled with:
+
+ nix-build --argstr current_timestamp `date -u +%Y-%m-%dT%TZ` --arg previewMode true
+
 */
 { pkgs ? import <nixpkgs> {}
 , current_timestamp  # date -u +%Y-%m-%dT%TZ
+, previewMode ? false
 }:
 
 with builtins;
@@ -23,7 +28,9 @@ let
 
   templates = import ./templates.nix { inherit conf state lib; };
 
-  posts = getPosts conf.postsDir;
+  posts = sortPosts
+            (getPosts conf.postsDir
+             ++ optionals previewMode (getPosts conf.draftsDir));
 
   pages =
     let
