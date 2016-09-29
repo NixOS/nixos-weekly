@@ -5,6 +5,9 @@
   # Directory where drafts are located
   draftsDir = ./drafts;
 
+  # Directory where templates are located
+  templatesDir = ./templates;
+
   # Directory where static files are located
   staticDir = ./static;
 
