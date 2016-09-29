@@ -109,6 +109,10 @@ pkgs.lib // rec {
     in
       f [];
 
+  /* Load a template with an environment set
+  */
+  loadTemplateWithEnv = env: file: import (env.conf.templatesDir + "/${file}") env;
+
   /* Generate the index page
   */
   generateIndex = template: groupedPosts: {
