@@ -2,19 +2,17 @@
 
  To build, use the following command:
 
- nix-build --argstr current_timestamp `date -u +%Y-%m-%dT%TZ`
+ nix-build --argstr currentTimestamp `date -u +%Y-%m-%dT%TZ`
 
 or with drafts preview enabled with:
 
- nix-build --argstr current_timestamp `date -u +%Y-%m-%dT%TZ` --arg previewMode true
+ nix-build --argstr currentTimestamp `date -u +%Y-%m-%dT%TZ` --arg previewMode true
 
 */
 { pkgs ? import <nixpkgs> {}
-, current_timestamp  # date -u +%Y-%m-%dT%TZ
+, currentTimestamp  # date -u +%Y-%m-%dT%TZ
 , previewMode ? false
 }:
-
-with builtins;
 
 let lib = import ./lib.nix { inherit pkgs; };
   in with lib;
@@ -25,7 +23,7 @@ let
   conf = import ./conf.nix;
 
   # state
-  state = { inherit current_timestamp; };
+  state = { inherit currentTimestamp; };
 
   # the template base environment
   templateEnv = { inherit conf state lib templates; };

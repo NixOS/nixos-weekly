@@ -18,9 +18,9 @@
   siteId = "nixos-weekly";
 
   # Maximum number of posts on the index page
-  postsOnIndexPage = 10;
+  postsOnIndexPage = 1;
 
   # Maximum number of posts per archive page
   # null to have all older posts on first archive page
-  postsPerArchivePage = 100;
+  postsPerArchivePage = 1;
 }
