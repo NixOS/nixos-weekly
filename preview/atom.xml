@@ -6,19 +6,19 @@
   <access:restriction xmlns:access="http://www.bloglines.com/about/specs/fac-1.0" relationship="deny"/>
 
   <title>NixOS Weekly</title>
-  <updated>2016-09-09T13:40:39Z</updated>
-  <generator uri="http://weekly.nixos.org/preview">NixOS Weekly</generator>
+  <updated>2016-10-01T23:57:07Z</updated>
+  <generator uri="http://weekly.nixos.org">NixOS Weekly</generator>
   <author>
     <name>NixOS Weekly Team</name>
     <email>weekly@nixos.org</email>
   </author>
-  <id>http://weekly.nixos.org/preview/atom.xml</id>
-  <link href="http://weekly.nixos.org/preview/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="http://weekly.nixos.org/preview" rel="alternate"/>
-
+  <id>http://weekly.nixos.org/atom.xml</id>
+  <link href="http://weekly.nixos.org/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://weekly.nixos.org" rel="alternate"/>
+  
   <entry>
-  <id>http://weekly.nixos.org/preview/posts/2016-09-12-lets-the-fun-begin.html</id>
-  <link href="http://weekly.nixos.org/preview/posts/2016-09-12-lets-the-fun-begin.html" rel="alternate" type="text/html"/>
+  <id>http://weekly.nixos.org/posts/2016-09-12-lets-the-fun-begin.html</id>
+  <link href="http://weekly.nixos.org/posts/2016-09-12-lets-the-fun-begin.html" rel="alternate" type="text/html"/>
   <updated>2016-09-12T00:00:00Z</updated>
   <title>Lets the fun begin #1</title>
   <summary type="xhtml">
