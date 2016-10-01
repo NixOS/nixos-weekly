@@ -10,7 +10,7 @@ posts:
       <access:restriction xmlns:access="http://www.bloglines.com/about/specs/fac-1.0" relationship="deny"/>
 
       <title>NixOS Weekly</title>
-      <updated>${state.current_timestamp}</updated>
+      <updated>${state.currentTimestamp}</updated>
       <generator uri="${conf.siteUrl}">NixOS Weekly</generator>
       <author>
         <name>NixOS Weekly Team</name>
