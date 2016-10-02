@@ -6,11 +6,14 @@
 
 or with drafts preview enabled with:
 
- nix-build --argstr currentTimestamp `date -u +%Y-%m-%dT%TZ` --arg previewMode true
+ nix-build --argstr currentTimestamp `date -u +%Y-%m-%dT%TZ` \
+           --argstr siteUrl "http://127.0.0.1:8000" \
+           --arg previewMode true
 
 */
 { pkgs ? import <nixpkgs> {}
 , currentTimestamp  # date -u +%Y-%m-%dT%TZ
+, siteUrl ? null
 , previewMode ? false
 }:
 
@@ -20,7 +23,7 @@ let lib = import ./lib.nix { inherit pkgs; };
 let
 
   # global configuration
-  conf = import ./conf.nix;
+  conf = import ./conf.nix // pkgs.lib.optionalAttrs (siteUrl != null) { inherit siteUrl; };
 
   # state
   state = { inherit currentTimestamp; };
