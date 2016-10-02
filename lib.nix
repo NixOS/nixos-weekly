@@ -4,6 +4,7 @@ with pkgs.lib;
 with builtins;
 
 let
+
   markdown = pkgs.callPackage ({ stdenv, fetchzip }: stdenv.mkDerivation {
     name = "markdown-1.0.1";
     src = fetchzip {
@@ -17,6 +18,16 @@ let
       sed -i '1s:/usr/bin/perl:${pkgs.perl}/bin/perl:' $out/bin/markdown
     '';
   }) {};
+
+  chunksOf = k:
+    let
+      f = ys: xs:
+        if xs == []
+          then ys
+          else f (ys ++ [(take k xs)]) (drop k xs);
+    in
+      f [];
+
 in
 
 pkgs.lib // rec {
@@ -87,7 +98,11 @@ pkgs.lib // rec {
                 (attrNames (filterAttrs (_: v: v == "regular")
                            (readDir postsDir)))));
 
-  /* Sort a list of posts
+  /* Attach a template to a page attribute set
+  */
+  setTemplate = template: page: page // { inherit template; };
+
+  /* Sort a list of posts chronologically
   */
   sortPosts = sort (a: b: lessThan b.timestamp a.timestamp);
 
@@ -100,15 +115,6 @@ pkgs.lib // rec {
               else chunksOf conf.postsPerArchivePage (drop conf.postsOnIndexPage posts);
   };
 
-  chunksOf = k:
-    let
-      f = ys: xs:
-        if xs == []
-          then ys
-          else f (ys ++ [(take k xs)]) (drop k xs);
-    in
-      f [];
-
   /* Load a template with an environment set
   */
   loadTemplateWithEnv = env: file: import (env.conf.templatesDir + "/${file}") env;
@@ -117,7 +123,7 @@ pkgs.lib // rec {
   */
   generateIndex = template: groupedPosts: {
     inherit template;
-    name = "index.html";
+    href = "index.html";
     nextPage = if length groupedPosts.archive > 1 then "archive-1.html" else null;
     posts = groupedPosts.index;
     prevPage = null;
@@ -128,7 +134,7 @@ pkgs.lib // rec {
   generateArchives = template: archivePosts:
     imap (i: posts: {
       inherit posts template;
-      name = "archive-${toString i}.html";
+      href = "archive-${toString i}.html";
       nextPage =
         if length archivePosts >= i + 1 then "archive-${toString (i + 1)}.html" else null;
       prevPage =
@@ -137,29 +143,34 @@ pkgs.lib // rec {
           else "archive-${toString (i - 1)}.html";
     }) archivePosts;
 
-  generateSite = { conf, templates, pages, posts }:
+  /* Generate the site
+  */
+  generateSite = {
+    conf
+  , pages
+  , preInstall ? ""
+  , postInstall ? ""
+  }:
     pkgs.runCommand conf.siteId {} ''
       mkdir -p $out
+
+      eval "${preInstall}"
 
       for file in ${conf.staticDir}/*; do
         ln -s $file $out/
       done
 
-      ${concatMapStrings (page: ''
-        ln -s ${pkgs.writeText "${conf.siteId}-${page.name}" (page.template page)} $out/${page.name}
+      ${concatMapStringsSep "\n" (page: ''
+        mkdir -p `dirname $out/${page.href}`
+        ln -s ${pkgs.writeText "${conf.siteId}-${replaceStrings ["/"] ["-"] page.href}" (page.template page) } $out/${page.href}
       '') pages}
-
-      ${concatMapStringsSep "\n" (post: ''
-        mkdir -p `dirname $out/${post.href}`
-        ln -s ${pkgs.writeText "${conf.siteId}-post-${post.id}.html" (templates.post.full post) } $out/${post.href}
-      '') posts}
-
-      ln -s ${pkgs.writeText "${conf.siteId}-atom.xml" (templates.atom posts)} $out/atom.xml
 
       echo "${conf.siteUrl}" > $out/CNAME
       sed -i -e "s|https://||" $out/CNAME
       sed -i -e "s|http://||" $out/CNAME
 
       touch $out/.nojekyll
+
+      eval "${postInstall}"
     '';
 }

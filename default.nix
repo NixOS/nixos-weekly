@@ -28,11 +28,9 @@ let
   # state
   state = { inherit currentTimestamp; };
 
-  # the template base environment
-  templateEnv = { inherit conf state lib templates; };
-
-  # load a template with the default environment
-  loadTemplate = loadTemplateWithEnv templateEnv;
+  /* Loads a template with a generic environment
+  */
+  loadTemplate = loadTemplateWithEnv { inherit conf state lib templates; };
 
   # list of used templates
   templates = {
@@ -46,16 +44,27 @@ let
     post.atomList = loadTemplate "post.atom-list.nix";
   };
 
-  # posts to generate
-  posts = sortPosts
-            (getPosts conf.postsDir
-             ++ optionals previewMode (getPosts conf.draftsDir));
+  # posts
+  posts = let
+    posts = (getPosts conf.postsDir);
+    drafts = optionals previewMode (getPosts conf.draftsDir);
+    template = templates.post.full;
+  in sortPosts (map (setTemplate template) (posts ++ drafts));
 
-  # group posts into index and archive according to settings
-  groupedPosts = groupPosts conf posts;
+  /* List of pages to generate, pages are attribute sets that should have at
+     least the following attributes:
 
-  # list of pages to generate
-  pages = [ (generateIndex templates.index groupedPosts) ]
-          ++ generateArchives templates.archive groupedPosts.archive;
+     - href: the path of the page, absolute to the site root
+     - template: a template that evaluate the page attribute set and return
+       the page HTML
+  */
+  pages = let
+    # group post according to settings
+    groupedPosts = groupPosts conf posts;
+    index = generateIndex templates.index groupedPosts;
+    archives = generateArchives templates.archive groupedPosts.archive;
+    feed = { inherit posts; href = "atom.xml"; template = templates.atom; };
+  in
+   [ index feed ] ++ archives ++ posts;
 
-in generateSite { inherit templates conf pages posts; }
+in generateSite { inherit conf pages; }
