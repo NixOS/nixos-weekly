@@ -1,6 +1,6 @@
 { conf, state, lib, templates,  ... }:
 with lib;
-posts:
+page:
   ''
     <feed xmlns="http://www.w3.org/2005/Atom"
           xmlns:planet="http://namespace.uri/"
@@ -20,7 +20,7 @@ posts:
       <link href="${conf.siteUrl}/atom.xml" rel="self" type="application/atom+xml"/>
       <link href="${conf.siteUrl}" rel="alternate"/>
       
-      ${concatMapStringsSep "\n" templates.post.atomList posts}
+      ${concatMapStringsSep "\n" templates.post.atomList page.posts}
 
     </feed>
   ''
