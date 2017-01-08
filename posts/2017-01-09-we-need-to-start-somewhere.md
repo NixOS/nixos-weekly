@@ -1,17 +1,49 @@
-# Lets the fun begin #1
+# We need to start somewhere - #1
 
-Handpicked NixOS news, updates on (bi-)weekly basis, delivered to your inbox. 
-We are just starting and are looking for [help from community][help].
+As NixOS is growing in popularity so is the community. It is harder and harder
+to be updated on all the interesting bits that are happening on all the corners
+of our community. And this is the reason for starting NixOS weekly.
 
-As everything must start somewhere and let this be our first post on
-[weekly.nixos.org][23]. Enjoy our initial selection of most recent NixOS
-related links.
-
-> **NixOS 16.09** (Flounder) is on it way.
-> Help test it https://github.com/NixOS/nixpkgs/issues/18209
+Welcome to the first edition of NixOS weekly news. We hope that you will like
+it, if not let us know how we can do it better.
 
 
-# News & Blog Posts & Presentations
+> Almost all good writing begins with terrible first efforts. You need to
+> start somewhere
+> -- Anne Lamott
+
+
+As we try to figure out the right format here are our current ideas:
+
+- We are not sure that there is enough happening every week, so we will post
+  this newsletter every second week. Eventually this will become a more
+
+- All collaborations happens on [github][XX] and posts are written in markdown
+  format. We need to get this to be community driven.
+
+- Being on time is more important then trying to write about everything that
+  happened.
+
+[Let us know what you think!]()
+
+
+# Events
+
+- *Tuesday, January 17, 2017*
+
+  > [NixOS Dublin Meetup](https://www.meetup.com/NixOS-Dublin/events/236649896) at [Workday](https://maps.google.com/maps?f=q&hl=en&q=Kings+Building%2C+May+Lane%2C+Smithfield%2C+Dublin+7%2C+Dublin%2C+ie), Dublin, Ireland
+  > Talks:
+  > - **Using Nix in a Cluster Environment** by Kevin Cox
+  > - **Software Dependencies - The Root of All Evila** by Tomasz Czyż
+
+- https://www.meetup.com/NixOS-London/events/236255144/
+- https://www.meetup.com/Amsterdam-Nix-Meetup/events/232753333/
+
+
+# News
+
+http://wiki.muc.ccc.de/radio:53
+last 10 blog posts from http://planet.nixos.org/
 
 - [FrOSCon 2016: NixOS][1] presented by [Franz Plets][2]
 
@@ -32,21 +64,24 @@ related links.
 
 # Events
 
-- *Monday, September 12, 2016*: 
+- *Monday, September 12, 2016*:
   > [London Nixos Meetup][17] at [CodeNode][18], London, UK
   > NixOS contributor [obadz][19] will talk about his recent addition: [NIXOS_LUSTRATE][20]
 
 - *Wednesday, September 28, 2016*:
   > [DevOps Autumn 2016 sprint][21] at [Flying Circus Internet Operations GmbH][22], Halle, Germany
 
+TODO: https://openlab-augsburg.de/events/nixos-introduction-hackathon/
 
 # Jobs
+
+TODO: https://portal.mytum.de/jobs/sonstige/NewsArticle_20160122_122637
 
 [Write us](https://github.com/NixOS/nixos-weekly/issues/new) if you are looking
 for some skilled Nix magicians.
 
 
-# New contributors 
+# New contributors
 
 Since we need to start somewhere we are listing all new contributors since
 August 1, 2016.
@@ -87,7 +122,7 @@ or simply misspell it. [Let us know][new-issue] if we messed it up.
 [15]: https://lastlog.de/blog/posts/tuebix.html
 [16]: https://lastlog.de/blog/about.html
 [17]: https://skillsmatter.com/meetups/8440-london-nixos-usergroup
-[18]: https://skillsmatter.com/meetups/8440-london-nixos-usergroup
+[18]: https://maps.google.com/maps?q=Skills%20Matter%20%7C%20CodeNode,%2010%20South%20Place,%20London,%20EC2M%207EB,%20GB
 [19]: https://github.com/obadz
 [20]: https://github.com/NixOS/nixpkgs/pull/17784
 [21]: http://www.meetup.com/DevOps-Sprint/events/231563717/
