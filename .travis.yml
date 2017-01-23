@@ -7,10 +7,11 @@ branches:
   - /^2018-*$/
 script:
 - if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "master" ]; then
-    nix-build default.nix --argstr currentTimestamp "`date -u +%Y-%m-%dT%TZ`" --argstr siteUrl "http://weekly.nixos.org/preview" -o result;
+    echo "SITEURL = 'http://weekly.nixos.org'" >> pelicanconf.py;
+    nix-build default.nix;
   fi
 - if [ "$TRAVIS_TAG" != "" ]; then
-    nix-build default.nix --argstr currentTimestamp "`date -u +%Y-%m-%dT%TZ`" --argstr siteUrl "http://weekly.nixos.org" -o result;
+    nix-build default.nix;
   fi
 
 before_install:
