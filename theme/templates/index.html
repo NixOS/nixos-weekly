@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section id="content">
+
+{% block content_title %}
+  <h3>Past Issues</h3>
+{% endblock %}
+
+  <ul id="articles-list">
+{% for article in articles_page.object_list %}
+    <li>
+      <a href="{{ SITEURL }}/{{ article.url }}"
+         rel="bookmark"
+         title="Permalink to {{ article.title|striptags }}">
+        <time class="published" datetime="{{ article.date.isoformat() }}">
+          {{ article.date.strftime('%b %-d %Y') }}
+        </time>
+        <span>{{ article.title }}</span>
+      </a>
+    </li>
+{% endfor %}
+  </ul>
+
+<!-- TODO: add yearly pagination -->
+
+</section>
+
+{% endblock content %}

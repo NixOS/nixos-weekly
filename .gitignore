@@ -1,2 +1,4 @@
 /deploy_rsa
 /result
+/output/
+/__pycache__/

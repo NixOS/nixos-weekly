@@ -1,0 +1,78 @@
+# -*- coding: utf-8 -*- #
+
+from __future__ import unicode_literals
+
+# Options described here
+# http://docs.getpelican.com/en/stable/settings.html
+
+
+# Basic settings
+
+USE_FOLDER_AS_CATEGORY = False
+DEFAULT_CATEGORY = 'blog'
+DELETE_OUTPUT_DIRECTORY = True
+OUTPUT_PATH = 'output/'
+PATH = 'content/'
+SITENAME = 'NixOS Weekly'
+SITEURL = 'http://weekly.nixos.org'
+WITH_FUTURE_DATES = False
+SLUGIFY_SOURCE = 'basename'
+
+
+# URL settings
+
+RELATIVE_URLS = True
+ARTICLE_URL = '{date:%Y}/{slug}.html'
+ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
+ARTICLE_LANG_URL = ''
+ARTICLE_LANG_SAVE_AS = ''
+DRAFT_URL = 'drafts/{slug}.html'
+DRAFT_SAVE_AS = 'drafts/{slug}.html'
+DRAFT_LANG_URL = ''
+DRAFT_LANG_SAVE_AS = ''
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+PAGE_LANG_URL = ''
+PAGE_LANG_SAVE_AS = ''
+CATEGORY_URL = ''
+CATEGORY_SAVE_AS = ''
+TAG_URL = ''
+TAG_SAVE_AS = ''
+AUTHOR_URL = ''
+AUTHOR_SAVE_AS = ''
+YEAR_ARCHIVE_SAVE_AS = '{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = ''
+DAY_ARCHIVE_SAVE_AS = ''
+
+
+# Time and Date
+
+TIMEZONE = 'Europe/Berlin'
+
+
+# Metadata
+
+AUTHOR = 'NixOS Weekly Team'
+
+
+# Feed settings
+
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_RSS = 'feeds/all.rss.xml'
+CATEGORY_FEED_ATOM = None
+CATEGORY_FEED_RSS = None
+TAG_FEED_ATOM = None
+TAG_FEED_RSS = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+TRANSLATION_FEED_ATOM = None
+
+
+# Translations
+
+DEFAULT_LANG = 'en'
+
+
+# Themes
+
+THEME = 'theme'
