@@ -2,15 +2,13 @@ language: nix
 branches:
   only:
   - master
-  - /^2016-*$/
-  - /^2017-*$/
-  - /^2018-*$/
+  - production
 script:
 - if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "master" ]; then
     echo "SITEURL = 'http://weekly.nixos.org'" >> pelicanconf.py;
     nix-build default.nix;
   fi
-- if [ "$TRAVIS_TAG" != "" ]; then
+- if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "production" ]; then
     nix-build default.nix;
   fi
 
@@ -45,7 +43,7 @@ after_success:
       echo "==========================================================";
     fi
   fi;
-- if [ "$TRAVIS_TAG" != "" ]; then
+- if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "production" ]; then
     mv gh-pages/preview tmp-preview;
     rm -rf gh-pages/*;
     cp -RL result/* gh-pages/;
