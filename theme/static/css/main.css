@@ -154,3 +154,23 @@ body > footer {
     font-size: 1.4em;
     border-top: 1px solid #e1e1e1;
 }
+
+body > footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body > footer li {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+body > footer a{
+    color: #333;
+    font-family: 'Roboto', serif;
+    text-decoration: none;
+}
+body > footer a:hover {
+    border-bottom: 1px dotted #333;
+}
