@@ -7,6 +7,7 @@ from pelican.settings import read_settings
 
 settings = read_settings('pelicanconf.py')
 settings['WITH_FUTURE_DATES'] = True
+settings['SITEURL'] = 'http://127.0.0.1:5500'
 
 p = Pelican(settings)
 
