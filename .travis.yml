@@ -45,9 +45,11 @@ after_success:
   fi;
 - if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "production" ]; then
     mv gh-pages/preview tmp-preview;
+    mv gh-pages/CNAME tmp-CNAME;
     rm -rf gh-pages/*;
     cp -RL result/* gh-pages/;
     mv tmp-preview gh-pages/preview;
+    mv tmp-CNAME gh-pages/CNAME;
     cd gh-pages;
     git add .;
     if [[ -n `git diff --cached --exit-code` ]]; then
