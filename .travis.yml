@@ -53,6 +53,7 @@ after_success:
     mv tmp-preview gh-pages/preview;
     mv tmp-CNAME gh-pages/CNAME;
     cd gh-pages;
+    touch .nojekyll
     git add .;
     if [[ -n `git diff --cached --exit-code` ]]; then
       echo "= git status =============================================";
