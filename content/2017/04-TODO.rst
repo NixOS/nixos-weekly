@@ -26,6 +26,19 @@ Meetups
 
 TODO:
 
+- **Mar 12, 2017**, `London NixOS User Group`_ at `Smarkets`_, London, UK
+
+  Smarkets kindly offered us a space for our second community hackday!
+
+  There will be talking, pizzas and lots of packaging going on. Bring your own
+  projects or just tag along and help other people out. Whether you have some
+  software that you'd like to see packaged or questions about how everything
+  fits together, there will be people available to help you.
+
+.. _`London NixOS User Group`: https://www.meetup.com/NixOS-London/events/237738532/
+.. _`Smarkets`: https://smarkets.com/about
+
+
 - **Mar 22, 2017**, `Munich NixOS Meetup`_ at `OpenLab Augsburg`_, Augsburg,
   Germany
 
