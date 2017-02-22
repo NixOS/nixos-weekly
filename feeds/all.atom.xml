@@ -1,5 +1,211 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2017-02-06T00:00:00+01:00</updated><entry><title>#02 - Here we go</title><link href="http://weekly.nixos.org/2017/02-here-we-go.html" rel="alternate"></link><published>2017-02-06T00:00:00+01:00</published><updated>2017-02-06T00:00:00+01:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-02-06:/2017/02-here-we-go.html</id><summary type="html">&lt;p&gt;Let us together review what happened in NixOS community in last 2 weeks. We are
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2017-02-22T00:00:00+01:00</updated><entry><title>#03 - Better Late Than Never</title><link href="http://weekly.nixos.org/2017/03-better-late-then-never.html" rel="alternate"></link><published>2017-02-22T00:00:00+01:00</published><updated>2017-02-22T00:00:00+01:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-02-22:/2017/03-better-late-then-never.html</id><summary type="html">&lt;p&gt;Another two weeks have passed and it is time for our summary.&lt;/p&gt;
+&lt;p&gt;A new section &lt;strong&gt;Questions&lt;/strong&gt; was added to the newsletter. Intention for this new
+section is that it is going to expose some of the questions that happen in the
+past. With this we hope that none of the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Another two weeks have passed and it is time for our summary.&lt;/p&gt;
+&lt;p&gt;A new section &lt;strong&gt;Questions&lt;/strong&gt; was added to the newsletter. Intention for this new
+section is that it is going to expose some of the questions that happen in the
+past. With this we hope that none of the questions will be left unanswered.&lt;/p&gt;
+&lt;p&gt;Sometimes we froget just how awesome Nix / NixOS is and we take its
+capabilities for granted. It is important that we remind ourself from time to
+time why are we using it, via reddit - &lt;a class="reference external" href="https://www.reddit.com/r/NixOS/comments/5uc9ms/in_love/"&gt;In Love&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Just thought I'd share a compliment, switched from Arch, this thing is
+beautiful. Installing low level packages, configuration files, it all works
+so well.&lt;/p&gt;
+&lt;p&gt;Only issues are documentation (which I can see is being worked on and
+solved, albeit with limited manpower), and that some packages don't seem to
+work well with the package manager, but that's fixable over time.&lt;/p&gt;
+&lt;p&gt;But it's great for what it is, easy to get running, but still fully
+customization.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Important date: &lt;strong&gt;27. Feb 2017&lt;/strong&gt; a branch-off for next NixOS release, 17.03
+(Gorilla), &lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31817.html"&gt;is going to happen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This means you have few more days to land your change to &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs"&gt;nixpkgs&lt;/a&gt; master if
+you want them to be a part of Gorilla.&lt;/p&gt;
+&lt;p&gt;You can also follow the &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/milestone/10"&gt;17.03&lt;/a&gt; milestone.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Assistance Required for Vulnerability Roundups&lt;/p&gt;
+&lt;p&gt;Since last newletter 2 Vulnerability Roundup happen: &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/22549"&gt;21&lt;/a&gt;, &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/22826"&gt;22&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/grahamc"&gt;Graham Christensen&lt;/a&gt; is doing an amazing work coordinating the effort of
+security team and also doing big chunk of the work. Recently &lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31432.html"&gt;he asked for
+help&lt;/a&gt; and let us make sure he gets some helping hand, or two, three, ...&lt;/p&gt;
+&lt;p&gt;We can all recognize that The work the security team is doing is of great
+importance, since that makes it possible for the rest community to use NixOS
+in more production environments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;At FOSDEM a very &lt;cite&gt;spontaneous NixOS discussion panel happen&lt;/cite&gt;. As a follow up
+&lt;a class="reference external" href="https://twitter.com/zimbatm"&gt;&amp;#64;zimbatm&lt;/a&gt; created an &lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31769.html"&gt;initial proposal for RFC&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Having a more formal proposal how we work together and how bigger changes are
+discussed is a step towards mature Linux distribution. Having NixOS already
+reached this state is an impressive achievement.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31762.html"&gt;xorg-server major update&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31701.html"&gt;KDE4 removed in master&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31818.html"&gt;Haskell: master has switched to LTS 8.x with GHC 8.0.2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31806.html"&gt;Python 3 as default (discussion)&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/16654"&gt;Nixpkgs: Adding setcap-wrapper functionality&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/NixOS/nix/commit/9ff9c3f2f80ba4108e9c945bbfda2c64735f987b"&gt;Nix: Add support for s3:// URIs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Feedback requested: &lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg32011.html"&gt;Feedback on workshop material&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Feedback requested: &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/12940"&gt;Better firewalling in NixOS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Feedback requested: &lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31836.html"&gt;&amp;quot;Monitoring&amp;quot; NixOS?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Release: &lt;a class="reference external" href="https://rubygems.org/gems/vagrant-nixos-plugin/versions/0.2.1"&gt;vagrant-nixos-plugin&lt;/a&gt; released v0.2.1, now with --show-trace
+support.&lt;/p&gt;
+&lt;p&gt;Add basic nix configuration provisioning for NixOS guests in Vagrant.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Release: &lt;a class="reference external" href="https://github.com/numtide/docker-nix-builder"&gt;docker-nix-builder&lt;/a&gt; beta.&lt;/p&gt;
+&lt;p&gt;Did you ever have to battle with a user that only wants to have Docker
+installed on his system? Or a user that is developing on macOS and has broken
+nix packages?&lt;/p&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;docker-nix-builder&lt;/span&gt;&lt;/tt&gt; is a tool to help smooth the transition. Instead of
+using nix to build the project, use Docker to run nix to build the project.
+At the end the users gets a new Docker container that only (mostly) contains
+the build result.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Release: Bundle Nix derivations to run anywhere, &lt;a class="reference external" href="https://github.com/matthewbauer/nix-bundle"&gt;nix-bundle&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;nix-bundle&lt;/span&gt;&lt;/tt&gt; is a way to package Nix attributes into single-file
+executables. Benefits: Single-file output, Can be run by non-root users, No
+runtime, Distro agnostic, Completely portable, No installation&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="reading"&gt;
+&lt;h2&gt;Reading&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://medium.com/&amp;#64;bmpvieira/a-truly-reproducible-scientific-paper-5059b282ee9a#.hutdj7dte"&gt;A truly reproducible scientific paper?&lt;/a&gt; by &lt;a class="reference external" href="https://twitter.com/bmpvieira"&gt;Bruno Vieira&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.vandorp.biz/2017/02/nixos-linux-vs-coreos-container-linux/"&gt;NixOS Linux vs CoreOS Container Linux&lt;/a&gt; by &lt;a class="reference external" href="https://twitter.com/djvdorp"&gt;Daniel van Dorp&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="presentations"&gt;
+&lt;h2&gt;Presentations&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Last month's talk on &lt;a class="reference external" href="https://youtu.be/D5Gq2wkRXpU"&gt;Nix and NixOS from the Louisville Haskell Meetup&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://video.fosdem.org/2017/K.4.601/deploying_npm_packages_with_nix.mp4"&gt;Deploying NPM packages with the Nix package manager&lt;/a&gt; by &lt;a class="reference external" href="https://twitter.com/svdburg"&gt;Sander van der Burg&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.youtube.com/watch?v=YWSeJQKWw9g"&gt;NixOS - Les infrastructures immuables et la configuration déclarative&lt;/a&gt; by David Sferruzza&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="meetups"&gt;
+&lt;h2&gt;Meetups&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Feb 24–26, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://medium.com/&amp;#64;HackIllinois/open-source-2017-b322ad688471#.vim3uki6h"&gt;HackIllinois&lt;/a&gt;, University of Illinois, USA&lt;/p&gt;
+&lt;p&gt;For any university students in the US, the University of Illinois at
+Urbana-Champaign is holding a hackathon oriented towards getting people into
+open source development, and I'm going to be mentoring people for
+Nix/NixOS/Haskell development. Be sure to put &amp;quot;NixOS&amp;quot; or &amp;quot;Haskell&amp;quot; into your
+application somewhere.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Feb 25, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/Amsterdam-Nix-Meetup/events/232753333/"&gt;Amsterdam Nix Meetup&lt;/a&gt; at &lt;a class="reference external" href="https://maps.google.com/maps?f=q&amp;amp;hl=en&amp;amp;q=de+Ruyterkade+142-143%2C+Amsterdam%2C+nl"&gt;Container Solutions&lt;/a&gt;,
+Amsterdam, Netherlands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Mar 22, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/Munich-NixOS-Meetup/events/237831744/?eventId=237831744"&gt;Munich NixOS Meetup&lt;/a&gt; at &lt;a class="reference external" href="https://maps.google.com/maps?f=q&amp;amp;hl=en&amp;amp;q=48.357765,10.886834"&gt;OpenLab Augsburg&lt;/a&gt;, Augsburg,
+Germany&lt;/p&gt;
+&lt;p&gt;John Darrington will give a talk about guix and guixSD, a package manager and
+a Linux distribution which are based on similar concepts as nix/NixOS.&lt;/p&gt;
+&lt;p&gt;The talk will be in English.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="meetups-that-just-happened"&gt;
+&lt;h3&gt;Meetups that just happened&lt;/h3&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Feb 18, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/Berlin-NixOS-Meetup/events/237045577/"&gt;Berlin NixOS Meetup&lt;/a&gt; at &lt;a class="reference external" href="https://maps.google.com/maps?f=q&amp;amp;hl=en&amp;amp;q=Kiefholzstrasse+1%2C+12435+Berlin%2C+Berlin%2C+de"&gt;Schnee von morgen&lt;/a&gt;, Berlin,
+Germany&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Feb 09, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/SeeIT-IT-Meetup-in-Konstanz-Kreuzlingen/events/236693855"&gt;NixOS: Functional Packaging For The Win&lt;/a&gt; by
+&lt;a class="reference external" href="http://twitter.com/tpflug"&gt;Tobias Pflug&lt;/a&gt; at &lt;a class="reference external" href="https://maps.google.com/maps?f=q&amp;amp;hl=en&amp;amp;q=Turmstra%C3%9Fe+30%2C+78467+Konstanz%2C+%2C+Konstanz%2C+de"&gt;Wasserturm Stromeyersdorf&lt;/a&gt;, Konstanz, Germany&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="questions"&gt;
+&lt;h2&gt;Questions&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.reddit.com/r/NixOS/comments/5ubtc4/fail_to_build_ghc_in_nix_missing_dependencies/"&gt;Problem: fail to build ghc in nix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.reddit.com/r/NixOS/comments/5un4bi/best_way_to_handle_desktop_files_in_user/"&gt;Best way to handle .desktop files in user installed packages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.reddit.com/r/NixOS/comments/5ssgek/awesomewm/"&gt;Awesomewm and NixOS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31518.html"&gt;Help - Global Cursor Config XMonad&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31433.html"&gt;Help with patch for screen locking&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://stackoverflow.com/questions/41486747/how-to-nix-build-again-a-built-store-path"&gt;How to nix-build again a built store path?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://stackoverflow.com/questions/41527061/nixos-haskell-opengl-problems-with-building-and-running-opengl-programs"&gt;NixOs, Haskell, opengl : problems with building and running openGL programs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://stackoverflow.com/questions/42150082/lib-mapattrstolist-and-infinite-recursion"&gt;lib.mapAttrsToList and infinite recursion&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31613.html"&gt;How to use buildMaven&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jobs"&gt;
+&lt;h2&gt;Jobs&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues/new"&gt;Looking for some Nix developers? Let us help you.&lt;/a&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://smarkets.com/about"&gt;Smarkets&lt;/a&gt;, London, United Kingdom&lt;/p&gt;
+&lt;p&gt;We are looking for  &lt;a class="reference external" href="https://boards.greenhouse.io/smarkets/jobs/486940"&gt;Infra team lead&lt;/a&gt; and &lt;a class="reference external" href="https://boards.greenhouse.io/smarkets/jobs/486940"&gt;Infra engineer&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The jobs are not a Nix jobs per se since we are not using Nix at the moment.
+However, internally few of us are interested in trying it for e.g. building
+AMIs or provisioning docker containers with (mostly) python software. We think
+some strong candidate with experience of using Nix in production would have
+a good chance of seeing some adoption here.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="editor-s-corner"&gt;
+&lt;h2&gt;Editor's corner&lt;/h2&gt;
+&lt;p&gt;As you also probably noticed, this newsletter is coming with a 2 days delay.
+I am trying to get it out in time, but life happens also. I you would like to
+help release weekly newletter please &lt;a class="reference external" href="https://twitter.com/garbas"&gt;contact me&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>#02 - Here we go</title><link href="http://weekly.nixos.org/2017/02-here-we-go.html" rel="alternate"></link><published>2017-02-06T00:00:00+01:00</published><updated>2017-02-06T00:00:00+01:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-02-06:/2017/02-here-we-go.html</id><summary type="html">&lt;p&gt;Let us together review what happened in NixOS community in last 2 weeks. We are
 always looking to improve.&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://github.com/nixos/nixos-weekly/issues/new"&gt;Let us know&lt;/a&gt; how we can do better.&lt;/p&gt;
 &lt;div class="section" id="news"&gt;
