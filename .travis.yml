@@ -3,14 +3,6 @@ branches:
   only:
   - master
   - production
-script:
-- if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "master" ]; then
-    echo "SITEURL = 'http://weekly.nixos.org'" >> pelicanconf.py;
-    nix-build default.nix;
-  fi
-- if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "production" ]; then
-    nix-build default.nix;
-  fi
 
 before_install:
 - if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
@@ -18,6 +10,16 @@ before_install:
     eval "$(ssh-agent -s)";
     chmod 600 $TRAVIS_BUILD_DIR/deploy_rsa;
     ssh-add $TRAVIS_BUILD_DIR/deploy_rsa;
+  fi
+
+script:
+- if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "master" ]; then
+    echo "SITEURL = 'http://weekly.nixos.org'" >> pelicanconf.py;
+    echo "WITH_FUTURE_DATES = True" >> pelicanconf.py
+    nix-build default.nix;
+  fi
+- if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "production" ]; then
+    nix-build default.nix;
   fi
 
 after_success:
