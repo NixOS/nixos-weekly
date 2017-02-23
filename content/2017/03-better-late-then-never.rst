@@ -6,9 +6,9 @@
 
 Another two weeks have passed and it is time for our summary.
 
-A new section **Questions** was added to the newsletter. Intention for this new
-section is that it is going to expose some of the questions that happen in the
-past. With this we hope that none of the questions will be left unanswered.
+A new section **Questions** was added to the newsletter. The intention for this
+new section is that it is going to expose some of the questions that happen in
+the past. We hope that none of the questions will be left unanswered.
 
 Sometimes we forget just how awesome Nix / NixOS is and we take its
 capabilities for granted. It is important that we remind ourself from time to
@@ -46,13 +46,13 @@ News
 
 - Assistance Required for Vulnerability Roundups 
 
-  Since last newletter 2 Vulnerability Roundup happen: 21_, 22_.
+  Since last newsletter 2 Vulnerability Roundup happen: 21_, 22_.
 
   `Graham Christensen`_ is doing an amazing work coordinating the effort of
-  security team and also doing big chunk of the work. Recently `he asked for
-  help`_ and let us make sure he gets some helping hand, or two, three, ...
+  a security team and also doing a big chunk of the work. Recently `he asked
+  for help`_ and let us make sure he gets some helping hand, or two, three, ...
 
-  We can all recognize that The work the security team is doing is of great
+  We can all recognize that The work the security team is doing is of a great
   importance, since that makes it possible for the rest community to use NixOS
   in more production environments.
 
@@ -61,7 +61,7 @@ News
 .. _22: https://github.com/NixOS/nixpkgs/issues/22826
 .. _`he asked for help`: https://www.mail-archive.com/nix-dev@lists.science.uu.nl/msg31432.html
 
-- At FOSDEM a very `spontaneous NixOS discussion panel happen`. As a follow up
+- At FOSDEM a very `spontaneous NixOS discussion panel happen`. As a follow-up
   `@zimbatm`_ created an `initial proposal for RFC`_.
 
   Having a more formal proposal how we work together and how bigger changes are
@@ -289,6 +289,6 @@ Editor's corner
 
 As you also probably noticed, this newsletter is coming out 2 days late. I am
 trying to get it out in time, but life happens also. If you would like to help
-release weekly newletter please `contact me`_.
+release weekly newsletter please `contact me`_.
 
 .. _`contact me`: https://twitter.com/garbas
