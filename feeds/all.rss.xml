@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Wed, 22 Feb 2017 00:00:00 +0100</lastBuildDate><item><title>#03 - Better Late Than Never</title><link>http://weekly.nixos.org/2017/03-better-late-then-never.html</link><description>&lt;p&gt;Another two weeks have passed and it is time for our summary.&lt;/p&gt;
-&lt;p&gt;A new section &lt;strong&gt;Questions&lt;/strong&gt; was added to the newsletter. Intention for this new
-section is that it is going to expose some of the questions that happen in the
-past. With this we hope that none of the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 22 Feb 2017 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-02-22:/2017/03-better-late-then-never.html</guid></item><item><title>#02 - Here we go</title><link>http://weekly.nixos.org/2017/02-here-we-go.html</link><description>&lt;p&gt;Let us together review what happened in NixOS community in last 2 weeks. We are
+&lt;p&gt;A new section &lt;strong&gt;Questions&lt;/strong&gt; was added to the newsletter. The intention for this
+new section is that it is going to expose some of the questions that happen in
+the past. We hope that none of the questions …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 22 Feb 2017 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-02-22:/2017/03-better-late-then-never.html</guid></item><item><title>#02 - Here we go</title><link>http://weekly.nixos.org/2017/02-here-we-go.html</link><description>&lt;p&gt;Let us together review what happened in NixOS community in last 2 weeks. We are
 always looking to improve.&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://github.com/nixos/nixos-weekly/issues/new"&gt;Let us know&lt;/a&gt; how we can do better.&lt;/p&gt;
 &lt;div class="section" id="news"&gt;

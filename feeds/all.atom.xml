@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2017-02-22T00:00:00+01:00</updated><entry><title>#03 - Better Late Than Never</title><link href="http://weekly.nixos.org/2017/03-better-late-then-never.html" rel="alternate"></link><published>2017-02-22T00:00:00+01:00</published><updated>2017-02-22T00:00:00+01:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-02-22:/2017/03-better-late-then-never.html</id><summary type="html">&lt;p&gt;Another two weeks have passed and it is time for our summary.&lt;/p&gt;
-&lt;p&gt;A new section &lt;strong&gt;Questions&lt;/strong&gt; was added to the newsletter. Intention for this new
-section is that it is going to expose some of the questions that happen in the
-past. With this we hope that none of the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Another two weeks have passed and it is time for our summary.&lt;/p&gt;
-&lt;p&gt;A new section &lt;strong&gt;Questions&lt;/strong&gt; was added to the newsletter. Intention for this new
-section is that it is going to expose some of the questions that happen in the
-past. With this we hope that none of the questions will be left unanswered.&lt;/p&gt;
-&lt;p&gt;Sometimes we froget just how awesome Nix / NixOS is and we take its
+&lt;p&gt;A new section &lt;strong&gt;Questions&lt;/strong&gt; was added to the newsletter. The intention for this
+new section is that it is going to expose some of the questions that happen in
+the past. We hope that none of the questions …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Another two weeks have passed and it is time for our summary.&lt;/p&gt;
+&lt;p&gt;A new section &lt;strong&gt;Questions&lt;/strong&gt; was added to the newsletter. The intention for this
+new section is that it is going to expose some of the questions that happen in
+the past. We hope that none of the questions will be left unanswered.&lt;/p&gt;
+&lt;p&gt;Sometimes we forget just how awesome Nix / NixOS is and we take its
 capabilities for granted. It is important that we remind ourself from time to
 time why are we using it, via reddit - &lt;a class="reference external" href="https://www.reddit.com/r/NixOS/comments/5uc9ms/in_love/"&gt;In Love&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -31,17 +31,17 @@ you want them to be a part of Gorilla.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;Assistance Required for Vulnerability Roundups&lt;/p&gt;
-&lt;p&gt;Since last newletter 2 Vulnerability Roundup happen: &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/22549"&gt;21&lt;/a&gt;, &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/22826"&gt;22&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Since last newsletter 2 Vulnerability Roundup happen: &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/22549"&gt;21&lt;/a&gt;, &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/22826"&gt;22&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://github.com/grahamc"&gt;Graham Christensen&lt;/a&gt; is doing an amazing work coordinating the effort of
-security team and also doing big chunk of the work. Recently &lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31432.html"&gt;he asked for
-help&lt;/a&gt; and let us make sure he gets some helping hand, or two, three, ...&lt;/p&gt;
-&lt;p&gt;We can all recognize that The work the security team is doing is of great
+a security team and also doing a big chunk of the work. Recently &lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31432.html"&gt;he asked
+for help&lt;/a&gt; and let us make sure he gets some helping hand, or two, three, ...&lt;/p&gt;
+&lt;p&gt;We can all recognize that The work the security team is doing is of a great
 importance, since that makes it possible for the rest community to use NixOS
 in more production environments.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p class="first"&gt;At FOSDEM a very &lt;cite&gt;spontaneous NixOS discussion panel happen&lt;/cite&gt;. As a follow up
+&lt;li&gt;&lt;p class="first"&gt;At FOSDEM a very &lt;cite&gt;spontaneous NixOS discussion panel happen&lt;/cite&gt;. As a follow-up
 &lt;a class="reference external" href="https://twitter.com/zimbatm"&gt;&amp;#64;zimbatm&lt;/a&gt; created an &lt;a class="reference external" href="https://www.mail-archive.com/nix-dev&amp;#64;lists.science.uu.nl/msg31769.html"&gt;initial proposal for RFC&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Having a more formal proposal how we work together and how bigger changes are
 discussed is a step towards mature Linux distribution. Having NixOS already
@@ -201,9 +201,9 @@ a good chance of seeing some adoption here.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="editor-s-corner"&gt;
 &lt;h2&gt;Editor's corner&lt;/h2&gt;
-&lt;p&gt;As you also probably noticed, this newsletter is coming with a 2 days delay.
-I am trying to get it out in time, but life happens also. I you would like to
-help release weekly newletter please &lt;a class="reference external" href="https://twitter.com/garbas"&gt;contact me&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As you also probably noticed, this newsletter is coming out 2 days late. I am
+trying to get it out in time, but life happens also. If you would like to help
+release weekly newsletter please &lt;a class="reference external" href="https://twitter.com/garbas"&gt;contact me&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 </content></entry><entry><title>#02 - Here we go</title><link href="http://weekly.nixos.org/2017/02-here-we-go.html" rel="alternate"></link><published>2017-02-06T00:00:00+01:00</published><updated>2017-02-06T00:00:00+01:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-02-06:/2017/02-here-we-go.html</id><summary type="html">&lt;p&gt;Let us together review what happened in NixOS community in last 2 weeks. We are
 always looking to improve.&lt;/p&gt;
