@@ -10,7 +10,7 @@ A new section **Questions** was added to the newsletter. Intention for this new
 section is that it is going to expose some of the questions that happen in the
 past. With this we hope that none of the questions will be left unanswered.
 
-Sometimes we froget just how awesome Nix / NixOS is and we take its
+Sometimes we forget just how awesome Nix / NixOS is and we take its
 capabilities for granted. It is important that we remind ourself from time to
 time why are we using it, via reddit - `In Love`_:
 
@@ -287,8 +287,8 @@ Jobs
 Editor's corner
 ===============
 
-As you also probably noticed, this newsletter is coming with a 2 days delay.
-I am trying to get it out in time, but life happens also. I you would like to
-help release weekly newletter please `contact me`_.
+As you also probably noticed, this newsletter is coming out 2 days late. I am
+trying to get it out in time, but life happens also. If you would like to help
+release weekly newletter please `contact me`_.
 
 .. _`contact me`: https://twitter.com/garbas
