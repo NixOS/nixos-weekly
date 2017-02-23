@@ -15,7 +15,7 @@ before_install:
 script:
 - if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "master" ]; then
     echo "SITEURL = 'http://weekly.nixos.org'" >> pelicanconf.py;
-    echo "WITH_FUTURE_DATES = True" >> pelicanconf.py
+    echo "WITH_FUTURE_DATES = True" >> pelicanconf.py;
     nix-build default.nix;
   fi
 - if [ "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "production" ]; then
