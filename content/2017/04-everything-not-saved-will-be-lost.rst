@@ -1,8 +1,8 @@
-#04 - TODO
-##########
+#04 - Everything not saved will be lost
+#######################################
 
 :date: 2017-03-06
-:description: TODO
+:description: Everything not saved will be lost. (Nintendo Quit Screen message)
 
 TODO: intro text
 
