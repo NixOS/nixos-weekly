@@ -60,21 +60,24 @@ Presentations
 - `Eric Sagnes <https://github.com/ericsagnes>`_ gave an introductory NixOS talk
   in Japanese. The `slides are here`_.
 
-.. _`slides are here`: https://github.com/Tokyo-NixOS/presentations
-
 - `Maksim Bronsky <https://twitter.com/lenkodonchev>`_ presented `Vulnix`_ at
   `Chemnitzer Linux-Tage`_. The `slides
   <https://github.com/flyingcircusio/vulnix/raw/master/doc/2017-03-11-Vulnix.pdf>`__
   (PDF download, DE only) are in the repository.
-
-.. _`Vulnix`: https://github.com/flyingcircusio/vulnix
-.. _`Chemnitzer Linux-Tage`: https://chemnitzer.linux-tage.de/2017/en/programm/beitrag/314
 
 - `Lenko Donchev <https://twitter.com/lenkodonchev>`_ gave a lightning talk
   "NixOS the purely functional Linux distribution". The `slides
   <https://speakerdeck.com/lenkodonchev/nixos-the-purely-functional-linux-distribution>`__
   are available online.
 
+- John Wiegley gave a presentation "How I use nix for Haskell development" at
+  the Bay Area Nix/NixOS User Group. `Video <https://youtu.be/G9yiJ7d5LeI>`__
+  available.
+
+
+.. _`slides are here`: https://github.com/Tokyo-NixOS/presentations
+.. _`Vulnix`: https://github.com/flyingcircusio/vulnix
+.. _`Chemnitzer Linux-Tage`: https://chemnitzer.linux-tage.de/2017/en/programm/beitrag/314
 
 
 Meetups
@@ -116,6 +119,13 @@ Meetups that just happened
 .. _`Amsterdam Nix Meetup`: https://www.meetup.com/Amsterdam-Nix-Meetup/events/232753333/
 .. _`Container Solutions`: https://maps.google.com/maps?f=q&hl=en&q=de+Ruyterkade+142-143%2C+Amsterdam%2C+nl
 
+- **Mar 02, 2017**, `Bay Area Nix/NixOS User Group`_ at Takt, San Francisco, USA
+
+  See the presentation about using Nix for Haskell development above.
+
+.. _`Bay Area Nix/NixOS User Group`:
+   https://www.meetup.com/Bay-Area-Nix-NixOS-User-Group/events/237430925/
+
 - **Mar 12, 2017**, `London NixOS User Group`_ at `Smarkets`_, London, UK
 
   Smarkets kindly offered us a space for our second community hackday!
@@ -139,6 +149,9 @@ Questions
 
 - `LXC containers on NixOS
   <http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023008.html>`__.
+
+- `Virtualization on NixOS
+  <https://www.reddit.com/r/NixOS/comments/5xoewu/virtualization_on_nixos/>`__
 
 .. _`In a new nixos derivation, based on a binary distribution, why am I getting an error referring to nativeBuildInputs?`: http://unix.stackexchange.com/questions/350997/in-a-new-nixos-derivation-based-on-a-binary-distribution-why-am-i-getting-an-e
 
