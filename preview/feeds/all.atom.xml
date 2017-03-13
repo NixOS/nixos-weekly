@@ -108,7 +108,7 @@ fits together, there will be people available to help you.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://unix.stackexchange.com/questions/350997/in-a-new-nixos-derivation-based-on-a-binary-distribution-why-am-i-getting-an-e"&gt;In a new nixos derivation, based on a binary distribution, why am I getting an error referring to nativeBuildInputs?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023056.html"&gt;NixOS container networking&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023008.html"&gt;LXC containers on NixOS&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://www.reddit.com/r/NixOS/comments/5xoewu/virtualization_on_nixos/"&gt;Virtualization on NixOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.reddit.com/r/NixOS/comments/5xoewu/virtualization_on_nixos/"&gt;Virtualization on NixOS&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="jobs"&gt;
@@ -125,7 +125,13 @@ citizen if recruited.&lt;/li&gt;
 &lt;/div&gt;
 &lt;div class="section" id="editor-s-corner"&gt;
 &lt;h2&gt;Editor's corner&lt;/h2&gt;
-&lt;p&gt;TODO&lt;/p&gt;
+&lt;p&gt;First time run for &lt;a class="reference external" href="https://twitter.com/jbornhold"&gt;me&lt;/a&gt; to take care as the
+editor for an edition of &lt;cite&gt;NixOS Weekly&lt;/cite&gt;. It has been fantastic to see a few
+people spontaneously helping out to make it happen after a call for help from
+&lt;a class="reference external" href="https://twitter.com/garbas"&gt;Rok&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Contributions are easy: Send a pull request to the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly"&gt;repository&lt;/a&gt; or comment on the open issue for the
+next edition by providing a hint regarding a presentation, an event, a relevant
+change or discussion.&lt;/p&gt;
 &lt;/div&gt;
 </content></entry><entry><title>#03 - Better Late Than Never</title><link href="http://weekly.nixos.org/2017/03-better-late-then-never.html" rel="alternate"></link><published>2017-02-22T00:00:00+01:00</published><updated>2017-02-22T00:00:00+01:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-02-22:/2017/03-better-late-then-never.html</id><summary type="html">&lt;p&gt;Another two weeks have passed and it is time for our summary.&lt;/p&gt;
 &lt;p&gt;A new section &lt;strong&gt;Questions&lt;/strong&gt; was added to the newsletter. The intention for this
