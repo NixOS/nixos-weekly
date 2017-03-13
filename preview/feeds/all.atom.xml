@@ -46,16 +46,15 @@ from scratch.&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/ericsagnes"&gt;Eric Sagnes&lt;/a&gt; gave an introductory NixOS talk
 in Japanese. The &lt;a class="reference external" href="https://github.com/Tokyo-NixOS/presentations"&gt;slides are here&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://twitter.com/lenkodonchev"&gt;Maksim Bronsky&lt;/a&gt; presented &lt;a class="reference external" href="https://github.com/flyingcircusio/vulnix"&gt;Vulnix&lt;/a&gt; at
 &lt;a class="reference external" href="https://chemnitzer.linux-tage.de/2017/en/programm/beitrag/314"&gt;Chemnitzer Linux-Tage&lt;/a&gt;. The &lt;a class="reference external" href="https://github.com/flyingcircusio/vulnix/raw/master/doc/2017-03-11-Vulnix.pdf"&gt;slides&lt;/a&gt;
 (PDF download, DE only) are in the repository.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://twitter.com/lenkodonchev"&gt;Lenko Donchev&lt;/a&gt; gave a lightning talk
 &amp;quot;NixOS the purely functional Linux distribution&amp;quot;. The &lt;a class="reference external" href="https://speakerdeck.com/lenkodonchev/nixos-the-purely-functional-linux-distribution"&gt;slides&lt;/a&gt;
 are available online.&lt;/li&gt;
+&lt;li&gt;John Wiegley gave a presentation &amp;quot;How I use nix for Haskell development&amp;quot; at
+the Bay Area Nix/NixOS User Group. &lt;a class="reference external" href="https://youtu.be/G9yiJ7d5LeI"&gt;Video&lt;/a&gt;
+available.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="meetups"&gt;
@@ -88,6 +87,11 @@ application somewhere.&lt;/p&gt;
 Amsterdam, Netherlands&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Mar 02, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/Bay-Area-Nix-NixOS-User-Group/events/237430925/"&gt;Bay Area Nix/NixOS User Group&lt;/a&gt; at Takt, San Francisco, USA&lt;/p&gt;
+&lt;p&gt;See the presentation about using Nix for Haskell development above.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Mar 12, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/NixOS-London/events/237738532/"&gt;London NixOS User Group&lt;/a&gt; at &lt;a class="reference external" href="https://smarkets.com/about"&gt;Smarkets&lt;/a&gt;, London, UK&lt;/p&gt;
 &lt;p&gt;Smarkets kindly offered us a space for our second community hackday!&lt;/p&gt;
 &lt;p&gt;There will be talking, pizzas and lots of packaging going on. Bring your own
@@ -104,6 +108,7 @@ fits together, there will be people available to help you.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://unix.stackexchange.com/questions/350997/in-a-new-nixos-derivation-based-on-a-binary-distribution-why-am-i-getting-an-e"&gt;In a new nixos derivation, based on a binary distribution, why am I getting an error referring to nativeBuildInputs?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023056.html"&gt;NixOS container networking&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023008.html"&gt;LXC containers on NixOS&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.reddit.com/r/NixOS/comments/5xoewu/virtualization_on_nixos/"&gt;Virtualization on NixOS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="jobs"&gt;
