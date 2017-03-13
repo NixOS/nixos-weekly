@@ -75,8 +75,7 @@ Meetups
 
   The talk will be in English.
 
-- **Mar 24, 2017**, `Tokyo NixOS Meetup`
-  Japan
+- **Mar 24, 2017**, `Tokyo NixOS Meetup`_, Tokyo, Japan
 
   My Japanese isn't good enough to figure out the speaker, but if you live in Japan
   you should go!
