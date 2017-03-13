@@ -25,16 +25,29 @@ emails for each succeeding and failing package.&lt;/li&gt;
 &lt;/div&gt;
 &lt;div class="section" id="reading"&gt;
 &lt;h2&gt;Reading&lt;/h2&gt;
-&lt;p&gt;TODO:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://blog.mayflower.de/5976-From-Vagrant-to-Nixops.html"&gt;From Vagrant to NixOps&lt;/a&gt;
+by &lt;a class="reference external" href="https://twitter.com/hschaeidt"&gt;Hendrik Schaeidt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A walkthrough to configure a symfony2 project with nginx, mysql, and php-fpm
+from scratch.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="presentations"&gt;
 &lt;h2&gt;Presentations&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Eric Sagnes gave an introductory NixOS talk in Japanese. The &lt;a class="reference external" href="https://github.com/Tokyo-NixOS/presentations"&gt;slides are here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/ericsagnes"&gt;Eric Sagnes&lt;/a&gt; gave an introductory NixOS talk
+in Japanese. The &lt;a class="reference external" href="https://github.com/Tokyo-NixOS/presentations"&gt;slides are here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Maksim Bronsky presented &lt;a class="reference external" href="https://github.com/flyingcircusio/vulnix"&gt;Vulnix&lt;/a&gt; at &lt;a class="reference external" href="https://chemnitzer.linux-tage.de/2017/en/programm/beitrag/314"&gt;Chemnitzer Linux-Tage&lt;/a&gt;. The &lt;a class="reference external" href="https://github.com/flyingcircusio/vulnix/raw/master/doc/2017-03-11-Vulnix.pdf"&gt;slides&lt;/a&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://twitter.com/lenkodonchev"&gt;Maksim Bronsky&lt;/a&gt; presented &lt;a class="reference external" href="https://github.com/flyingcircusio/vulnix"&gt;Vulnix&lt;/a&gt; at
+&lt;a class="reference external" href="https://chemnitzer.linux-tage.de/2017/en/programm/beitrag/314"&gt;Chemnitzer Linux-Tage&lt;/a&gt;. The &lt;a class="reference external" href="https://github.com/flyingcircusio/vulnix/raw/master/doc/2017-03-11-Vulnix.pdf"&gt;slides&lt;/a&gt;
 (PDF download, DE only) are in the repository.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://twitter.com/lenkodonchev"&gt;Lenko Donchev&lt;/a&gt; gave a lightning talk
+&amp;quot;NixOS the purely functional Linux distribution&amp;quot;. The &lt;a class="reference external" href="https://speakerdeck.com/lenkodonchev/nixos-the-purely-functional-linux-distribution"&gt;slides&lt;/a&gt;
+are available online.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="meetups"&gt;
