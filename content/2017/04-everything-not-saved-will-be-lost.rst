@@ -134,23 +134,11 @@ Jobs
 
 .. _`Looking for some Nix developers? Let us help you.`: https://github.com/NixOS/nixos-weekly/issues/new
 
-TODO
-
-- `Smarkets`_, London, United Kingdom
-
-  We are looking for  `Infra team lead`_ and `Infra engineer`_.
-
-  The jobs are not a Nix jobs per se since we are not using Nix at the moment.
-  However, internally few of us are interested in trying it for e.g. building
-  AMIs or provisioning docker containers with (mostly) python software. We think
-  some strong candidate with experience of using Nix in production would have
-  a good chance of seeing some adoption here.
-
-
-.. _`Smarkets`: https://smarkets.com/about
-.. _`Infra team lead`: https://boards.greenhouse.io/smarkets/jobs/486940
-.. _`Infra engineer`: https://boards.greenhouse.io/smarkets/jobs/486940
-.. _`All open positions`: https://smarkets.com/careers
+- The Blue Brain Project recruit and is looking for someone with packaging,
+  NixOS / Nix packaging knowledges and with a software engineering background.
+  If any of you might be interested : http://emploi.epfl.ch/page-142376-en.html,
+  The job is in Switzerland, Geneva, Swiss salary and Work visa granted for EU
+  citizen if recruited.
 
 
 Editor's corner
