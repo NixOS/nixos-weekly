@@ -68,6 +68,10 @@ Meetups
 .. _`London NixOS User Group`: https://www.meetup.com/NixOS-London/events/237738532/
 .. _`Smarkets`: https://smarkets.com/about
 
+- **Mar 24, 2017**, `Tokyo NixOS Meetup`_, Tokyo, Japan
+
+  My Japanese isn't good enough to figure out the speaker, but if you live in Japan
+  you should go!
 
 - **Mar 29, 2017**, `Munich NixOS Meetup`_ at `OpenLab Augsburg`_, Augsburg,
   Germany
@@ -76,11 +80,6 @@ Meetups
   a Linux distribution which are based on similar concepts as nix/NixOS.
 
   The talk will be in English.
-
-- **Mar 24, 2017**, `Tokyo NixOS Meetup`_, Tokyo, Japan
-
-  My Japanese isn't good enough to figure out the speaker, but if you live in Japan
-  you should go!
 
 .. _`Munich NixOS Meetup`: https://www.meetup.com/Munich-NixOS-Meetup/events/237831744/?eventId=237831744
 .. _`OpenLab Augsburg`: https://maps.google.com/maps?f=q&hl=en&q=48.357765,10.886834
