@@ -4,7 +4,9 @@
 :date: 2017-03-13
 :description: Everything not saved will be lost. (Nintendo Quit Screen message)
 
-Nix, NixOS and nixpkgs are all moving ahead at good speed. The `17.03 milestone`_ is more than 50% complete, and we merged 144 pull requests for nixpkgs just in the last seven days.
+Nix, NixOS and nixpkgs are all moving ahead at good speed. The `17.03
+milestone`_ is more than 50% complete, and we merged 144 pull requests for
+nixpkgs just in the last seven days.
 
 .. _`17.03 milestone`: https://github.com/NixOS/nixpkgs/milestone/10
 
@@ -12,11 +14,18 @@ Nix, NixOS and nixpkgs are all moving ahead at good speed. The `17.03 milestone`
 News
 ====
 
-- We now allow packages to be marked insecure, and you have to opt-in to install insecure packages similarly to how you opt in to non-free software.  The option is called ``permittedInsecurePackages``. See the `updated docs`_ for more.
+- We now allow packages to be marked insecure, and you have to opt-in to install
+  insecure packages similarly to how you opt in to non-free software. The option
+  is called ``permittedInsecurePackages``. See the `updated docs`_ for more.
 
-- Robin finished the `systemd 232 update`_ which opens up several new `opportunities for hardening`_. It will also allow us to move away from hard-coded user IDs for less important services. Just use ``DynamicUser = true``.
+- Robin finished the `systemd 232 update`_ which opens up several new
+  `opportunities for hardening`_. It will also allow us to move away from
+  hard-coded user IDs for less important services. Just use ``DynamicUser =
+  true``.
 
-- Thanks to Graham we now have `aarch64 support`_, and it's even being build Hydra! Many of you will have noticed already from the beatiful stream of emails for each succeeding and failing package.
+- Thanks to Graham we now have `aarch64 support`_, and it's even being build
+  Hydra! Many of you will have noticed already from the beatiful stream of
+  emails for each succeeding and failing package.
 
 .. _`updated docs`: https://github.com/NixOS/nixpkgs/pull/23130
 .. _`systemd 232 update`: https://github.com/NixOS/nixpkgs/commit/a38f1911d34f2a72e15d5e98d76bece6cb8042a8
