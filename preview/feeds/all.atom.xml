@@ -100,16 +100,12 @@ fits together, there will be people available to help you.&lt;/p&gt;
 &lt;h2&gt;Jobs&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues/new"&gt;Looking for some Nix developers? Let us help you.&lt;/a&gt;&lt;/blockquote&gt;
-&lt;p&gt;TODO&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://smarkets.com/about"&gt;Smarkets&lt;/a&gt;, London, United Kingdom&lt;/p&gt;
-&lt;p&gt;We are looking for  &lt;a class="reference external" href="https://boards.greenhouse.io/smarkets/jobs/486940"&gt;Infra team lead&lt;/a&gt; and &lt;a class="reference external" href="https://boards.greenhouse.io/smarkets/jobs/486940"&gt;Infra engineer&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The jobs are not a Nix jobs per se since we are not using Nix at the moment.
-However, internally few of us are interested in trying it for e.g. building
-AMIs or provisioning docker containers with (mostly) python software. We think
-some strong candidate with experience of using Nix in production would have
-a good chance of seeing some adoption here.&lt;/p&gt;
-&lt;/li&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The Blue Brain Project recruit and is looking for someone with packaging,
+NixOS / Nix packaging knowledges and with a software engineering background.
+If any of you might be interested : &lt;a class="reference external" href="http://emploi.epfl.ch/page-142376-en.html"&gt;http://emploi.epfl.ch/page-142376-en.html&lt;/a&gt;,
+The job is in Switzerland, Geneva, Swiss salary and Work visa granted for EU
+citizen if recruited.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="editor-s-corner"&gt;
