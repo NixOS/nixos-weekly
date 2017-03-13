@@ -36,21 +36,35 @@ News
 Reading
 =======
 
-TODO:
+- `From Vagrant to NixOps
+  <https://blog.mayflower.de/5976-From-Vagrant-to-Nixops.html>`_
+  by `Hendrik Schaeidt <https://twitter.com/hschaeidt>`_
+
+  A walkthrough to configure a symfony2 project with nginx, mysql, and php-fpm
+  from scratch.
+
 
 Presentations
 =============
 
-- Eric Sagnes gave an introductory NixOS talk in Japanese. The `slides are here`_.
+- `Eric Sagnes <https://github.com/ericsagnes>`_ gave an introductory NixOS talk
+  in Japanese. The `slides are here`_.
 
 .. _`slides are here`: https://github.com/Tokyo-NixOS/presentations
 
-- Maksim Bronsky presented `Vulnix`_ at `Chemnitzer Linux-Tage`_. The `slides
-  <https://github.com/flyingcircusio/vulnix/raw/master/doc/2017-03-11-Vulnix.pdf>`_
+- `Maksim Bronsky <https://twitter.com/lenkodonchev>`_ presented `Vulnix`_ at
+  `Chemnitzer Linux-Tage`_. The `slides
+  <https://github.com/flyingcircusio/vulnix/raw/master/doc/2017-03-11-Vulnix.pdf>`__
   (PDF download, DE only) are in the repository.
 
 .. _`Vulnix`: https://github.com/flyingcircusio/vulnix
 .. _`Chemnitzer Linux-Tage`: https://chemnitzer.linux-tage.de/2017/en/programm/beitrag/314
+
+- `Lenko Donchev <https://twitter.com/lenkodonchev>`_ gave a lightning talk
+  "NixOS the purely functional Linux distribution". The `slides
+  <https://speakerdeck.com/lenkodonchev/nixos-the-purely-functional-linux-distribution>`__
+  are available online.
+
 
 
 Meetups
