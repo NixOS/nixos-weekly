@@ -67,7 +67,7 @@ Meetups
 .. _`Smarkets`: https://smarkets.com/about
 
 
-- **Mar 22, 2017**, `Munich NixOS Meetup`_ at `OpenLab Augsburg`_, Augsburg,
+- **Mar 29, 2017**, `Munich NixOS Meetup`_ at `OpenLab Augsburg`_, Augsburg,
   Germany
 
   John Darrington will give a talk about guix and guixSD, a package manager and
