@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Mon, 13 Mar 2017 00:00:00 +0100</lastBuildDate><item><title>#04 - Everything not saved will be lost</title><link>http://weekly.nixos.org/2017/04-everything-not-saved-will-be-lost.html</link><description>&lt;p&gt;Nix, NixOS and nixpkgs are all moving ahead at good speed. The &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/milestone/10"&gt;17.03 milestone&lt;/a&gt; is more than 50% complete, and we merged 144 pull requests for nixpkgs just in the last seven days.&lt;/p&gt;
+<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Mon, 13 Mar 2017 00:00:00 +0100</lastBuildDate><item><title>#04 - Everything not saved will be lost</title><link>http://weekly.nixos.org/2017/04-everything-not-saved-will-be-lost.html</link><description>&lt;p&gt;Nix, NixOS and nixpkgs are all moving ahead at good speed. The &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/milestone/10"&gt;17.03
+milestone&lt;/a&gt; is more than 50% complete, and we merged 144 pull requests for
+nixpkgs just in the last seven days.&lt;/p&gt;
 &lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul class="simple"&gt;
