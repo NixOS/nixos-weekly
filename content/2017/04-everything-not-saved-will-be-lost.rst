@@ -70,18 +70,6 @@ Presentations
 Meetups
 =======
 
-- **Mar 12, 2017**, `London NixOS User Group`_ at `Smarkets`_, London, UK
-
-  Smarkets kindly offered us a space for our second community hackday!
-
-  There will be talking, pizzas and lots of packaging going on. Bring your own
-  projects or just tag along and help other people out. Whether you have some
-  software that you'd like to see packaged or questions about how everything
-  fits together, there will be people available to help you.
-
-.. _`London NixOS User Group`: https://www.meetup.com/NixOS-London/events/237738532/
-.. _`Smarkets`: https://smarkets.com/about
-
 - **Mar 24, 2017**, `Tokyo NixOS Meetup`_, Tokyo, Japan
 
   My Japanese isn't good enough to figure out the speaker, but if you live in Japan
@@ -117,6 +105,18 @@ Meetups that just happened
 
 .. _`Amsterdam Nix Meetup`: https://www.meetup.com/Amsterdam-Nix-Meetup/events/232753333/
 .. _`Container Solutions`: https://maps.google.com/maps?f=q&hl=en&q=de+Ruyterkade+142-143%2C+Amsterdam%2C+nl
+
+- **Mar 12, 2017**, `London NixOS User Group`_ at `Smarkets`_, London, UK
+
+  Smarkets kindly offered us a space for our second community hackday!
+
+  There will be talking, pizzas and lots of packaging going on. Bring your own
+  projects or just tag along and help other people out. Whether you have some
+  software that you'd like to see packaged or questions about how everything
+  fits together, there will be people available to help you.
+
+.. _`London NixOS User Group`: https://www.meetup.com/NixOS-London/events/237738532/
+.. _`Smarkets`: https://smarkets.com/about
 
 
 Questions
