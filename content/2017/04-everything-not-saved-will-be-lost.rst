@@ -60,7 +60,7 @@ Presentations
 - `Eric Sagnes <https://github.com/ericsagnes>`_ gave an introductory NixOS talk
   in Japanese. The `slides are here`_.
 
-- `Maksim Bronsky <https://twitter.com/lenkodonchev>`_ presented `Vulnix`_ at
+- `Maksim Bronsky <https://twitter.com/dvhfm>`_ presented `Vulnix`_ at
   `Chemnitzer Linux-Tage`_. The `slides
   <https://github.com/flyingcircusio/vulnix/raw/master/doc/2017-03-11-Vulnix.pdf>`__
   (PDF download, DE only) are in the repository.
