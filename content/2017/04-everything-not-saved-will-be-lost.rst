@@ -151,7 +151,7 @@ Questions
   <http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023008.html>`__.
 
 - `Virtualization on NixOS
-  <https://www.reddit.com/r/NixOS/comments/5xoewu/virtualization_on_nixos/>`__
+  <https://www.reddit.com/r/NixOS/comments/5xoewu/virtualization_on_nixos/>`__.
 
 .. _`In a new nixos derivation, based on a binary distribution, why am I getting an error referring to nativeBuildInputs?`: http://unix.stackexchange.com/questions/350997/in-a-new-nixos-derivation-based-on-a-binary-distribution-why-am-i-getting-an-e
 
