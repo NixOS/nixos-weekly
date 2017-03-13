@@ -14,6 +14,10 @@ nixpkgs just in the last seven days.
 News
 ====
 
+- The `NixOS 17.03 beta
+  <http://lists.science.uu.nl/pipermail/nix-dev/2017-March/022979.html>`__ has
+  been announced.
+
 - We now allow packages to be marked insecure, and you have to opt-in to install
   insecure packages similarly to how you opt in to non-free software. The option
   is called ``permittedInsecurePackages``. See the `updated docs`_ for more.
@@ -27,11 +31,17 @@ News
   Hydra! Many of you will have noticed already from the beautiful stream of
   emails for each succeeding and failing package.
 
+- Progress on the `proposal for RFC <https://github.com/zimbatm/rfcs/pull/1>`__
+  which started from a FOSDEM discussion.
+
+- `Move NodeJS to separate overlay repository?
+  <http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023043.html>`__
+  (discussion)
+
 .. _`updated docs`: https://github.com/NixOS/nixpkgs/pull/23130
 .. _`systemd 232 update`: https://github.com/NixOS/nixpkgs/commit/a38f1911d34f2a72e15d5e98d76bece6cb8042a8
 .. _`opportunities for hardening`: https://github.com/NixOS/nixpkgs/issues/20186
 .. _`aarch64 support`: https://github.com/NixOS/nixpkgs/pull/23638
-
 
 Reading
 =======
@@ -123,6 +133,12 @@ Questions
 =========
 
 - `In a new nixos derivation, based on a binary distribution, why am I getting an error referring to nativeBuildInputs?`_
+
+- `NixOS container networking
+  <http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023056.html>`__.
+
+- `LXC containers on NixOS
+  <http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023008.html>`__.
 
 .. _`In a new nixos derivation, based on a binary distribution, why am I getting an error referring to nativeBuildInputs?`: http://unix.stackexchange.com/questions/350997/in-a-new-nixos-derivation-based-on-a-binary-distribution-why-am-i-getting-an-e
 
