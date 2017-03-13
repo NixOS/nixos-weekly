@@ -45,7 +45,9 @@ Presentations
 
 .. _`slides are here`: https://github.com/Tokyo-NixOS/presentations
 
-- Maksim Bronsky presented `Vulnix`_ at `Chemnitzer Linux-Tage`_.
+- Maksim Bronsky presented `Vulnix`_ at `Chemnitzer Linux-Tage`_. The `slides
+  <https://github.com/flyingcircusio/vulnix/raw/master/doc/2017-03-11-Vulnix.pdf>`_
+  (PDF download, DE only) are in the repository.
 
 .. _`Vulnix`: https://github.com/flyingcircusio/vulnix
 .. _`Chemnitzer Linux-Tage`: https://chemnitzer.linux-tage.de/2017/en/programm/beitrag/314
