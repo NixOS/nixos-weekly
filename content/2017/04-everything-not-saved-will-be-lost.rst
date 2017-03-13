@@ -36,6 +36,11 @@ Presentations
 
 .. _`slides are here`: https://github.com/Tokyo-NixOS/presentations
 
+- Maksim Bronsky presented `Vulnix`_ at `Chemnitzer Linux-Tage`_.
+
+.. _`Vulnix`: https://github.com/flyingcircusio/vulnix
+.. _`Chemnitzer Linux-Tage`: https://chemnitzer.linux-tage.de/2017/en/programm/beitrag/314
+
 
 Meetups
 =======
@@ -94,7 +99,10 @@ Meetups that just happened
 Questions
 =========
 
-TODO
+- `In a new nixos derivation, based on a binary distribution, why am I getting an error referring to nativeBuildInputs?`_
+
+.. _`In a new nixos derivation, based on a binary distribution, why am I getting an error referring to nativeBuildInputs?`: http://unix.stackexchange.com/questions/350997/in-a-new-nixos-derivation-based-on-a-binary-distribution-why-am-i-getting-an-e
+
 
 Jobs
 ====
