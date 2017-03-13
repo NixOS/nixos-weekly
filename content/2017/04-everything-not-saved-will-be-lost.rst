@@ -173,4 +173,12 @@ Jobs
 Editor's corner
 ===============
 
-TODO
+First time run for `me <https://twitter.com/jbornhold>`__ to take care as the
+editor for an edition of `NixOS Weekly`. It has been fantastic to see a few
+people spontaneously helping out to make it happen after a call for help from
+`Rok <https://twitter.com/garbas>`__.
+
+Contributions are easy: Send a pull request to the `repository
+<https://github.com/NixOS/nixos-weekly>`__ or comment on the open issue for the
+next edition by providing a hint regarding a presentation, an event, a relevant
+change or discussion.
