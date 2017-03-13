@@ -23,8 +23,8 @@ News
   hard-coded user IDs for less important services. Just use ``DynamicUser =
   true``.
 
-- Thanks to Graham we now have `aarch64 support`_, and it's even being build
-  Hydra! Many of you will have noticed already from the beatiful stream of
+- Thanks to Graham we now have `aarch64 support`_, and it's even being built by
+  Hydra! Many of you will have noticed already from the beautiful stream of
   emails for each succeeding and failing package.
 
 .. _`updated docs`: https://github.com/NixOS/nixpkgs/pull/23130
@@ -75,7 +75,7 @@ Meetups
 
   The talk will be in English.
 
-- **Mar 24, 2017**, `Tokyo NixOS meetup`
+- **Mar 24, 2017**, `Tokyo NixOS Meetup`
   Japan
 
   My Japanese isn't good enough to figure out the speaker, but if you live in Japan
@@ -83,7 +83,7 @@ Meetups
 
 .. _`Munich NixOS Meetup`: https://www.meetup.com/Munich-NixOS-Meetup/events/237831744/?eventId=237831744
 .. _`OpenLab Augsburg`: https://maps.google.com/maps?f=q&hl=en&q=48.357765,10.886834
-.. _`Tokyo NixOS meetup`: https://www.meetup.com/ja-JP/Tokyo-NixOS-Meetup/events/238329705/
+.. _`Tokyo NixOS Meetup`: https://www.meetup.com/ja-JP/Tokyo-NixOS-Meetup/events/238329705/
 
 Meetups that just happened
 --------------------------
