@@ -1,5 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2017-02-22T00:00:00+01:00</updated><entry><title>#03 - Better Late Than Never</title><link href="http://weekly.nixos.org/2017/03-better-late-then-never.html" rel="alternate"></link><published>2017-02-22T00:00:00+01:00</published><updated>2017-02-22T00:00:00+01:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-02-22:/2017/03-better-late-then-never.html</id><summary type="html">&lt;p&gt;Another two weeks have passed and it is time for our summary.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2017-03-13T00:00:00+01:00</updated><entry><title>#04 - Everything not saved will be lost</title><link href="http://weekly.nixos.org/2017/04-everything-not-saved-will-be-lost.html" rel="alternate"></link><published>2017-03-13T00:00:00+01:00</published><updated>2017-03-13T00:00:00+01:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-03-13:/2017/04-everything-not-saved-will-be-lost.html</id><summary type="html">&lt;p&gt;Nix, NixOS and nixpkgs are all moving ahead at good speed. The &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/milestone/10"&gt;17.03
+milestone&lt;/a&gt; is more than 50% complete, and we merged 144 pull requests for
+nixpkgs just in the last seven days.&lt;/p&gt;
+&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/022979.html"&gt;NixOS 17.03 beta&lt;/a&gt; has
+been announced.&lt;/li&gt;
+&lt;li&gt;We now allow packages to be marked …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Nix, NixOS and nixpkgs are all moving ahead at good speed. The &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/milestone/10"&gt;17.03
+milestone&lt;/a&gt; is more than 50% complete, and we merged 144 pull requests for
+nixpkgs just in the last seven days.&lt;/p&gt;
+&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/022979.html"&gt;NixOS 17.03 beta&lt;/a&gt; has
+been announced.&lt;/li&gt;
+&lt;li&gt;We now allow packages to be marked insecure, and you have to opt-in to install
+insecure packages similarly to how you opt in to non-free software. The option
+is called &lt;tt class="docutils literal"&gt;permittedInsecurePackages&lt;/tt&gt;. See the &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/23130"&gt;updated docs&lt;/a&gt; for more.&lt;/li&gt;
+&lt;li&gt;Robin finished the &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/commit/a38f1911d34f2a72e15d5e98d76bece6cb8042a8"&gt;systemd 232 update&lt;/a&gt; which opens up several new
+&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/20186"&gt;opportunities for hardening&lt;/a&gt;. It will also allow us to move away from
+hard-coded user IDs for less important services. Just use &lt;tt class="docutils literal"&gt;DynamicUser =
+true&lt;/tt&gt;.&lt;/li&gt;
+&lt;li&gt;Thanks to Graham we now have &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/23638"&gt;aarch64 support&lt;/a&gt;, and it's even being built by
+Hydra! Many of you will have noticed already from the beautiful stream of
+emails for each succeeding and failing package.&lt;/li&gt;
+&lt;li&gt;Progress on the &lt;a class="reference external" href="https://github.com/zimbatm/rfcs/pull/1"&gt;proposal for RFC&lt;/a&gt;
+which started from a FOSDEM discussion.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023043.html"&gt;Move NodeJS to separate overlay repository?&lt;/a&gt;
+(discussion)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="reading"&gt;
+&lt;h2&gt;Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://blog.mayflower.de/5976-From-Vagrant-to-Nixops.html"&gt;From Vagrant to NixOps&lt;/a&gt;
+by &lt;a class="reference external" href="https://twitter.com/hschaeidt"&gt;Hendrik Schaeidt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A walkthrough to configure a symfony2 project with nginx, mysql, and php-fpm
+from scratch.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="presentations"&gt;
+&lt;h2&gt;Presentations&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/ericsagnes"&gt;Eric Sagnes&lt;/a&gt; gave an introductory NixOS talk
+in Japanese. The &lt;a class="reference external" href="https://github.com/Tokyo-NixOS/presentations"&gt;slides are here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://twitter.com/dvhfm"&gt;Maksim Bronsky&lt;/a&gt; presented &lt;a class="reference external" href="https://github.com/flyingcircusio/vulnix"&gt;Vulnix&lt;/a&gt; at
+&lt;a class="reference external" href="https://chemnitzer.linux-tage.de/2017/en/programm/beitrag/314"&gt;Chemnitzer Linux-Tage&lt;/a&gt;. The &lt;a class="reference external" href="https://github.com/flyingcircusio/vulnix/raw/master/doc/2017-03-11-Vulnix.pdf"&gt;slides&lt;/a&gt;
+(PDF download, DE only) are in the repository.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://twitter.com/lenkodonchev"&gt;Lenko Donchev&lt;/a&gt; gave a lightning talk
+&amp;quot;NixOS the purely functional Linux distribution&amp;quot;. The &lt;a class="reference external" href="https://speakerdeck.com/lenkodonchev/nixos-the-purely-functional-linux-distribution"&gt;slides&lt;/a&gt;
+are available online.&lt;/li&gt;
+&lt;li&gt;John Wiegley gave a presentation &amp;quot;How I use nix for Haskell development&amp;quot; at
+the Bay Area Nix/NixOS User Group. &lt;a class="reference external" href="https://youtu.be/G9yiJ7d5LeI"&gt;Video&lt;/a&gt;
+available.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="meetups"&gt;
+&lt;h2&gt;Meetups&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Mar 24, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/ja-JP/Tokyo-NixOS-Meetup/events/238329705/"&gt;Tokyo NixOS Meetup&lt;/a&gt;, Tokyo, Japan&lt;/p&gt;
+&lt;p&gt;My Japanese isn't good enough to figure out the speaker, but if you live in Japan
+you should go!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Mar 29, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/Munich-NixOS-Meetup/events/237831744/?eventId=237831744"&gt;Munich NixOS Meetup&lt;/a&gt; at &lt;a class="reference external" href="https://maps.google.com/maps?f=q&amp;amp;hl=en&amp;amp;q=48.357765,10.886834"&gt;OpenLab Augsburg&lt;/a&gt;, Augsburg,
+Germany&lt;/p&gt;
+&lt;p&gt;John Darrington will give a talk about guix and guixSD, a package manager and
+a Linux distribution which are based on similar concepts as nix/NixOS.&lt;/p&gt;
+&lt;p&gt;The talk will be in English.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="meetups-that-just-happened"&gt;
+&lt;h3&gt;Meetups that just happened&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Feb 24–26, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://medium.com/&amp;#64;HackIllinois/open-source-2017-b322ad688471#.vim3uki6h"&gt;HackIllinois&lt;/a&gt;, University of Illinois, USA&lt;/p&gt;
+&lt;p&gt;For any university students in the US, the University of Illinois at
+Urbana-Champaign is holding a hackathon oriented towards getting people into
+open source development, and I'm going to be mentoring people for
+Nix/NixOS/Haskell development. Be sure to put &amp;quot;NixOS&amp;quot; or &amp;quot;Haskell&amp;quot; into your
+application somewhere.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Feb 25, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/Amsterdam-Nix-Meetup/events/232753333/"&gt;Amsterdam Nix Meetup&lt;/a&gt; at &lt;a class="reference external" href="https://maps.google.com/maps?f=q&amp;amp;hl=en&amp;amp;q=de+Ruyterkade+142-143%2C+Amsterdam%2C+nl"&gt;Container Solutions&lt;/a&gt;,
+Amsterdam, Netherlands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Mar 02, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/Bay-Area-Nix-NixOS-User-Group/events/237430925/"&gt;Bay Area Nix/NixOS User Group&lt;/a&gt; at Takt, San Francisco, USA&lt;/p&gt;
+&lt;p&gt;See the presentation about using Nix for Haskell development above.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Mar 12, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/NixOS-London/events/237738532/"&gt;London NixOS User Group&lt;/a&gt; at &lt;a class="reference external" href="https://smarkets.com/about"&gt;Smarkets&lt;/a&gt;, London, UK&lt;/p&gt;
+&lt;p&gt;Smarkets kindly offered us a space for our second community hackday!&lt;/p&gt;
+&lt;p&gt;There will be talking, pizzas and lots of packaging going on. Bring your own
+projects or just tag along and help other people out. Whether you have some
+software that you'd like to see packaged or questions about how everything
+fits together, there will be people available to help you.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="questions"&gt;
+&lt;h2&gt;Questions&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://unix.stackexchange.com/questions/350997/in-a-new-nixos-derivation-based-on-a-binary-distribution-why-am-i-getting-an-e"&gt;In a new nixos derivation, based on a binary distribution, why am I getting an error referring to nativeBuildInputs?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023056.html"&gt;NixOS container networking&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023008.html"&gt;LXC containers on NixOS&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.reddit.com/r/NixOS/comments/5xoewu/virtualization_on_nixos/"&gt;Virtualization on NixOS&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jobs"&gt;
+&lt;h2&gt;Jobs&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues/new"&gt;Looking for some Nix developers? Let us help you.&lt;/a&gt;&lt;/blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The Blue Brain Project recruit and is looking for someone with packaging,
+NixOS / Nix packaging knowledges and with a software engineering background.
+If any of you might be interested : &lt;a class="reference external" href="http://emploi.epfl.ch/page-142376-en.html"&gt;http://emploi.epfl.ch/page-142376-en.html&lt;/a&gt;,
+The job is in Switzerland, Geneva, Swiss salary and Work visa granted for EU
+citizen if recruited.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="editor-s-corner"&gt;
+&lt;h2&gt;Editor's corner&lt;/h2&gt;
+&lt;p&gt;First time run for &lt;a class="reference external" href="https://twitter.com/jbornhold"&gt;me&lt;/a&gt; to take care as the
+editor for an edition of &lt;cite&gt;NixOS Weekly&lt;/cite&gt;. It has been fantastic to see a few
+people spontaneously helping out to make it happen after a call for help from
+&lt;a class="reference external" href="https://twitter.com/garbas"&gt;Rok&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Contributions are easy: Send a pull request to the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly"&gt;repository&lt;/a&gt; or comment on the open issue for the
+next edition by providing a hint regarding a presentation, an event, a relevant
+change or discussion.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>#03 - Better Late Than Never</title><link href="http://weekly.nixos.org/2017/03-better-late-then-never.html" rel="alternate"></link><published>2017-02-22T00:00:00+01:00</published><updated>2017-02-22T00:00:00+01:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-02-22:/2017/03-better-late-then-never.html</id><summary type="html">&lt;p&gt;Another two weeks have passed and it is time for our summary.&lt;/p&gt;
 &lt;p&gt;A new section &lt;strong&gt;Questions&lt;/strong&gt; was added to the newsletter. The intention for this
 new section is that it is going to expose some of the questions that happen in
 the past. We hope that none of the questions …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Another two weeks have passed and it is time for our summary.&lt;/p&gt;
