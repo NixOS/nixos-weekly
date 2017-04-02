@@ -12,7 +12,7 @@ Some fun stats:
 - ~ 80 new contributors (very inexact science this)
 - ~ 60 new services
 
-.. _`17.03 "Gorilla" release`: https://github.com/NixOS/nixpkgs/tree/17.03
+.. _`17.03 "Gorilla" release`: http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023302.html
 .. _`release notes`: https://github.com/NixOS/nixpkgs/blob/master/nixos/doc/manual/release-notes/rl-1703.xml
 
 News
