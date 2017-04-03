@@ -32,6 +32,8 @@ def compile_all():
     compile_theme()
 
 
+compile_all()
+
 server = Server()
 server.watch('content/', compile)
 server.watch('theme/', compile_theme)
