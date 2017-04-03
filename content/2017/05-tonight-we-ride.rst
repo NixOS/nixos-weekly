@@ -69,8 +69,8 @@ Reading
 
 .. _`many of our services`: https://github.com/NixOS/nixpkgs/issues/24288
 .. _`encrypting secrets at rest`:  https://github.com/NixOS/rfcs/pull/5/files
-.. _`Monte`: http://monte.readthedocs.io/en/latest/index.html
-.. _`packaging`: monte.readthedocs.io/en/latest/packaging.html
+.. _`Monte`: https://monte.readthedocs.io/en/latest/index.html
+.. _`packaging`: https://monte.readthedocs.io/en/latest/packaging.html
 
 
 Meetups
