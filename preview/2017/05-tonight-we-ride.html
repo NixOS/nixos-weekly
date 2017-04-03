@@ -87,7 +87,9 @@
     <h1>#05 - Tonight We Ride</h1>
     <blockquote><p>Tonight We Ride - Said The King To The River from La Dispute</p></blockquote>
   </header>
-  <p>The <a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023302.html">17.03 &quot;Gorilla&quot; release</a> has been tagged! There are too many good things in this release to pick favourites. I refer you to the <a class="reference external" href="https://github.com/NixOS/nixpkgs/blob/master/nixos/doc/manual/release-notes/rl-1703.xml">release notes</a> instead.</p>
+  <p>The <a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023302.html">17.03 &quot;Gorilla&quot; release</a> has been tagged! There are too many good things
+in this release to pick favourites. I refer you to the <a class="reference external" href="https://github.com/NixOS/nixpkgs/blob/master/nixos/doc/manual/release-notes/rl-1703.xml">release notes</a>
+instead.</p>
 <p>Some fun stats:</p>
 <ul class="simple">
 <li>~ 900 new packages since 16.09</li>
@@ -97,21 +99,56 @@
 <div class="section" id="news">
 <h2>News</h2>
 <ul class="simple">
-<li>Did I mention the release? <a class="reference external" href="https://github.com/globin">Robin</a> has been doing a fantastic job, thank him when you meet him! He's also had a lot of help of course, so thanks to all those people as well. It's a pretty long list and you can get it with &quot;<tt class="docutils literal">git shortlog <span class="pre">8def08..17.03</span></tt>&quot;.</li>
-<li>We now have an <a class="reference external" href="https://github.com/NixOS/rfcs">official RFC process</a>. Thanks to zimbatm for writing our first ever RFC. We already have <a class="reference external" href="https://github.com/NixOS/rfcs/pulls">three pull requests</a> so go forth and comment.</li>
+<li>Did I mention the release? <a class="reference external" href="https://github.com/globin">Robin</a> has been doing a fantastic job, thank him
+when you meet him! He's also had a lot of help of course, so thanks to all
+those people as well. It's a pretty long list and you can get it with &quot;<tt class="docutils literal">git
+shortlog <span class="pre">8def08..17.03</span></tt>&quot;.</li>
+<li><a class="reference external" href="https://twitter.com/nixos_org/status/847018039115702272">Extra capacity is coming for Hydra OSX builds</a>, thanks to all the great
+people that have donated to NixOS Foundation.</li>
+<li>We now have an <a class="reference external" href="https://github.com/NixOS/rfcs">official RFC process</a>. Thanks to zimbatm for writing our
+first ever RFC. We already have <a class="reference external" href="https://github.com/NixOS/rfcs/pulls">three pull requests</a> so go forth and
+comment.</li>
+<li><a class="reference external" href="https://github.com/NixOS/nix/pull/1027">remove-perl</a> branch just got merged to master. Time to celebrate.</li>
 <li>Sander <a class="reference external" href="https://nixos.org/disnix">released Disnix 0.7</a></li>
-<li>Théophane has started his work on typing Nix. You can <a class="reference external" href="https://typing-nix.regnat.ovh/">follow along here</a>. He's also answering some questions in <a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023274.html">this mailing list thread</a>.</li>
+<li>Théophane has started his work on typing Nix. You can <a class="reference external" href="https://typing-nix.regnat.ovh/">follow along here</a>.
+He's also answering some questions in <a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023274.html">this mailing list thread</a>.</li>
 </ul>
 </div>
 <div class="section" id="reading">
 <h2>Reading</h2>
 <ul class="simple">
-<li>One long-standing issue in Nix has been the storage of secrets. Right now <a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/24288">many of our services</a> store their secrets in <tt class="docutils literal">/nix</tt> where they are world readable. This means you can't have root-only secrets, multi-user systems are problematic, and if one of your services is compromised it can be used to steal all your other secrets. Eelco created an RFC for <a class="reference external" href="https://github.com/NixOS/rfcs/pull/5/files">encrypting secrets at rest</a>.</li>
+<li>One long-standing issue in Nix has been the storage of secrets. Right now
+<a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/24288">many of our services</a> store their secrets in <tt class="docutils literal">/nix</tt> where they are world
+readable. This means you can't have root-only secrets, multi-user systems are
+problematic, and if one of your services is compromised it can be used to
+steal all your other secrets. Eelco created an RFC for <a class="reference external" href="https://github.com/NixOS/rfcs/pull/5/files">encrypting secrets at
+rest</a>.</li>
+<li><a class="reference external" href="http://monte.readthedocs.io/en/latest/index.html">Monte</a> is a dynamic language inspired by Python and E. It uses Nix, <em>under
+the hook</em>, for its <a class="reference external" href="monte.readthedocs.io/en/latest/packaging.html">packaging</a>. Worth checking out if you are writing a new
+languge and want to see how Nix help you.</li>
+<li><a class="reference external" href="http://ebzzry.io/en/nix/">A Gentle Introduction to the Nix Family</a> by Rommel Martinez.</li>
+</ul>
+</div>
+<div class="section" id="meetups">
+<h2>Meetups</h2>
+<ul>
+<li><p class="first"><strong>Apr 4, 2017</strong>, <a class="reference external" href="https://www.meetup.com/NixOS-Dublin/events/238418033">NixOS April Meetup</a>, Dublin, Ireland</p>
+<p>Two presentations:</p>
+<ul class="simple">
+<li>Immutable deployments in Rapid7 by Ulrich Dangel</li>
+<li>Basics of Nix by Kevin Cox</li>
+</ul>
+</li>
+<li><p class="first">(Future) Let us know if you are organizing a Nix / NixOS event.</p>
+</li>
 </ul>
 </div>
 <div class="section" id="editor-s-corner">
 <h2>Editor's corner</h2>
-<p>A substantial part of the effort of publishing the &quot;weekly&quot; news is collecting the news in the first place. If you see anything cool, want to share a job, meetup or presentation add a comment with your item at <a class="reference external" href="https://github.com/NixOS/nixos-weekly">https://github.com/NixOS/nixos-weekly</a>. It's super helpful!</p>
+<p>A substantial part of the effort of publishing the &quot;weekly&quot; news is collecting
+the news in the first place. If you see anything cool, want to share a job,
+meetup or presentation add a comment with your item at
+<a class="reference external" href="https://github.com/NixOS/nixos-weekly">https://github.com/NixOS/nixos-weekly</a>. It's super helpful!</p>
 </div>
 
 </section>

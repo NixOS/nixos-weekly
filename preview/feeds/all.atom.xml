@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2017-03-28T00:00:00+02:00</updated><entry><title>#05 - Tonight We Ride</title><link href="http://weekly.nixos.org/2017/05-tonight-we-ride.html" rel="alternate"></link><published>2017-03-28T00:00:00+02:00</published><updated>2017-03-28T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-03-28:/2017/05-tonight-we-ride.html</id><summary type="html">&lt;p&gt;The &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023302.html"&gt;17.03 &amp;quot;Gorilla&amp;quot; release&lt;/a&gt; has been tagged! There are too many good things in this release to pick favourites. I refer you to the &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/blob/master/nixos/doc/manual/release-notes/rl-1703.xml"&gt;release notes&lt;/a&gt; instead.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2017-04-03T00:00:00+02:00</updated><entry><title>#05 - Tonight We Ride</title><link href="http://weekly.nixos.org/2017/05-tonight-we-ride.html" rel="alternate"></link><published>2017-04-03T00:00:00+02:00</published><updated>2017-04-03T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-04-03:/2017/05-tonight-we-ride.html</id><summary type="html">&lt;p&gt;The &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023302.html"&gt;17.03 &amp;quot;Gorilla&amp;quot; release&lt;/a&gt; has been tagged! There are too many good things
+in this release to pick favourites. I refer you to the &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/blob/master/nixos/doc/manual/release-notes/rl-1703.xml"&gt;release notes&lt;/a&gt;
+instead.&lt;/p&gt;
 &lt;p&gt;Some fun stats:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;~ 900 new packages since 16.09&lt;/li&gt;
@@ -9,7 +11,9 @@
 &lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Did I …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;The &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023302.html"&gt;17.03 &amp;quot;Gorilla&amp;quot; release&lt;/a&gt; has been tagged! There are too many good things in this release to pick favourites. I refer you to the &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/blob/master/nixos/doc/manual/release-notes/rl-1703.xml"&gt;release notes&lt;/a&gt; instead.&lt;/p&gt;
+&lt;li&gt;Did I …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;The &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023302.html"&gt;17.03 &amp;quot;Gorilla&amp;quot; release&lt;/a&gt; has been tagged! There are too many good things
+in this release to pick favourites. I refer you to the &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/blob/master/nixos/doc/manual/release-notes/rl-1703.xml"&gt;release notes&lt;/a&gt;
+instead.&lt;/p&gt;
 &lt;p&gt;Some fun stats:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;~ 900 new packages since 16.09&lt;/li&gt;
@@ -19,21 +23,56 @@
 &lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;Did I mention the release? &lt;a class="reference external" href="https://github.com/globin"&gt;Robin&lt;/a&gt; has been doing a fantastic job, thank him when you meet him! He's also had a lot of help of course, so thanks to all those people as well. It's a pretty long list and you can get it with &amp;quot;&lt;tt class="docutils literal"&gt;git shortlog &lt;span class="pre"&gt;8def08..17.03&lt;/span&gt;&lt;/tt&gt;&amp;quot;.&lt;/li&gt;
-&lt;li&gt;We now have an &lt;a class="reference external" href="https://github.com/NixOS/rfcs"&gt;official RFC process&lt;/a&gt;. Thanks to zimbatm for writing our first ever RFC. We already have &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pulls"&gt;three pull requests&lt;/a&gt; so go forth and comment.&lt;/li&gt;
+&lt;li&gt;Did I mention the release? &lt;a class="reference external" href="https://github.com/globin"&gt;Robin&lt;/a&gt; has been doing a fantastic job, thank him
+when you meet him! He's also had a lot of help of course, so thanks to all
+those people as well. It's a pretty long list and you can get it with &amp;quot;&lt;tt class="docutils literal"&gt;git
+shortlog &lt;span class="pre"&gt;8def08..17.03&lt;/span&gt;&lt;/tt&gt;&amp;quot;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://twitter.com/nixos_org/status/847018039115702272"&gt;Extra capacity is coming for Hydra OSX builds&lt;/a&gt;, thanks to all the great
+people that have donated to NixOS Foundation.&lt;/li&gt;
+&lt;li&gt;We now have an &lt;a class="reference external" href="https://github.com/NixOS/rfcs"&gt;official RFC process&lt;/a&gt;. Thanks to zimbatm for writing our
+first ever RFC. We already have &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pulls"&gt;three pull requests&lt;/a&gt; so go forth and
+comment.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/NixOS/nix/pull/1027"&gt;remove-perl&lt;/a&gt; branch just got merged to master. Time to celebrate.&lt;/li&gt;
 &lt;li&gt;Sander &lt;a class="reference external" href="https://nixos.org/disnix"&gt;released Disnix 0.7&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Théophane has started his work on typing Nix. You can &lt;a class="reference external" href="https://typing-nix.regnat.ovh/"&gt;follow along here&lt;/a&gt;. He's also answering some questions in &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023274.html"&gt;this mailing list thread&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Théophane has started his work on typing Nix. You can &lt;a class="reference external" href="https://typing-nix.regnat.ovh/"&gt;follow along here&lt;/a&gt;.
+He's also answering some questions in &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023274.html"&gt;this mailing list thread&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="reading"&gt;
 &lt;h2&gt;Reading&lt;/h2&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;One long-standing issue in Nix has been the storage of secrets. Right now &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/24288"&gt;many of our services&lt;/a&gt; store their secrets in &lt;tt class="docutils literal"&gt;/nix&lt;/tt&gt; where they are world readable. This means you can't have root-only secrets, multi-user systems are problematic, and if one of your services is compromised it can be used to steal all your other secrets. Eelco created an RFC for &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/5/files"&gt;encrypting secrets at rest&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;One long-standing issue in Nix has been the storage of secrets. Right now
+&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/24288"&gt;many of our services&lt;/a&gt; store their secrets in &lt;tt class="docutils literal"&gt;/nix&lt;/tt&gt; where they are world
+readable. This means you can't have root-only secrets, multi-user systems are
+problematic, and if one of your services is compromised it can be used to
+steal all your other secrets. Eelco created an RFC for &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/5/files"&gt;encrypting secrets at
+rest&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://monte.readthedocs.io/en/latest/index.html"&gt;Monte&lt;/a&gt; is a dynamic language inspired by Python and E. It uses Nix, &lt;em&gt;under
+the hook&lt;/em&gt;, for its &lt;a class="reference external" href="monte.readthedocs.io/en/latest/packaging.html"&gt;packaging&lt;/a&gt;. Worth checking out if you are writing a new
+languge and want to see how Nix help you.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://ebzzry.io/en/nix/"&gt;A Gentle Introduction to the Nix Family&lt;/a&gt; by Rommel Martinez.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="meetups"&gt;
+&lt;h2&gt;Meetups&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Apr 4, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/NixOS-Dublin/events/238418033"&gt;NixOS April Meetup&lt;/a&gt;, Dublin, Ireland&lt;/p&gt;
+&lt;p&gt;Two presentations:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Immutable deployments in Rapid7 by Ulrich Dangel&lt;/li&gt;
+&lt;li&gt;Basics of Nix by Kevin Cox&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;(Future) Let us know if you are organizing a Nix / NixOS event.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="editor-s-corner"&gt;
 &lt;h2&gt;Editor's corner&lt;/h2&gt;
-&lt;p&gt;A substantial part of the effort of publishing the &amp;quot;weekly&amp;quot; news is collecting the news in the first place. If you see anything cool, want to share a job, meetup or presentation add a comment with your item at &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly"&gt;https://github.com/NixOS/nixos-weekly&lt;/a&gt;. It's super helpful!&lt;/p&gt;
+&lt;p&gt;A substantial part of the effort of publishing the &amp;quot;weekly&amp;quot; news is collecting
+the news in the first place. If you see anything cool, want to share a job,
+meetup or presentation add a comment with your item at
+&lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly"&gt;https://github.com/NixOS/nixos-weekly&lt;/a&gt;. It's super helpful!&lt;/p&gt;
 &lt;/div&gt;
 </content></entry><entry><title>#04 - Everything not saved will be lost</title><link href="http://weekly.nixos.org/2017/04-everything-not-saved-will-be-lost.html" rel="alternate"></link><published>2017-03-13T00:00:00+01:00</published><updated>2017-03-13T00:00:00+01:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-03-13:/2017/04-everything-not-saved-will-be-lost.html</id><summary type="html">&lt;p&gt;Nix, NixOS and nixpkgs are all moving ahead at good speed. The &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/milestone/10"&gt;17.03
 milestone&lt;/a&gt; is more than 50% complete, and we merged 144 pull requests for
