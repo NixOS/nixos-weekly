@@ -35,8 +35,8 @@ readable. This means you can't have root-only secrets, multi-user systems are
 problematic, and if one of your services is compromised it can be used to
 steal all your other secrets. Eelco created an RFC for &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/5/files"&gt;encrypting secrets at
 rest&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a class="reference external" href="http://monte.readthedocs.io/en/latest/index.html"&gt;Monte&lt;/a&gt; is a dynamic language inspired by Python and E. It uses Nix, &lt;em&gt;under
-the hook&lt;/em&gt;, for its &lt;a class="reference external" href="monte.readthedocs.io/en/latest/packaging.html"&gt;packaging&lt;/a&gt;. Worth checking out if you are writing a new
+&lt;li&gt;&lt;a class="reference external" href="https://monte.readthedocs.io/en/latest/index.html"&gt;Monte&lt;/a&gt; is a dynamic language inspired by Python and E. It uses Nix, &lt;em&gt;under
+the hook&lt;/em&gt;, for its &lt;a class="reference external" href="https://monte.readthedocs.io/en/latest/packaging.html"&gt;packaging&lt;/a&gt;. Worth checking out if you are writing a new
 languge and want to see how Nix help you.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://ebzzry.io/en/nix/"&gt;A Gentle Introduction to the Nix Family&lt;/a&gt; by Rommel Martinez.&lt;/li&gt;
 &lt;/ul&gt;
