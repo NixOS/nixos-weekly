@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Mon, 03 Apr 2017 00:00:00 +0200</lastBuildDate><item><title>#05 - Tonight We Ride</title><link>http://weekly.nixos.org/2017/05-tonight-we-ride.html</link><description>&lt;p&gt;The &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023302.html"&gt;17.03 &amp;quot;Gorilla&amp;quot; release&lt;/a&gt; has been tagged! There are too many good things
+<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Fri, 14 Apr 2017 00:00:00 +0200</lastBuildDate><item><title>#06 - I never wished a man dead</title><link>http://weekly.nixos.org/2017/06-i-never-wished-a-man-dead.html</link><description>&lt;p&gt;Or in other words: no more Perl in Nix! Shea Levy's last branch for his long-ongoing work to remove Perl from the Nix tool has &lt;a class="reference internal" href="#finally-been-merged"&gt;finally been merged&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="target" id="finally-been-merged"&gt;finally been merged&lt;/span&gt; :&lt;a class="reference external" href="https://github.com/NixOS/nix/pull/1027"&gt;https://github.com/NixOS/nix/pull/1027&lt;/a&gt;&lt;/p&gt;
+&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="reading"&gt;
+&lt;h2&gt;Reading&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="editor-s-corner"&gt;
+&lt;h2&gt;Editor's corner&lt;/h2&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Fri, 14 Apr 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-04-14:/2017/06-i-never-wished-a-man-dead.html</guid></item><item><title>#05 - Tonight We Ride</title><link>http://weekly.nixos.org/2017/05-tonight-we-ride.html</link><description>&lt;p&gt;The &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023302.html"&gt;17.03 &amp;quot;Gorilla&amp;quot; release&lt;/a&gt; has been tagged! There are too many good things
 in this release to pick favourites. I refer you to the &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/blob/master/nixos/doc/manual/release-notes/rl-1703.xml"&gt;release notes&lt;/a&gt;
 instead.&lt;/p&gt;
 &lt;p&gt;Some fun stats:&lt;/p&gt;
