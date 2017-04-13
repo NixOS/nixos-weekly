@@ -69,7 +69,7 @@ Events /Meetups
 
   The Augsburger Linux Infotag is a one-day conference with about 20 lectures
   and 9 workshops on Linux, open source software and the digital society.
-  Admission is free.  We are there with a stand to NixOS represented :-)
+  Admission is free. We are representing NixOS with a booth at the conference.
 
 .. _`Augsburger Linux-Infotag`: https://www.meetup.com/Munich-NixOS-Meetup/events/239077440/
 
