@@ -54,6 +54,7 @@ heroic efforts. Their work makes NixOS a more reliable solution.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.calebgossler.com/posts/using-nixos.html"&gt;Using NixOS (As Your Main Desktop OS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.reddit.com/r/rust/comments/649h6m/using_nix_nixos_as_a_build_system_for_rust_and/"&gt;Using Nix (NixOS) as a build system for Rust, and caching binary crates&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/lukego/blog/issues/17"&gt;NixOS troubleshooting with git bisect&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.vultr.com/docs/install-nixos-on-vultr"&gt;Install NixOS on Vultr&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="events-meetups"&gt;
