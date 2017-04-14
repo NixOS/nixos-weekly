@@ -56,7 +56,7 @@ News
 .. _`node2nix`: https://www.npmjs.com/package/node2nix
 .. _`Takt has open-sourced a tool`: https://code.takt.com/announcing-hail-4da7208df56d
 .. _`pypi2nix`: https://github.com/garbas/pypi2nix/releases/tag/v1.8.0
-.. _`Packet.net`: https://packet.net
+.. _`Packet.net`: https://www.packet.net
 
 
 Reading
@@ -76,6 +76,9 @@ Reading
 
 - `NixOS troubleshooting with git bisect`_
 
+- `Install NixOS on Vultr`_
+  
+
 .. _`One Magic Line of Code that fixes Nix syntax highlighting in Vim`: http://nicknovitski.com/vim-nix-syntax
 .. _`NixOS Spring-Summer Collection 17`: https://translate.google.com/translate?sl=auto&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Flinuxfr.org%2Fnews%2Fnixos-collection-printemps-ete-17&edit-text=
 .. _`NixOS, collection printemps-été 17`: http://linuxfr.org/news/nixos-collection-printemps-ete-17
@@ -85,6 +88,7 @@ Reading
 .. _`Using NixOS (As Your Main Desktop OS`: http://www.calebgossler.com/posts/using-nixos.html
 .. _`Using Nix (NixOS) as a build system for Rust, and caching binary crates`: https://www.reddit.com/r/rust/comments/649h6m/using_nix_nixos_as_a_build_system_for_rust_and/
 .. _`NixOS troubleshooting with git bisect`: https://github.com/lukego/blog/issues/17
+.. _`Install NixOS on Vultr`: https://www.vultr.com/docs/install-nixos-on-vultr
 
 
 Events / Meetups
