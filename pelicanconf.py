@@ -15,6 +15,7 @@ OUTPUT_PATH = 'output/'
 PATH = 'content/'
 SITENAME = 'NixOS Weekly'
 SITEURL = 'http://weekly.nixos.org'
+STATIC_PATHS = ['2017/images']
 WITH_FUTURE_DATES = False
 SLUGIFY_SOURCE = 'basename'
 
