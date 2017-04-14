@@ -41,6 +41,41 @@
 }
 
 
+.typesettings h1 {
+    font-size: 2.3em;
+}
+
+
+.typesettings h2 {
+    font-size: 1.7em;
+}
+
+
+/* NEWS SECTION */
+
+#news > ul > li > p.first {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#news > ul > li {
+    margin-bottom: 1em;
+}
+
+
+/* READING SECTION */
+
+#reading > ul > li {
+    margin-bottom: 1em;
+}
+
+
+/* EVENTS / MEETUPS SECTION */
+
+#events-meetups > ul > li > p.first {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 
 /* show that browser is not supported */
 
