@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2017-04-14T00:00:00+02:00</updated><entry><title>#06 - I never wished a man dead</title><link href="http://weekly.nixos.org/2017/06-i-never-wished-a-man-dead.html" rel="alternate"></link><published>2017-04-14T00:00:00+02:00</published><updated>2017-04-14T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-04-14:/2017/06-i-never-wished-a-man-dead.html</id><summary type="html">&lt;p&gt;Or in other words: no more Perl in Nix! Shea Levy's last branch for his
-long-ongoing work to remove Perl from the Nix tool has &lt;a class="reference internal" href="#finally-been-merged"&gt;finally been merged&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class="target" id="finally-been-merged"&gt;finally been merged&lt;/span&gt; :&lt;a class="reference external" href="https://github.com/NixOS/nix/pull/1027"&gt;https://github.com/NixOS/nix/pull/1027&lt;/a&gt;&lt;/p&gt;
+long-ongoing work to remove Perl from the Nix tool has &lt;a class="reference external" href="https://github.com/NixOS/nix/pull/1027"&gt;finally been merged&lt;/a&gt;&lt;/p&gt;
 &lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p class="first"&gt;NixOS Security Advisory: &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-April/023329.html"&gt;Docker Local Privilege Escalation&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This is a fun …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Or in other words: no more Perl in Nix! Shea Levy's last branch for his
-long-ongoing work to remove Perl from the Nix tool has &lt;a class="reference internal" href="#finally-been-merged"&gt;finally been merged&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class="target" id="finally-been-merged"&gt;finally been merged&lt;/span&gt; :&lt;a class="reference external" href="https://github.com/NixOS/nix/pull/1027"&gt;https://github.com/NixOS/nix/pull/1027&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p class="first"&gt;NixOS on &lt;a class="reference external" href="https://packet.net"&gt;Packet.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Over the past several months, &lt;strong&gt;Graham Christensen&lt;/strong&gt; (grahamc), &lt;strong&gt;Tuomas
+Tynkkynen&lt;/strong&gt; (dezgeg), and many wonderful people from &lt;a class="reference external" href="https://packet.net"&gt;Packet …&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Or in other words: no more Perl in Nix! Shea Levy's last branch for his
+long-ongoing work to remove Perl from the Nix tool has &lt;a class="reference external" href="https://github.com/NixOS/nix/pull/1027"&gt;finally been merged&lt;/a&gt;&lt;/p&gt;
 &lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;NixOS on &lt;a class="reference external" href="https://packet.net"&gt;Packet.net&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Over the past several months, &lt;strong&gt;Graham Christensen&lt;/strong&gt; (grahamc), &lt;strong&gt;Tuomas
+Tynkkynen&lt;/strong&gt; (dezgeg), and many wonderful people from &lt;a class="reference external" href="https://packet.net"&gt;Packet.net&lt;/a&gt; have
+collaborated on bringing NixOS to Packet.net.&lt;/p&gt;
+&lt;p&gt;Our collaboratioon started in January with &lt;strong&gt;Packet sponsoring many Hydra
+build servers&lt;/strong&gt;. It continued by bringing ARMv8 builders to hydra.nixos.org.
+It is continued again today by launching first-class support for NixOS
+on the Packet.net platform, directly from their panel.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;...launching first-class support for NixOS...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This allows any user to quickly provision four
+different types of powerful, bare metal x86-64 servers in minutes.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sign up now at &lt;a class="reference external" href="https://www.packet.net/promo/nixos/"&gt;https://www.packet.net/promo/nixos/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;or use the promo code &amp;quot;nixos&amp;quot; &lt;strong&gt;for $25 in credit&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;NixOS Security Advisory: &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-April/023329.html"&gt;Docker Local Privilege Escalation&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This is a fun one because it is the first CVE taken against NixOS.
 A milestone!&lt;/p&gt;
@@ -23,7 +40,7 @@ heroic efforts. Their work makes NixOS a more reliable solution.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://code.takt.com/announcing-hail-4da7208df56d"&gt;Takt has open-sourced a tool&lt;/a&gt; to deploy their services from hydra.&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;New &lt;a class="reference external" href="https://github.com/garbas/pypi2nix/releases/tag/v1.8.0"&gt;pypi2nix&lt;/a&gt; (v1.8.0) release&lt;/p&gt;
+&lt;li&gt;&lt;p class="first"&gt;New &lt;a class="reference external" href="https://github.com/garbas/pypi2nix/releases/tag/v1.8.0"&gt;pypi2nix&lt;/a&gt; (v1.8.0) release.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -36,15 +53,16 @@ heroic efforts. Their work makes NixOS a more reliable solution.&lt;/p&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://translate.google.com/translate?hl=en&amp;amp;sl=auto&amp;amp;tl=en&amp;amp;u=https%3A%2F%2Fwww.heise.de%2Fix%2Fmeldung%2FMit-alternativer-Paketverwaltung-Linux-Distribution-NixOS-17-03-erschienen-3672948.html"&gt;With alternative package management: Linux distribution NixOS 17.03 published&lt;/a&gt; / &lt;a class="reference external" href="https://www.heise.de/ix/meldung/Mit-alternativer-Paketverwaltung-Linux-Distribution-NixOS-17-03-erschienen-3672948.html"&gt;Mit alternativer Paketverwaltung: Linux-Distribution NixOS 17.03 erschienen&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://www.calebgossler.com/posts/using-nixos.html"&gt;Using NixOS (As Your Main Desktop OS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://www.reddit.com/r/rust/comments/649h6m/using_nix_nixos_as_a_build_system_for_rust_and/"&gt;Using Nix (NixOS) as a build system for Rust, and caching binary crates&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/lukego/blog/issues/17"&gt;NixOS troubleshooting with git bisect&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="events-meetups"&gt;
-&lt;h2&gt;Events /Meetups&lt;/h2&gt;
+&lt;h2&gt;Events / Meetups&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Apr 22, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/Munich-NixOS-Meetup/events/239077440/"&gt;Augsburger Linux-Infotag&lt;/a&gt;, Augsburg, Germany&lt;/p&gt;
 &lt;p&gt;The Augsburger Linux Infotag is a one-day conference with about 20 lectures
 and 9 workshops on Linux, open source software and the digital society.
-Admission is free.  We are there with a stand to NixOS represented :-)&lt;/p&gt;
+Admission is free. We are representing NixOS with a booth at the conference.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
@@ -64,6 +82,11 @@ discuss it with other people. Followed by a barbecue in the evening.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="editor-s-corner"&gt;
 &lt;h2&gt;Editor's corner&lt;/h2&gt;
+&lt;p&gt;As you can see last weeks were quite busy for NixOS community. What does that
+mean in numbers for last month?&lt;/p&gt;
+&lt;img alt="Monthly activity in NixOS/nixpkgs" src="images/06-montly-activity.png" /&gt;
+&lt;p&gt;Source: &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pulse/monthly"&gt;https://github.com/NixOS/nixpkgs/pulse/monthly&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Help us shape &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;next issue&lt;/a&gt; of NixOS weekly newslettter.&lt;/p&gt;
 &lt;/div&gt;
 </content></entry><entry><title>#05 - Tonight We Ride</title><link href="http://weekly.nixos.org/2017/05-tonight-we-ride.html" rel="alternate"></link><published>2017-04-03T00:00:00+02:00</published><updated>2017-04-03T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-04-03:/2017/05-tonight-we-ride.html</id><summary type="html">&lt;p&gt;The &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023302.html"&gt;17.03 &amp;quot;Gorilla&amp;quot; release&lt;/a&gt; has been tagged! There are too many good things
 in this release to pick favourites. I refer you to the &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/blob/master/nixos/doc/manual/release-notes/rl-1703.xml"&gt;release notes&lt;/a&gt;
