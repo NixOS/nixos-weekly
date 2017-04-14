@@ -4,16 +4,16 @@ long-ongoing work to remove Perl from the Nix tool has &lt;a class="reference ex
 &lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p class="first"&gt;NixOS on &lt;a class="reference external" href="https://packet.net"&gt;Packet.net&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p class="first"&gt;NixOS on &lt;a class="reference external" href="https://www.packet.net"&gt;Packet.net&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Over the past several months, &lt;strong&gt;Graham Christensen&lt;/strong&gt; (grahamc), &lt;strong&gt;Tuomas
-Tynkkynen&lt;/strong&gt; (dezgeg), and many wonderful people from &lt;a class="reference external" href="https://packet.net"&gt;Packet …&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Or in other words: no more Perl in Nix! Shea Levy's last branch for his
+Tynkkynen&lt;/strong&gt; (dezgeg), and many wonderful people from &lt;a class="reference external" href="https://www.packet.net"&gt;Packet …&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Or in other words: no more Perl in Nix! Shea Levy's last branch for his
 long-ongoing work to remove Perl from the Nix tool has &lt;a class="reference external" href="https://github.com/NixOS/nix/pull/1027"&gt;finally been merged&lt;/a&gt;&lt;/p&gt;
 &lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p class="first"&gt;NixOS on &lt;a class="reference external" href="https://packet.net"&gt;Packet.net&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p class="first"&gt;NixOS on &lt;a class="reference external" href="https://www.packet.net"&gt;Packet.net&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Over the past several months, &lt;strong&gt;Graham Christensen&lt;/strong&gt; (grahamc), &lt;strong&gt;Tuomas
-Tynkkynen&lt;/strong&gt; (dezgeg), and many wonderful people from &lt;a class="reference external" href="https://packet.net"&gt;Packet.net&lt;/a&gt; have
+Tynkkynen&lt;/strong&gt; (dezgeg), and many wonderful people from &lt;a class="reference external" href="https://www.packet.net"&gt;Packet.net&lt;/a&gt; have
 collaborated on bringing NixOS to Packet.net.&lt;/p&gt;
 &lt;p&gt;Our collaboratioon started in January with &lt;strong&gt;Packet sponsoring many Hydra
 build servers&lt;/strong&gt;. It continued by bringing ARMv8 builders to hydra.nixos.org.
