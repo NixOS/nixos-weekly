@@ -26,9 +26,11 @@ Reading
 
 - `My first Nix derivation`_
 
+- `Reimplement "npm install -g" with nix and bash`_
+
 .. _`My journey into Nix`: https://adelbertc.github.io/posts/2017-04-03-nix-journey.html
 .. _`My first Nix derivation`: https://adelbertc.github.io/posts/2017-04-08-first-nix-derivation.html
-
+.. _`Reimplement "npm install -g" with nix and bash`: http://nicknovitski.com/nix-npm-install
 ...
 
 
