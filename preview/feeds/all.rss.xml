@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Fri, 14 Apr 2017 00:00:00 +0200</lastBuildDate><item><title>#06 - I never wished a man dead</title><link>http://weekly.nixos.org/2017/06-i-never-wished-a-man-dead.html</link><description>&lt;p&gt;Or in other words: no more Perl in Nix! Shea Levy's last branch for his
+<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Fri, 28 Apr 2017 00:00:00 +0200</lastBuildDate><item><title>#07 - You have one hell of a Linux system here</title><link>http://weekly.nixos.org/2017/07-you-have-one-hell-of-a-linux-system-here.html</link><description>&lt;p&gt;TODO: some intro text&lt;/p&gt;
+&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&amp;lt;title&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;description&amp;gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;...&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="reading"&gt;
+&lt;h2&gt;Reading&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://adelbertc.github.io/posts/2017-04-03-nix-journey.html"&gt;My journey into Nix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://adelbertc.github.io/posts/2017-04-08-first-nix-derivation.html"&gt;My first Nix derivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://nicknovitski.com/nix-npm-install"&gt;Reimplement &amp;quot;npm install -g&amp;quot; with nix and bash&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="events-meetups"&gt;
+&lt;h2&gt;Events / Meetups&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;&amp;lt;date&amp;gt;&lt;/strong&gt;, &amp;lt;event-title-with-link&amp;gt;, &amp;lt;event city&amp;gt;, &amp;lt;event country&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;event-description&amp;gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;--- or ---&lt;/p&gt;
+&lt;p&gt;No events or meetups.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="editor-s-corner"&gt;
+&lt;h2&gt;Editor's corner&lt;/h2&gt;
+&lt;p&gt;&amp;lt;some words from editor in chief&amp;gt;&lt;/p&gt;
+&lt;p&gt;Help us shape &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;next issue&lt;/a&gt; of NixOS weekly newslettter.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Fri, 28 Apr 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-04-28:/2017/07-you-have-one-hell-of-a-linux-system-here.html</guid></item><item><title>#06 - I never wished a man dead</title><link>http://weekly.nixos.org/2017/06-i-never-wished-a-man-dead.html</link><description>&lt;p&gt;Or in other words: no more Perl in Nix! Shea Levy's last branch for his
 long-ongoing work to remove Perl from the Nix tool has &lt;a class="reference external" href="https://github.com/NixOS/nix/pull/1027"&gt;finally been merged&lt;/a&gt;&lt;/p&gt;
 &lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
