@@ -1,6 +1,4 @@
-"you have one hell of a Linux system here" (from someone on IRC)
-
-#06 - you have one hell of a Linux system here
+#07 - You have one hell of a Linux system here
 ##############################################
 
 :date: 2017-04-28
@@ -31,7 +29,6 @@ Reading
 .. _`My journey into Nix`: https://adelbertc.github.io/posts/2017-04-03-nix-journey.html
 .. _`My first Nix derivation`: https://adelbertc.github.io/posts/2017-04-08-first-nix-derivation.html
 .. _`Reimplement "npm install -g" with nix and bash`: http://nicknovitski.com/nix-npm-install
-...
 
 
 Events / Meetups
