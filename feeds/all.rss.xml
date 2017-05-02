@@ -1,5 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Fri, 14 Apr 2017 00:00:00 +0200</lastBuildDate><item><title>#06 - I never wished a man dead</title><link>http://weekly.nixos.org/2017/06-i-never-wished-a-man-dead.html</link><description>&lt;p&gt;Or in other words: no more Perl in Nix! Shea Levy's last branch for his
+<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Tue, 02 May 2017 00:00:00 +0200</lastBuildDate><item><title>#07 - You have one hell of a Linux system here</title><link>http://weekly.nixos.org/2017/07-you-have-one-hell-of-a-linux-system-here.html</link><description>&lt;p&gt;Few monts ago a proposal to define improvements process (&lt;a class="reference external" href="https://github.com/nixos/rfcs"&gt;nixos/rfcs&lt;/a&gt;) was
+announced.&lt;/p&gt;
+&lt;p&gt;While many contributions to Nix and NixOS related projects fits into GitHub
+pull requests model, doing a substantial change requires more involvement from
+the community.&lt;/p&gt;
+&lt;p&gt;Two months later we can see that NixOS community is picking up on the process
+and RFCs are starting to show up each week.&lt;/p&gt;
+&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;First RFC to go through the process. What a milestone!&lt;/p&gt;
+&lt;p&gt;RFC 0004: &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/4"&gt;Replace Unicode Quotes&lt;/a&gt; was voted to be implemented.&lt;/p&gt;
+&lt;p&gt;And there is a good list of interesting RFCs which are being discussed:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;(draft) RFC 0003: &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/3"&gt;SOS: Simple Override Strategy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(draft) RFC 0005: &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/5"&gt;Nix encryption&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(draft) RFC 0008: &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/8"&gt;Readonly recursive Nix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(draft) RFC 0009: &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/9"&gt;Nix rapid release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(draft) RFC 0010: &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/10"&gt;Nixpkgs development support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(draft) RFC 0011: &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/11"&gt;Per project config&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(draft) RFC 0012: &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/12"&gt;Declarative virtual machines&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/bennofs/nix-index"&gt;nix-index&lt;/a&gt; by &lt;a class="reference external" href="https://github.com/bennofs"&gt;Benno Fünfstück&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A tool to make the porcess of finding the packages and their files in nixpkgs
+easier.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://styx-static.github.io/styx-site/"&gt;styx&lt;/a&gt;, a static site generator in Nix expression language.&lt;/p&gt;
+&lt;p&gt;To give it a quick try:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="gp"&gt;$&lt;/span&gt; nix-shell -p styx
+&lt;span class="gp"&gt;$&lt;/span&gt; styx new site mysite &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="nb"&gt;cd&lt;/span&gt; mysite
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;NixOS at Linux Infotag Augsburg&lt;/p&gt;
+&lt;p&gt;Last week Linux Infotag Augsburg (“Linux Info Day”) happened at Hochschule
+Augsburg. Like last year and the year before, a NixOS booth was organized.
+&lt;a class="reference external" href="http://profpatsch.de/blog/posts/nixos-on-lit-2017.html"&gt;A Short Retrospective&lt;/a&gt; by &lt;a class="reference external" href="https://github.com/Profpatsch"&gt;Profpatsch&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;And in case you didn't know ...&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.reddit.com/r/NixOS/comments/64xyd7/nix_package_manager_works_flawlessly_in_windows"&gt;Nix package manager works flawlessly in Windows 10 Creators Update with
+Windows Subsystem for Linux&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="reading"&gt;
+&lt;h2&gt;Reading&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://adelbertc.github.io/posts/2017-04-03-nix-journey.html"&gt;My journey into Nix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://adelbertc.github.io/posts/2017-04-08-first-nix-derivation.html"&gt;My first Nix derivation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://nicknovitski.com/nix-npm-install"&gt;Reimplement &amp;quot;npm install -g&amp;quot; with nix and bash&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://styx-static.github.io/styx-theme-hyde/posts/2016-09-19-blog-tutorial.html"&gt;Create a blog with styx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="events-meetups"&gt;
+&lt;h2&gt;Events / Meetups&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Thu, May 4, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/Berlin-NixOS-Meetup/events/239572944/"&gt;regular Meetup &amp;#64;c-base&lt;/a&gt;, Berlin, Germany&lt;/p&gt;
+&lt;p&gt;Generally the event is not structured, we have no talks or presentations
+planned. It's up to the participants, what's going to happen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="editor-s-corner"&gt;
+&lt;h2&gt;Editor's corner&lt;/h2&gt;
+&lt;p&gt;Help us shape &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;next issue&lt;/a&gt; of NixOS weekly newslettter.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Tue, 02 May 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-05-02:/2017/07-you-have-one-hell-of-a-linux-system-here.html</guid></item><item><title>#06 - I never wished a man dead</title><link>http://weekly.nixos.org/2017/06-i-never-wished-a-man-dead.html</link><description>&lt;p&gt;Or in other words: no more Perl in Nix! Shea Levy's last branch for his
 long-ongoing work to remove Perl from the Nix tool has &lt;a class="reference external" href="https://github.com/NixOS/nix/pull/1027"&gt;finally been merged&lt;/a&gt;&lt;/p&gt;
 &lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
