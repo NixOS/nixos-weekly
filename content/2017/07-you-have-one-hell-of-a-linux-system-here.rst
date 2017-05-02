@@ -5,7 +5,7 @@
 :description: You have one hell of a Linux system here - someone on #nixos IRC
               channel
 
-Few monts ago a proposal to define improvements process (`nixos/rfcs`_) was
+A few months ago a proposal to define improvements process (`nixos/rfcs`_) was
 announced.
 
 While many contributions to Nix and NixOS related projects fits into GitHub
@@ -35,7 +35,7 @@ News
 
 - `nix-index`_ by `Benno Fünfstück`_
   
-  A tool to make the porcess of finding the packages and their files in nixpkgs
+  A tool to make the process of finding the packages and their files in nixpkgs
   easier.
 
 
@@ -101,7 +101,7 @@ Events / Meetups
 
 - **Thu, May 4, 2017**, `regular Meetup @c-base`_, Berlin, Germany
 
-  Generally the event is not structured, we have no talks or presentations
+  Generally, the event is not structured, we have no talks or presentations
   planned. It's up to the participants, what's going to happen.
 
 
@@ -111,6 +111,6 @@ Events / Meetups
 Editor's corner
 ===============
 
-Help us shape `next issue`_ of NixOS weekly newslettter.
+Help us shape `next issue`_ of the NixOS weekly newsletter.
 
 .. _`next issue`: https://github.com/NixOS/nixos-weekly/issues
