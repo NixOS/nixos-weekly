@@ -5,29 +5,77 @@
 :description: You have one hell of a Linux system here - someone on #nixos IRC
               channel
 
+Few monts ago a proposal to define improvements process (`nixos/rfcs`_) was
+announced.
+
+While many contributions to Nix and NixOS related projects fits into GitHub
+pull requests model, doing a substantial change requires more involvement from
+the community.
+
+Two months later we can see that NixOS community is picking up on the process
+and RFCs are starting to show up each week. 
+
 
 News
 ====
 
-- `nix-index`_ by `Benno Fünfstück`_ is a tool to make the porcess of finding
-  the packages and their files in nixpkgs easier.
+- First RFC to go through the process. What a milestone!
+  
+  RFC 0004: `Replace Unicode Quotes`_ was voted to be implemented.
 
-- `styx`_, A static site generator in Nix expression language.
+  And there is a good list of interesting RFCs which are being discussed:
 
-- Last week Linux Infotag Augsburg (“Linux Info Day”) happened at Hochschule
+  - (draft) RFC 0003: `SOS: Simple Override Strategy`_
+  - (draft) RFC 0005: `Nix encryption`_
+  - (draft) RFC 0008: `Readonly recursive Nix`_
+  - (draft) RFC 0009: `Nix rapid release`_
+  - (draft) RFC 0010: `Nixpkgs development support`_
+  - (draft) RFC 0011: `Per project config`_
+  - (draft) RFC 0012: `Declarative virtual machines`_
+
+- `nix-index`_ by `Benno Fünfstück`_
+  
+  A tool to make the porcess of finding the packages and their files in nixpkgs
+  easier.
+
+
+- `styx`_, a static site generator in Nix expression language.
+
+  To give it a quick try:
+
+  .. code-block:: console
+
+      $ nix-shell -p styx
+      $ styx new site mysite && cd mysite
+
+
+- NixOS at Linux Infotag Augsburg
+  
+  Last week Linux Infotag Augsburg (“Linux Info Day”) happened at Hochschule
   Augsburg. Like last year and the year before, a NixOS booth was organized.
   `A Short Retrospective`_ by `Profpatsch`_.
 
-- `Nix package manager works flawlessly in Windows 10 Creators Update with
+- And in case you didn't know ...
+  
+  `Nix package manager works flawlessly in Windows 10 Creators Update with
   Windows Subsystem for Linux`_
 
 
+.. _`nixos/rfcs`: https://github.com/nixos/rfcs
 .. _`nix-index`: https://github.com/bennofs/nix-index
 .. _`Benno Fünfstück`: https://github.com/bennofs
 .. _`A Short Retrospective`: http://profpatsch.de/blog/posts/nixos-on-lit-2017.html
 .. _`Profpatsch`: https://github.com/Profpatsch
-.. _`styx: https://github.com/styx-static/styx/
+.. _`styx`: https://styx-static.github.io/styx-site/
 .. _`Nix package manager works flawlessly in Windows 10 Creators Update with Windows Subsystem for Linux`: https://www.reddit.com/r/NixOS/comments/64xyd7/nix_package_manager_works_flawlessly_in_windows
+.. _`Replace Unicode Quotes`: https://github.com/NixOS/rfcs/pull/4
+.. _`SOS: Simple Override Strategy`: https://github.com/NixOS/rfcs/pull/3
+.. _`Nix encryption`: https://github.com/NixOS/rfcs/pull/5
+.. _`Readonly recursive Nix`: https://github.com/NixOS/rfcs/pull/8
+.. _`Nix rapid release`: https://github.com/NixOS/rfcs/pull/9
+.. _`Nixpkgs development support`: https://github.com/NixOS/rfcs/pull/10
+.. _`Per project config`: https://github.com/NixOS/rfcs/pull/11
+.. _`Declarative virtual machines`: https://github.com/NixOS/rfcs/pull/12
 
 
 Reading
@@ -59,10 +107,9 @@ Events / Meetups
 
 .. _`regular Meetup @c-base`: https://www.meetup.com/Berlin-NixOS-Meetup/events/239572944/
 
+
 Editor's corner
 ===============
-
-<some words from editor in chief>
 
 Help us shape `next issue`_ of NixOS weekly newslettter.
 
