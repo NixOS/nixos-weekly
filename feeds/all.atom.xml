@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2017-05-02T00:00:00+02:00</updated><entry><title>#07 - You have one hell of a Linux system here</title><link href="http://weekly.nixos.org/2017/07-you-have-one-hell-of-a-linux-system-here.html" rel="alternate"></link><published>2017-05-02T00:00:00+02:00</published><updated>2017-05-02T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-05-02:/2017/07-you-have-one-hell-of-a-linux-system-here.html</id><summary type="html">&lt;p&gt;Few monts ago a proposal to define improvements process (&lt;a class="reference external" href="https://github.com/nixos/rfcs"&gt;nixos/rfcs&lt;/a&gt;) was
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2017-05-02T00:00:00+02:00</updated><entry><title>#07 - You have one hell of a Linux system here</title><link href="http://weekly.nixos.org/2017/07-you-have-one-hell-of-a-linux-system-here.html" rel="alternate"></link><published>2017-05-02T00:00:00+02:00</published><updated>2017-05-02T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-05-02:/2017/07-you-have-one-hell-of-a-linux-system-here.html</id><summary type="html">&lt;p&gt;A few months ago a proposal to define improvements process (&lt;a class="reference external" href="https://github.com/nixos/rfcs"&gt;nixos/rfcs&lt;/a&gt;) was
 announced.&lt;/p&gt;
 &lt;p&gt;While many contributions to Nix and NixOS related projects fits into GitHub
 pull requests model, doing a substantial change requires more involvement from
 the community.&lt;/p&gt;
-&lt;p&gt;Two months later we can see that NixOS community is picking up …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Few monts ago a proposal to define improvements process (&lt;a class="reference external" href="https://github.com/nixos/rfcs"&gt;nixos/rfcs&lt;/a&gt;) was
+&lt;p&gt;Two months later we can see that NixOS community is picking …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A few months ago a proposal to define improvements process (&lt;a class="reference external" href="https://github.com/nixos/rfcs"&gt;nixos/rfcs&lt;/a&gt;) was
 announced.&lt;/p&gt;
 &lt;p&gt;While many contributions to Nix and NixOS related projects fits into GitHub
 pull requests model, doing a substantial change requires more involvement from
@@ -28,7 +28,7 @@ and RFCs are starting to show up each week.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/bennofs/nix-index"&gt;nix-index&lt;/a&gt; by &lt;a class="reference external" href="https://github.com/bennofs"&gt;Benno Fünfstück&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;A tool to make the porcess of finding the packages and their files in nixpkgs
+&lt;p&gt;A tool to make the process of finding the packages and their files in nixpkgs
 easier.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://styx-static.github.io/styx-site/"&gt;styx&lt;/a&gt;, a static site generator in Nix expression language.&lt;/p&gt;
@@ -61,14 +61,14 @@ Windows Subsystem for Linux&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Events / Meetups&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;strong&gt;Thu, May 4, 2017&lt;/strong&gt;, &lt;a class="reference external" href="https://www.meetup.com/Berlin-NixOS-Meetup/events/239572944/"&gt;regular Meetup &amp;#64;c-base&lt;/a&gt;, Berlin, Germany&lt;/p&gt;
-&lt;p&gt;Generally the event is not structured, we have no talks or presentations
+&lt;p&gt;Generally, the event is not structured, we have no talks or presentations
 planned. It's up to the participants, what's going to happen.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="editor-s-corner"&gt;
 &lt;h2&gt;Editor's corner&lt;/h2&gt;
-&lt;p&gt;Help us shape &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;next issue&lt;/a&gt; of NixOS weekly newslettter.&lt;/p&gt;
+&lt;p&gt;Help us shape &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;next issue&lt;/a&gt; of the NixOS weekly newsletter.&lt;/p&gt;
 &lt;/div&gt;
 </content></entry><entry><title>#06 - I never wished a man dead</title><link href="http://weekly.nixos.org/2017/06-i-never-wished-a-man-dead.html" rel="alternate"></link><published>2017-04-14T00:00:00+02:00</published><updated>2017-04-14T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-04-14:/2017/06-i-never-wished-a-man-dead.html</id><summary type="html">&lt;p&gt;Or in other words: no more Perl in Nix! Shea Levy's last branch for his
 long-ongoing work to remove Perl from the Nix tool has &lt;a class="reference external" href="https://github.com/NixOS/nix/pull/1027"&gt;finally been merged&lt;/a&gt;&lt;/p&gt;
