@@ -11,9 +11,18 @@ TODO: introduction
 News
 ====
 
+- `NixCon 2017`_ is coming October 28-31 in Munich.
+  Call for participation is open until July 31.
+
+
+
 - <title with link>
 
   <description>
+
+
+
+.. _`NixCon 2017`: http://nixcon2017.org/
 
 
 Reading
