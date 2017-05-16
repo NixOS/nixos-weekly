@@ -1,7 +1,7 @@
 #08 - Not all those who wander are lost
 ############################################
 
-:date: TODO
+:date: 2017-05-10
 :description: Not all those who wander are lost - J.R.R. Tolkien
 
 
@@ -60,6 +60,10 @@ Reading
 
   See also the `mvn2nix mailing list discussion <https://mailman.science.uu.nl/pipermail/nix-dev/2017-May/023677.html>`_.
 
+- `My Journey into Nix <https://adelbertc.github.io/posts/2017-04-03-nix-journey.html>`_
+
+  `lobste.rs discussion <https://lobste.rs/s/nw8luo/my_journey_into_nix>`_
+
 
 Tooling
 =======
@@ -111,4 +115,7 @@ Events / Meetups
 
 Editor's corner
 ===============
+
+FIXME This work would not be possible without the many wonderful
+contributions of the community in various forms.
 
