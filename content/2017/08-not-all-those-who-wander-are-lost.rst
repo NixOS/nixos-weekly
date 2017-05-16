@@ -64,6 +64,8 @@ Reading
 
   `lobste.rs discussion <https://lobste.rs/s/nw8luo/my_journey_into_nix>`_
 
+- `DistroWatch review of NixOS <https://distrowatch.com/weekly.php?issue=20170515>`_
+
 
 Tooling
 =======
