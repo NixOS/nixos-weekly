@@ -42,12 +42,15 @@ News
   - `1.9% contain the word "thank" <https://twitter.com/Profpatsch/status/862303014601846784>`_
   - `2.4% last year <https://twitter.com/grhmc/status/862304182002479105>`_
 
-- `IOHK is hiring <https://iohk.io/careers/#fk06gld>`_!
-
-- `CircuitHub is hiring (Haskell+NixOS) <https://circuithub.com/careers/haskellers#block-27f97af4532dee9c4127>`_!
-
-
 .. _`NixCon 2017`: http://nixcon2017.org/
+
+
+Jobs
+====
+
+- `IOHK is hiring <https://iohk.io/careers/#fk06gld>`_
+
+- `CircuitHub is hiring (Haskell+NixOS) <https://circuithub.com/careers/haskellers#block-27f97af4532dee9c4127>`_
 
 
 Reading
