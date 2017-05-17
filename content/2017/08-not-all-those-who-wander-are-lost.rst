@@ -43,6 +43,8 @@ News
 
 - `IOHK is hiring <https://iohk.io/careers/#fk06gld>`_!
 
+- `CircuitHub is hiring (Haskell+NixOS) <https://circuithub.com/careers/haskellers#block-27f97af4532dee9c4127>`_!
+
 
 .. _`NixCon 2017`: http://nixcon2017.org/
 
