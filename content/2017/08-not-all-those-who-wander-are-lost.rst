@@ -6,7 +6,12 @@
 :status: draft
 
 
-TODO: introduction
+Welcome to another edition of NixOS Weekly.
+
+
+Major announcements include NixCon 2017 and the old wiki migration.
+This edition adds a new Tooling section for possibly useful
+Nix-related tools in addition to News, Jobs, Reading, and Events.
 
 
 News
