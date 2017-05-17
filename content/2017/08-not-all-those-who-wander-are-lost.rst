@@ -101,6 +101,10 @@ Events / Meetups
 Editor's corner
 ===============
 
-FIXME This work would not be possible without the many wonderful
-contributions of the community in various forms.
+This work would not be possible without the many contributions of the community.
 
+You can help! Create or comment on the `pull request`_ for the next
+edition or help with the `issue tracker`_ to add other improvements.
+
+.. _`pull request`: https://github.com/NixOS/nixos-weekly/pulls
+.. _`issue tracker`: https://github.com/NixOS/nixos-weekly/issues
