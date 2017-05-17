@@ -11,6 +11,11 @@ TODO: introduction
 News
 ====
 
+- `NixCon 2017`_ October 28-31, Munich.
+
+  Call for participation is open until July 31.
+
+
 - The `Wiki <https://nixos.org/nixos/wiki.html>`_ is dead. Long live
   the `Wikis <https://github.com/nixos-users/wiki/wiki>`_!
 
@@ -82,11 +87,6 @@ Tooling
 
 Events / Meetups
 ==================
-
-- `NixCon 2017`_ October 28-31, Munich.
-
-  Call for participation is open until July 31.
-
 
 - `NixOps Meetup <https://www.meetup.com/Munich-NixOS-Meetup/events/239835348/>`_ May 26, Munich
 
