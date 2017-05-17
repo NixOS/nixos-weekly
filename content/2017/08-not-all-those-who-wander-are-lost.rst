@@ -1,7 +1,7 @@
 #08 - Not all those who wander are lost
 ############################################
 
-:date: 2017-05-10
+:date: 2017-05-19
 :description: Not all those who wander are lost - J.R.R. Tolkien
 
 
