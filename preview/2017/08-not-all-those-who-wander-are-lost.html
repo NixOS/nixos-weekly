@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <title>NixOS Weekly</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="NixOS Weekly Team">
+  <meta name="copyright" content="CC BY-SA">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="../theme/images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../theme/images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../theme/images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../theme/images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../theme/images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../theme/images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../theme/images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../theme/images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../theme/images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="../theme/images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../theme/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../theme/images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../theme/images/favicon-16x16.png">
+  <link rel="shortcut icon" type="image/png" href="../theme/images/favicon.png">
+  <link rel="manifest" href="../theme/images/manifest.json">
+
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../theme/images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="../theme/css/typesettings-1.1-min.css">
+  <link rel="stylesheet" href="../theme/css/main.css">
+
+  <link href="http://weekly.nixos.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="NixOS Weekly Full Atom Feed" />
+  <link href="http://weekly.nixos.org/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="NixOS Weekly Full RSS Feed" />
+
+
+    <meta name="description" content="Not all those who wander are lost - J.R.R. Tolkien" />
+
+
+</head>
+
+<body>
+
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser.
+      Please <a href="http://browsehappy.com/">upgrade your browser</a> to
+      improve your experience.</p>
+  <![endif]-->
+
+  <main role="main">
+    <article class="typesettings sans-serif">
+      <section>
+        <header>
+          <h1>
+              NixOS Weekly
+          </h1>
+          <h2>
+              Delivered to your inbox
+          </h2>
+          <a href=".." class="logo">
+            <img height="50px" alt="nixos logo" src="../theme/images/logo.png" />
+          </a>
+        </header>
+
+        <!-- mailchimp -->
+        <div class="mailchimp">
+          <form action="//nixos.us14.list-manage.com/subscribe/post?u=24d1741146b951f90adf436fd&amp;id=cb1df4af80" method="post" novalidate>
+            <input class="out-of-view" type="text" name="b_24d1741146b951f90adf436fd" tabindex="-1" value="" />
+            <input type="email" name="EMAIL" placeholder="Enter your email" /><input type="submit" name="subscribe" class="btn btn-default btn-primary" value="Subscribe!" />
+          </form>
+          <p>Easy to unsubscribe and no spam, promise.</p>
+        </div>
+
+        <p>Or follow on
+            <a href="https://twitter.com/nixos_org">Twitter</a>,
+            <a href="http://weekly.nixos.org/feeds/all.rss.xml">RSS</a>.
+        </p>
+
+      </section>
+<section id="content" class="body">
+  <header>
+    <h1>#08 - Not all those who wander are lost</h1>
+    <blockquote><p>Not all those who wander are lost - J.R.R. Tolkien</p></blockquote>
+  </header>
+  <p>Welcome to another edition of NixOS Weekly.</p>
+<p>Major announcements include NixCon 2017 and the old wiki migration.
+This edition adds a new Tooling section for possibly useful
+Nix-related tools in addition to News, Jobs, Reading, and Events.</p>
+<div class="section" id="news">
+<h2>News</h2>
+<ul>
+<li><p class="first"><a class="reference external" href="http://nixcon2017.org/">NixCon 2017</a> October 28-31, Munich.</p>
+<p>Call for participation is open until July 31.</p>
+</li>
+<li><p class="first">The <a class="reference external" href="https://nixos.org/nixos/wiki.html">Wiki</a> is dead. Long live
+the <a class="reference external" href="https://github.com/nixos-users/wiki/wiki">Wikis</a>!</p>
+<p><a class="reference external" href="https://github.com/NixOS/nixos-org-configurations/pull/30">This</a>
+is the change that disable the wiki.</p>
+<p>The old wiki has been for a while now with <a class="reference external" href="https://github.com/NixOS/nixpkgs/milestone/8">ongoing work</a> on updating and
+migrating the content.</p>
+<p>Current options are the <a class="reference external" href="https://nix-cookbook.readthedocs.io/en/latest/index.html">Community Cookbook</a> and the
+<a class="reference external" href="https://github.com/nixos-users/wiki/wiki">nixos-users Wiki</a>. The
+latter is editable by anyone with a GitHub account.</p>
+</li>
+<li><p class="first">Nix has a thankful community.</p>
+<p>Profpatsch did some quick analysis of IRC messages.
+Summary:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://twitter.com/Profpatsch/status/862303014601846784">1.9% contain the word &quot;thank&quot;</a></li>
+<li><a class="reference external" href="https://twitter.com/grhmc/status/862304182002479105">2.4% last year</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="jobs">
+<h2>Jobs</h2>
+<ul class="simple">
+<li><a class="reference external" href="https://iohk.io/careers/#fk06gld">IOHK is hiring</a></li>
+<li><a class="reference external" href="https://circuithub.com/careers/haskellers#block-27f97af4532dee9c4127">CircuitHub is hiring (Haskell+NixOS)</a></li>
+</ul>
+</div>
+<div class="section" id="reading">
+<h2>Reading</h2>
+<ul>
+<li><p class="first"><a class="reference external" href="http://matrix.ai/2017/03/13/intro-to-nix-channels-and-reproducible-nixos-environment/">Intro to Nix Channels and Reproducible NixOS Environment</a></p>
+<p>See also the <a class="reference external" href="http://nix-cookbook.readthedocs.io/en/latest/faq.html#how-to-pin-nixpkgs-to-a-specific-commit-branch">Cookbook</a>.</p>
+</li>
+<li><p class="first"><a class="reference external" href="http://grahamc.com/blog/timemachine-backups-linux-nixos">Use NixOS for macOS TimeMachine backups</a>.</p>
+</li>
+<li><p class="first"><a class="reference external" href="https://ww.telent.net/2017/5/10/building_maven_packages_with_nix">Building Maven Packages with Nix</a></p>
+<p>See also the <a class="reference external" href="https://mailman.science.uu.nl/pipermail/nix-dev/2017-May/023677.html">mvn2nix mailing list discussion</a>.</p>
+</li>
+<li><p class="first"><a class="reference external" href="https://adelbertc.github.io/posts/2017-04-03-nix-journey.html">My Journey into Nix</a></p>
+<p>lobste.rs <a class="reference external" href="https://lobste.rs/s/nw8luo/my_journey_into_nix">discussion</a></p>
+</li>
+<li><p class="first"><a class="reference external" href="https://distrowatch.com/weekly.php?issue=20170515">DistroWatch review of NixOS</a></p>
+</li>
+<li><p class="first"><a class="reference external" href="https://medium.com/&#64;GauthierPLM/falling-in-love-with-nixos-36db4e50171e">Falling in love with NixOS</a></p>
+</li>
+</ul>
+</div>
+<div class="section" id="tooling">
+<h2>Tooling</h2>
+<ul class="simple">
+<li><a class="reference external" href="https://gist.github.com/aherrmann/51b56283f9ed5853747908fbab907316">pnix-shell.sh</a>: creates gc-roots for all dependencies of a shell.nix.</li>
+<li><a class="reference external" href="https://gist.github.com/olejorgenb/0c3bafa3c7b63d1a2f83ee13582de7b9/">nix-package-search</a>: cached queries for <tt class="docutils literal"><span class="pre">nix-env</span> <span class="pre">-qa</span></tt>.</li>
+<li><a class="reference external" href="https://github.com/spwhitt/nix-zsh-completions">nix-zsh-completions</a>: ZSH completions for Nix and NixOS tools.</li>
+<li><a class="reference external" href="https://mailman.science.uu.nl/pipermail/nix-dev/2017-May/023569.html">Auto install/run</a>
+missing programs.</li>
+</ul>
+</div>
+<div class="section" id="events-meetups">
+<h2>Events / Meetups</h2>
+<ul>
+<li><p class="first"><a class="reference external" href="https://www.meetup.com/Munich-NixOS-Meetup/events/239835348/">NixOps Meetup</a> May 26, Munich</p>
+<p>Topics: the NixOps container backend. Possible hackathon afterwards.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="editor-s-corner">
+<h2>Editor's corner</h2>
+<p>This work would not be possible without the many contributions of the community.</p>
+<p>You can help! Create or comment on the <a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls">pull request</a> for the next
+edition or help with the <a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues">issue tracker</a> to add other improvements.</p>
+</div>
+
+</section>
+    </article>
+  </main>
+  <footer>
+      <ul>
+          <li>
+              <a href="https://nixos.org" target="_blank">NixOS</a>
+          </li>
+          <li>
+              <a href="https://twitter.com/nixos_org" target="_blank">Twitter</a>
+          </li>
+          <li>
+              <a href="http://lists.science.uu.nl/pipermail/nix-dev" target="_blank">Mailing list</a>
+          </li>
+      </ul>
+  </footer>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-92427122-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

@@ -1,5 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Tue, 02 May 2017 00:00:00 +0200</lastBuildDate><item><title>#07 - You have one hell of a Linux system here</title><link>http://weekly.nixos.org/2017/07-you-have-one-hell-of-a-linux-system-here.html</link><description>&lt;p&gt;A few months ago a proposal to define improvements process (&lt;a class="reference external" href="https://github.com/nixos/rfcs"&gt;nixos/rfcs&lt;/a&gt;) was
+<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Fri, 19 May 2017 00:00:00 +0200</lastBuildDate><item><title>#08 - Not all those who wander are lost</title><link>http://weekly.nixos.org/2017/08-not-all-those-who-wander-are-lost.html</link><description>&lt;p&gt;Welcome to another edition of NixOS Weekly.&lt;/p&gt;
+&lt;p&gt;Major announcements include NixCon 2017 and the old wiki migration.
+This edition adds a new Tooling section for possibly useful
+Nix-related tools in addition to News, Jobs, Reading, and Events.&lt;/p&gt;
+&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="http://nixcon2017.org/"&gt;NixCon 2017&lt;/a&gt; October 28-31, Munich.&lt;/p&gt;
+&lt;p&gt;Call for participation is open until July 31.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;The &lt;a class="reference external" href="https://nixos.org/nixos/wiki.html"&gt;Wiki&lt;/a&gt; is dead. Long live
+the &lt;a class="reference external" href="https://github.com/nixos-users/wiki/wiki"&gt;Wikis&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixos-org-configurations/pull/30"&gt;This&lt;/a&gt;
+is the change that disable the wiki.&lt;/p&gt;
+&lt;p&gt;The old wiki has been for a while now with &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/milestone/8"&gt;ongoing work&lt;/a&gt; on updating and
+migrating the content.&lt;/p&gt;
+&lt;p&gt;Current options are the &lt;a class="reference external" href="https://nix-cookbook.readthedocs.io/en/latest/index.html"&gt;Community Cookbook&lt;/a&gt; and the
+&lt;a class="reference external" href="https://github.com/nixos-users/wiki/wiki"&gt;nixos-users Wiki&lt;/a&gt;. The
+latter is editable by anyone with a GitHub account.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Nix has a thankful community.&lt;/p&gt;
+&lt;p&gt;Profpatsch did some quick analysis of IRC messages.
+Summary:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://twitter.com/Profpatsch/status/862303014601846784"&gt;1.9% contain the word &amp;quot;thank&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://twitter.com/grhmc/status/862304182002479105"&gt;2.4% last year&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jobs"&gt;
+&lt;h2&gt;Jobs&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://iohk.io/careers/#fk06gld"&gt;IOHK is hiring&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://circuithub.com/careers/haskellers#block-27f97af4532dee9c4127"&gt;CircuitHub is hiring (Haskell+NixOS)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="reading"&gt;
+&lt;h2&gt;Reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="http://matrix.ai/2017/03/13/intro-to-nix-channels-and-reproducible-nixos-environment/"&gt;Intro to Nix Channels and Reproducible NixOS Environment&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See also the &lt;a class="reference external" href="http://nix-cookbook.readthedocs.io/en/latest/faq.html#how-to-pin-nixpkgs-to-a-specific-commit-branch"&gt;Cookbook&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="http://grahamc.com/blog/timemachine-backups-linux-nixos"&gt;Use NixOS for macOS TimeMachine backups&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://ww.telent.net/2017/5/10/building_maven_packages_with_nix"&gt;Building Maven Packages with Nix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See also the &lt;a class="reference external" href="https://mailman.science.uu.nl/pipermail/nix-dev/2017-May/023677.html"&gt;mvn2nix mailing list discussion&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://adelbertc.github.io/posts/2017-04-03-nix-journey.html"&gt;My Journey into Nix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;lobste.rs &lt;a class="reference external" href="https://lobste.rs/s/nw8luo/my_journey_into_nix"&gt;discussion&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://distrowatch.com/weekly.php?issue=20170515"&gt;DistroWatch review of NixOS&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://medium.com/&amp;#64;GauthierPLM/falling-in-love-with-nixos-36db4e50171e"&gt;Falling in love with NixOS&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="tooling"&gt;
+&lt;h2&gt;Tooling&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://gist.github.com/aherrmann/51b56283f9ed5853747908fbab907316"&gt;pnix-shell.sh&lt;/a&gt;: creates gc-roots for all dependencies of a shell.nix.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://gist.github.com/olejorgenb/0c3bafa3c7b63d1a2f83ee13582de7b9/"&gt;nix-package-search&lt;/a&gt;: cached queries for &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;nix-env&lt;/span&gt; &lt;span class="pre"&gt;-qa&lt;/span&gt;&lt;/tt&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/spwhitt/nix-zsh-completions"&gt;nix-zsh-completions&lt;/a&gt;: ZSH completions for Nix and NixOS tools.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://mailman.science.uu.nl/pipermail/nix-dev/2017-May/023569.html"&gt;Auto install/run&lt;/a&gt;
+missing programs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="events-meetups"&gt;
+&lt;h2&gt;Events / Meetups&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://www.meetup.com/Munich-NixOS-Meetup/events/239835348/"&gt;NixOps Meetup&lt;/a&gt; May 26, Munich&lt;/p&gt;
+&lt;p&gt;Topics: the NixOps container backend. Possible hackathon afterwards.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="editor-s-corner"&gt;
+&lt;h2&gt;Editor's corner&lt;/h2&gt;
+&lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
+&lt;p&gt;You can help! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next
+edition or help with the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Fri, 19 May 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-05-19:/2017/08-not-all-those-who-wander-are-lost.html</guid></item><item><title>#07 - You have one hell of a Linux system here</title><link>http://weekly.nixos.org/2017/07-you-have-one-hell-of-a-linux-system-here.html</link><description>&lt;p&gt;A few months ago a proposal to define improvements process (&lt;a class="reference external" href="https://github.com/nixos/rfcs"&gt;nixos/rfcs&lt;/a&gt;) was
 announced.&lt;/p&gt;
 &lt;p&gt;While many contributions to Nix and NixOS related projects fits into GitHub
 pull requests model, doing a substantial change requires more involvement from
