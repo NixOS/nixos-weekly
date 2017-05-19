@@ -77,6 +77,8 @@ Reading
 
 - `DistroWatch review of NixOS <https://distrowatch.com/weekly.php?issue=20170515>`_
 
+- `Falling in love with NixOS <https://medium.com/@GauthierPLM/falling-in-love-with-nixos-36db4e50171e>`_
+
 
 Tooling
 =======
