@@ -81,3 +81,17 @@ DEFAULT_LANG = 'en'
 # Themes
 
 THEME = 'theme'
+
+
+# Jinja
+
+def group_articles_by_year(articles):
+    groupped = {}
+    for article in articles:
+        groupped.setdefault(article.date.year, [])
+        groupped[article.date.year].append(article)
+    return sorted(groupped.items(), key=lambda x: x[0], reverse=True)
+
+JINJA_FILTERS = {
+    'group_articles_by_year': group_articles_by_year,
+}
