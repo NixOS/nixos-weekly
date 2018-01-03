@@ -20,6 +20,15 @@ will be.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="tooling"&gt;
 &lt;h2&gt;Tooling&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.haskellforall.com/2017/11/compare-nix-derivations-using-nix-diff.html"&gt;nix-diff&lt;/a&gt; - A small utility for comparing Nix derivations&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/awakesecurity/nix-delegate"&gt;nix-delegate&lt;/a&gt; - A command-line utility that you can use to run a subcommand
+with distributed builds transiently enabled.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/awakesecurity/nix-deploy#readme"&gt;nix-deploy&lt;/a&gt; - Deploy software or an entire NixOS system configuration to
+another NixOS system.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/hedning/nix-bash-completions"&gt;nix-bash-completions&lt;/a&gt; - Bash completion for the Nix command line tools.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/spwhitt/nix-zsh-completions"&gt;nix-zsh-completions&lt;/a&gt; - ZSH completion for the Nix command line tools.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="events-meetups"&gt;
 &lt;h2&gt;Events / Meetups&lt;/h2&gt;
