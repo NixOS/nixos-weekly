@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2017-05-19T00:00:00+02:00</updated><entry><title>#08 - Not all those who wander are lost</title><link href="http://weekly.nixos.org/2017/08-not-all-those-who-wander-are-lost.html" rel="alternate"></link><published>2017-05-19T00:00:00+02:00</published><updated>2017-05-19T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-05-19:/2017/08-not-all-those-who-wander-are-lost.html</id><summary type="html">&lt;p&gt;Welcome to another edition of NixOS Weekly.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2018-01-08T00:00:00+01:00</updated><entry><title>#01 - Phoenixes burst into flame ...</title><link href="http://weekly.nixos.org/2018/01-phoenixes-burst-into-flame.html" rel="alternate"></link><published>2018-01-08T00:00:00+01:00</published><updated>2018-01-08T00:00:00+01:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2018-01-08:/2018/01-phoenixes-burst-into-flame.html</id><summary type="html">&lt;p&gt;The phoenix is a long-lived fiery bird that is present in many different
+mythologies from around the world. When a phoenix “dies”, it does so by
+combustion and is reborn of the ashes left behind. It rises from its own ashes,
+in the freshness of youth, to live through another …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The phoenix is a long-lived fiery bird that is present in many different
+mythologies from around the world. When a phoenix “dies”, it does so by
+combustion and is reborn of the ashes left behind. It rises from its own ashes,
+in the freshness of youth, to live through another cycle of years. So in
+a sense, it never truly dies, but regenerates itself and lives forever. Just
+like this weekly newsletter.&lt;/p&gt;
+&lt;p&gt;Welcome to the 2018 NixOS weekly newsletter. We are back and hope to produce
+more of them this year then we did last year. As always contributions are more
+then welcome. The more people help shape this newsletter the more accurate it
+will be.&lt;/p&gt;
+&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jobs"&gt;
+&lt;h2&gt;Jobs&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="reading"&gt;
+&lt;h2&gt;Reading&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="tooling"&gt;
+&lt;h2&gt;Tooling&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="events-meetups"&gt;
+&lt;h2&gt;Events / Meetups&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class="section" id="contribute"&gt;
+&lt;h2&gt;Contribute&lt;/h2&gt;
+&lt;p&gt;You can help shape NixOS Weekly Newsletter too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull
+request&lt;/a&gt; for the next edition or loot at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other
+improvements.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>#08 - Not all those who wander are lost</title><link href="http://weekly.nixos.org/2017/08-not-all-those-who-wander-are-lost.html" rel="alternate"></link><published>2017-05-19T00:00:00+02:00</published><updated>2017-05-19T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2017-05-19:/2017/08-not-all-those-who-wander-are-lost.html</id><summary type="html">&lt;p&gt;Welcome to another edition of NixOS Weekly.&lt;/p&gt;
 &lt;p&gt;Major announcements include NixCon 2017 and the old wiki migration.
 This edition adds a new Tooling section for possibly useful
 Nix-related tools in addition to News, Jobs, Reading, and Events.&lt;/p&gt;
