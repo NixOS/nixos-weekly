@@ -30,6 +30,25 @@ Reading
 Tooling
 =======
 
+- `nix-diff`_ - A small utility for comparing Nix derivations
+
+- `nix-delegate`_ - A command-line utility that you can use to run a subcommand
+  with distributed builds transiently enabled.
+
+- `nix-deploy`_ - Deploy software or an entire NixOS system configuration to
+  another NixOS system.
+
+- `nix-bash-completions`_ - Bash completion for the Nix command line tools. 
+
+- `nix-zsh-completions`_ - ZSH completion for the Nix command line tools.
+
+.. _`nix-diff`: http://www.haskellforall.com/2017/11/compare-nix-derivations-using-nix-diff.html
+.. _`nix-delegate`: https://github.com/awakesecurity/nix-delegate
+.. _`nix-deploy`: https://github.com/awakesecurity/nix-deploy#readme
+.. _`nix-bash-completions`: https://github.com/hedning/nix-bash-completions
+.. _`nix-zsh-completions`: https://github.com/spwhitt/nix-zsh-completions
+
+
 Events / Meetups
 ==================
 
