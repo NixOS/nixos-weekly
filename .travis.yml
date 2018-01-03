@@ -17,7 +17,7 @@ script:
     echo "SITEURL = 'http://weekly.nixos.org'" >> pelicanconf.py;
     echo "WITH_FUTURE_DATES = True" >> pelicanconf.py;
   fi
-- nix-build default.nix;
+- nix-build -Q default.nix;
 
 after_success:
 - env
