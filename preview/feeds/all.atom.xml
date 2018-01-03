@@ -8,10 +8,10 @@ combustion and is reborn of the ashes left behind. It rises from its own ashes,
 in the freshness of youth, to live through another cycle of years. So in
 a sense, it never truly dies, but regenerates itself and lives forever. Just
 like this weekly newsletter.&lt;/p&gt;
-&lt;p&gt;Welcome to the 2018 NixOS weekly newsletter. We are back and hope to produce
-more of them this year then we did last year. As always contributions are more
-then welcome. The more people help shape this newsletter the more accurate it
-will be.&lt;/p&gt;
+&lt;p&gt;Welcome to the 2018 NixOS “Weekly” newsletter.&lt;/p&gt;
+&lt;p&gt;We are back and hope to produce more of them this year then we did last year.
+As always contributions are more then welcome. The more people help shape this
+newsletter the more accurate it will be.&lt;/p&gt;
 &lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;/div&gt;
@@ -20,6 +20,17 @@ will be.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="reading"&gt;
 &lt;h2&gt;Reading&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.de/2017/12/bypassing-npms-content-addressable.html"&gt;Bypassing NPM's content addressable cache in Nix deployments and generating
+expressions from lock files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.de/2017/12/controlling-hydra-server-from-nodejs.html"&gt;Controlling a Hydra server from a Node.js application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://lastlog.de/blog/posts/nixcloud-webservices-tests.html"&gt;nixcloud-webservices-tests&lt;/a&gt; and &lt;a class="reference external" href="https://lastlog.de/blog/posts/nixcloud-webservices.html"&gt;nixcloud-webservices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.flyingcircus.io/2017/11/07/nixos-the-dos-and-donts-of-nixpkgs-overlays/"&gt;NixOS: The DOs and DON’Ts of nixpkgs overlays&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.de/2017/11/creating-custom-object-transformations.html"&gt;Creating custom object transformations with NiJS and PNDP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.flyingcircus.io/2017/10/04/announcing-fc-userscan/"&gt;Announcing fc-userscan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.de/2017/10/deploying-php-composer-packages-with.html"&gt;Deploying PHP composer packages with the Nix package manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://compiletoi.net/share-scripts-that-have-dependencies-with-nix/"&gt;Share scripts that have dependencies with Nix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="tooling"&gt;
 &lt;h2&gt;Tooling&lt;/h2&gt;
@@ -31,6 +42,8 @@ with distributed builds transiently enabled.&lt;/li&gt;
 another NixOS system.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/hedning/nix-bash-completions"&gt;nix-bash-completions&lt;/a&gt; - Bash completion for the Nix command line tools.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/spwhitt/nix-zsh-completions"&gt;nix-zsh-completions&lt;/a&gt; - ZSH completion for the Nix command line tools.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/flyingcircusio/userscan"&gt;fc-userscan&lt;/a&gt; - Scans directories containing manually compiled programs and
+registers them with the Nix garbage collector.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="events-meetups"&gt;
