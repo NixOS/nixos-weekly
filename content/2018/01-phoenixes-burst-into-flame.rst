@@ -86,7 +86,14 @@ Tooling
 
 
 Events / Meetups
-==================
+================
+
+- January, 09, 2018 - Berlin, Germany
+  
+  `Regular NixOS Meetup @c-base`_
+
+.. _`Regular NixOS Meetup @c-base`: https://www.meetup.com/Berlin-NixOS-Meetup/events/qwlrrnyxcbmb/
+
 
 Contribute
 ==========
