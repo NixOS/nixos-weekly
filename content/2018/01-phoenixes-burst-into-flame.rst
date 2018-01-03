@@ -1,7 +1,6 @@
-#09 - Phoenixes burst into flame ...
+#01 - Phoenixes burst into flame ...
 ####################################
 
-:status: draft
 :date: 2018-01-08
 :description: ... when it is time for them to die and are reborn from the
               ashes. (J.K. Rowling, Harry Potter and the Chamber of Secrets)
