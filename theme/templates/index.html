@@ -13,7 +13,7 @@
          rel="bookmark"
          title="Permalink to {{ article.title|striptags }}">
         <time class="published" datetime="{{ article.date.isoformat() }}">
-          {{ article.date.strftime('%b %d %Y') }}
+          {{ article.date.strftime('%b %d') }}
         </time>
         <span>{{ article.title }}</span>
       </a>
@@ -31,7 +31,7 @@
          rel="bookmark"
          title="Permalink to {{ article.title|striptags }}">
         <time class="published" datetime="{{ article.date.isoformat() }}">
-          {{ article.date.strftime('%b %d %Y') }}
+          {{ article.date.strftime('%b %d') }}
         </time>
         <span>{{ article.title }}</span>
       </a>
