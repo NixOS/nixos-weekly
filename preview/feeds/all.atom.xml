@@ -21,13 +21,20 @@ read a short &lt;a class="reference external" href="http://techblog.holidaycheck
 &lt;p&gt;Anybody knows where NixCon 2018 is going to be? :)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;NixOS 17.09 &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/commit/90412f5fbc5448387c086b4cc42b7bac9d7ca238"&gt;DOES have&lt;/a&gt; KAISER patches applied for the latest kernel.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="jobs"&gt;
 &lt;h2&gt;Jobs&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://iohk.io/careers/#op-144226-devops-engineer"&gt;IOHK is hiring SRE with Nix/Haskell knowledge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="reading"&gt;
 &lt;h2&gt;Reading&lt;/h2&gt;
 &lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://vaibhavsagar.com/blog/2018/01/03/static-haskell-nix/"&gt;Building Static Haskell Binaries with Nix&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.de/2017/12/bypassing-npms-content-addressable.html"&gt;Bypassing NPM's content addressable cache in Nix deployments and generating
 expressions from lock files&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.de/2017/12/controlling-hydra-server-from-nodejs.html"&gt;Controlling a Hydra server from a Node.js application&lt;/a&gt;&lt;/li&gt;
