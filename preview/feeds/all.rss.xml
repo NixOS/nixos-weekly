@@ -11,6 +11,13 @@ As always contributions are more then welcome. The more people help shape this
 newsletter the more accurate it will be.&lt;/p&gt;
 &lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;NixCon 2017 In Munich&lt;/p&gt;
+&lt;p&gt;If you haven't heard there was a NixOS conference. It was a blast. You can
+read a short &lt;a class="reference external" href="http://techblog.holidaycheck.com/post/2017/10/31/nixcon2017"&gt;overview of the talks&lt;/a&gt; or go ahead and &lt;a class="reference external" href="https://www.youtube.com/watch?v=6esAi2OxULo&amp;amp;list=PLgknCdxP89ReQzhfKwMYjLdwWsc7us8ns"&gt;watch them&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Anybody knows where NixCon 2018 is going to be? :)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="jobs"&gt;
 &lt;h2&gt;Jobs&lt;/h2&gt;
@@ -41,6 +48,14 @@ another NixOS system.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/spwhitt/nix-zsh-completions"&gt;nix-zsh-completions&lt;/a&gt; - ZSH completion for the Nix command line tools.&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://github.com/flyingcircusio/userscan"&gt;fc-userscan&lt;/a&gt; - Scans directories containing manually compiled programs and
 registers them with the Nix garbage collector.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/domenkozar/elm2nix"&gt;elm2nix&lt;/a&gt; - Convert Elm project into Nix expressions.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/input-output-hk/stack2nix"&gt;stack2nix&lt;/a&gt; - Generate nix expressions for Haskell projects.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.npmjs.com/package/node2nix"&gt;node2nix&lt;/a&gt; - New version providing initial support for NPM 5.x (that is
+included with Node.js 8.x)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/svanderburg/node-hydra-connector"&gt;node-hydra-connector&lt;/a&gt; - New API/tool to integrate Node.js applications with
+the Hydra continuous integration service and a CLI tool that can be used to
+control a server.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/svanderburg/composer2nix"&gt;composer2nix&lt;/a&gt; - Generate Nix expressions to build PHP composer packages.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="events-meetups"&gt;
