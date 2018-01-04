@@ -31,13 +31,24 @@ News
 
 .. _`overview of the talks`: http://techblog.holidaycheck.com/post/2017/10/31/nixcon2017
 .. _`watch them`: https://www.youtube.com/watch?v=6esAi2OxULo&list=PLgknCdxP89ReQzhfKwMYjLdwWsc7us8ns
+.. _`DOES have`: https://github.com/NixOS/nixpkgs/commit/90412f5fbc5448387c086b4cc42b7bac9d7ca238
+
+- NixOS 17.09 `DOES have`_ KAISER patches applied for the latest kernel.
 
 
 Jobs
 ====
 
+- `IOHK is hiring SRE with Nix/Haskell knowledge`_
+  
+
+.. _`IOHK is hiring SRE with Nix/Haskell knowledge`: https://iohk.io/careers/#op-144226-devops-engineer
+
+
 Reading
 =======
+
+- `Building Static Haskell Binaries with Nix`_
 
 - `Bypassing NPM's content addressable cache in Nix deployments and generating
   expressions from lock files`_
@@ -57,6 +68,7 @@ Reading
 - `Share scripts that have dependencies with Nix`_
 
 
+.. _`Building Static Haskell Binaries with Nix`: http://vaibhavsagar.com/blog/2018/01/03/static-haskell-nix/
 .. _`Bypassing NPM's content addressable cache in Nix deployments and generating expressions from lock files`: http://sandervanderburg.blogspot.de/2017/12/bypassing-npms-content-addressable.html
 .. _`Controlling a Hydra server from a Node.js application`: http://sandervanderburg.blogspot.de/2017/12/controlling-hydra-server-from-nodejs.html
 .. _`nixcloud-webservices-tests`: https://lastlog.de/blog/posts/nixcloud-webservices-tests.html
