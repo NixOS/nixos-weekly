@@ -29,11 +29,11 @@ News
 
   Anybody knows where NixCon 2018 is going to be? :)
 
+- `Meltdown and Spectre patches for NixOS`_
+
 .. _`overview of the talks`: http://techblog.holidaycheck.com/post/2017/10/31/nixcon2017
 .. _`watch them`: https://www.youtube.com/watch?v=6esAi2OxULo&list=PLgknCdxP89ReQzhfKwMYjLdwWsc7us8ns
-.. _`DOES have`: https://github.com/NixOS/nixpkgs/commit/90412f5fbc5448387c086b4cc42b7bac9d7ca238
-
-- NixOS 17.09 `DOES have`_ KAISER patches applied for the latest kernel.
+.. _`Meltdown and Spectre patches for NixOS`: https://github.com/NixOS/nixpkgs/issues/33414
 
 
 Jobs
@@ -112,6 +112,9 @@ Tooling
 
 - `composer2nix`_ - Generate Nix expressions to build PHP composer packages.
 
+- `mkShell`_ - For nix-shell-only scenarios, mkShell is a small convenience
+  function in nixpkgs.
+
 .. _`nix-diff`: http://www.haskellforall.com/2017/11/compare-nix-derivations-using-nix-diff.html
 .. _`nix-delegate`: https://github.com/awakesecurity/nix-delegate
 .. _`nix-deploy`: https://github.com/awakesecurity/nix-deploy#readme
@@ -123,6 +126,7 @@ Tooling
 .. _`node2nix`: https://www.npmjs.com/package/node2nix
 .. _`node-hydra-connector`: https://github.com/svanderburg/node-hydra-connector
 .. _`composer2nix`: https://github.com/svanderburg/composer2nix
+.. _`mkShell`: https://github.com/NixOS/nixpkgs/pull/30975
 
 
 
