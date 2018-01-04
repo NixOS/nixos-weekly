@@ -22,6 +22,16 @@ newsletter the more accurate it will be.
 News
 ====
 
+- NixCon 2017 In Munich
+
+  If you haven't heard there was a NixOS conference. It was a blast. You can
+  read a short `overview of the talks`_ or go ahead and `watch them`_.
+
+  Anybody knows where NixCon 2018 is going to be? :)
+
+.. _`overview of the talks`: http://techblog.holidaycheck.com/post/2017/10/31/nixcon2017
+.. _`watch them`: https://www.youtube.com/watch?v=6esAi2OxULo&list=PLgknCdxP89ReQzhfKwMYjLdwWsc7us8ns
+
 
 Jobs
 ====
@@ -77,12 +87,31 @@ Tooling
 - `fc-userscan`_ - Scans directories containing manually compiled programs and
   registers them with the Nix garbage collector.
 
+- `elm2nix`_ - Convert Elm project into Nix expressions. 
+
+- `stack2nix`_ - Generate nix expressions for Haskell projects.
+
+- `node2nix`_ - New version providing initial support for NPM 5.x (that is
+  included with Node.js 8.x)
+
+- `node-hydra-connector`_ - New API/tool to integrate Node.js applications with
+  the Hydra continuous integration service and a CLI tool that can be used to
+  control a server.
+
+- `composer2nix`_ - Generate Nix expressions to build PHP composer packages.
+
 .. _`nix-diff`: http://www.haskellforall.com/2017/11/compare-nix-derivations-using-nix-diff.html
 .. _`nix-delegate`: https://github.com/awakesecurity/nix-delegate
 .. _`nix-deploy`: https://github.com/awakesecurity/nix-deploy#readme
 .. _`nix-bash-completions`: https://github.com/hedning/nix-bash-completions
 .. _`nix-zsh-completions`: https://github.com/spwhitt/nix-zsh-completions
 .. _`fc-userscan`: https://github.com/flyingcircusio/userscan
+.. _`elm2nix`: https://github.com/domenkozar/elm2nix 
+.. _`stack2nix`: https://github.com/input-output-hk/stack2nix
+.. _`node2nix`: https://www.npmjs.com/package/node2nix
+.. _`node-hydra-connector`: https://github.com/svanderburg/node-hydra-connector
+.. _`composer2nix`: https://github.com/svanderburg/composer2nix
+
 
 
 Events / Meetups
