@@ -3,26 +3,42 @@
 
 <section id="content">
 
-{% block content_title %}
-  <h3>Past Issues</h3>
-{% endblock %}
 
+{% if drafts %}
+  <h2 class="articles-year">Drafts</h2>
   <ul id="articles-list">
-{% for article in articles_page.object_list %}
+{% for article in drafts %}
     <li>
       <a href="{{ SITEURL }}/{{ article.url }}"
          rel="bookmark"
          title="Permalink to {{ article.title|striptags }}">
         <time class="published" datetime="{{ article.date.isoformat() }}">
-          {{ article.date.strftime('%b %d %Y') }}
+          {{ article.date.strftime('%b %d') }}
         </time>
         <span>{{ article.title }}</span>
       </a>
     </li>
 {% endfor %}
   </ul>
+{% endif %}
 
-<!-- TODO: add yearly pagination -->
+{% for year, articles in articles_page.object_list | group_articles_by_year %}
+  <h2 class="articles-year">{{ year }}</h2>
+  <ul id="articles-list">
+{% for article in articles %}
+    <li>
+      <a href="{{ SITEURL }}/{{ article.url }}"
+         rel="bookmark"
+         title="Permalink to {{ article.title|striptags }}">
+        <time class="published" datetime="{{ article.date.isoformat() }}">
+          {{ article.date.strftime('%b %d') }}
+        </time>
+        <span>{{ article.title }}</span>
+      </a>
+    </li>
+{% endfor %}
+  </ul>
+{% endfor %}
 
 </section>
 

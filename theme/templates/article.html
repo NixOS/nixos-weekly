@@ -16,6 +16,9 @@
   <header>
     <h1>{{ article.title }}</h1>
     <blockquote><p>{{ article.description }}</p></blockquote>
+    {% if article.image %}
+      <img src="{{article.image }}" />
+    {% endif %}
   </header>
   {{ article.content }}
 </section>

@@ -1,9 +1,6 @@
-let
-  _pkgs = import <nixpkgs> {};
-in
-{ pkgs ? import (_pkgs.fetchFromGitHub (_pkgs.lib.importJSON ./nixpkgs.json)) {}
-, pkgs-python ? import (_pkgs.fetchFromGitHub (_pkgs.lib.importJSON ./nixpkgs-python.json)) { inherit pkgs; }
-#, pkgs-python ? import ./../nixpkgs-python { inherit pkgs; }
+let importFromGithub = import ./importFromGithub.nix; in
+{ pkgs ? importFromGithub ./nixpkgs.json {}
+, pkgs-python ? importFromGithub ./nixpkgs-python.json { inherit pkgs; }
 }:
 
 pkgs.stdenv.mkDerivation {

@@ -15,9 +15,11 @@ OUTPUT_PATH = 'output/'
 PATH = 'content/'
 SITENAME = 'NixOS Weekly'
 SITEURL = 'http://weekly.nixos.org'
-STATIC_PATHS = ['2017/images']
+STATIC_PATHS = ['2017/images','2018/images']
 WITH_FUTURE_DATES = False
 SLUGIFY_SOURCE = 'basename'
+#PLUGIN_PATHS = ['theme/plugins']
+#PLUGINS = ['featured_image']
 
 
 # URL settings
@@ -79,3 +81,17 @@ DEFAULT_LANG = 'en'
 # Themes
 
 THEME = 'theme'
+
+
+# Jinja
+
+def group_articles_by_year(articles):
+    groupped = {}
+    for article in articles:
+        groupped.setdefault(article.date.year, [])
+        groupped[article.date.year].append(article)
+    return sorted(groupped.items(), key=lambda x: x[0], reverse=True)
+
+JINJA_FILTERS = {
+    'group_articles_by_year': group_articles_by_year,
+}

@@ -50,6 +50,11 @@
     font-size: 1.7em;
 }
 
+body {
+    background-color: #363a42;
+    margin: 0;
+    padding: 0;
+}
 
 /* NEWS SECTION */
 
@@ -167,28 +172,43 @@
     margin-left: 1em;
 }
 
+#content {
+    background-color: white;
+    padding: 2em;
+}
+
+#articles-past-issues {
+    text-align: left;
+    margin-bottom: 1em;
+}
+
 #articles-list {
     margin-left: 0;
-    padding-left: 160px;
+    padding-left: 6em;
     list-style: none;
+}
+
+#articles-list li {
+    margin: 0.5em 0;
 }
 
 #articles-list li time {
     float: left;
-    margin-left: -160px;
+    margin-left: -6em;
     display: inline-block;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #333;
+    text-align: right;
+    width: 5em;
 }
 
 /* footer */
 
 body > footer {
-    padding: 3em 0;
+    padding: 0 0 3em 0;
     text-align: center;
     font-size: 1.4em;
-    border-top: 1px solid #e1e1e1;
 }
 
 body > footer ul {
@@ -203,7 +223,7 @@ body > footer li {
 }
 
 body > footer a{
-    color: #333;
+    color: white;
     font-family: 'Roboto', serif;
     text-decoration: none;
 }
