@@ -1,5 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Fri, 19 May 2017 00:00:00 +0200</lastBuildDate><item><title>#08 - Not all those who wander are lost</title><link>http://weekly.nixos.org/2017/08-not-all-those-who-wander-are-lost.html</link><description>&lt;p&gt;Welcome to another edition of NixOS Weekly.&lt;/p&gt;
+<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Mon, 08 Jan 2018 00:00:00 +0100</lastBuildDate><item><title>#01 - Phoenixes burst into flame ...</title><link>http://weekly.nixos.org/2018/01-phoenixes-burst-into-flame.html</link><description>&lt;p&gt;The phoenix is a long-lived fiery bird that is present in many different
+mythologies from around the world. When a phoenix “dies”, it does so by
+combustion and is reborn of the ashes left behind. It rises from its own ashes,
+in the freshness of youth, to live through another cycle of years. So in
+a sense, it never truly dies, but regenerates itself and lives forever. Just
+like this weekly newsletter.&lt;/p&gt;
+&lt;p&gt;Welcome to the 2018 NixOS “Weekly” newsletter.&lt;/p&gt;
+&lt;p&gt;We are back and hope to produce more of them this year then we did last year.
+As always contributions are more then welcome. The more people help shape this
+newsletter the more accurate it will be.&lt;/p&gt;
+&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;NixCon 2017 In Munich&lt;/p&gt;
+&lt;p&gt;If you haven't heard there was a NixOS conference. It was a blast. You can
+read a short &lt;a class="reference external" href="http://techblog.holidaycheck.com/post/2017/10/31/nixcon2017"&gt;overview of the talks&lt;/a&gt; or go ahead and &lt;a class="reference external" href="https://www.youtube.com/watch?v=6esAi2OxULo&amp;amp;list=PLgknCdxP89ReQzhfKwMYjLdwWsc7us8ns"&gt;watch them&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Anybody knows where NixCon 2018 is going to be? :)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/33414"&gt;Meltdown and Spectre patches for NixOS&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jobs"&gt;
+&lt;h2&gt;Jobs&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://iohk.io/careers/#op-144226-devops-engineer"&gt;IOHK is hiring SRE with Nix/Haskell knowledge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="reading"&gt;
+&lt;h2&gt;Reading&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://vaibhavsagar.com/blog/2018/01/03/static-haskell-nix/"&gt;Building Static Haskell Binaries with Nix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.de/2017/12/bypassing-npms-content-addressable.html"&gt;Bypassing NPM's content addressable cache in Nix deployments and generating
+expressions from lock files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.de/2017/12/controlling-hydra-server-from-nodejs.html"&gt;Controlling a Hydra server from a Node.js application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://lastlog.de/blog/posts/nixcloud-webservices-tests.html"&gt;nixcloud-webservices-tests&lt;/a&gt; and &lt;a class="reference external" href="https://lastlog.de/blog/posts/nixcloud-webservices.html"&gt;nixcloud-webservices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.flyingcircus.io/2017/11/07/nixos-the-dos-and-donts-of-nixpkgs-overlays/"&gt;NixOS: The DOs and DON’Ts of nixpkgs overlays&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.de/2017/11/creating-custom-object-transformations.html"&gt;Creating custom object transformations with NiJS and PNDP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://blog.flyingcircus.io/2017/10/04/announcing-fc-userscan/"&gt;Announcing fc-userscan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.de/2017/10/deploying-php-composer-packages-with.html"&gt;Deploying PHP composer packages with the Nix package manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://compiletoi.net/share-scripts-that-have-dependencies-with-nix/"&gt;Share scripts that have dependencies with Nix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="tooling"&gt;
+&lt;h2&gt;Tooling&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://www.haskellforall.com/2017/11/compare-nix-derivations-using-nix-diff.html"&gt;nix-diff&lt;/a&gt; - A small utility for comparing Nix derivations&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/awakesecurity/nix-delegate"&gt;nix-delegate&lt;/a&gt; - A command-line utility that you can use to run a subcommand
+with distributed builds transiently enabled.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/awakesecurity/nix-deploy#readme"&gt;nix-deploy&lt;/a&gt; - Deploy software or an entire NixOS system configuration to
+another NixOS system.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/hedning/nix-bash-completions"&gt;nix-bash-completions&lt;/a&gt; - Bash completion for the Nix command line tools.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/spwhitt/nix-zsh-completions"&gt;nix-zsh-completions&lt;/a&gt; - ZSH completion for the Nix command line tools.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/flyingcircusio/userscan"&gt;fc-userscan&lt;/a&gt; - Scans directories containing manually compiled programs and
+registers them with the Nix garbage collector.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/domenkozar/elm2nix"&gt;elm2nix&lt;/a&gt; - Convert Elm project into Nix expressions.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/input-output-hk/stack2nix"&gt;stack2nix&lt;/a&gt; - Generate nix expressions for Haskell projects.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.npmjs.com/package/node2nix"&gt;node2nix&lt;/a&gt; - New version providing initial support for NPM 5.x (that is
+included with Node.js 8.x)&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/svanderburg/node-hydra-connector"&gt;node-hydra-connector&lt;/a&gt; - New API/tool to integrate Node.js applications with
+the Hydra continuous integration service and a CLI tool that can be used to
+control a server.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/svanderburg/composer2nix"&gt;composer2nix&lt;/a&gt; - Generate Nix expressions to build PHP composer packages.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/30975"&gt;mkShell&lt;/a&gt; - For nix-shell-only scenarios, mkShell is a small convenience
+function in nixpkgs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="events-meetups"&gt;
+&lt;h2&gt;Events / Meetups&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;January, 09, 2018 - Berlin, Germany&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.meetup.com/Berlin-NixOS-Meetup/events/qwlrrnyxcbmb/"&gt;Regular NixOS Meetup &amp;#64;c-base&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="contribute"&gt;
+&lt;h2&gt;Contribute&lt;/h2&gt;
+&lt;p&gt;You can help shape NixOS Weekly Newsletter too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull
+request&lt;/a&gt; for the next edition or loot at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other
+improvements.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Mon, 08 Jan 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-01-08:/2018/01-phoenixes-burst-into-flame.html</guid></item><item><title>#08 - Not all those who wander are lost</title><link>http://weekly.nixos.org/2017/08-not-all-those-who-wander-are-lost.html</link><description>&lt;p&gt;Welcome to another edition of NixOS Weekly.&lt;/p&gt;
 &lt;p&gt;Major announcements include NixCon 2017 and the old wiki migration.
 This edition adds a new Tooling section for possibly useful
 Nix-related tools in addition to News, Jobs, Reading, and Events.&lt;/p&gt;
