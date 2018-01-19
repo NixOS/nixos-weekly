@@ -32,6 +32,7 @@ Ways to contribute:
   role is that blog post release happens on time and that we have an editor for
   next release. To become and editor all you have to do is volunteer.
 
+  See `EDITORS.rst <./EDITORS.rst>`_
 
 FAQ
 ---
