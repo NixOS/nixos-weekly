@@ -70,7 +70,7 @@ Creating a new post
 4. Ask for contributions.
 
    You can send an email to `nix-devel@googlegroups.com <mailto:nix-devel@googlegroups.com>`_.
-   There's a template in [./templates/CfC.rst](./templates/CfC.rst)
+   There's a template in `./CfC.rst <./CfC.rst>`_.
 
    Historically, the pull-request has been where contributions have
    been made.
