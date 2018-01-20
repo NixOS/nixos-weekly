@@ -64,7 +64,7 @@ Creating a new post
 
       nix-shell --command "python run.py
 
-   This will serve on `http://127.0.0.1:5500`_ and automatically
+   This will serve on `http://127.0.0.1:5500 <http://127.0.0.1:5500>`_ and automatically
    refresh on changes.
 
 4. Ask for contributions.
