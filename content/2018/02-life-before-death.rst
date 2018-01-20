@@ -122,15 +122,9 @@ Tooling
   
   A complete and Simple Nixos Mailserver 
 
-- `Stackage nixpkgs overlays`_
-
-  The folks at Typeable have published a nixpkgs overlay which adds
-  ``pkgs.haskell.packages.stackage`` to the package set.
-
 .. _`nixos/nixos-hardware`: https://github.com/NixOS/nixos-hardware
 .. _`@yegortimoshenko`: https://github.com/yegortimoshenko
 .. _`nixos-mailserver`: https://github.com/r-raymond/nixos-mailserver
-.. _`Stackage nixpkgs overlays`: https://blog.typeable.io/posts/2018-01-19-stackage-overlay.html
 
 
 .. -----------------------------------------------------------------------------
