@@ -78,10 +78,6 @@ leading by &lt;a class="reference external" href="https://github.com/yegortimosh
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/r-raymond/nixos-mailserver"&gt;nixos-mailserver&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;A complete and Simple Nixos Mailserver&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://blog.typeable.io/posts/2018-01-19-stackage-overlay.html"&gt;Stackage nixpkgs overlays&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The folks at Typeable have published a nixpkgs overlay which adds
-&lt;tt class="docutils literal"&gt;pkgs.haskell.packages.stackage&lt;/tt&gt; to the package set.&lt;/p&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
 &lt;!-- Events / Meetups - regular or one time announcements of FUTURE events --&gt;
