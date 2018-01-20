@@ -27,6 +27,12 @@ News
 .. .. _`with link`: http://example.com
 
 
+- `Google Summer of Code is coming up`_.
+
+  Current list of `GSoC 2018 project ideas`_.
+
+.. _`Google Summer of Code is coming up`: https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!msg/nix-devel/Kz0kZG8zobc/_ZQMdmiRAgAJ
+.. _`GSoC 2018 project ideas`: https://github.com/nix-community/google-summer-of-code/blob/master/2018/projects.md
 
 .. -----------------------------------------------------------------------------
 .. Jobs - list of available Nix related jobs
