@@ -29,9 +29,15 @@ News
 
 - Google Summer of Code is coming up
 
-...and looking for mentors. Please submit PRs at `GSoC 2018 project ideas`_.
+  ...and looking for mentors. Please submit PRs at `GSoC 2018 project ideas`_.
+
+
+- `Seeking maintainer for mvn2nix-maven-plugin`_
+
 
 .. _`GSoC 2018 project ideas`: https://github.com/nix-community/google-summer-of-code
+.. _`Seeking maintainer for mvn2nix-maven-plugin`: https://groups.google.com/forum/#!msg/nix-devel/yNpZaugzKiE/nrGP3by3AgAJ
+
 
 .. -----------------------------------------------------------------------------
 .. Jobs - list of available Nix related jobs
