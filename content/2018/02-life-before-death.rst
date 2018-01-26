@@ -92,6 +92,8 @@ Reading
 
 - `Provisioning a NixOS server from macOS`_ by `zw3rk`_
 
+- `Installing NixOS`_ at the Queensland Functional Programming Lab
+
 
 .. [#fnixwrt] described as "won't be big or professional like OpenWRT"
 .. _`nix-devel NixWRT discussion`: https://groups.google.com/forum/#!topic/nix-devel/zDQH7Ulotoc
@@ -106,6 +108,7 @@ Reading
 .. _`Introduction to NixOS`: https://stelligent.com/2017/07/11/introduction-to-nixos/
 .. _`Provisioning a NixOS server from macOS`: https://medium.com/@zw3rk/provisioning-a-nixos-server-from-macos-d36055afc4ad
 .. _`zw3rk`: https://medium.com/@zw3rk
+.. _`Installing NixOS`: https://qfpl.io/posts/installing-nixos/
 
 
 .. -----------------------------------------------------------------------------
