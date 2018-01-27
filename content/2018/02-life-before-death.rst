@@ -35,8 +35,12 @@ News
 - `Seeking maintainer for mvn2nix-maven-plugin`_
 
 
+- `NixOS Vagrant box updated to 17.09`_
+
+
 .. _`GSoC 2018 project ideas`: https://github.com/nix-community/google-summer-of-code
 .. _`Seeking maintainer for mvn2nix-maven-plugin`: https://groups.google.com/forum/#!msg/nix-devel/yNpZaugzKiE/nrGP3by3AgAJ
+.. _`NixOS Vagrant box updated to 17.09`: https://app.vagrantup.com/nixos
 
 
 .. -----------------------------------------------------------------------------
