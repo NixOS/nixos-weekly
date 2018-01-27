@@ -92,7 +92,7 @@ Reading
 
 - `Provisioning a NixOS server from macOS`_ by `zw3rk`_
 
-- `Installing NixOS`_ at the Queensland Functional Programming Lab
+- `Installing NixOS`_ by Andrew McCluskey
 
 
 .. [#fnixwrt] described as "won't be big or professional like OpenWRT"
