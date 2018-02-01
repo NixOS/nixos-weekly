@@ -50,14 +50,14 @@ after_success:
     mv tmp-preview gh-pages/preview;
     mv tmp-CNAME gh-pages/CNAME;
     cd gh-pages;
-    touch .nojekyll
+    touch .nojekyll;
     git add .;
     if [[ -n `git diff --cached --exit-code` ]]; then
       echo "= git status =============================================";
       git status;
       echo "= git commit =============================================";
-      git config user.name 'NixOS Weekly Robot';
-      git config user.email 'weekly@nixos.org';
+      git config user.name "NixOS Weekly Robot";
+      git config user.email "weekly@nixos.org";
       git commit -a -m "Release of $TRAVIS_TAG (commit '$TRAVIS_COMMIT') built by Travis-CI \\#$((TRAVIS_JOB_ID - 1))";
       git push git@github.com:NixOS/nixos-weekly.git HEAD:gh-pages;
     else
