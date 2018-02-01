@@ -3,55 +3,23 @@
 &lt;!-- (OPTIONAL) Introduction text, as an editor this is your space to express
 opinions --&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
-&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
-&lt;!-- News - Special items that happen in community --&gt;
-&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
-&lt;div class="section" id="news"&gt;
-&lt;h2&gt;News&lt;/h2&gt;
-&lt;!-- - Example news item title `with link`_ --&gt;
-&lt;!--  --&gt;
-&lt;!-- News item description (optional) --&gt;
-&lt;!--  --&gt;
-&lt;!-- .. _`with link`: http://example.com --&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p class="first"&gt;Google Summer of Code is coming up&lt;/p&gt;
-&lt;p&gt;...and looking for mentors. Please submit PRs at &lt;a class="reference external" href="https://github.com/nix-community/google-summer-of-code"&gt;GSoC 2018 project ideas&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://groups.google.com/forum/#!msg/nix-devel/yNpZaugzKiE/nrGP3by3AgAJ"&gt;Seeking maintainer for mvn2nix-maven-plugin&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://app.vagrantup.com/nixos"&gt;NixOS Vagrant box updated to 17.09&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/nix/commit/d4dcffd64349bb52ad5f1b184bee5cc7c2be73b4"&gt;Pure evaluation mode added to Nix unstable&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
-&lt;!-- Jobs - list of available Nix related jobs --&gt;
-&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
-&lt;/div&gt;
-&lt;div class="section" id="jobs"&gt;
-&lt;h2&gt;Jobs&lt;/h2&gt;
-&lt;!-- - `Example job posting`_ --&gt;
-&lt;!--  --&gt;
-&lt;!-- .. _`Example job posting`: http://example.com --&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://gist.github.com/NaeosPsy/155f76a25e0c93eb067a0f4d86dd8cfc"&gt;Serokell is hiring Nix DevOps Engineers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
-&lt;!-- Reading - List of blog posts, collected (hopefully) via planet.nixos.org --&gt;
-&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
-&lt;/div&gt;
-&lt;div class="section" id="reading"&gt;
-&lt;h2&gt;Reading&lt;/h2&gt;
-&lt;!-- - `Example blog post title`_ --&gt;
-&lt;!--  --&gt;
-&lt;!-- optional extra description --&gt;
-&lt;!--  --&gt;
-&lt;!-- .. _`blog post title`: http://example.com --&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;Danial Barlow is developing …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
+&lt;p&gt;Welcome to another edition of NixOS &amp;quot;Weekly&amp;quot; News -- we're still
+working on that weekly bit and I've half a mind to amend the quote to
+add &amp;quot;monthly before weekly&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Let me start by addressing everyone who helped put this edition
+together: By creating the content and helping collect items, you …&lt;/p&gt;</summary><content type="html">&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
 &lt;!-- (OPTIONAL) Introduction text, as an editor this is your space to express
 opinions --&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
+&lt;p&gt;Welcome to another edition of NixOS &amp;quot;Weekly&amp;quot; News -- we're still
+working on that weekly bit and I've half a mind to amend the quote to
+add &amp;quot;monthly before weekly&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Let me start by addressing everyone who helped put this edition
+together: By creating the content and helping collect items, you make
+the newsletter possible. Thank you.&lt;/p&gt;
+&lt;p&gt;Contributions for future editions are more than welcome.
+One way to help is by editing a release; we've added an &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/blob/master/EDITORS.rst"&gt;Editor's Guide&lt;/a&gt; to help you.&lt;/p&gt;
+&lt;p&gt;There are some exciting things happening in the community, and I hope you'll agree.&lt;/p&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
 &lt;!-- News - Special items that happen in community --&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
@@ -63,6 +31,10 @@ opinions --&gt;
 &lt;!--  --&gt;
 &lt;!-- .. _`with link`: http://example.com --&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/nix/issues/1806#issuecomment-362062346"&gt;Nix 2.0 is coming&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This includes &lt;a class="reference external" href="https://github.com/NixOS/nix/commit/c287d7312103bae5e154c0c4dd493371a22ea207"&gt;renaming Nix 1.12 to 2.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Relevant are Eelco's &lt;a class="reference external" href="https://schedule.nixcon2017.org//system/event_attachments/attachments/000/000/004/original/talk.pdf?1509289391"&gt;slides fron NixCon&lt;/a&gt; and &lt;a class="reference external" href="https://www.youtube.com/watch?v=XVIKScU7Uf4&amp;amp;index=4&amp;amp;list=PLgknCdxP89ReQzhfKwMYjLdwWsc7us8ns"&gt;associated talk&lt;/a&gt; about the changes.&lt;/p&gt;
+&lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;Google Summer of Code is coming up&lt;/p&gt;
 &lt;p&gt;...and looking for mentors. Please submit PRs at &lt;a class="reference external" href="https://github.com/nix-community/google-summer-of-code"&gt;GSoC 2018 project ideas&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
@@ -104,6 +76,7 @@ opinions --&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://blog.typeable.io/posts/2018-01-19-stackage-overlay.html"&gt;Stackage nixpkgs overlays&lt;/a&gt; by Dmitry Bushev&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.com.es/2018/01/syntax-highlighting-nix-expressions-in.html"&gt;Syntax highlighting Nix expressions in mcedit&lt;/a&gt; by Sander van der Burg&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.com/2018/01/diagnosing-problems-and-running.html"&gt;Diagnosing problems and running maintenance tasks in a network with services deployed by Disnix&lt;/a&gt; by Sander van der Burg&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://nathan.gs/2018/01/09/onedrive-on-nixos-using-docker/"&gt;OneDrive on NixOS using Docker&lt;/a&gt; by  Nathan Bijnens&lt;/li&gt;
 &lt;li&gt;(French) &lt;a class="reference external" href="https://linuxfr.org/users/nokomprendo-3/journaux/le-style-fonctionnel-en-videos-nix-nixos-haskell"&gt;Journal le &amp;quot;style fonctionnel&amp;quot; en vidéos (Nix, NixOS, Haskell)&lt;/a&gt;
 (&lt;a class="reference external" href="https://www.youtube.com/watch?v=i6s-G_Hh3s4&amp;amp;list=PLe8vnuC2T7iGE3w_d-MCHw5mLzRAMiCM9"&gt;Video&lt;/a&gt;, &lt;a class="reference external" href="https://github.com/nokomprendo/tuto_fonctionnel"&gt;Code&lt;/a&gt;) by nokomprendo&lt;/li&gt;
@@ -144,9 +117,8 @@ leading by &lt;a class="reference external" href="https://github.com/yegortimosh
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
 &lt;!-- Events / Meetups - regular or one time announcements of FUTURE events --&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
-&lt;/div&gt;
-&lt;div class="section" id="events-meetups"&gt;
-&lt;h2&gt;Events / Meetups&lt;/h2&gt;
+&lt;!-- Events / Meetups
+================== --&gt;
 &lt;!-- - Example event title `with link` --&gt;
 &lt;!--  --&gt;
 &lt;!-- Event description --&gt;
