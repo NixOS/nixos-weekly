@@ -27,6 +27,12 @@ News
 .. .. _`with link`: http://example.com
 
 
+- `Nix 2.0 is coming`_
+
+  This includes `renaming Nix 1.12 to 2.0`_
+
+  Relevant are Eelco's `slides fron NixCon`_ and `associated talk`_ about the changes.
+
 - Google Summer of Code is coming up
 
   ...and looking for mentors. Please submit PRs at `GSoC 2018 project ideas`_.
@@ -44,7 +50,10 @@ News
 .. _`Seeking maintainer for mvn2nix-maven-plugin`: https://groups.google.com/forum/#!msg/nix-devel/yNpZaugzKiE/nrGP3by3AgAJ
 .. _`NixOS Vagrant box updated to 17.09`: https://app.vagrantup.com/nixos
 .. _`Pure evaluation mode added to Nix unstable`: https://github.com/NixOS/nix/commit/d4dcffd64349bb52ad5f1b184bee5cc7c2be73b4
-
+.. _`Nix 2.0 is coming`: https://github.com/NixOS/nix/issues/1806#issuecomment-362062346
+.. _`renaming Nix 1.12 to 2.0`: https://github.com/NixOS/nix/commit/c287d7312103bae5e154c0c4dd493371a22ea207
+.. _`slides fron NixCon`: https://schedule.nixcon2017.org//system/event_attachments/attachments/000/000/004/original/talk.pdf?1509289391
+.. _`associated talk`: https://www.youtube.com/watch?v=XVIKScU7Uf4&index=4&list=PLgknCdxP89ReQzhfKwMYjLdwWsc7us8ns
 
 .. -----------------------------------------------------------------------------
 .. Jobs - list of available Nix related jobs
