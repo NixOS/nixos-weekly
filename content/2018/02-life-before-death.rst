@@ -97,6 +97,8 @@ Reading
 
 - `Syntax highlighting Nix expressions in mcedit`_ by Sander van der Burg
 
+- `Diagnosing problems and running maintenance tasks in a network with services deployed by Disnix`_ by Sander van der Burg
+
 - `OneDrive on NixOS using Docker`_ by  Nathan Bijnens
 
 - (French) `Journal le "style fonctionnel" en vidéos (Nix, NixOS, Haskell)`_
@@ -125,6 +127,7 @@ Reading
 .. _`Provisioning a NixOS server from macOS`: https://medium.com/@zw3rk/provisioning-a-nixos-server-from-macos-d36055afc4ad
 .. _`zw3rk`: https://medium.com/@zw3rk
 .. _`Installing NixOS`: https://qfpl.io/posts/installing-nixos/
+.. _`Diagnosing problems and running maintenance tasks in a network with services deployed by Disnix`: http://sandervanderburg.blogspot.com/2018/01/diagnosing-problems-and-running.html
 
 
 .. -----------------------------------------------------------------------------
