@@ -75,7 +75,7 @@ Creating a new post
    Historically, the pull-request has been where contributions have
    been made.
 
-5. Publish by merging into ``production``.
+5. Publish by merging into ``production`` using a merge commit.
 
 6. Send the email. FIXME: not sure how yet, more to come
 
