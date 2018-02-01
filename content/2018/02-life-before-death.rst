@@ -11,6 +11,21 @@
    opinions
 .. -----------------------------------------------------------------------------
 
+Welcome to another edition of NixOS "Weekly" News (we're still working
+on that weekly bit).
+
+Let me start by addressing everyone who helped put this edition
+together: By creating the content and helping collect items, you make
+the newsletter possible. Thank you.
+
+Contributions for future editions are more than welcome.
+One way to help is by editing a release; we've added an `Editor's Guide`_ to help you.
+
+There are some exciting things happening in the community, and I hope you'll agree.
+
+
+
+.. _`Editor's Guide`: https://github.com/NixOS/nixos-weekly/blob/master/EDITORS.rst
 
 
 .. -----------------------------------------------------------------------------
