@@ -11,8 +11,9 @@
    opinions
 .. -----------------------------------------------------------------------------
 
-Welcome to another edition of NixOS "Weekly" News (we're still working
-on that weekly bit).
+Welcome to another edition of NixOS "Weekly" News -- we're still
+working on that weekly bit and I've half a mind to amend the quote to
+add "monthly before weekly".
 
 Let me start by addressing everyone who helped put this edition
 together: By creating the content and helping collect items, you make
@@ -182,8 +183,9 @@ Tooling
 .. Events / Meetups - regular or one time announcements of FUTURE events
 .. -----------------------------------------------------------------------------
 
-Events / Meetups
-==================
+..
+   Events / Meetups
+   ==================
 
 .. - Example event title `with link`
 ..
