@@ -72,7 +72,10 @@ Reading
 
 - `Deploying systems with circular dependencies using Disnix`_ by Sander van der Burg
 
+- `Haskell developer experience in NixOS`_ by Roman Kuznetsov
+
 .. _`Deploying systems with circular dependencies using Disnix`: http://sandervanderburg.blogspot.com/2018/02/deploying-systems-with-circular.html
+.. _`Haskell developer experience in NixOS`: http://www.kuznero.com/posts/nixos/haskell-devexp-in-nixos.html
 
 .. -----------------------------------------------------------------------------
 .. Tooling - List of useful tools (or their updates)
