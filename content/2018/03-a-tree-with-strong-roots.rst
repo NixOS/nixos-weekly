@@ -74,8 +74,11 @@ Reading
 
 - `Haskell developer experience in NixOS`_ by Roman Kuznetsov
 
+- `XMonad and Taffybar on NixOS using Stack`_ by Dennis Gosnell
+
 .. _`Deploying systems with circular dependencies using Disnix`: http://sandervanderburg.blogspot.com/2018/02/deploying-systems-with-circular.html
 .. _`Haskell developer experience in NixOS`: http://www.kuznero.com/posts/nixos/haskell-devexp-in-nixos.html
+.. _`XMonad and Taffybar on NixOS using Stack`: https://functor.tokyo/blog/2018-02-16-setup-xmonad-on-nixos
 
 .. -----------------------------------------------------------------------------
 .. Tooling - List of useful tools (or their updates)
