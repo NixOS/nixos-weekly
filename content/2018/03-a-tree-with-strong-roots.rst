@@ -36,10 +36,13 @@ News
   - `container workgroup`_: "building (minimal) OCI containers from the nixpkgs ecosystem."
   - `router workgroup`_: running NixOS on your router.
 
+- `Google Summer of Code 2018 proposals were not accepted`_
+
 .. _`Nix has learned to load plugins`:  https://github.com/NixOS/nix/pull/1854
 .. _`Nix workgroups area`: https://nixos.wiki/wiki/Workgroup
 .. _`container workgroup`: https://nixos.wiki/wiki/Workgroup:Container
 .. _`router workgroup`: https://nixos.wiki/wiki/Workgroup:Router
+.. _`Google Summer of Code 2018 proposals were not accepted`: https://groups.google.com/forum/#!msg/nix-devel/Kz0kZG8zobc/Mqt-MNJbBAAJ
 
 .. -----------------------------------------------------------------------------
 .. Jobs - list of available Nix related jobs
