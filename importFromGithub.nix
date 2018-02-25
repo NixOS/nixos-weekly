@@ -22,7 +22,7 @@ let
       # In Nix 1.12, we can just give a `sha256` to `builtins.fetchTarball`.
       thenValue = (
         builtins.fetchTarball {
-          url = "https://github.com/${owner}/${url}/archive/${rev}.tar.gz";
+          url = "https://github.com/${owner}/${repo}/archive/${rev}.tar.gz";
           inherit sha256;
         });
     
