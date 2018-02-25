@@ -38,11 +38,21 @@ News
 
 - `Google Summer of Code 2018 proposals were not accepted`_
 
+- `Tracking RISC-V support in the Nix world`_
+
+  Note the followup message linking the publicly visible boards:
+
+  - `RISC-V support for nix`_
+  - `RISC-V support for nixpkgs`_
+
 .. _`Nix has learned to load plugins`:  https://github.com/NixOS/nix/pull/1854
 .. _`Nix workgroups area`: https://nixos.wiki/wiki/Workgroup
 .. _`container workgroup`: https://nixos.wiki/wiki/Workgroup:Container
 .. _`router workgroup`: https://nixos.wiki/wiki/Workgroup:Router
 .. _`Google Summer of Code 2018 proposals were not accepted`: https://groups.google.com/forum/#!msg/nix-devel/Kz0kZG8zobc/Mqt-MNJbBAAJ
+.. _`Tracking RISC-V support in the Nix world`: https://twitter.com/shlevy/status/965019194759761920
+.. _`RISC-V support for nix`: https://github.com/NixOS/nix/projects/1
+.. _`RISC-V support for nixpkgs`: https://github.com/NixOS/nixpkgs/projects/15
 
 .. -----------------------------------------------------------------------------
 .. Jobs - list of available Nix related jobs
