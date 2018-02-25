@@ -90,6 +90,7 @@ Events / Meetups
 .. TODO: this should be part of the article template, but we need to change old
          articles once this is moved into article template
 .. -----------------------------------------------------------------------------
+
 Contribute to NixOS Weekly Newsletter
 =====================================
 
