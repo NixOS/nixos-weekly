@@ -31,6 +31,11 @@ News
   - `discussion on lobste.rs`_
   - `discussion on hacker news`_
 
+- `NixOS 18.03 release approaching`_
+
+  `Mog as set up`_ an `unofficial redbubble store`_ for various NixOS
+  items (T-shirts, stickers, banners).
+
 - `Nix has learned to load plugins`_
 
 - `Nix workgroups area`_
@@ -64,8 +69,9 @@ News
 .. _`Nix 2.0 has been released`: https://nixos.org/nix/manual/#sec-relnotes
 .. _`discussion on lobste.rs`: https://lobste.rs/s/nodrls/nix_2_0_released
 .. _`discussion on hacker news`: https://news.ycombinator.com/item?id=16442893
-
-
+.. _`NixOS 18.03 release approaching`: https://groups.google.com/forum/#!msg/nix-devel/9sps8NLdwIY/etmZL4J6AAAJ
+.. _`Mog as set up`: https://groups.google.com/d/msg/nix-devel/gj04aGKQL6w/NNL8SZy1AAAJ
+.. _`unofficial redbubble store`: https://www.redbubble.com/people/mogorman/portfolio
 .. -----------------------------------------------------------------------------
 .. Jobs - list of available Nix related jobs
 .. -----------------------------------------------------------------------------
