@@ -26,6 +26,11 @@ News
 .. 
 .. .. _`with link`: http://example.com
 
+- `Nix 2.0 has been released`_
+
+  - `discussion on lobste.rs`_
+  - `discussion on hacker news`_
+
 - `Nix has learned to load plugins`_
 
 - `Nix workgroups area`_
@@ -56,6 +61,10 @@ News
 .. _`RISC-V support for nix`: https://github.com/NixOS/nix/projects/1
 .. _`RISC-V support for nixpkgs`: https://github.com/NixOS/nixpkgs/projects/15
 .. _`RFC 0023: Support musl libc`: https://github.com/NixOS/rfcs/pull/23
+.. _`Nix 2.0 has been released`: https://nixos.org/nix/manual/#sec-relnotes
+.. _`discussion on lobste.rs`: https://lobste.rs/s/nodrls/nix_2_0_released
+.. _`discussion on hacker news`: https://news.ycombinator.com/item?id=16442893
+
 
 .. -----------------------------------------------------------------------------
 .. Jobs - list of available Nix related jobs
