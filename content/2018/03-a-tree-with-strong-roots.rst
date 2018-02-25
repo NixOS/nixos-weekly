@@ -95,8 +95,16 @@ Jobs
 
 - `Software Engineer with DevOps and Continuous Delivery Experience at Conference Compass`_
 
+- `Serokell is hiring for several positions`_
+
+  - `Site Reliability Engineer (IT Operations Engineer)`_
+  - `Head of IT Operations`_
+
 .. _`Nix/DevOps position with Tweag I/O`: https://groups.google.com/forum/#!topic/nix-devel/YvaXKCAInZ0
 .. _`Software Engineer with DevOps and Continuous Delivery Experience at Conference Compass`: https://groups.google.com/forum/#!topic/nix-devel/o0iCtlVVZZ0
+.. _`Serokell is hiring for several positions`: https://gist.github.com/NaeosPsy/155f76a25e0c93eb067a0f4d86dd8cfc
+.. _`Site Reliability Engineer (IT Operations Engineer)`: https://gist.github.com/NaeosPsy/155f76a25e0c93eb067a0f4d86dd8cfc#site-reliability-engineer-it-operations-engineer
+.. _`Head of IT Operations`: https://gist.github.com/NaeosPsy/155f76a25e0c93eb067a0f4d86dd8cfc#head-of-it-operations
 
 .. -----------------------------------------------------------------------------
 .. Reading - List of blog posts, collected (hopefully) via planet.nixos.org
