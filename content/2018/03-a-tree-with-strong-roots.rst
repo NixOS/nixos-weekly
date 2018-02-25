@@ -57,6 +57,11 @@ News
 
 - `RFC 0023: Support musl libc`_
 
+- `Patreon to support the NixOS OfBorg infrastructure`_
+
+  This supports `@grhmc`_\'s work on the OfBorg tooling.
+
+
 .. _`Nix has learned to load plugins`:  https://github.com/NixOS/nix/pull/1854
 .. _`Nix workgroups area`: https://nixos.wiki/wiki/Workgroup
 .. _`container workgroup`: https://nixos.wiki/wiki/Workgroup:Container
@@ -72,6 +77,9 @@ News
 .. _`NixOS 18.03 release approaching`: https://groups.google.com/forum/#!msg/nix-devel/9sps8NLdwIY/etmZL4J6AAAJ
 .. _`Mog as set up`: https://groups.google.com/d/msg/nix-devel/gj04aGKQL6w/NNL8SZy1AAAJ
 .. _`unofficial redbubble store`: https://www.redbubble.com/people/mogorman/portfolio
+.. _`Patreon to support the NixOS OfBorg infrastructure`: https://www.patreon.com/ofborg/overview
+.. _`@grhmc`: https://twitter.com/grhmc/status/967531653387169792
+
 .. -----------------------------------------------------------------------------
 .. Jobs - list of available Nix related jobs
 .. -----------------------------------------------------------------------------
