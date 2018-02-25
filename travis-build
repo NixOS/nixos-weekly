@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+docker run \
+       -e HOST_USER_ID=$(id -u $USER) \
+       -e HOST_GROUP_ID=$(id -g $USER) \
+       -v $PWD:/mnt \
+       -w /mnt \
+       nixos/nix:1.11.14 \
+       ./nix-build-docker
