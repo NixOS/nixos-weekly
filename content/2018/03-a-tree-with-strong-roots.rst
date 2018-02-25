@@ -26,8 +26,9 @@ News
 .. 
 .. .. _`with link`: http://example.com
 
+- `Nix has learned to load plugins`_
 
-
+.. _`Nix has learned to load plugins`:  https://github.com/NixOS/nix/pull/1854
 .. -----------------------------------------------------------------------------
 .. Jobs - list of available Nix related jobs
 .. -----------------------------------------------------------------------------
