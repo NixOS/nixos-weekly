@@ -54,7 +54,9 @@ Reading
 .. 
 .. .. _`blog post title`: http://example.com
 
+- `Deploying systems with circular dependencies using Disnix`_ by Sander van der Burg
 
+.. _`Deploying systems with circular dependencies using Disnix`: http://sandervanderburg.blogspot.com/2018/02/deploying-systems-with-circular.html
 
 .. -----------------------------------------------------------------------------
 .. Tooling - List of useful tools (or their updates)
