@@ -156,10 +156,12 @@ Tooling
 
 - `groking-hydra`_
 
+- `dhall-build`_
 
 .. _`nix-update for Emacs`: https://github.com/jwiegley/nix-update-el
 .. _`simple-hydra`: https://github.com/ElvishJerricco/simple-hydra
 .. _`groking-hydra`: https://github.com/gilligan/groking-hydra
+.. _`dhall-build`: https://github.com/ocharles/dhall-build
 
 .. -----------------------------------------------------------------------------
 .. Events / Meetups - regular or one time announcements of FUTURE events
