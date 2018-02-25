@@ -65,7 +65,9 @@ Jobs
 .. 
 .. .. _`Example job posting`: http://example.com
 
+- `Nix/DevOps position with Tweag I/O`_
 
+.. _`Nix/DevOps position with Tweag I/O`: https://groups.google.com/forum/#!topic/nix-devel/YvaXKCAInZ0
 
 .. -----------------------------------------------------------------------------
 .. Reading - List of blog posts, collected (hopefully) via planet.nixos.org
