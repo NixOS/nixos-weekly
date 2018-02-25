@@ -78,9 +78,12 @@ Tooling
 
 - `simple-hydra`_
 
+- `groking-hydra`_
+
 
 .. _`nix-update for Emacs`: https://github.com/jwiegley/nix-update-el
 .. _`simple-hydra`: https://github.com/ElvishJerricco/simple-hydra
+.. _`groking-hydra`: https://github.com/gilligan/groking-hydra
 
 .. -----------------------------------------------------------------------------
 .. Events / Meetups - regular or one time announcements of FUTURE events
