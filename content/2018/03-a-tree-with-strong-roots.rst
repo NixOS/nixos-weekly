@@ -71,6 +71,10 @@ Tooling
 .. .. _`tool name with a link to it`: http://example.com
 
 
+- `nix-update for Emacs`_
+
+
+.. _`nix-update for Emacs`: https://github.com/jwiegley/nix-update-el
 
 .. -----------------------------------------------------------------------------
 .. Events / Meetups - regular or one time announcements of FUTURE events
