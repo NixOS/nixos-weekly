@@ -28,7 +28,19 @@ News
 
 - `Nix has learned to load plugins`_
 
+- `Nix workgroups area`_
+
+  Workgroups are being created to facilitate working on components of
+  the Nix ecosystems. As of this writing there exist:
+
+  - `container workgroup`_: "building (minimal) OCI containers from the nixpkgs ecosystem."
+  - `router workgroup`_: running NixOS on your router.
+
 .. _`Nix has learned to load plugins`:  https://github.com/NixOS/nix/pull/1854
+.. _`Nix workgroups area`: https://nixos.wiki/wiki/Workgroup
+.. _`container workgroup`: https://nixos.wiki/wiki/Workgroup:Container
+.. _`router workgroup`: https://nixos.wiki/wiki/Workgroup:Router
+
 .. -----------------------------------------------------------------------------
 .. Jobs - list of available Nix related jobs
 .. -----------------------------------------------------------------------------
