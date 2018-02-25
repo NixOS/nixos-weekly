@@ -119,6 +119,19 @@ Events / Meetups
 .. 
 .. .. _`with link`: http://example.com
 
+- `ComcastLabs Connect: Functional Programming`_
+
+  - **When**: March 9
+  - **Where**: Philadelphia PA, USA
+  - **What**: Among other functional programming topics, Susan Potter
+    (`@SusanPotter`_) is speaking on *Functional Operations:
+    Packaging, system/configuration building, and testing
+    infrastructure with [Nix] lambdas*
+
+
+.. _`ComcastLabs Connect: Functional Programming`: https://comcastlabsconnectfp.comcast.com/
+.. _`@SusanPotter`: https://twitter.com/SusanPotter/status/964915725700825088
+
 
 .. -----------------------------------------------------------------------------
 .. TODO: this should be part of the article template, but we need to change old
