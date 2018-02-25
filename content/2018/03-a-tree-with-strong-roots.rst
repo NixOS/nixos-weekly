@@ -117,11 +117,14 @@ Reading
 
 - `XMonad and Taffybar on NixOS using Stack`_ by Dennis Gosnell
 
+- `Install VirtualBox on NixOS`_ by Dennis Gosnell
+
 - `Parity as a service on NixOS`_ by Alexander Krupenkin
 
 .. _`Deploying systems with circular dependencies using Disnix`: http://sandervanderburg.blogspot.com/2018/02/deploying-systems-with-circular.html
 .. _`Haskell developer experience in NixOS`: http://www.kuznero.com/posts/nixos/haskell-devexp-in-nixos.html
 .. _`XMonad and Taffybar on NixOS using Stack`: https://functor.tokyo/blog/2018-02-16-setup-xmonad-on-nixos
+.. _`Install VirtualBox on NixOS`: https://functor.tokyo/blog/2018-02-24-virtualbox-on-nixos
 .. _`Parity as a service on NixOS`: https://blog.aira.life/parity-as-a-service-on-nixos-3c0236ffe0a7
 
 .. -----------------------------------------------------------------------------
