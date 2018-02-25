@@ -70,7 +70,10 @@ Jobs
 
 - `Nix/DevOps position with Tweag I/O`_
 
+- `Software Engineer with DevOps and Continuous Delivery Experience at Conference Compass`_
+
 .. _`Nix/DevOps position with Tweag I/O`: https://groups.google.com/forum/#!topic/nix-devel/YvaXKCAInZ0
+.. _`Software Engineer with DevOps and Continuous Delivery Experience at Conference Compass`: https://groups.google.com/forum/#!topic/nix-devel/o0iCtlVVZZ0
 
 .. -----------------------------------------------------------------------------
 .. Reading - List of blog posts, collected (hopefully) via planet.nixos.org
