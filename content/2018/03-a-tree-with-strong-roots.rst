@@ -76,8 +76,11 @@ Tooling
 
 - `nix-update for Emacs`_
 
+- `simple-hydra`_
+
 
 .. _`nix-update for Emacs`: https://github.com/jwiegley/nix-update-el
+.. _`simple-hydra`: https://github.com/ElvishJerricco/simple-hydra
 
 .. -----------------------------------------------------------------------------
 .. Events / Meetups - regular or one time announcements of FUTURE events
