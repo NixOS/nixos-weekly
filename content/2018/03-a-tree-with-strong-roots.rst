@@ -45,6 +45,8 @@ News
   - `RISC-V support for nix`_
   - `RISC-V support for nixpkgs`_
 
+- `RFC 0023: Support musl libc`_
+
 .. _`Nix has learned to load plugins`:  https://github.com/NixOS/nix/pull/1854
 .. _`Nix workgroups area`: https://nixos.wiki/wiki/Workgroup
 .. _`container workgroup`: https://nixos.wiki/wiki/Workgroup:Container
@@ -53,6 +55,7 @@ News
 .. _`Tracking RISC-V support in the Nix world`: https://twitter.com/shlevy/status/965019194759761920
 .. _`RISC-V support for nix`: https://github.com/NixOS/nix/projects/1
 .. _`RISC-V support for nixpkgs`: https://github.com/NixOS/nixpkgs/projects/15
+.. _`RFC 0023: Support musl libc`: https://github.com/NixOS/rfcs/pull/23
 
 .. -----------------------------------------------------------------------------
 .. Jobs - list of available Nix related jobs
