@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+rm -rf result
+nix-build $@
+
+mv result result.link
+mkdir result
+cp -r result.link/* result
+chown -R $HOST_USER_ID:$HOST_GROUP_ID result
+rm -rf result.link
