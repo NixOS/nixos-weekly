@@ -11,6 +11,8 @@
    opinions
 .. -----------------------------------------------------------------------------
 
+Welcome to another edition of NixOS "Weekly" Newsletter!
+Thank you to everyone who helped make this happen.
 
 
 .. -----------------------------------------------------------------------------
