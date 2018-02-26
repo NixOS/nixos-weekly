@@ -152,18 +152,24 @@ Tooling
 .. .. _`tool name with a link to it`: http://example.com
 
 
-- `nix-update for Emacs`_
+- `nix-update for Emacs`_ - An Emacs command for updating fetch declarations in place
 
-- `simple-hydra`_
+- `simple-hydra`_ - A simple module for enabling Hydra
 
-- `groking-hydra`_
+- `groking-hydra`_ - A repository of collecting insight about hydra 
 
-- `dhall-build`_
+- `dhall-build`_ - A Dhall interface to the Nix build system
+
+- `nix-update`_ - A script to update package in nixos automagically
+
+- `Disnix`_ - Disnix 0.8 released
 
 .. _`nix-update for Emacs`: https://github.com/jwiegley/nix-update-el
 .. _`simple-hydra`: https://github.com/ElvishJerricco/simple-hydra
 .. _`groking-hydra`: https://github.com/gilligan/groking-hydra
 .. _`dhall-build`: https://github.com/ocharles/dhall-build
+.. _`nix-update`: https://github.com/ryantm/nix-update
+.. _`Disnix`: http://nixos.org/disnix
 
 .. -----------------------------------------------------------------------------
 .. Events / Meetups - regular or one time announcements of FUTURE events
