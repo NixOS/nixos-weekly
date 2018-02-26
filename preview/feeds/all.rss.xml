@@ -3,6 +3,8 @@
 &lt;!-- (OPTIONAL) Introduction text, as an editor this is your space to express
 opinions --&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
+&lt;p&gt;Welcome to another edition of NixOS &amp;quot;Weekly&amp;quot; Newsletter!
+Thank you to everyone who helped make this happen.&lt;/p&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
 &lt;!-- News - Special items that happen in community --&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
@@ -21,14 +23,14 @@ opinions --&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://groups.google.com/forum/#!msg/nix-devel/9sps8NLdwIY/etmZL4J6AAAJ"&gt;NixOS 18.03 release approaching&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class="reference external" href="https://groups.google.com/d/msg/nix-devel/gj04aGKQL6w/NNL8SZy1AAAJ"&gt;Mog as set up&lt;/a&gt; an &lt;a class="reference external" href="https://www.redbubble.com/people/mogorman/portfolio"&gt;unofficial redbubble store&lt;/a&gt; for various NixOS
+&lt;p&gt;&lt;a class="reference external" href="https://groups.google.com/d/msg/nix-devel/gj04aGKQL6w/NNL8SZy1AAAJ"&gt;Mog has set up&lt;/a&gt; an &lt;a class="reference external" href="https://www.redbubble.com/people/mogorman/portfolio"&gt;unofficial redbubble store&lt;/a&gt; for various NixOS
 items (T-shirts, stickers, banners).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/nix/pull/1854"&gt;Nix has learned to load plugins&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://nixos.wiki/wiki/Workgroup"&gt;Nix workgroups area&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Workgroups are being created to facilitate working on components of
-the Nix ecosystems. As of this writing there exist:&lt;/p&gt;
+&lt;p&gt;Workgroups are used to facilitate working on components of
+the Nix ecosystems. As of this writing there exists:&lt;/p&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://nixos.wiki/wiki/Workgroup:Container"&gt;container workgroup&lt;/a&gt;: &amp;quot;building (minimal) OCI containers from the nixpkgs ecosystem.&amp;quot;&lt;/li&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://nixos.wiki/wiki/Workgroup:Router"&gt;router workgroup&lt;/a&gt;: running NixOS on your router.&lt;/li&gt;
