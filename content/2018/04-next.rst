@@ -127,7 +127,7 @@ Events / Meetups
 
 - `London NixOS User Group: NixOS 18.03 install party!`_
 
-  - **When**: March 29, 2018
+  - **When**: April 9, 2018
   - **Where**: CodeNode, 10 South Pl, London, UK
 
 - `Munich NixOS Meetup - NixOS für Einsteiger`_
