@@ -1,6 +1,4 @@
-let importFromGithub = import ./importFromGithub.nix; in
-{ pkgs ? importFromGithub ./nixpkgs.json {}
-, pkgs-python ? importFromGithub ./nixpkgs-python.json { inherit pkgs; }
+{ pkgs ? import ./nixpkgs.nix
 }:
 
 pkgs.stdenv.mkDerivation {
@@ -9,9 +7,9 @@ pkgs.stdenv.mkDerivation {
     builtins.filterSource
       (path: type: baseNameOf path != "result")
       ./.;
-  buildInputs =
-    [ pkgs-python.pelican.packages.pelican
-      pkgs-python.pelican.packages.livereload
+  buildInputs = with pkgs.python3Packages;
+    [ pelican
+      livereload
     ];
   buildPhase = ''
     pelican

@@ -16,7 +16,7 @@ Wednesday in the morning (European timezone).
 You're more than welcome to submit new items with a short description
 on `latest pull request`_
 
-.. `latest pull request`: https://github.com/NixOS/nixos-weekly/pulls
+-.. _`latest pull request`: https://github.com/NixOS/nixos-weekly/pulls
 
 Domen
 
@@ -36,7 +36,7 @@ News
 
 - `Patreon to support the NixOS OfBorg infrastructure`_
 
-  This supports `@grhmc`_\'s infrastructure costs for the OfBorg tooling.
+  This supports Graham's infrastructure costs for the OfBorg tooling.
 
 - `Introducing the Nix Core Team`_
 

@@ -1,6 +1,4 @@
-sudo: required
-services:
-  - docker
+language: nix
 branches:
   only:
   - master
@@ -19,7 +17,7 @@ script:
     echo "SITEURL = 'http://weekly.nixos.org'" >> pelicanconf.py;
     echo "WITH_FUTURE_DATES = True" >> pelicanconf.py;
   fi
-- ./travis-build -Q default.nix;
+- nix-build -Q default.nix;
 
 after_success:
 - env
