@@ -6,8 +6,7 @@ opinions --&gt;
 &lt;p&gt;NixOS weekly project is rebooting, expect a newsletter every
 Wednesday in the morning (European timezone).&lt;/p&gt;
 &lt;p&gt;You're more than welcome to submit new items with a short description
-on &lt;a class="reference internal" href="#latest-pull-request"&gt;latest pull request&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;-.. &lt;span class="target" id="latest-pull-request"&gt;latest pull request&lt;/span&gt;: &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;https://github.com/NixOS/nixos-weekly/pulls&lt;/a&gt;&lt;/p&gt;
+on &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;latest pull request&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Domen&lt;/p&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
 &lt;!-- News - Special items that happen in community --&gt;
@@ -20,16 +19,17 @@ on &lt;a class="reference internal" href="#latest-pull-request"&gt;latest pull r
 &lt;!--  --&gt;
 &lt;!-- .. _`with link`: http://example.com --&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference internal" href="#patreon-to-support-the-nixos-ofborg-infrastructure"&gt;Patreon to support the NixOS OfBorg infrastructure&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://www.patreon.com/ofborg/overview"&gt;Patreon to support the NixOS OfBorg infrastructure&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This supports Graham's infrastructure costs for the OfBorg tooling.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/25"&gt;Introducing …&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
 &lt;!-- (OPTIONAL) Introduction text, as an editor this is your space to express
 opinions --&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
 &lt;p&gt;NixOS weekly project is rebooting, expect a newsletter every
 Wednesday in the morning (European timezone).&lt;/p&gt;
 &lt;p&gt;You're more than welcome to submit new items with a short description
-on &lt;a class="reference internal" href="#latest-pull-request"&gt;latest pull request&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;-.. &lt;span class="target" id="latest-pull-request"&gt;latest pull request&lt;/span&gt;: &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;https://github.com/NixOS/nixos-weekly/pulls&lt;/a&gt;&lt;/p&gt;
+on &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;latest pull request&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Domen&lt;/p&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
 &lt;!-- News - Special items that happen in community --&gt;
@@ -42,23 +42,18 @@ on &lt;a class="reference internal" href="#latest-pull-request"&gt;latest pull r
 &lt;!--  --&gt;
 &lt;!-- .. _`with link`: http://example.com --&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference internal" href="#patreon-to-support-the-nixos-ofborg-infrastructure"&gt;Patreon to support the NixOS OfBorg infrastructure&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://www.patreon.com/ofborg/overview"&gt;Patreon to support the NixOS OfBorg infrastructure&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This supports Graham's infrastructure costs for the OfBorg tooling.&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference internal" href="#introducing-the-nix-core-team"&gt;Introducing the Nix Core Team&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/25"&gt;Introducing the Nix Core Team&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference internal" href="#nixcon2018-call-for-proposals"&gt;NixCon2018 call for proposals&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://nixcon2018.org/#call-for-paper"&gt;NixCon2018 call for proposals&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference internal" href="#cache-nixos-org-now-more-local"&gt;cache.nixos.org now more local&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://grahamc.com/blog/cache-nixos-org-now-more-local"&gt;cache.nixos.org now more local&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference internal" href="#announcing-cachix-binary-cache-as-a-service"&gt;Announcing Cachix - Binary Cache as a Service&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://domenkozar.com/2018/06/01/announcing-cachix-binary-cache-as-a-service/"&gt;Announcing Cachix - Binary Cache as a Service&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;-.. &lt;span class="target" id="patreon-to-support-the-nixos-ofborg-infrastructure"&gt;Patreon to support the NixOS OfBorg infrastructure&lt;/span&gt;: &lt;a class="reference external" href="https://www.patreon.com/ofborg/overview"&gt;https://www.patreon.com/ofborg/overview&lt;/a&gt;
--.. &lt;span class="target" id="introducing-the-nix-core-team"&gt;Introducing the Nix Core Team&lt;/span&gt;: &lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/25"&gt;https://github.com/NixOS/rfcs/pull/25&lt;/a&gt;
--.. &lt;span class="target" id="nixcon2018-call-for-proposals"&gt;NixCon2018 call for proposals&lt;/span&gt;: &lt;a class="reference external" href="https://nixcon2018.org/#call-for-paper"&gt;https://nixcon2018.org/#call-for-paper&lt;/a&gt;
--.. &lt;span class="target" id="cache-nixos-org-now-more-local"&gt;cache.nixos.org now more local&lt;/span&gt;: &lt;a class="reference external" href="https://grahamc.com/blog/cache-nixos-org-now-more-local"&gt;https://grahamc.com/blog/cache-nixos-org-now-more-local&lt;/a&gt;
--.. &lt;span class="target" id="announcing-cachix-binary-cache-as-a-service"&gt;Announcing Cachix - Binary Cache as a Service&lt;/span&gt;: &lt;a class="reference external" href="https://domenkozar.com/2018/06/01/announcing-cachix-binary-cache-as-a-service/"&gt;https://domenkozar.com/2018/06/01/announcing-cachix-binary-cache-as-a-service/&lt;/a&gt;&lt;/p&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
 &lt;!-- Jobs - list of available Nix related jobs --&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
