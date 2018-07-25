@@ -16,7 +16,7 @@ Wednesday in the morning (European timezone).
 You're more than welcome to submit new items with a short description
 on `latest pull request`_
 
--.. _`latest pull request`: https://github.com/NixOS/nixos-weekly/pulls
+.. _`latest pull request`: https://github.com/NixOS/nixos-weekly/pulls
 
 Domen
 
@@ -47,11 +47,11 @@ News
 - `Announcing Cachix - Binary Cache as a Service`_
 
 
--.. _`Patreon to support the NixOS OfBorg infrastructure`: https://www.patreon.com/ofborg/overview
--.. _`Introducing the Nix Core Team`: https://github.com/NixOS/rfcs/pull/25
--.. _`NixCon2018 call for proposals`: https://nixcon2018.org/#call-for-paper
--.. _`cache.nixos.org now more local`: https://grahamc.com/blog/cache-nixos-org-now-more-local
--.. _`Announcing Cachix - Binary Cache as a Service`: https://domenkozar.com/2018/06/01/announcing-cachix-binary-cache-as-a-service/
+.. _`Patreon to support the NixOS OfBorg infrastructure`: https://www.patreon.com/ofborg/overview
+.. _`Introducing the Nix Core Team`: https://github.com/NixOS/rfcs/pull/25
+.. _`NixCon2018 call for proposals`: https://nixcon2018.org/#call-for-paper
+.. _`cache.nixos.org now more local`: https://grahamc.com/blog/cache-nixos-org-now-more-local
+.. _`Announcing Cachix - Binary Cache as a Service`: https://domenkozar.com/2018/06/01/announcing-cachix-binary-cache-as-a-service/
 
 .. -----------------------------------------------------------------------------
 .. Jobs - list of available Nix related jobs
