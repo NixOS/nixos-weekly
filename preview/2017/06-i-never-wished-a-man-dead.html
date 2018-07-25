@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <title>NixOS Weekly</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="NixOS Weekly Team">
+  <meta name="copyright" content="CC BY-SA">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="../theme/images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../theme/images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../theme/images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../theme/images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../theme/images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../theme/images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../theme/images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../theme/images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../theme/images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="../theme/images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../theme/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../theme/images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../theme/images/favicon-16x16.png">
+  <link rel="shortcut icon" type="image/png" href="../theme/images/favicon.png">
+  <link rel="manifest" href="../theme/images/manifest.json">
+
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../theme/images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="../theme/css/typesettings-1.1-min.css">
+  <link rel="stylesheet" href="../theme/css/main.css">
+
+  <link href="http://weekly.nixos.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="NixOS Weekly Full Atom Feed" />
+  <link href="http://weekly.nixos.org/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="NixOS Weekly Full RSS Feed" />
+
+
+    <meta name="description" content="I've never wished a man dead, but I have read some obituaries
+with great pleasure. - Mark Twain (maybe)" />
+
+
+</head>
+
+<body>
+
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser.
+      Please <a href="http://browsehappy.com/">upgrade your browser</a> to
+      improve your experience.</p>
+  <![endif]-->
+
+  <main role="main">
+    <article class="typesettings sans-serif">
+      <section>
+        <header>
+          <h1>
+              NixOS Weekly
+          </h1>
+          <h2>
+              Delivered to your inbox
+          </h2>
+          <a href=".." class="logo">
+            <img height="50px" alt="nixos logo" src="../theme/images/logo.png" />
+          </a>
+        </header>
+
+        <!-- mailchimp -->
+        <div class="mailchimp">
+          <form action="//nixos.us14.list-manage.com/subscribe/post?u=24d1741146b951f90adf436fd&amp;id=cb1df4af80" method="post" novalidate>
+            <input class="out-of-view" type="text" name="b_24d1741146b951f90adf436fd" tabindex="-1" value="" />
+            <input type="email" name="EMAIL" placeholder="Enter your email" /><input type="submit" name="subscribe" class="btn btn-default btn-primary" value="Subscribe!" />
+          </form>
+          <p>Easy to unsubscribe and no spam, promise.</p>
+        </div>
+
+        <p>Or follow on
+            <a href="https://twitter.com/nixos_org">Twitter</a>,
+            <a href="http://weekly.nixos.org/feeds/all.rss.xml">RSS</a>.
+        </p>
+
+      </section>
+<section id="content" class="body">
+  <header>
+    <h1>#06 - I never wished a man dead</h1>
+    <blockquote><p>I've never wished a man dead, but I have read some obituaries
+with great pleasure. - Mark Twain (maybe)</p></blockquote>
+  </header>
+  <p>Or in other words: no more Perl in Nix! Shea Levy's last branch for his
+long-ongoing work to remove Perl from the Nix tool has <a class="reference external" href="https://github.com/NixOS/nix/pull/1027">finally been merged</a></p>
+<div class="section" id="news">
+<h2>News</h2>
+<ul>
+<li><p class="first">NixOS on <a class="reference external" href="https://www.packet.net">Packet.net</a></p>
+<p>Over the past several months, <strong>Graham Christensen</strong> (grahamc), <strong>Tuomas
+Tynkkynen</strong> (dezgeg), and many wonderful people from <a class="reference external" href="https://www.packet.net">Packet.net</a> have
+collaborated on bringing NixOS to Packet.net.</p>
+<p>Our collaboratioon started in January with <strong>Packet sponsoring many Hydra
+build servers</strong>. It continued by bringing ARMv8 builders to hydra.nixos.org.
+It is continued again today by launching first-class support for NixOS
+on the Packet.net platform, directly from their panel.</p>
+<blockquote>
+<p>...launching first-class support for NixOS...</p>
+</blockquote>
+<p>This allows any user to quickly provision four
+different types of powerful, bare metal x86-64 servers in minutes.</p>
+<blockquote>
+<p>Sign up now at <a class="reference external" href="https://www.packet.net/promo/nixos/">https://www.packet.net/promo/nixos/</a></p>
+</blockquote>
+<p>or use the promo code &quot;nixos&quot; <strong>for $25 in credit</strong>.</p>
+</li>
+<li><p class="first">NixOS Security Advisory: <a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-April/023329.html">Docker Local Privilege Escalation</a></p>
+<p>This is a fun one because it is the first CVE taken against NixOS.
+A milestone!</p>
+<p>At this point we also must thank &#64;grahamc and the security team for their
+heroic efforts. Their work makes NixOS a more reliable solution.</p>
+<p>To help them please head to <a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/24161">Vulnerability Roundup 26</a>.</p>
+</li>
+<li><p class="first">New <a class="reference external" href="https://www.npmjs.com/package/node2nix">node2nix</a> (v1.2.0) released.</p>
+</li>
+<li><p class="first"><a class="reference external" href="https://code.takt.com/announcing-hail-4da7208df56d">Takt has open-sourced a tool</a> to deploy their services from hydra.</p>
+</li>
+<li><p class="first">New <a class="reference external" href="https://github.com/garbas/pypi2nix/releases/tag/v1.8.0">pypi2nix</a> (v1.8.0) release.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="reading">
+<h2>Reading</h2>
+<ul class="simple">
+<li><a class="reference external" href="http://nicknovitski.com/vim-nix-syntax">One Magic Line of Code that fixes Nix syntax highlighting in Vim</a></li>
+<li><a class="reference external" href="https://translate.google.com/translate?sl=auto&amp;tl=en&amp;js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;u=http%3A%2F%2Flinuxfr.org%2Fnews%2Fnixos-collection-printemps-ete-17&amp;edit-text=">NixOS Spring-Summer Collection 17</a> / <a class="reference external" href="http://linuxfr.org/news/nixos-collection-printemps-ete-17">NixOS, collection printemps-été 17</a></li>
+<li><a class="reference external" href="https://labs.uswitch.com/using-nix-to-manage-multiple-ruby-versions/">Using Nix to manage multiple Ruby versions</a></li>
+<li><a class="reference external" href="https://translate.google.com/translate?hl=en&amp;sl=auto&amp;tl=en&amp;u=https%3A%2F%2Fwww.heise.de%2Fix%2Fmeldung%2FMit-alternativer-Paketverwaltung-Linux-Distribution-NixOS-17-03-erschienen-3672948.html">With alternative package management: Linux distribution NixOS 17.03 published</a> / <a class="reference external" href="https://www.heise.de/ix/meldung/Mit-alternativer-Paketverwaltung-Linux-Distribution-NixOS-17-03-erschienen-3672948.html">Mit alternativer Paketverwaltung: Linux-Distribution NixOS 17.03 erschienen</a></li>
+<li><a class="reference external" href="http://www.calebgossler.com/posts/using-nixos.html">Using NixOS (As Your Main Desktop OS</a></li>
+<li><a class="reference external" href="https://www.reddit.com/r/rust/comments/649h6m/using_nix_nixos_as_a_build_system_for_rust_and/">Using Nix (NixOS) as a build system for Rust, and caching binary crates</a></li>
+<li><a class="reference external" href="https://github.com/lukego/blog/issues/17">NixOS troubleshooting with git bisect</a></li>
+<li><a class="reference external" href="https://www.vultr.com/docs/install-nixos-on-vultr">Install NixOS on Vultr</a></li>
+</ul>
+</div>
+<div class="section" id="events-meetups">
+<h2>Events / Meetups</h2>
+<ul>
+<li><p class="first"><strong>Apr 22, 2017</strong>, <a class="reference external" href="https://www.meetup.com/Munich-NixOS-Meetup/events/239077440/">Augsburger Linux-Infotag</a>, Augsburg, Germany</p>
+<p>The Augsburger Linux Infotag is a one-day conference with about 20 lectures
+and 9 workshops on Linux, open source software and the digital society.
+Admission is free. We are representing NixOS with a booth at the conference.</p>
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>May 27, 2017</strong>, <a class="reference external" href="https://pyconweb.com/talks/27-05-2017/reproducible-development-environments-with-nix">Reproducible development environments with Nix: Johannes Bornhold</a>, Munich, Germany</p>
+<p>Providing build and development environments for Python based projects is
+typically not without challenges. This talk presents how Nix - The Purely
+Functional Package Manager can be used to provide reproducible environments
+for development and deployment of Python based Web projects.</p>
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>May 01, 2017</strong>, <a class="reference external" href="https://www.meetup.com/Munich-NixOS-Meetup/events/239077247/?eventId=239077247">Munich NixOS Meetup - Hackathon &amp; Barbecue</a>, Augsburg, Germany</p>
+<p>Bring the Nix project you are currently working on or struggling with and
+discuss it with other people. Followed by a barbecue in the evening.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="editor-s-corner">
+<h2>Editor's corner</h2>
+<p>As you can see last weeks were quite busy for NixOS community. What does that
+mean in numbers for last month?</p>
+<img alt="Monthly activity in NixOS/nixpkgs" src="images/06-montly-activity.png" />
+<p>Source: <a class="reference external" href="https://github.com/NixOS/nixpkgs/pulse/monthly">https://github.com/NixOS/nixpkgs/pulse/monthly</a></p>
+<p>Help us shape <a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues">next issue</a> of NixOS weekly newslettter.</p>
+</div>
+
+</section>
+    </article>
+  </main>
+  <footer>
+      <ul>
+          <li>
+              <a href="https://nixos.org" target="_blank">NixOS</a>
+          </li>
+          <li>
+              <a href="https://twitter.com/nixos_org" target="_blank">Twitter</a>
+          </li>
+          <li>
+              <a href="http://lists.science.uu.nl/pipermail/nix-dev" target="_blank">Mailing list</a>
+          </li>
+      </ul>
+  </footer>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-92427122-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

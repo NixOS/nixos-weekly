@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <title>NixOS Weekly</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="NixOS Weekly Team">
+  <meta name="copyright" content="CC BY-SA">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="../theme/images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../theme/images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../theme/images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../theme/images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../theme/images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../theme/images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../theme/images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../theme/images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../theme/images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="../theme/images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../theme/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../theme/images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../theme/images/favicon-16x16.png">
+  <link rel="shortcut icon" type="image/png" href="../theme/images/favicon.png">
+  <link rel="manifest" href="../theme/images/manifest.json">
+
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../theme/images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="../theme/css/typesettings-1.1-min.css">
+  <link rel="stylesheet" href="../theme/css/main.css">
+
+  <link href="http://weekly.nixos.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="NixOS Weekly Full Atom Feed" />
+  <link href="http://weekly.nixos.org/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="NixOS Weekly Full RSS Feed" />
+
+
+    <meta name="description" content="Everything not saved will be lost. (Nintendo Quit Screen message)" />
+
+
+</head>
+
+<body>
+
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser.
+      Please <a href="http://browsehappy.com/">upgrade your browser</a> to
+      improve your experience.</p>
+  <![endif]-->
+
+  <main role="main">
+    <article class="typesettings sans-serif">
+      <section>
+        <header>
+          <h1>
+              NixOS Weekly
+          </h1>
+          <h2>
+              Delivered to your inbox
+          </h2>
+          <a href=".." class="logo">
+            <img height="50px" alt="nixos logo" src="../theme/images/logo.png" />
+          </a>
+        </header>
+
+        <!-- mailchimp -->
+        <div class="mailchimp">
+          <form action="//nixos.us14.list-manage.com/subscribe/post?u=24d1741146b951f90adf436fd&amp;id=cb1df4af80" method="post" novalidate>
+            <input class="out-of-view" type="text" name="b_24d1741146b951f90adf436fd" tabindex="-1" value="" />
+            <input type="email" name="EMAIL" placeholder="Enter your email" /><input type="submit" name="subscribe" class="btn btn-default btn-primary" value="Subscribe!" />
+          </form>
+          <p>Easy to unsubscribe and no spam, promise.</p>
+        </div>
+
+        <p>Or follow on
+            <a href="https://twitter.com/nixos_org">Twitter</a>,
+            <a href="http://weekly.nixos.org/feeds/all.rss.xml">RSS</a>.
+        </p>
+
+      </section>
+<section id="content" class="body">
+  <header>
+    <h1>#04 - Everything not saved will be lost</h1>
+    <blockquote><p>Everything not saved will be lost. (Nintendo Quit Screen message)</p></blockquote>
+  </header>
+  <p>Nix, NixOS and nixpkgs are all moving ahead at good speed. The <a class="reference external" href="https://github.com/NixOS/nixpkgs/milestone/10">17.03
+milestone</a> is more than 50% complete, and we merged 144 pull requests for
+nixpkgs just in the last seven days.</p>
+<div class="section" id="news">
+<h2>News</h2>
+<ul class="simple">
+<li>The <a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/022979.html">NixOS 17.03 beta</a> has
+been announced.</li>
+<li>We now allow packages to be marked insecure, and you have to opt-in to install
+insecure packages similarly to how you opt in to non-free software. The option
+is called <tt class="docutils literal">permittedInsecurePackages</tt>. See the <a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/23130">updated docs</a> for more.</li>
+<li>Robin finished the <a class="reference external" href="https://github.com/NixOS/nixpkgs/commit/a38f1911d34f2a72e15d5e98d76bece6cb8042a8">systemd 232 update</a> which opens up several new
+<a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/20186">opportunities for hardening</a>. It will also allow us to move away from
+hard-coded user IDs for less important services. Just use <tt class="docutils literal">DynamicUser =
+true</tt>.</li>
+<li>Thanks to Graham we now have <a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/23638">aarch64 support</a>, and it's even being built by
+Hydra! Many of you will have noticed already from the beautiful stream of
+emails for each succeeding and failing package.</li>
+<li>Progress on the <a class="reference external" href="https://github.com/zimbatm/rfcs/pull/1">proposal for RFC</a>
+which started from a FOSDEM discussion.</li>
+<li><a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023043.html">Move NodeJS to separate overlay repository?</a>
+(discussion)</li>
+</ul>
+</div>
+<div class="section" id="reading">
+<h2>Reading</h2>
+<ul>
+<li><p class="first"><a class="reference external" href="https://blog.mayflower.de/5976-From-Vagrant-to-Nixops.html">From Vagrant to NixOps</a>
+by <a class="reference external" href="https://twitter.com/hschaeidt">Hendrik Schaeidt</a></p>
+<p>A walkthrough to configure a symfony2 project with nginx, mysql, and php-fpm
+from scratch.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="presentations">
+<h2>Presentations</h2>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/ericsagnes">Eric Sagnes</a> gave an introductory NixOS talk
+in Japanese. The <a class="reference external" href="https://github.com/Tokyo-NixOS/presentations">slides are here</a>.</li>
+<li><a class="reference external" href="https://twitter.com/dvhfm">Maksim Bronsky</a> presented <a class="reference external" href="https://github.com/flyingcircusio/vulnix">Vulnix</a> at
+<a class="reference external" href="https://chemnitzer.linux-tage.de/2017/en/programm/beitrag/314">Chemnitzer Linux-Tage</a>. The <a class="reference external" href="https://github.com/flyingcircusio/vulnix/raw/master/doc/2017-03-11-Vulnix.pdf">slides</a>
+(PDF download, DE only) are in the repository.</li>
+<li><a class="reference external" href="https://twitter.com/lenkodonchev">Lenko Donchev</a> gave a lightning talk
+&quot;NixOS the purely functional Linux distribution&quot;. The <a class="reference external" href="https://speakerdeck.com/lenkodonchev/nixos-the-purely-functional-linux-distribution">slides</a>
+are available online.</li>
+<li>John Wiegley gave a presentation &quot;How I use nix for Haskell development&quot; at
+the Bay Area Nix/NixOS User Group. <a class="reference external" href="https://youtu.be/G9yiJ7d5LeI">Video</a>
+available.</li>
+</ul>
+</div>
+<div class="section" id="meetups">
+<h2>Meetups</h2>
+<ul>
+<li><p class="first"><strong>Mar 24, 2017</strong>, <a class="reference external" href="https://www.meetup.com/ja-JP/Tokyo-NixOS-Meetup/events/238329705/">Tokyo NixOS Meetup</a>, Tokyo, Japan</p>
+<p>My Japanese isn't good enough to figure out the speaker, but if you live in Japan
+you should go!</p>
+</li>
+<li><p class="first"><strong>Mar 29, 2017</strong>, <a class="reference external" href="https://www.meetup.com/Munich-NixOS-Meetup/events/237831744/?eventId=237831744">Munich NixOS Meetup</a> at <a class="reference external" href="https://maps.google.com/maps?f=q&amp;hl=en&amp;q=48.357765,10.886834">OpenLab Augsburg</a>, Augsburg,
+Germany</p>
+<p>John Darrington will give a talk about guix and guixSD, a package manager and
+a Linux distribution which are based on similar concepts as nix/NixOS.</p>
+<p>The talk will be in English.</p>
+</li>
+</ul>
+<div class="section" id="meetups-that-just-happened">
+<h3>Meetups that just happened</h3>
+<ul>
+<li><p class="first"><strong>Feb 24–26, 2017</strong>, <a class="reference external" href="https://medium.com/&#64;HackIllinois/open-source-2017-b322ad688471#.vim3uki6h">HackIllinois</a>, University of Illinois, USA</p>
+<p>For any university students in the US, the University of Illinois at
+Urbana-Champaign is holding a hackathon oriented towards getting people into
+open source development, and I'm going to be mentoring people for
+Nix/NixOS/Haskell development. Be sure to put &quot;NixOS&quot; or &quot;Haskell&quot; into your
+application somewhere.</p>
+</li>
+</ul>
+<ul class="simple">
+<li><strong>Feb 25, 2017</strong>, <a class="reference external" href="https://www.meetup.com/Amsterdam-Nix-Meetup/events/232753333/">Amsterdam Nix Meetup</a> at <a class="reference external" href="https://maps.google.com/maps?f=q&amp;hl=en&amp;q=de+Ruyterkade+142-143%2C+Amsterdam%2C+nl">Container Solutions</a>,
+Amsterdam, Netherlands</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Mar 02, 2017</strong>, <a class="reference external" href="https://www.meetup.com/Bay-Area-Nix-NixOS-User-Group/events/237430925/">Bay Area Nix/NixOS User Group</a> at Takt, San Francisco, USA</p>
+<p>See the presentation about using Nix for Haskell development above.</p>
+</li>
+</ul>
+<ul>
+<li><p class="first"><strong>Mar 12, 2017</strong>, <a class="reference external" href="https://www.meetup.com/NixOS-London/events/237738532/">London NixOS User Group</a> at <a class="reference external" href="https://smarkets.com/about">Smarkets</a>, London, UK</p>
+<p>Smarkets kindly offered us a space for our second community hackday!</p>
+<p>There will be talking, pizzas and lots of packaging going on. Bring your own
+projects or just tag along and help other people out. Whether you have some
+software that you'd like to see packaged or questions about how everything
+fits together, there will be people available to help you.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="questions">
+<h2>Questions</h2>
+<ul class="simple">
+<li><a class="reference external" href="http://unix.stackexchange.com/questions/350997/in-a-new-nixos-derivation-based-on-a-binary-distribution-why-am-i-getting-an-e">In a new nixos derivation, based on a binary distribution, why am I getting an error referring to nativeBuildInputs?</a></li>
+<li><a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023056.html">NixOS container networking</a>.</li>
+<li><a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023008.html">LXC containers on NixOS</a>.</li>
+<li><a class="reference external" href="https://www.reddit.com/r/NixOS/comments/5xoewu/virtualization_on_nixos/">Virtualization on NixOS</a>.</li>
+</ul>
+</div>
+<div class="section" id="jobs">
+<h2>Jobs</h2>
+<blockquote>
+<a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues/new">Looking for some Nix developers? Let us help you.</a></blockquote>
+<ul class="simple">
+<li>The Blue Brain Project recruit and is looking for someone with packaging,
+NixOS / Nix packaging knowledges and with a software engineering background.
+If any of you might be interested : <a class="reference external" href="http://emploi.epfl.ch/page-142376-en.html">http://emploi.epfl.ch/page-142376-en.html</a>,
+The job is in Switzerland, Geneva, Swiss salary and Work visa granted for EU
+citizen if recruited.</li>
+</ul>
+</div>
+<div class="section" id="editor-s-corner">
+<h2>Editor's corner</h2>
+<p>First time run for <a class="reference external" href="https://twitter.com/jbornhold">me</a> to take care as the
+editor for an edition of <cite>NixOS Weekly</cite>. It has been fantastic to see a few
+people spontaneously helping out to make it happen after a call for help from
+<a class="reference external" href="https://twitter.com/garbas">Rok</a>.</p>
+<p>Contributions are easy: Send a pull request to the <a class="reference external" href="https://github.com/NixOS/nixos-weekly">repository</a> or comment on the open issue for the
+next edition by providing a hint regarding a presentation, an event, a relevant
+change or discussion.</p>
+</div>
+
+</section>
+    </article>
+  </main>
+  <footer>
+      <ul>
+          <li>
+              <a href="https://nixos.org" target="_blank">NixOS</a>
+          </li>
+          <li>
+              <a href="https://twitter.com/nixos_org" target="_blank">Twitter</a>
+          </li>
+          <li>
+              <a href="http://lists.science.uu.nl/pipermail/nix-dev" target="_blank">Mailing list</a>
+          </li>
+      </ul>
+  </footer>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-92427122-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

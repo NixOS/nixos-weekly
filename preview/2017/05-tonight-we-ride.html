@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <title>NixOS Weekly</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="NixOS Weekly Team">
+  <meta name="copyright" content="CC BY-SA">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="../theme/images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../theme/images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../theme/images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../theme/images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../theme/images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../theme/images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../theme/images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../theme/images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../theme/images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="../theme/images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../theme/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../theme/images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../theme/images/favicon-16x16.png">
+  <link rel="shortcut icon" type="image/png" href="../theme/images/favicon.png">
+  <link rel="manifest" href="../theme/images/manifest.json">
+
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../theme/images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="../theme/css/typesettings-1.1-min.css">
+  <link rel="stylesheet" href="../theme/css/main.css">
+
+  <link href="http://weekly.nixos.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="NixOS Weekly Full Atom Feed" />
+  <link href="http://weekly.nixos.org/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="NixOS Weekly Full RSS Feed" />
+
+
+    <meta name="description" content="Tonight We Ride - Said The King To The River from La Dispute" />
+
+
+</head>
+
+<body>
+
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser.
+      Please <a href="http://browsehappy.com/">upgrade your browser</a> to
+      improve your experience.</p>
+  <![endif]-->
+
+  <main role="main">
+    <article class="typesettings sans-serif">
+      <section>
+        <header>
+          <h1>
+              NixOS Weekly
+          </h1>
+          <h2>
+              Delivered to your inbox
+          </h2>
+          <a href=".." class="logo">
+            <img height="50px" alt="nixos logo" src="../theme/images/logo.png" />
+          </a>
+        </header>
+
+        <!-- mailchimp -->
+        <div class="mailchimp">
+          <form action="//nixos.us14.list-manage.com/subscribe/post?u=24d1741146b951f90adf436fd&amp;id=cb1df4af80" method="post" novalidate>
+            <input class="out-of-view" type="text" name="b_24d1741146b951f90adf436fd" tabindex="-1" value="" />
+            <input type="email" name="EMAIL" placeholder="Enter your email" /><input type="submit" name="subscribe" class="btn btn-default btn-primary" value="Subscribe!" />
+          </form>
+          <p>Easy to unsubscribe and no spam, promise.</p>
+        </div>
+
+        <p>Or follow on
+            <a href="https://twitter.com/nixos_org">Twitter</a>,
+            <a href="http://weekly.nixos.org/feeds/all.rss.xml">RSS</a>.
+        </p>
+
+      </section>
+<section id="content" class="body">
+  <header>
+    <h1>#05 - Tonight We Ride</h1>
+    <blockquote><p>Tonight We Ride - Said The King To The River from La Dispute</p></blockquote>
+  </header>
+  <p>The <a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023302.html">17.03 &quot;Gorilla&quot; release</a> has been tagged! There are too many good things
+in this release to pick favourites. I refer you to the <a class="reference external" href="https://github.com/NixOS/nixpkgs/blob/master/nixos/doc/manual/release-notes/rl-1703.xml">release notes</a>
+instead.</p>
+<p>Some fun stats:</p>
+<ul class="simple">
+<li>~ 900 new packages since 16.09</li>
+<li>~ 80 new contributors (very inexact science this)</li>
+<li>~ 60 new services</li>
+</ul>
+<div class="section" id="news">
+<h2>News</h2>
+<ul class="simple">
+<li>Did I mention the release? <a class="reference external" href="https://github.com/globin">Robin</a> has been doing a fantastic job, thank him
+when you meet him! He's also had a lot of help of course, so thanks to all
+those people as well. It's a pretty long list and you can get it with &quot;<tt class="docutils literal">git
+shortlog <span class="pre">8def08..17.03</span></tt>&quot;.</li>
+<li><a class="reference external" href="https://twitter.com/nixos_org/status/847018039115702272">Extra capacity is coming for Hydra OSX builds</a>, thanks to all the great
+people that have donated to NixOS Foundation.</li>
+<li>We now have an <a class="reference external" href="https://github.com/NixOS/rfcs">official RFC process</a>. Thanks to zimbatm for writing our
+first ever RFC. We already have <a class="reference external" href="https://github.com/NixOS/rfcs/pulls">three pull requests</a> so go forth and
+comment.</li>
+<li><a class="reference external" href="https://github.com/NixOS/nix/pull/1027">remove-perl</a> branch just got merged to master. Time to celebrate.</li>
+<li>Sander <a class="reference external" href="https://nixos.org/disnix">released Disnix 0.7</a></li>
+<li>Théophane has started his work on typing Nix. You can <a class="reference external" href="https://typing-nix.regnat.ovh/">follow along here</a>.
+He's also answering some questions in <a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023274.html">this mailing list thread</a>.</li>
+</ul>
+</div>
+<div class="section" id="reading">
+<h2>Reading</h2>
+<ul class="simple">
+<li>One long-standing issue in Nix has been the storage of secrets. Right now
+<a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/24288">many of our services</a> store their secrets in <tt class="docutils literal">/nix</tt> where they are world
+readable. This means you can't have root-only secrets, multi-user systems are
+problematic, and if one of your services is compromised it can be used to
+steal all your other secrets. Eelco created an RFC for <a class="reference external" href="https://github.com/NixOS/rfcs/pull/5/files">encrypting secrets at
+rest</a>.</li>
+<li><a class="reference external" href="https://monte.readthedocs.io/en/latest/index.html">Monte</a> is a dynamic language inspired by Python and E. It uses Nix, <em>under
+the hook</em>, for its <a class="reference external" href="https://monte.readthedocs.io/en/latest/packaging.html">packaging</a>. Worth checking out if you are writing a new
+languge and want to see how Nix help you.</li>
+<li><a class="reference external" href="http://ebzzry.io/en/nix/">A Gentle Introduction to the Nix Family</a> by Rommel Martinez.</li>
+</ul>
+</div>
+<div class="section" id="meetups">
+<h2>Meetups</h2>
+<ul>
+<li><p class="first"><strong>Apr 4, 2017</strong>, <a class="reference external" href="https://www.meetup.com/NixOS-Dublin/events/238418033">NixOS April Meetup</a>, Dublin, Ireland</p>
+<p>Two presentations:</p>
+<ul class="simple">
+<li>Immutable deployments in Rapid7 by Ulrich Dangel</li>
+<li>Basics of Nix by Kevin Cox</li>
+</ul>
+</li>
+<li><p class="first">(Future) Let us know if you are organizing a Nix / NixOS event.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="editor-s-corner">
+<h2>Editor's corner</h2>
+<p>A substantial part of the effort of publishing the &quot;weekly&quot; news is collecting
+the news in the first place. If you see anything cool, want to share a job,
+meetup or presentation add a comment with your item at
+<a class="reference external" href="https://github.com/NixOS/nixos-weekly">https://github.com/NixOS/nixos-weekly</a>. It's super helpful!</p>
+</div>
+
+</section>
+    </article>
+  </main>
+  <footer>
+      <ul>
+          <li>
+              <a href="https://nixos.org" target="_blank">NixOS</a>
+          </li>
+          <li>
+              <a href="https://twitter.com/nixos_org" target="_blank">Twitter</a>
+          </li>
+          <li>
+              <a href="http://lists.science.uu.nl/pipermail/nix-dev" target="_blank">Mailing list</a>
+          </li>
+      </ul>
+  </footer>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-92427122-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>
