@@ -10,11 +10,11 @@
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://discourse.nixos.org/t/nixos-18-09-jellyfish-to-be-forked-off-in-a-month/596"&gt;NixOS 18.09 JellyFish to be forked off in a month&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Whole Nix community would like to specifically call out a massive thank-you
 to vcunat and samueldr for being 18.09's release managers, an important and
-central role in each release. Thank you Vladimir and Samuel!&lt;/p&gt;
+central role in each release. Thank you Vladimír and Samuel!&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/nmattia/snack"&gt;Snack incremental builds for Haskell&lt;/a&gt; is requesting feedback&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://matthewbauer.us/blog/beginners-guide-to-cross.html"&gt;Beginners guide to cross compilation in Nixpkgs&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://matthewbauer.us/blog/beginners-guide-to-cross.html"&gt;Beginner's guide to cross compilation in Nixpkgs&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/symphorien/nix-du"&gt;nix-du: Visualise which gc-roots to delete to free some space in your nix store&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
