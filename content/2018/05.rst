@@ -37,7 +37,7 @@ News
 .. _`Anduril Industries uses Haskell, Rust, C++, Nix and is hiring!`: https://www.anduril.com/careers/
 .. _`nix-top: tool which allows high-level monitoring of builds locally happening`: https://github.com/samueldr/nix-top
 .. _`NixOS 18.09 JellyFish to be forked off in a month`: https://discourse.nixos.org/t/nixos-18-09-jellyfish-to-be-forked-off-in-a-month/596
-.. _`Slides from the talk about Nix in Utrecht`:
+.. _`Slides from the talk about Nix in Utrecht`: https://arianvp.github.io/nixtalk/slides/slides.html
 
 Contribute to NixOS Weekly Newsletter
 =====================================
