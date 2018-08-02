@@ -33,14 +33,14 @@ central role in each release. Thank you Vladimír and Samuel!&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/samueldr/nix-top"&gt;nix-top: Tool which allows high-level monitoring of builds locally happening&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference internal" href="#slides-from-the-talk-about-nix-in-utrecht"&gt;Slides from the talk about Nix in Utrecht&lt;/a&gt; (recording to follow)&lt;/p&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://arianvp.github.io/nixtalk/slides/slides.html"&gt;Slides from the talk about Nix in Utrecht&lt;/a&gt; (recording to follow)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p class="first"&gt;Job posting: &lt;a class="reference external" href="https://www.anduril.com/careers/"&gt;Anduril Industries uses Haskell, Rust, C++, Nix and is hiring!&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="contribute-to-nixos-weekly-newsletter"&gt;
-&lt;span id="slides-from-the-talk-about-nix-in-utrecht"&gt;&lt;/span&gt;&lt;h2&gt;Contribute to NixOS Weekly Newsletter&lt;/h2&gt;
+&lt;h2&gt;Contribute to NixOS Weekly Newsletter&lt;/h2&gt;
 &lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
 &lt;p&gt;You can help too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
 or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
