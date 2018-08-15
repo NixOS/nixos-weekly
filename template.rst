@@ -5,23 +5,17 @@
 :description: (TODO: QUOTE)
 
 
-
 News
 ====
 
 .. - Example news item title `with link`_
-.. 
-..   News item description (optional)
-.. 
+..
+..   News item description
+..
 .. .. _`with link`: http://example.com
 
 
 
-
-.. -----------------------------------------------------------------------------
-.. TODO: this should be part of the article template, but we need to change old
-         articles once this is moved into article template
-.. -----------------------------------------------------------------------------
 
 Contribute to NixOS Weekly Newsletter
 =====================================
