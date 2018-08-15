@@ -1,5 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Thu, 02 Aug 2018 00:00:00 +0200</lastBuildDate><item><title>#05 - NixOS 18.09 preparations, incremental builds and other tooling</title><link>http://weekly.nixos.org/2018/05.html</link><description>&lt;!-- - Example news item title `with link`_ --&gt;
+<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Wed, 15 Aug 2018 00:00:00 +0200</lastBuildDate><item><title>#06 - Formalizing review workflow, OfBorg update, String Context explanation</title><link>http://weekly.nixos.org/2018/06-formalizing-review-workflow-ofborg-update-string-context-explanation.html</link><description>&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;!-- - Example news item title `with link`_ --&gt;
+&lt;!--  --&gt;
+&lt;!-- News item description (optional) --&gt;
+&lt;!--  --&gt;
+&lt;!-- .. _`with link`: http://example.com --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://grahamc.com/blog/an-epyc-nixos-build-farm"&gt;An EPYC NixOS build farm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Graham explores and benchmarks an AMD EPYC build server
+against a differently incredible build server, finding
+the EPYC's builds are much faster across the board.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="http://blog.shealevy.com/2018/08/05/understanding-nix's-string-context/"&gt;Understanding Nix's String Context&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Shea Levy explains what is String Context, how it's implemented
+in Nix and shares implications on the use of the language.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/38698"&gt;PostgreSQL packaging is getting an overhaul&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Easier use of plugins, version 10 as default, improved documentation,
+LLVM JIT support and more.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/44196"&gt;RFC: pkgs.overrideWithScope&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Add pkgs.overrideWithScope. This function is similar to pkgs.override, except
+that it filters the arguments like callPackage does.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/44439"&gt;RFC: Use meta.tests to link from packages to the tests that test them&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Aims to improve test discovery in nixpkgs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.com/2018/08/automating-mendix-application.html"&gt;How to deploy Mendix applications with Nix/NixOS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.com/2018/07/layered-build-function-abstractions-for.html"&gt;Layered build function abstractions for building Nix packages&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;An elaborate blog post that composes the stdenv.mkDerivation {} abstraction
+function from scratch by using a layered approach.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://www.patreon.com/posts/timeouts-nix-ci-20643198"&gt;OfBorg update&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Build time-outs, push-button deploys, monitoring transparency, and more.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/30"&gt;RFC 30: Formalize review workflow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A proposal for a new review workflow based on a set of pull-request states
+(needs:review, needs:work). It is intended to help reviewers and contributors
+get PRs merged quicker and reduce likelihood of PRs getting lost. It also
+greatly increases the value of non-commiter reviews.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://hackage.haskell.org/package/libnix-0.2.0.1"&gt;libnix-haskell 0.2.0.1 released&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;libnix provides a nicely typed wrapper around the nix command line (for parsing,
+instantiating and realizing). It also provides wrappers for the nix-prefetch-url
+and nix-prefetch-git.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="contribute-to-nixos-weekly-newsletter"&gt;
+&lt;h2&gt;Contribute to NixOS Weekly Newsletter&lt;/h2&gt;
+&lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
+&lt;p&gt;You can help too! Comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
+or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 15 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-08-15:/2018/06-formalizing-review-workflow-ofborg-update-string-context-explanation.html</guid></item><item><title>#05 - NixOS 18.09 preparations, incremental builds and other tooling</title><link>http://weekly.nixos.org/2018/05.html</link><description>&lt;!-- - Example news item title `with link`_ --&gt;
 &lt;!--  --&gt;
 &lt;!-- News item description (optional) --&gt;
 &lt;!--  --&gt;
