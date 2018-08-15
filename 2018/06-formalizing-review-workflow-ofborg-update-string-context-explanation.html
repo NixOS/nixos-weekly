@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+  
   <title>NixOS Weekly</title>
 
   <meta charset="utf-8">
@@ -37,6 +37,11 @@
 
   <link href="http://weekly.nixos.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="NixOS Weekly Full Atom Feed" />
   <link href="http://weekly.nixos.org/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="NixOS Weekly Full RSS Feed" />
+
+
+    <meta name="description" content="If we knew what it was we were doing,
+it would not be called research, would it?" />
+
 
 </head>
 
@@ -78,22 +83,87 @@
         </p>
 
       </section>
-<h1>Archives for 2018</h1>
+<section id="content" class="body">
+  <header>
+    <h1>#06 - Formalizing review workflow, OfBorg update, String Context explanation</h1>
+    <blockquote><p>If we knew what it was we were doing,
+it would not be called research, would it?</p></blockquote>
+  </header>
+  <div class="section" id="news">
+<h2>News</h2>
+<!-- - Example news item title `with link`_ -->
+<!--  -->
+<!-- News item description (optional) -->
+<!--  -->
+<!-- .. _`with link`: http://example.com -->
+<ul>
+<li><p class="first"><a class="reference external" href="https://grahamc.com/blog/an-epyc-nixos-build-farm">An EPYC NixOS build farm</a></p>
+<p>Graham explores and benchmarks an AMD EPYC build server
+against a differently incredible build server, finding
+the EPYC's builds are much faster across the board.</p>
+</li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="http://blog.shealevy.com/2018/08/05/understanding-nix's-string-context/">Understanding Nix's String Context</a></p>
+<p>Shea Levy explains what is String Context, how it's implemented
+in Nix and shares implications on the use of the language.</p>
+</li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/38698">PostgreSQL packaging is getting an overhaul</a></p>
+<p>Easier use of plugins, version 10 as default, improved documentation,
+LLVM JIT support and more.</p>
+</li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/44196">RFC: pkgs.overrideWithScope</a></p>
+<p>Add pkgs.overrideWithScope. This function is similar to pkgs.override, except
+that it filters the arguments like callPackage does.</p>
+</li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/44439">RFC: Use meta.tests to link from packages to the tests that test them</a></p>
+<p>Aims to improve test discovery in nixpkgs.</p>
+</li>
+</ul>
+<ul class="simple">
+<li><a class="reference external" href="http://sandervanderburg.blogspot.com/2018/08/automating-mendix-application.html">How to deploy Mendix applications with Nix/NixOS</a></li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="http://sandervanderburg.blogspot.com/2018/07/layered-build-function-abstractions-for.html">Layered build function abstractions for building Nix packages</a></p>
+<p>An elaborate blog post that composes the stdenv.mkDerivation {} abstraction
+function from scratch by using a layered approach.</p>
+</li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="https://www.patreon.com/posts/timeouts-nix-ci-20643198">OfBorg update</a></p>
+<p>Build time-outs, push-button deploys, monitoring transparency, and more.</p>
+</li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="https://github.com/NixOS/rfcs/pull/30">RFC 30: Formalize review workflow</a></p>
+<p>A proposal for a new review workflow based on a set of pull-request states
+(needs:review, needs:work). It is intended to help reviewers and contributors
+get PRs merged quicker and reduce likelihood of PRs getting lost. It also
+greatly increases the value of non-commiter reviews.</p>
+</li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="https://hackage.haskell.org/package/libnix-0.2.0.1">libnix-haskell 0.2.0.1 released</a></p>
+<p>libnix provides a nicely typed wrapper around the nix command line (for parsing,
+instantiating and realizing). It also provides wrappers for the nix-prefetch-url
+and nix-prefetch-git.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="contribute-to-nixos-weekly-newsletter">
+<h2>Contribute to NixOS Weekly Newsletter</h2>
+<p>This work would not be possible without the many contributions of the community.</p>
+<p>You can help too! Comment on the <a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls">pull request</a> for the next edition
+or look at the <a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues">issue tracker</a> to add other improvements.</p>
+</div>
 
-<dl>
-    <dt>Wed 15 August 2018</dt>
-    <dd><a href="../2018/06-formalizing-review-workflow-ofborg-update-string-context-explanation.html">#06 - Formalizing review workflow, OfBorg update, String Context explanation</a></dd>
-    <dt>Thu 02 August 2018</dt>
-    <dd><a href="../2018/05.html">#05 - NixOS 18.09 preparations, incremental builds and other tooling</a></dd>
-    <dt>Wed 25 July 2018</dt>
-    <dd><a href="../2018/04-nixconf0218-nix-core-team-binary-cache-improvements.html">#04 - NixCon2018, Nix Core Team, binary cache improvements</a></dd>
-    <dt>Mon 26 February 2018</dt>
-    <dd><a href="../2018/03-a-tree-with-strong-roots.html">#03 - A tree with strong roots ...</a></dd>
-    <dt>Thu 01 February 2018</dt>
-    <dd><a href="../2018/02-life-before-death.html">#02 - Life before death, strength before weakness, ...</a></dd>
-    <dt>Mon 08 January 2018</dt>
-    <dd><a href="../2018/01-phoenixes-burst-into-flame.html">#01 - Phoenixes burst into flame ...</a></dd>
-</dl>
+</section>
     </article>
   </main>
   <footer>
