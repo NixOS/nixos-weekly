@@ -10,7 +10,7 @@ News
 
 - `NixOS in production`_
 
-  Gabriel Gonzalez shows how to do a remote `nixos-rebuild switch` while pinning nixpkgs.
+  Gabriel Gonzalez shows how to do a remote `nixos-rebuild switch` while pinning nixpkgs
 
 .. _`NixOS in production`: http://www.haskellforall.com/2018/08/nixos-in-production.html
 
