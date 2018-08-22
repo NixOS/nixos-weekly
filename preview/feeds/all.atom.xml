@@ -3,7 +3,7 @@
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="http://www.haskellforall.com/2018/08/nixos-in-production.html"&gt;NixOS in production&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Gabriel Gonzalez shows how to do a remote &lt;cite&gt;nixos-rebuild switch&lt;/cite&gt; while pinning nixpkgs.&lt;/p&gt;
+&lt;p&gt;Gabriel Gonzalez shows how to do a remote &lt;cite&gt;nixos-rebuild switch&lt;/cite&gt; while pinning nixpkgs&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul class="simple"&gt;
@@ -16,7 +16,7 @@
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="http://www.haskellforall.com/2018/08/nixos-in-production.html"&gt;NixOS in production&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Gabriel Gonzalez shows how to do a remote &lt;cite&gt;nixos-rebuild switch&lt;/cite&gt; while pinning nixpkgs.&lt;/p&gt;
+&lt;p&gt;Gabriel Gonzalez shows how to do a remote &lt;cite&gt;nixos-rebuild switch&lt;/cite&gt; while pinning nixpkgs&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul class="simple"&gt;
