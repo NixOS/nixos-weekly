@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2018-08-15T00:00:00+02:00</updated><entry><title>#06 - Formalizing review workflow, OfBorg update, String Context explanation</title><link href="http://weekly.nixos.org/2018/06-formalizing-review-workflow-ofborg-update-string-context-explanation.html" rel="alternate"></link><published>2018-08-15T00:00:00+02:00</published><updated>2018-08-15T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2018-08-15:/2018/06-formalizing-review-workflow-ofborg-update-string-context-explanation.html</id><summary type="html">&lt;div class="section" id="news"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2018-08-22T00:00:00+02:00</updated><entry><title>#07 - NixOS in production, nix-devel is now Discourse</title><link href="http://weekly.nixos.org/2018/07-nixos-in-production-nix-devel-is-now-discourse.html" rel="alternate"></link><published>2018-08-22T00:00:00+02:00</published><updated>2018-08-22T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2018-08-22:/2018/07-nixos-in-production-nix-devel-is-now-discourse.html</id><summary type="html">&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="http://www.haskellforall.com/2018/08/nixos-in-production.html"&gt;NixOS in production&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Gabriel Gonzalez shows how to do a remote &lt;cite&gt;nixos-rebuild switch&lt;/cite&gt; while pinning nixpkgs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The &lt;cite&gt;nix-devel&lt;/cite&gt; mailing list is now replaced by our &lt;a class="reference external" href="https://discourse.nixos.org/"&gt;discourse.nixos.org&lt;/a&gt; forum instance which is also usable by email&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="contribute-to-nixos-weekly-newsletter"&gt;
+&lt;h2&gt;Contribute to NixOS Weekly Newsletter&lt;/h2&gt;
+&lt;p&gt;This work would not be possible without the …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="http://www.haskellforall.com/2018/08/nixos-in-production.html"&gt;NixOS in production&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Gabriel Gonzalez shows how to do a remote &lt;cite&gt;nixos-rebuild switch&lt;/cite&gt; while pinning nixpkgs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The &lt;cite&gt;nix-devel&lt;/cite&gt; mailing list is now replaced by our &lt;a class="reference external" href="https://discourse.nixos.org/"&gt;discourse.nixos.org&lt;/a&gt; forum instance which is also usable by email&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="contribute-to-nixos-weekly-newsletter"&gt;
+&lt;h2&gt;Contribute to NixOS Weekly Newsletter&lt;/h2&gt;
+&lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
+&lt;p&gt;You can help too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
+or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>#06 - Formalizing review workflow, OfBorg update, String Context explanation</title><link href="http://weekly.nixos.org/2018/06-formalizing-review-workflow-ofborg-update-string-context-explanation.html" rel="alternate"></link><published>2018-08-15T00:00:00+02:00</published><updated>2018-08-15T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2018-08-15:/2018/06-formalizing-review-workflow-ofborg-update-string-context-explanation.html</id><summary type="html">&lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;!-- - Example news item title `with link`_ --&gt;
 &lt;!--  --&gt;
