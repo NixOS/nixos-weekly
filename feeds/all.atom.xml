@@ -1,5 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2018-08-22T00:00:00+02:00</updated><entry><title>#07 - NixOS in production, nix-devel is now Discourse</title><link href="http://weekly.nixos.org/2018/07-nixos-in-production-nix-devel-is-now-discourse.html" rel="alternate"></link><published>2018-08-22T00:00:00+02:00</published><updated>2018-08-22T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2018-08-22:/2018/07-nixos-in-production-nix-devel-is-now-discourse.html</id><summary type="html">&lt;div class="section" id="news"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2018-09-05T00:00:00+02:00</updated><entry><title>#08 - Nix 2.1, NixOS 18.09 beta, new installer bootloader</title><link href="http://weekly.nixos.org/2018/08-nix-21-nixos-1809-beta-new-installer-bootloader.html" rel="alternate"></link><published>2018-09-05T00:00:00+02:00</published><updated>2018-09-05T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2018-09-05:/2018/08-nix-21-nixos-1809-beta-new-installer-bootloader.html</id><summary type="html">&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;!-- - Example news item title `with link`_ --&gt;
+&lt;!--  --&gt;
+&lt;!-- News item description --&gt;
+&lt;!--  --&gt;
+&lt;!-- .. _`with link`: http://example.com --&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/teh/tomu-u2f-overlay"&gt;Nix overlay to program and use a tomu U2F token&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/33686"&gt;#33686: New installer bootloader&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Updates the bootloader,
+shedding one of the few remaining old logos, while also adding
+new features. Mainly, HiDPI options under a new sub-menu,
+allowing modesetting the console to a readable size!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/32"&gt;RFC 32: Tweak the …&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;!-- - Example news item title `with link`_ --&gt;
+&lt;!--  --&gt;
+&lt;!-- News item description --&gt;
+&lt;!--  --&gt;
+&lt;!-- .. _`with link`: http://example.com --&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/teh/tomu-u2f-overlay"&gt;Nix overlay to program and use a tomu U2F token&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/33686"&gt;#33686: New installer bootloader&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Updates the bootloader,
+shedding one of the few remaining old logos, while also adding
+new features. Mainly, HiDPI options under a new sub-menu,
+allowing modesetting the console to a readable size!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/rfcs/pull/32"&gt;RFC 32: Tweak the process of executing phases in the stdenv for better nix-shell UX&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A proposal for making it easier to manually run phases of a build inside a nix-shell.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/musnix/musnix"&gt;Real-time audio in NixOS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/a-schaefers/themelios"&gt;Bootstrap a zfs-on-root NixOS installation using only one command with Themelios&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Themelios automates the entire installation process of a NixOS zfs-on-root system
+using any NixOS livedisk with an internet connection and your git repository.
+Themelios is flexible with many configuration options and allows for unique,
+per-machine customization.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://discourse.nixos.org/t/nix-2-1-released/875"&gt;Nix 2.1 released&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Installer defaulting to single user, multi user support for Linux,
+constant memory streaming of NAR files and more.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/45960"&gt;Zero Hydra Failures for 18.09&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Excellent opportunity to join the community get build failures down to zero.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/commit/e144899b7492d8fdc48c685516347ba7788245a5#diff-09da2f18ff6731224a67af7f0081d111R6"&gt;19.03 to be called Koi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://domenkozar.com/2018/09/04/recent-cachix-downtime/"&gt;Recent Cachix downtime&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A dive into what went wrong in recent ~2h downtime and steps taken to prevent it
+from happening again.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="contribute-to-nixos-weekly-newsletter"&gt;
+&lt;h2&gt;Contribute to NixOS Weekly Newsletter&lt;/h2&gt;
+&lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
+&lt;p&gt;You can help too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
+or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>#07 - NixOS in production, nix-devel is now Discourse</title><link href="http://weekly.nixos.org/2018/07-nixos-in-production-nix-devel-is-now-discourse.html" rel="alternate"></link><published>2018-08-22T00:00:00+02:00</published><updated>2018-08-22T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2018-08-22:/2018/07-nixos-in-production-nix-devel-is-now-discourse.html</id><summary type="html">&lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="http://www.haskellforall.com/2018/08/nixos-in-production.html"&gt;NixOS in production&lt;/a&gt;&lt;/p&gt;
