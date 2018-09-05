@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+  
   <title>NixOS Weekly</title>
 
   <meta charset="utf-8">
@@ -37,6 +37,10 @@
 
   <link href="http://weekly.nixos.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="NixOS Weekly Full Atom Feed" />
   <link href="http://weekly.nixos.org/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="NixOS Weekly Full RSS Feed" />
+
+
+    <meta name="description" content="The free sharing and teaching of open source is incompatible with the notion of the solitary genius." />
+
 
 </head>
 
@@ -78,26 +82,74 @@
         </p>
 
       </section>
-<h1>Archives for 2018</h1>
+<section id="content" class="body">
+  <header>
+    <h1>#08 - Nix 2.1, NixOS 18.09 beta, new installer bootloader</h1>
+    <blockquote><p>The free sharing and teaching of open source is incompatible with the notion of the solitary genius.</p></blockquote>
+  </header>
+  <div class="section" id="news">
+<h2>News</h2>
+<!-- - Example news item title `with link`_ -->
+<!--  -->
+<!-- News item description -->
+<!--  -->
+<!-- .. _`with link`: http://example.com -->
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/teh/tomu-u2f-overlay">Nix overlay to program and use a tomu U2F token</a></li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/33686">#33686: New installer bootloader</a></p>
+<p>Updates the bootloader,
+shedding one of the few remaining old logos, while also adding
+new features. Mainly, HiDPI options under a new sub-menu,
+allowing modesetting the console to a readable size!</p>
+</li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="https://github.com/NixOS/rfcs/pull/32">RFC 32: Tweak the process of executing phases in the stdenv for better nix-shell UX</a></p>
+<p>A proposal for making it easier to manually run phases of a build inside a nix-shell.</p>
+</li>
+</ul>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/musnix/musnix">Real-time audio in NixOS</a></li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="https://github.com/a-schaefers/themelios">Bootstrap a zfs-on-root NixOS installation using only one command with Themelios</a></p>
+<p>Themelios automates the entire installation process of a NixOS zfs-on-root system
+using any NixOS livedisk with an internet connection and your git repository.
+Themelios is flexible with many configuration options and allows for unique,
+per-machine customization.</p>
+</li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="https://discourse.nixos.org/t/nix-2-1-released/875">Nix 2.1 released</a></p>
+<p>Installer defaulting to single user, multi user support for Linux,
+constant memory streaming of NAR files and more.</p>
+</li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="https://github.com/NixOS/nixpkgs/issues/45960">Zero Hydra Failures for 18.09</a></p>
+<p>Excellent opportunity to join the community get build failures down to zero.</p>
+</li>
+</ul>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/NixOS/nixpkgs/commit/e144899b7492d8fdc48c685516347ba7788245a5#diff-09da2f18ff6731224a67af7f0081d111R6">19.03 to be called Koi</a></li>
+</ul>
+<ul>
+<li><p class="first"><a class="reference external" href="https://domenkozar.com/2018/09/04/recent-cachix-downtime/">Recent Cachix downtime</a></p>
+<p>A dive into what went wrong in recent ~2h downtime and steps taken to prevent it
+from happening again.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="contribute-to-nixos-weekly-newsletter">
+<h2>Contribute to NixOS Weekly Newsletter</h2>
+<p>This work would not be possible without the many contributions of the community.</p>
+<p>You can help too! Create or comment on the <a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls">pull request</a> for the next edition
+or look at the <a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues">issue tracker</a> to add other improvements.</p>
+</div>
 
-<dl>
-    <dt>Wed 05 September 2018</dt>
-    <dd><a href="../2018/08-nix-21-nixos-1809-beta-new-installer-bootloader.html">#08 - Nix 2.1, NixOS 18.09 beta, new installer bootloader</a></dd>
-    <dt>Wed 22 August 2018</dt>
-    <dd><a href="../2018/07-nixos-in-production-nix-devel-is-now-discourse.html">#07 - NixOS in production, nix-devel is now Discourse</a></dd>
-    <dt>Wed 15 August 2018</dt>
-    <dd><a href="../2018/06-formalizing-review-workflow-ofborg-update-string-context-explanation.html">#06 - Formalizing review workflow, OfBorg update, String Context explanation</a></dd>
-    <dt>Thu 02 August 2018</dt>
-    <dd><a href="../2018/05.html">#05 - NixOS 18.09 preparations, incremental builds and other tooling</a></dd>
-    <dt>Wed 25 July 2018</dt>
-    <dd><a href="../2018/04-nixconf0218-nix-core-team-binary-cache-improvements.html">#04 - NixCon2018, Nix Core Team, binary cache improvements</a></dd>
-    <dt>Mon 26 February 2018</dt>
-    <dd><a href="../2018/03-a-tree-with-strong-roots.html">#03 - A tree with strong roots ...</a></dd>
-    <dt>Thu 01 February 2018</dt>
-    <dd><a href="../2018/02-life-before-death.html">#02 - Life before death, strength before weakness, ...</a></dd>
-    <dt>Mon 08 January 2018</dt>
-    <dd><a href="../2018/01-phoenixes-burst-into-flame.html">#01 - Phoenixes burst into flame ...</a></dd>
-</dl>
+</section>
     </article>
   </main>
   <footer>
