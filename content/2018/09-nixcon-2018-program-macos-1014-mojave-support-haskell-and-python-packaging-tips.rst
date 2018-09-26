@@ -39,7 +39,7 @@ News
   save some of the boilerplate we might have to write when using Nix for managing a
   software lifecycle. Pkgs-make currently directly supports Haskell and Python
   development, but has the potential to support other language platforms.
-  now?" I hope this helps!
+  now? I hope this helps!
 
 .. _`A way to develop software with Nix`: https://github.com/shajra/example-nix
 
@@ -50,6 +50,10 @@ News
 - `travis-ci Nix support now allows setting Nix version`_
 
 .. _`travis-ci Nix support now allows setting Nix version`: https://docs.travis-ci.com/user/languages/nix/#default-nix-version
+
+- `Building Customised NixOS Images`_
+
+.. _`Building Customised NixOS Images`: https://nixos.mayflower.consulting/blog/2018/09/11/custom-images/
 
 
 Contribute to NixOS Weekly Newsletter
