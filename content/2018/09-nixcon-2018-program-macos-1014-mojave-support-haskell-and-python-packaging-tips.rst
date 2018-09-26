@@ -2,7 +2,7 @@
 ########################################################################################
 
 :date: 2018-09-26
-:description: There is nothing impossible to they who will try.
+:description: There is nothing impossible to them who will try.
 
 News
 ====
