@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Wed, 05 Sep 2018 00:00:00 +0200</lastBuildDate><item><title>#08 - Nix 2.1, NixOS 18.09 beta, new installer bootloader</title><link>http://weekly.nixos.org/2018/08-nix-21-nixos-1809-beta-new-installer-bootloader.html</link><description>&lt;div class="section" id="news"&gt;
+<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Wed, 26 Sep 2018 00:00:00 +0200</lastBuildDate><item><title>#09 - NixCon 2018 program, macOS 10.14 Mojave support, Haskell and Python packaging tips</title><link>http://weekly.nixos.org/2018/09-nixcon-2018-program-macos-1014-mojave-support-haskell-and-python-packaging-tips.html</link><description>&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://nixcon2018.org/#program"&gt;The NixCon 2018 sold out and program is now live&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://docbook.rocks"&gt;Help make the Nix ecosystem's docs better&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A lot of people meet DocBook for the first time when they're contributing to
+the documentation of older, well established open source projects like NixOS.
+Now there is &lt;a class="reference external" href="https://docbook.rocks/"&gt;https://docbook.rocks/&lt;/a&gt; to help you get past the initial hurdle of
+&amp;quot;what do I do now?&amp;quot; I hope this helps!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://hub.docker.com/r/nixos/nix/tags/"&gt;Nix 2.1 has been added to the docker images&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://sandervanderburg.blogspot.com/2018/09/creating-nix-build-function.html"&gt;Creating Nix build function abstractions for pluggable SDKs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://mpickering.github.io/posts/2018-09-19-nix-artefacts.html"&gt;Packaging a Haskell library for artefact evaluation using nix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/shajra/example-nix"&gt;A way to develop software with Nix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This project illustrates using the Nix package manager for programming heterogeneous,
+multi-module projects. Notably, it provides a Nix library called Pkgs-make to
+save some of the boilerplate we might have to write when using Nix for managing a
+software lifecycle. Pkgs-make currently directly supports Haskell and Python
+development, but has the potential to support other language platforms.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://nixos.org/nix/manual/#chap-installation"&gt;Nix 2.1 is compatible with macOS 10.14 Mojave, make sure to update Nix before upgrading&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://docs.travis-ci.com/user/languages/nix/#default-nix-version"&gt;travis-ci Nix support now allows setting Nix version&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://nixos.mayflower.consulting/blog/2018/09/11/custom-images/"&gt;Building Customised NixOS Images&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="contribute-to-nixos-weekly-newsletter"&gt;
+&lt;h2&gt;Contribute to NixOS Weekly Newsletter&lt;/h2&gt;
+&lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
+&lt;p&gt;You can help too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
+or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 26 Sep 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-09-26:/2018/09-nixcon-2018-program-macos-1014-mojave-support-haskell-and-python-packaging-tips.html</guid></item><item><title>#08 - Nix 2.1, NixOS 18.09 beta, new installer bootloader</title><link>http://weekly.nixos.org/2018/08-nix-21-nixos-1809-beta-new-installer-bootloader.html</link><description>&lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;!-- - Example news item title `with link`_ --&gt;
 &lt;!--  --&gt;
