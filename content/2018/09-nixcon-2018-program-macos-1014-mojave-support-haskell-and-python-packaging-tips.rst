@@ -39,8 +39,7 @@ News
   save some of the boilerplate we might have to write when using Nix for managing a
   software lifecycle. Pkgs-make currently directly supports Haskell and Python
   development, but has the potential to support other language platforms.
-  now? I hope this helps!
-
+  
 .. _`A way to develop software with Nix`: https://github.com/shajra/example-nix
 
 - `Nix 2.1 is compatible with macOS 10.14 Mojave, make sure to update Nix before upgrading`_
