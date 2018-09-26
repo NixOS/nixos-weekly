@@ -36,7 +36,7 @@ News
 
   This project illustrates using the Nix package manager for programming heterogeneous,
   multi-module projects. Notably, it provides a Nix library called Pkgs-make to
-  save some the boilerplate we might have to write when using Nix for managing a
+  save some of the boilerplate we might have to write when using Nix for managing a
   software lifecycle. Pkgs-make currently directly supports Haskell and Python
   development, but has the potential to support other language platforms.
   now?" I hope this helps!
