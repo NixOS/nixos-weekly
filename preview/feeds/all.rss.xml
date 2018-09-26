@@ -28,7 +28,7 @@ multi-module projects. Notably, it provides a Nix library called Pkgs-make to
 save some of the boilerplate we might have to write when using Nix for managing a
 software lifecycle. Pkgs-make currently directly supports Haskell and Python
 development, but has the potential to support other language platforms.
-now?&amp;quot; I hope this helps!&lt;/p&gt;
+now? I hope this helps!&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul class="simple"&gt;
@@ -36,6 +36,9 @@ now?&amp;quot; I hope this helps!&lt;/p&gt;
 &lt;/ul&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://docs.travis-ci.com/user/languages/nix/#default-nix-version"&gt;travis-ci Nix support now allows setting Nix version&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://nixos.mayflower.consulting/blog/2018/09/11/custom-images/"&gt;Building Customised NixOS Images&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class="section" id="contribute-to-nixos-weekly-newsletter"&gt;
