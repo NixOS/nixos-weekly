@@ -28,14 +28,14 @@ News
 
 - `krops as an alternative to NixOps`_
 
-  NixOps the official DevOps tool of NixOS is nice, but it has some flaws.
+  NixOps, the official DevOps tool of NixOS, is nice but it has some flaws.
   krops is an alternative to NixOps trying to solve some of theses flaws.
 
 .. _`krops as an alternative to NixOps`: https://tech.ingolf-wagner.de/nixos/krops/
 
-- `developer friendly backdoor to VM tests infrastructure`_
+- `Developer friendly backdoor to VM tests infrastructure`_
 
-.. _`developer friendly backdoor to VM tests infrastructure`: https://github.com/NixOS/nixpkgs/pull/47418
+.. _`Developer friendly backdoor to VM tests infrastructure`: https://github.com/NixOS/nixpkgs/pull/47418
 
 - `Optimising Docker Layers for Better Caching with Nix`_
 
@@ -50,7 +50,7 @@ News
 
   Some distinguishing features:
    - Great integration with Nix
-   - Host build agents where you want
+   - Host build agents wherever you want
    - Free plan for open source!
 
 .. _`Announcing Hercules CI - Continuous Integration service for Nix users launching beta in November`: https://hercules-ci.com
