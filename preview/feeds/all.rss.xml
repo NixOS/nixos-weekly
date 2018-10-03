@@ -16,12 +16,12 @@ modern IDE experience and any tooling built-in.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://tech.ingolf-wagner.de/nixos/krops/"&gt;krops as an alternative to NixOps&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;NixOps the official DevOps tool of NixOS is nice, but it has some flaws.
+&lt;p&gt;NixOps, the official DevOps tool of NixOS, is nice but it has some flaws.
 krops is an alternative to NixOps trying to solve some of theses flaws.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul class="simple"&gt;
-&lt;li&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/47418"&gt;developer friendly backdoor to VM tests infrastructure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/47418"&gt;Developer friendly backdoor to VM tests infrastructure&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://grahamc.com/blog/nix-and-layered-docker-images"&gt;Optimising Docker Layers for Better Caching with Nix&lt;/a&gt;&lt;/p&gt;
@@ -36,7 +36,7 @@ to separate out important layers.&lt;/p&gt;
 &lt;dt&gt;Some distinguishing features:&lt;/dt&gt;
 &lt;dd&gt;&lt;ul class="first last simple"&gt;
 &lt;li&gt;Great integration with Nix&lt;/li&gt;
-&lt;li&gt;Host build agents where you want&lt;/li&gt;
+&lt;li&gt;Host build agents wherever you want&lt;/li&gt;
 &lt;li&gt;Free plan for open source!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/dd&gt;
