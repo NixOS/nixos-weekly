@@ -1,4 +1,4 @@
-#10 - Arch64 builders, NixOps alternative, optimized docker layers, Hercules CI
+#10 - Arch64 builders, NixOps alternative, optimised docker layers, Hercules CI
 ###############################################################################
 
 :date: 2018-10-03
@@ -29,7 +29,7 @@ News
 - `krops as an alternative to NixOps`_
 
   NixOps, the official DevOps tool of NixOS, is nice but it has some flaws.
-  krops is an alternative to NixOps trying to solve some of theses flaws.
+  krops is an alternative to NixOps trying to solve some of these flaws.
 
 .. _`krops as an alternative to NixOps`: https://tech.ingolf-wagner.de/nixos/krops/
 
