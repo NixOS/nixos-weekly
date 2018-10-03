@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Wed, 03 Oct 2018 00:00:00 +0200</lastBuildDate><item><title>#10 - Arch64 builders, NixOps alternative, optimized docker layers, Hercules CI</title><link>http://weekly.nixos.org/2018/10-arch64-builders-nixops-alternative-optimized-docker-layers-hercules-ci.html</link><description>&lt;div class="section" id="news"&gt;
+<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Wed, 03 Oct 2018 00:00:00 +0200</lastBuildDate><item><title>#10 - Arch64 builders, NixOps alternative, optimised docker layers, Hercules CI</title><link>http://weekly.nixos.org/2018/10-arch64-builders-nixops-alternative-optimized-docker-layers-hercules-ci.html</link><description>&lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://functional.works-hub.com/learn/exploring-nix-and-haskell-part-1-project-setup-0edb2"&gt;Exploring Nix &amp;amp; Haskell Part 1: Project Setup&lt;/a&gt;&lt;/p&gt;
@@ -17,7 +17,7 @@ modern IDE experience and any tooling built-in.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://tech.ingolf-wagner.de/nixos/krops/"&gt;krops as an alternative to NixOps&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;NixOps, the official DevOps tool of NixOS, is nice but it has some flaws.
-krops is an alternative to NixOps trying to solve some of theses flaws.&lt;/p&gt;
+krops is an alternative to NixOps trying to solve some of these flaws.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul class="simple"&gt;
