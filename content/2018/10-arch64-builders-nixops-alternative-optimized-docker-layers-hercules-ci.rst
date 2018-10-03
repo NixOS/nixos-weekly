@@ -1,5 +1,5 @@
-#10 - Arch64 builders, NixOps alternative, optimised docker layers, Hercules CI
-###############################################################################
+#10 - AArch64 builders, NixOps alternative, optimised docker layers, Hercules CI
+################################################################################
 
 :date: 2018-10-03
 :description: Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.
