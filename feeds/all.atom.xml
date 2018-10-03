@@ -1,5 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2018-09-26T00:00:00+02:00</updated><entry><title>#09 - NixCon 2018 program, macOS 10.14 Mojave support, Haskell and Python packaging tips</title><link href="http://weekly.nixos.org/2018/09-nixcon-2018-program-macos-1014-mojave-support-haskell-and-python-packaging-tips.html" rel="alternate"></link><published>2018-09-26T00:00:00+02:00</published><updated>2018-09-26T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2018-09-26:/2018/09-nixcon-2018-program-macos-1014-mojave-support-haskell-and-python-packaging-tips.html</id><summary type="html">&lt;div class="section" id="news"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2018-10-03T00:00:00+02:00</updated><entry><title>#10 - Arch64 builders, NixOps alternative, optimised docker layers, Hercules CI</title><link href="http://weekly.nixos.org/2018/10-arch64-builders-nixops-alternative-optimized-docker-layers-hercules-ci.html" rel="alternate"></link><published>2018-10-03T00:00:00+02:00</published><updated>2018-10-03T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2018-10-03:/2018/10-arch64-builders-nixops-alternative-optimized-docker-layers-hercules-ci.html</id><summary type="html">&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://functional.works-hub.com/learn/exploring-nix-and-haskell-part-1-project-setup-0edb2"&gt;Exploring Nix &amp;amp; Haskell Part 1: Project Setup&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is the first of a series of posts, with the overarching goal of building
+up a deterministic Haskell development environment using Nix, including a
+modern IDE experience and any tooling built-in.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://discourse.nixos.org/t/new-aarch64-and-armv7l-linux-omg-builders/1010"&gt;New Aarch64 (and armv7l-linux omg!) builders&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.redbubble.com/people/mogorman/works/34062374-nixos-18-09-jellyfish?asc=u"&gt;New shirt and logo …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="news"&gt;
+&lt;h2&gt;News&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://functional.works-hub.com/learn/exploring-nix-and-haskell-part-1-project-setup-0edb2"&gt;Exploring Nix &amp;amp; Haskell Part 1: Project Setup&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is the first of a series of posts, with the overarching goal of building
+up a deterministic Haskell development environment using Nix, including a
+modern IDE experience and any tooling built-in.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://discourse.nixos.org/t/new-aarch64-and-armv7l-linux-omg-builders/1010"&gt;New Aarch64 (and armv7l-linux omg!) builders&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.redbubble.com/people/mogorman/works/34062374-nixos-18-09-jellyfish?asc=u"&gt;New shirt and logo for 18.09 release&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://tech.ingolf-wagner.de/nixos/krops/"&gt;krops as an alternative to NixOps&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NixOps, the official DevOps tool of NixOS, is nice but it has some flaws.
+krops is an alternative to NixOps trying to solve some of these flaws.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pull/47418"&gt;Developer friendly backdoor to VM tests infrastructure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://grahamc.com/blog/nix-and-layered-docker-images"&gt;Optimising Docker Layers for Better Caching with Nix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Check out how Graham created Nix tooling to automatically build Docker
+images with great cache characteristics by using Nix's reference graph
+to separate out important layers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://hercules-ci.com"&gt;Announcing Hercules CI - Continuous Integration service for Nix users launching beta in November&lt;/a&gt;&lt;/p&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;Some distinguishing features:&lt;/dt&gt;
+&lt;dd&gt;&lt;ul class="first last simple"&gt;
+&lt;li&gt;Great integration with Nix&lt;/li&gt;
+&lt;li&gt;Host build agents wherever you want&lt;/li&gt;
+&lt;li&gt;Free plan for open source!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://hackage.haskell.org/package/cachix-0.1.2/changelog"&gt;Cachix (binary cache as a service) client 0.1.2 released&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://twitter.com/IotaSamurai/status/1045220406792048640"&gt;nix repl '&amp;lt;nixpkgs/nixos&amp;gt;' will let you check out your configuration results&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://groups.google.com/forum/#!topic/snowflake-announcements/4t4JXbYZP3k"&gt;Snowflake (language-agnostic, toolchain-agnostic build system built on top of Nix) v0.0.2 released&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://functor.tokyo/blog/2018-10-01-japanese-on-nixos"&gt;Japanese on NixOS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;An explanation of how to setup an environment for reading and writing Japanese on NixOS&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="contribute-to-nixos-weekly-newsletter"&gt;
+&lt;h2&gt;Contribute to NixOS Weekly Newsletter&lt;/h2&gt;
+&lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
+&lt;p&gt;You can help too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
+or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>#09 - NixCon 2018 program, macOS 10.14 Mojave support, Haskell and Python packaging tips</title><link href="http://weekly.nixos.org/2018/09-nixcon-2018-program-macos-1014-mojave-support-haskell-and-python-packaging-tips.html" rel="alternate"></link><published>2018-09-26T00:00:00+02:00</published><updated>2018-09-26T00:00:00+02:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2018-09-26:/2018/09-nixcon-2018-program-macos-1014-mojave-support-haskell-and-python-packaging-tips.html</id><summary type="html">&lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://nixcon2018.org/#program"&gt;The NixCon 2018 sold out and program is now live&lt;/a&gt;&lt;/li&gt;
