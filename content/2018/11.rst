@@ -14,7 +14,9 @@ News
 ..
 .. .. _`with link`: http://example.com
 
+- cache.nixos.org `moved`_ from Amazon to Fastly.
 
+.. _`moved`: https://discourse.nixos.org/t/the-nixos-cache-is-now-hosted-by-fastly/1061
 
 
 Contribute to NixOS Weekly Newsletter
