@@ -5,10 +5,9 @@ Description: People Who Are Crazy Enough To Think They Can Change The World, Are
 
 # News
 
+- [NixCon 2018 videos of talks](https://www.youtube.com/channel/UCjqkNrQ8F3OhKSCfCgagWLg/videos)
 
 - [Eris: A simple binary cache server](https://discourse.nixos.org/t/ann-eris-a-simple-binary-cache-server/1265)
-
-- [NixCon 2018 videos of talks](https://www.youtube.com/channel/UCjqkNrQ8F3OhKSCfCgagWLg/videos)
 
 - [News on the security team](https://discourse.nixos.org/t/news-on-the-security-team/1280)
 
