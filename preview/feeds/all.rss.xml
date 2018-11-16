@@ -2,10 +2,10 @@
 <rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Fri, 16 Nov 2018 00:00:00 +0100</lastBuildDate><item><title>#12 - NixCon 2018 videos, Eris, NixDoc, Auto patching and jobs</title><link>http://weekly.nixos.org/2018/12-nixcon-2018-videos-eris-nixdoc-auto-patching-and-jobs.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://discourse.nixos.org/t/ann-eris-a-simple-binary-cache-server/1265"&gt;Eris: A simple binary cache server&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/channel/UCjqkNrQ8F3OhKSCfCgagWLg/videos"&gt;NixCon 2018 videos of talks&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/channel/UCjqkNrQ8F3OhKSCfCgagWLg/videos"&gt;NixCon 2018 videos of talks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://discourse.nixos.org/t/ann-eris-a-simple-binary-cache-server/1265"&gt;Eris: A simple binary cache server&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://discourse.nixos.org/t/news-on-the-security-team/1280"&gt;News on the security team&lt;/a&gt;&lt;/p&gt;

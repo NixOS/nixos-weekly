@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>NixOS Weekly</title><link href="http://weekly.nixos.org/" rel="alternate"></link><link href="http://weekly.nixos.org/feeds/all.atom.xml" rel="self"></link><id>http://weekly.nixos.org/</id><updated>2018-11-16T00:00:00+01:00</updated><entry><title>#12 - NixCon 2018 videos, Eris, NixDoc, Auto patching and jobs</title><link href="http://weekly.nixos.org/2018/12-nixcon-2018-videos-eris-nixdoc-auto-patching-and-jobs.html" rel="alternate"></link><published>2018-11-16T00:00:00+01:00</published><updated>2018-11-16T00:00:00+01:00</updated><author><name>NixOS Weekly Team</name></author><id>tag:weekly.nixos.org,2018-11-16:/2018/12-nixcon-2018-videos-eris-nixdoc-auto-patching-and-jobs.html</id><summary type="html">&lt;h1&gt;News&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://discourse.nixos.org/t/ann-eris-a-simple-binary-cache-server/1265"&gt;Eris: A simple binary cache server&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/channel/UCjqkNrQ8F3OhKSCfCgagWLg/videos"&gt;NixCon 2018 videos of talks&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/channel/UCjqkNrQ8F3OhKSCfCgagWLg/videos"&gt;NixCon 2018 videos of talks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://discourse.nixos.org/t/ann-eris-a-simple-binary-cache-server/1265"&gt;Eris: A simple binary cache server&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://discourse.nixos.org/t/news-on-the-security-team/1280"&gt;News on the security team&lt;/a&gt;&lt;/p&gt;
@@ -33,10 +33,10 @@
 &lt;p&gt;Mercury is hiring a generalist engineer …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;News&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://discourse.nixos.org/t/ann-eris-a-simple-binary-cache-server/1265"&gt;Eris: A simple binary cache server&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/channel/UCjqkNrQ8F3OhKSCfCgagWLg/videos"&gt;NixCon 2018 videos of talks&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href="https://www.youtube.com/channel/UCjqkNrQ8F3OhKSCfCgagWLg/videos"&gt;NixCon 2018 videos of talks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://discourse.nixos.org/t/ann-eris-a-simple-binary-cache-server/1265"&gt;Eris: A simple binary cache server&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://discourse.nixos.org/t/news-on-the-security-team/1280"&gt;News on the security team&lt;/a&gt;&lt;/p&gt;
