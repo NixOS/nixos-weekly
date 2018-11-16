@@ -22,17 +22,6 @@ Ways to contribute:
   open a Pull Request and contribute links / content for next blog post
   release.
 
-- **Write script(s) to automate "stuff".** Not everybody is a writer and enjoys
-  writing blog posts. But some of us are quite good at writing scripts that
-  make our life easier. Look at the issue tracker for possible issues that
-  require some programming skills.
-
-- **Become an Editor.** For every blog post release there is going to be one
-  person in charge and we call this an Editor. The sole responsability of this
-  role is that blog post release happens on time and that we have an editor for
-  next release. To become and editor all you have to do is volunteer.
-
-  See `EDITORS.rst <./EDITORS.rst>`_
 
 FAQ
 ---
