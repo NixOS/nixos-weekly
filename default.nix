@@ -10,6 +10,7 @@ pkgs.stdenv.mkDerivation {
   buildInputs = with pkgs.python3Packages;
     [ pelican
       livereload
+      markdown
     ];
   buildPhase = ''
     pelican
