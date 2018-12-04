@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+  
   <title>NixOS Weekly</title>
 
   <meta charset="utf-8">
@@ -37,6 +37,10 @@
 
   <link href="http://weekly.nixos.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="NixOS Weekly Full Atom Feed" />
   <link href="http://weekly.nixos.org/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="NixOS Weekly Full RSS Feed" />
+
+
+    <meta name="description" content="No act of kindness, no matter how small, is ever wasted." />
+
 
 </head>
 
@@ -78,36 +82,54 @@
         </p>
 
       </section>
-<h1>Archives for 2018</h1>
-
-<dl>
-    <dt>Tue 04 December 2018</dt>
-    <dd><a href="../2018/13-cross-compilation-for-go-and-rust-home-manager-email-support.html">#13 - Cross compilation for Go and Rust, home-manager email support</a></dd>
-    <dt>Fri 16 November 2018</dt>
-    <dd><a href="../2018/12-nixcon-2018-videos-eris-nixdoc-auto-patching-and-jobs.html">#12 - NixCon 2018 videos, Eris, NixDoc, Auto patching and jobs</a></dd>
-    <dt>Wed 10 October 2018</dt>
-    <dd><a href="../2018/11-nixos-1809-release-fastly-cdn-for-cache-your-first-hydra.html">#11 - NixOS 18.09 release, Fastly CDN for cache, your first Hydra</a></dd>
-    <dt>Wed 03 October 2018</dt>
-    <dd><a href="../2018/10-arch64-builders-nixops-alternative-optimized-docker-layers-hercules-ci.html">#10 - AArch64 builders, NixOps alternative, optimised docker layers, Hercules CI</a></dd>
-    <dt>Wed 26 September 2018</dt>
-    <dd><a href="../2018/09-nixcon-2018-program-macos-1014-mojave-support-haskell-and-python-packaging-tips.html">#09 - NixCon 2018 program, macOS 10.14 Mojave support, Haskell and Python packaging tips</a></dd>
-    <dt>Wed 05 September 2018</dt>
-    <dd><a href="../2018/08-nix-21-nixos-1809-beta-new-installer-bootloader.html">#08 - Nix 2.1, NixOS 18.09 beta, new installer bootloader</a></dd>
-    <dt>Wed 22 August 2018</dt>
-    <dd><a href="../2018/07-nixos-in-production-nix-devel-is-now-discourse.html">#07 - NixOS in production, nix-devel is now Discourse</a></dd>
-    <dt>Wed 15 August 2018</dt>
-    <dd><a href="../2018/06-formalizing-review-workflow-ofborg-update-string-context-explanation.html">#06 - Formalizing review workflow, OfBorg update, String Context explanation</a></dd>
-    <dt>Thu 02 August 2018</dt>
-    <dd><a href="../2018/05.html">#05 - NixOS 18.09 preparations, incremental builds and other tooling</a></dd>
-    <dt>Wed 25 July 2018</dt>
-    <dd><a href="../2018/04-nixconf0218-nix-core-team-binary-cache-improvements.html">#04 - NixCon2018, Nix Core Team, binary cache improvements</a></dd>
-    <dt>Mon 26 February 2018</dt>
-    <dd><a href="../2018/03-a-tree-with-strong-roots.html">#03 - A tree with strong roots ...</a></dd>
-    <dt>Thu 01 February 2018</dt>
-    <dd><a href="../2018/02-life-before-death.html">#02 - Life before death, strength before weakness, ...</a></dd>
-    <dt>Mon 08 January 2018</dt>
-    <dd><a href="../2018/01-phoenixes-burst-into-flame.html">#01 - Phoenixes burst into flame ...</a></dd>
-</dl>
+<section id="content" class="body">
+  <header>
+    <h1>#13 - Cross compilation for Go and Rust, home-manager email support</h1>
+    <blockquote><p>No act of kindness, no matter how small, is ever wasted.</p></blockquote>
+  </header>
+  <h1>News</h1>
+<ul>
+<li>
+<p>NixOS 19.03 will leverage <a href="https://github.com/NixOS/nixpkgs/pull/50440">multiple cores</a>
+  automatically by default for builds and Nix 2.2 will have the sandbox
+  <a href="https://github.com/NixOS/nix/commit/4ea4d0b1a39deb0f12a66e10e4809f2d0ddb324e">enabled by default</a>
+  on Linux</p>
+</li>
+<li>
+<p><a href="https://nokomprendo.frama.io/tuto_fonctionnel/posts/tuto_fonctionnel_30/2018-11-08-README.html">Deploy a C++ web app on Heroku using Docker and Nix</a></p>
+</li>
+<li>
+<p><a href="https://github.com/NixOS/nixpkgs/pull/46020#event-1973394287">Meson 0.48 landed in staging again</a></p>
+</li>
+<li>
+<p><a href="https://github.com/rycee/home-manager/pulls?q=is%3Apr+is%3Aclosed+label%3Amail">Declarative client mail configuration</a></p>
+</li>
+</ul>
+<p>In the latest months, some work went into home-manager to abstract mail configuration
+  and generate configs for a variety of client-side software. Declare your username/password
+  once and generate configs for afew/alot/astroid/mbsync/offlineimap.</p>
+<ul>
+<li><a href="https://github.com/NixOS/nixpkgs/pull/50835">Go cross-compilation</a> landed in staging</li>
+</ul>
+<p>This includes support for Cgo and <code>buildGoPackage</code>.
+  <a href="https://github.com/NixOS/nixpkgs/pull/50866">Rust cross-compilation</a> could follow soon.</p>
+<ul>
+<li>
+<p><a href="https://github.com/NixOS/rfcs/pull/36">RFC</a> on improving RFC</p>
+</li>
+<li>
+<p><a href="https://hackage.haskell.org/package/cachix-0.1.3/changelog">Released cachix 0.1.3</a></p>
+</li>
+<li>
+<p><a href="https://discourse.nixos.org/t/nixos-stickers-for-35c3-and-fosdem/1540">Call for new stickers design for events</a></p>
+</li>
+</ul>
+<h1>Contribute to NixOS Weekly Newsletter</h1>
+<p>This work would not be possible without the many contributions of the community.</p>
+<p>You can help too! Create or comment on the <a href="https://github.com/NixOS/nixos-weekly/pulls">pull request</a>
+for the next edition or look at the
+<a href="https://github.com/NixOS/nixos-weekly/issues">issue tracker</a> to add other improvements.</p>
+</section>
     </article>
   </main>
   <footer>
