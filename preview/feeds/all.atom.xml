@@ -53,6 +53,10 @@
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://discourse.nixos.org/t/nixos-stickers-for-35c3-and-fosdem/1540"&gt;Call for new stickers design for events&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://discourse.nixos.org/t/ofborg-now-uses-checks/1558"&gt;OfBorg now uses checks&lt;/a&gt;
+   for build status reports, greatly reducing Nixpkgs reviewers' email load.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1&gt;Contribute to NixOS Weekly Newsletter&lt;/h1&gt;
 &lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
