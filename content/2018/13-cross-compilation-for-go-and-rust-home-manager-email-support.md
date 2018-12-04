@@ -31,6 +31,8 @@ Description: No act of kindness, no matter how small, is ever wasted.
 
 - [Call for new stickers design for events](https://discourse.nixos.org/t/nixos-stickers-for-35c3-and-fosdem/1540)
 
+ - [OfBorg now uses checks](https://discourse.nixos.org/t/ofborg-now-uses-checks/1558)
+   for build status reports, greatly reducing Nixpkgs reviewers' email load.
 
 # Contribute to NixOS Weekly Newsletter
 
