@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Wed, 19 Dec 2018 00:00:00 +0100</lastBuildDate><item><title>#14 - Reproducible builds summit, Gnome 3.30, RFC process, linter, Arion</title><link>http://weekly.nixos.org/2018/14-reproducible-builds-summit-gnome-330-rfc-process-linter-arion.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
+<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Thu, 17 Jan 2019 00:00:00 +0100</lastBuildDate><item><title>#01 - TerraNix, Debian packaging, elm2nix, RaspberryPi 3+</title><link>http://weekly.nixos.org/2019/01-terranix-debian-packaging-elm2nix-raspberrypi-3.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://tech.ingolf-wagner.de/nixos/nix-instantiate/"&gt;nix-instantiate introduction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A polite introduction to use nix-instantiate and the NixOS module system to render JSON.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/mrVanDalo/terranix"&gt;TerraNix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Terraform is awesome, it would be much more awesome with a NixOS  module system.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://lists.debian.org/debian-devel/2019/01/msg00013.html"&gt;Debian is packaging Nix&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://blog.hercules-ci.com/elm/2019/01/03/elm2nix-0.1/"&gt;elm2nix 0.1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://discourse.nixos.org/t/declarative-package-management-for-normal-users/1823/3"&gt;nix-env replacement for imperative package management, but with declarative core&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/nixos/nix-mode"&gt;nix-mode.el&lt;/a&gt;'s alternate indentation function
+  &lt;code&gt;nix-indent-line&lt;/code&gt; has received some very needed indentation improvements in
+  &lt;a href="https://github.com/NixOS/nix-mode/pull/61"&gt;NixOS/nix-mode#61&lt;/a&gt;, and automated
+  tests and Travis-CI support in &lt;a href="https://github.com/NixOS/nix-mode/pull/63"&gt;NixOS/nix-mode#63&lt;/a&gt;
+  thanks to @etu and @matthewbauer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/zupo/nix"&gt;Beginners Guide for setting up NixOS on the RaspberryPi 3+&lt;/a&gt;
+  based on the new aarch64 SD-Image built by hydra&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://nmattia.com/posts/2019-01-15-easy-peasy-nix-versions.html"&gt;Easy Peasy Nix versions&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Contribute to NixOS Weekly Newsletter&lt;/h1&gt;
+&lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
+&lt;p&gt;You can help too! Create or comment on the &lt;a href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt;
+for the next edition or look at the
+&lt;a href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Thu, 17 Jan 2019 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2019-01-17:/2019/01-terranix-debian-packaging-elm2nix-raspberrypi-3.html</guid></item><item><title>#14 - Reproducible builds summit, Gnome 3.30, RFC process, linter, Arion</title><link>http://weekly.nixos.org/2018/14-reproducible-builds-summit-gnome-330-rfc-process-linter-arion.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Gnome 3.30 with &lt;a href="https://github.com/NixOS/nixpkgs/pull/44497"&gt;wayland support&lt;/a&gt; has hit master&lt;/li&gt;
 &lt;/ul&gt;
