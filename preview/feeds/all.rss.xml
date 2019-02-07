@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Thu, 07 Feb 2019 00:00:00 +0100</lastBuildDate><item><title>#02 - 19.03 feature freeze, EU grants, reproducibility, Nix in Debian</title><link>http://weekly.nixos.org/2019/02-1903-feature-freeze-eu-grants-reproducibility-nix-in-debian.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/nix-community/nixos-generators"&gt;nixos-generators&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://ftp-master.debian.org/new/nix_2.2.1-2.html"&gt;Nix&lt;/a&gt; is now available in Debian&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://discourse.nixos.org/t/nixos-19-03-feature-freeze/1950"&gt;NixOS 19.03 feature freeze&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/nix-community/nixos-generators"&gt;nixos-generators&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The nixos-generators project allows to take the same NixOS configuration, and generate outputs for different target formats i.e. ISO, kexec tarballs, qemu's qcow2 format, google cloud images...&lt;/p&gt;
 &lt;ul&gt;
@@ -13,9 +21,6 @@
 &lt;/ul&gt;
 &lt;p&gt;by @samueldr aims to provide a one-click^W command solution to running a hydra instance &lt;strong&gt;for development purposes&lt;/strong&gt;.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://discourse.nixos.org/t/nixos-19-03-feature-freeze/1950"&gt;NixOS 19.03 feature freeze&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://discourse.nixos.org/t/call-for-proofreaders-and-beta-testers-for-19-03/1980"&gt;Contributing to NixOS/Nixpkgs&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -31,9 +36,6 @@
 &lt;/ul&gt;
 &lt;p&gt;The repositories of distributions such as Debian and Nixpkgs are among the largest collections of open source (and some unfree) software. They are complex systems that connect and organize many interdependent packages. In this blog post we try to shed some light on them from the perspective of Nixpkgs, mostly with visualizations of its complete dependency.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://ftp-master.debian.org/new/nix_2.2.1-2.html"&gt;Nix&lt;/a&gt; is now available in Debian&lt;/p&gt;
-&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://iohk.io/blog/how-we-use-nix-at-iohk/"&gt;How we use Nix at IOHK&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
