@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+  
   <title>NixOS Weekly</title>
 
   <meta charset="utf-8">
@@ -37,6 +37,10 @@
 
   <link href="http://weekly.nixos.org/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="NixOS Weekly Full Atom Feed" />
   <link href="http://weekly.nixos.org/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="NixOS Weekly Full RSS Feed" />
+
+
+    <meta name="description" content="Today is the only day. Yesterday is gone." />
+
 
 </head>
 
@@ -78,14 +82,59 @@
         </p>
 
       </section>
-<h1>Archives for 2019</h1>
-
-<dl>
-    <dt>Thu 07 February 2019</dt>
-    <dd><a href="../2019/02-1903-feature-freeze-eu-grants-reproducibility-nix-in-debian.html">#02 - 19.03 feature freeze, EU grants, reproducibility, Nix in Debian</a></dd>
-    <dt>Thu 17 January 2019</dt>
-    <dd><a href="../2019/01-terranix-debian-packaging-elm2nix-raspberrypi-3.html">#01 - TerraNix, Debian packaging, elm2nix, RaspberryPi 3+</a></dd>
-</dl>
+<section id="content" class="body">
+  <header>
+    <h1>#02 - 19.03 feature freeze, EU grants, reproducibility, Nix in Debian</h1>
+    <blockquote><p>Today is the only day. Yesterday is gone.</p></blockquote>
+  </header>
+  <h1>News</h1>
+<ul>
+<li><a href="https://github.com/nix-community/nixos-generators">nixos-generators</a></li>
+</ul>
+<p>The nixos-generators project allows to take the same NixOS configuration, and generate outputs for different target formats i.e. ISO, kexec tarballs, qemu's qcow2 format, google cloud images...</p>
+<ul>
+<li>Code archeology: 15 years ago Nix files had <code>.fix</code> extension.</li>
+</ul>
+<p>Compare original <a href="https://github.com/NixOS/nixpkgs/blob/0.4/pkgs/MPlayer/MPlayer.fix">MPlayer expression</a>, it's <a href="https://github.com/NixOS/nixpkgs/blob/0.4/pkgs-ng/applications/video/MPlayer/default.fix">first rewrite</a> and <a href="https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/video/mplayer/default.nix">modern view</a></p>
+<ul>
+<li><a href="https://github.com/samueldr/hydra-in-a-bag">hydra-in-a-bag</a></li>
+</ul>
+<p>by @samueldr aims to provide a one-click^W command solution to running a hydra instance <strong>for development purposes</strong>.</p>
+<ul>
+<li>
+<p><a href="https://discourse.nixos.org/t/nixos-19-03-feature-freeze/1950">NixOS 19.03 feature freeze</a></p>
+</li>
+<li>
+<p><a href="https://discourse.nixos.org/t/call-for-proofreaders-and-beta-testers-for-19-03/1980">Contributing to NixOS/Nixpkgs</a></p>
+</li>
+<li>
+<p><a href="https://discourse.nixos.org/t/nixos-foundation-participating-in-eus-next-generation-internet-initiative/2011">NixOS Foundation participating in EU's Next Generation Internet initiative</a></p>
+</li>
+<li>
+<p><a href="https://r13y.com">Is NixOS image binary reproducible?</a></p>
+</li>
+<li>
+<p><a href="https://www.tweag.io/posts/2019-02-06-mapping-open-source.html">Mapping a universe of open source software</a></p>
+</li>
+</ul>
+<p>The repositories of distributions such as Debian and Nixpkgs are among the largest collections of open source (and some unfree) software. They are complex systems that connect and organize many interdependent packages. In this blog post we try to shed some light on them from the perspective of Nixpkgs, mostly with visualizations of its complete dependency.</p>
+<ul>
+<li>
+<p><a href="https://ftp-master.debian.org/new/nix_2.2.1-2.html">Nix</a> is now available in Debian</p>
+</li>
+<li>
+<p><a href="https://iohk.io/blog/how-we-use-nix-at-iohk/">How we use Nix at IOHK</a></p>
+</li>
+<li>
+<p><a href="http://www.haskellforall.com/2019/01/dhall-year-in-review-2018-2019.html">Dhall - Year in review</a></p>
+</li>
+</ul>
+<h1>Contribute to NixOS Weekly Newsletter</h1>
+<p>This work would not be possible without the many contributions of the community.</p>
+<p>You can help too! Create or comment on the <a href="https://github.com/NixOS/nixos-weekly/pulls">pull request</a>
+for the next edition or look at the
+<a href="https://github.com/NixOS/nixos-weekly/issues">issue tracker</a> to add other improvements.</p>
+</section>
     </article>
   </main>
   <footer>
