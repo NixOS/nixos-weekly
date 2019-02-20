@@ -15,7 +15,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://lwn.net/SubscriberLink/779997/11de2bdc8dbc0d69/"&gt;The case of the supersized shebang&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Regression in the linux kernel all together with backporting the issue into all stable kernels&lt;/p&gt;
+&lt;p&gt;Regression in the linux kernel all together with backporting the issue into all stable kernels.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://rycwo.xyz/2018/07/29/nixos-series-dual-boot"&gt;Diving into NixOS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
