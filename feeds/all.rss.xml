@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>NixOS Weekly</title><link>http://weekly.nixos.org/</link><description></description><lastBuildDate>Wed, 20 Feb 2019 00:00:00 +0100</lastBuildDate><item><title>#03 - Kubenix, kernel regressions and jobs</title><link>http://weekly.nixos.org/2019/03-kubenix-kernel-regressions-and-jobs.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
+<rss version="2.0"><channel><title>NixOS Weekly</title><link>https://weekly.nixos.org/</link><description></description><lastBuildDate>Wed, 20 Feb 2019 00:00:00 +0100</lastBuildDate><item><title>#03 - Kubenix, kernel regressions and jobs</title><link>https://weekly.nixos.org/2019/03-kubenix-kernel-regressions-and-jobs.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/antonym/netboot.xyz/issues/37"&gt;NixOS is bootable via netboot.xyz&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -45,7 +45,7 @@
 &lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
 &lt;p&gt;You can help too! Create or comment on the &lt;a href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt;
 for the next edition or look at the
-&lt;a href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 20 Feb 2019 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2019-02-20:/2019/03-kubenix-kernel-regressions-and-jobs.html</guid></item><item><title>#02 - 19.03 feature freeze, EU grants, reproducibility, Nix in Debian</title><link>http://weekly.nixos.org/2019/02-1903-feature-freeze-eu-grants-reproducibility-nix-in-debian.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
+&lt;a href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 20 Feb 2019 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2019-02-20:/2019/03-kubenix-kernel-regressions-and-jobs.html</guid></item><item><title>#02 - 19.03 feature freeze, EU grants, reproducibility, Nix in Debian</title><link>https://weekly.nixos.org/2019/02-1903-feature-freeze-eu-grants-reproducibility-nix-in-debian.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://ftp-master.debian.org/new/nix_2.2.1-2.html"&gt;Nix&lt;/a&gt; is now available in Debian&lt;/p&gt;
@@ -94,7 +94,7 @@ for the next edition or look at the
 &lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
 &lt;p&gt;You can help too! Create or comment on the &lt;a href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt;
 for the next edition or look at the
-&lt;a href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2019-02-07:/2019/02-1903-feature-freeze-eu-grants-reproducibility-nix-in-debian.html</guid></item><item><title>#01 - TerraNix, Debian packaging, elm2nix, RaspberryPi 3+</title><link>http://weekly.nixos.org/2019/01-terranix-debian-packaging-elm2nix-raspberrypi-3.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
+&lt;a href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Thu, 07 Feb 2019 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2019-02-07:/2019/02-1903-feature-freeze-eu-grants-reproducibility-nix-in-debian.html</guid></item><item><title>#01 - TerraNix, Debian packaging, elm2nix, RaspberryPi 3+</title><link>https://weekly.nixos.org/2019/01-terranix-debian-packaging-elm2nix-raspberrypi-3.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://tech.ingolf-wagner.de/nixos/nix-instantiate/"&gt;nix-instantiate introduction&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -132,7 +132,7 @@ for the next edition or look at the
 &lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
 &lt;p&gt;You can help too! Create or comment on the &lt;a href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt;
 for the next edition or look at the
-&lt;a href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Thu, 17 Jan 2019 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2019-01-17:/2019/01-terranix-debian-packaging-elm2nix-raspberrypi-3.html</guid></item><item><title>#14 - Reproducible builds summit, Gnome 3.30, RFC process, linter, Arion</title><link>http://weekly.nixos.org/2018/14-reproducible-builds-summit-gnome-330-rfc-process-linter-arion.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
+&lt;a href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Thu, 17 Jan 2019 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2019-01-17:/2019/01-terranix-debian-packaging-elm2nix-raspberrypi-3.html</guid></item><item><title>#14 - Reproducible builds summit, Gnome 3.30, RFC process, linter, Arion</title><link>https://weekly.nixos.org/2018/14-reproducible-builds-summit-gnome-330-rfc-process-linter-arion.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Gnome 3.30 with &lt;a href="https://github.com/NixOS/nixpkgs/pull/44497"&gt;wayland support&lt;/a&gt; has hit master&lt;/li&gt;
 &lt;/ul&gt;
@@ -165,7 +165,7 @@ for the next edition or look at the
 &lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
 &lt;p&gt;You can help too! Create or comment on the &lt;a href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt;
 for the next edition or look at the
-&lt;a href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 19 Dec 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-12-19:/2018/14-reproducible-builds-summit-gnome-330-rfc-process-linter-arion.html</guid></item><item><title>#13 - Cross compilation for Go and Rust, home-manager email support</title><link>http://weekly.nixos.org/2018/13-cross-compilation-for-go-and-rust-home-manager-email-support.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
+&lt;a href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 19 Dec 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-12-19:/2018/14-reproducible-builds-summit-gnome-330-rfc-process-linter-arion.html</guid></item><item><title>#13 - Cross compilation for Go and Rust, home-manager email support</title><link>https://weekly.nixos.org/2018/13-cross-compilation-for-go-and-rust-home-manager-email-support.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;NixOS 19.03 will leverage &lt;a href="https://github.com/NixOS/nixpkgs/pull/50440"&gt;multiple cores&lt;/a&gt;
@@ -210,7 +210,7 @@ for the next edition or look at the
 &lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
 &lt;p&gt;You can help too! Create or comment on the &lt;a href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt;
 for the next edition or look at the
-&lt;a href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Tue, 04 Dec 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-12-04:/2018/13-cross-compilation-for-go-and-rust-home-manager-email-support.html</guid></item><item><title>#12 - NixCon 2018 videos, Eris, NixDoc, Auto patching and jobs</title><link>http://weekly.nixos.org/2018/12-nixcon-2018-videos-eris-nixdoc-auto-patching-and-jobs.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
+&lt;a href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Tue, 04 Dec 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-12-04:/2018/13-cross-compilation-for-go-and-rust-home-manager-email-support.html</guid></item><item><title>#12 - NixCon 2018 videos, Eris, NixDoc, Auto patching and jobs</title><link>https://weekly.nixos.org/2018/12-nixcon-2018-videos-eris-nixdoc-auto-patching-and-jobs.html</link><description>&lt;h1&gt;News&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href="https://www.youtube.com/channel/UCjqkNrQ8F3OhKSCfCgagWLg/videos"&gt;NixCon 2018 videos of talks&lt;/a&gt;&lt;/p&gt;
@@ -271,7 +271,7 @@ for the next edition or look at the
 &lt;p&gt;This work would not be possible without the many contributions of the community.&lt;/p&gt;
 &lt;p&gt;You can help too! Create or comment on the &lt;a href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt;
 for the next edition or look at the
-&lt;a href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Fri, 16 Nov 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-11-16:/2018/12-nixcon-2018-videos-eris-nixdoc-auto-patching-and-jobs.html</guid></item><item><title>#11 - NixOS 18.09 release, Fastly CDN for cache, your first Hydra</title><link>http://weekly.nixos.org/2018/11-nixos-1809-release-fastly-cdn-for-cache-your-first-hydra.html</link><description>&lt;div class="section" id="news"&gt;
+&lt;a href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Fri, 16 Nov 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-11-16:/2018/12-nixcon-2018-videos-eris-nixdoc-auto-patching-and-jobs.html</guid></item><item><title>#11 - NixOS 18.09 release, Fastly CDN for cache, your first Hydra</title><link>https://weekly.nixos.org/2018/11-nixos-1809-release-fastly-cdn-for-cache-your-first-hydra.html</link><description>&lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;cache.nixos.org &lt;a class="reference external" href="https://discourse.nixos.org/t/the-nixos-cache-is-now-hosted-by-fastly/1061"&gt;moved&lt;/a&gt; from Amazon to Fastly.&lt;/li&gt;
@@ -295,7 +295,7 @@ for the next edition or look at the
 &lt;p&gt;You can help too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
 or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-10-10:/2018/11-nixos-1809-release-fastly-cdn-for-cache-your-first-hydra.html</guid></item><item><title>#10 - AArch64 builders, NixOps alternative, optimised docker layers, Hercules CI</title><link>http://weekly.nixos.org/2018/10-arch64-builders-nixops-alternative-optimized-docker-layers-hercules-ci.html</link><description>&lt;div class="section" id="news"&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 10 Oct 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-10-10:/2018/11-nixos-1809-release-fastly-cdn-for-cache-your-first-hydra.html</guid></item><item><title>#10 - AArch64 builders, NixOps alternative, optimised docker layers, Hercules CI</title><link>https://weekly.nixos.org/2018/10-arch64-builders-nixops-alternative-optimized-docker-layers-hercules-ci.html</link><description>&lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://functional.works-hub.com/learn/exploring-nix-and-haskell-part-1-project-setup-0edb2"&gt;Exploring Nix &amp;amp; Haskell Part 1: Project Setup&lt;/a&gt;&lt;/p&gt;
@@ -360,7 +360,7 @@ to separate out important layers.&lt;/p&gt;
 &lt;p&gt;You can help too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
 or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 03 Oct 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-10-03:/2018/10-arch64-builders-nixops-alternative-optimized-docker-layers-hercules-ci.html</guid></item><item><title>#09 - NixCon 2018 program, macOS 10.14 Mojave support, Haskell and Python packaging tips</title><link>http://weekly.nixos.org/2018/09-nixcon-2018-program-macos-1014-mojave-support-haskell-and-python-packaging-tips.html</link><description>&lt;div class="section" id="news"&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 03 Oct 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-10-03:/2018/10-arch64-builders-nixops-alternative-optimized-docker-layers-hercules-ci.html</guid></item><item><title>#09 - NixCon 2018 program, macOS 10.14 Mojave support, Haskell and Python packaging tips</title><link>https://weekly.nixos.org/2018/09-nixcon-2018-program-macos-1014-mojave-support-haskell-and-python-packaging-tips.html</link><description>&lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul class="simple"&gt;
 &lt;li&gt;&lt;a class="reference external" href="https://nixcon2018.org/#program"&gt;The NixCon 2018 sold out and program is now live&lt;/a&gt;&lt;/li&gt;
@@ -407,7 +407,7 @@ development, but has the potential to support other language platforms.&lt;/p&gt
 &lt;p&gt;You can help too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
 or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 26 Sep 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-09-26:/2018/09-nixcon-2018-program-macos-1014-mojave-support-haskell-and-python-packaging-tips.html</guid></item><item><title>#08 - Nix 2.1, NixOS 18.09 beta, new installer bootloader</title><link>http://weekly.nixos.org/2018/08-nix-21-nixos-1809-beta-new-installer-bootloader.html</link><description>&lt;div class="section" id="news"&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 26 Sep 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-09-26:/2018/09-nixcon-2018-program-macos-1014-mojave-support-haskell-and-python-packaging-tips.html</guid></item><item><title>#08 - Nix 2.1, NixOS 18.09 beta, new installer bootloader</title><link>https://weekly.nixos.org/2018/08-nix-21-nixos-1809-beta-new-installer-bootloader.html</link><description>&lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;!-- - Example news item title `with link`_ --&gt;
 &lt;!--  --&gt;
@@ -468,7 +468,7 @@ from happening again.&lt;/p&gt;
 &lt;p&gt;You can help too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
 or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 05 Sep 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-09-05:/2018/08-nix-21-nixos-1809-beta-new-installer-bootloader.html</guid></item><item><title>#07 - NixOS in production, nix-devel is now Discourse</title><link>http://weekly.nixos.org/2018/07-nixos-in-production-nix-devel-is-now-discourse.html</link><description>&lt;div class="section" id="news"&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 05 Sep 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-09-05:/2018/08-nix-21-nixos-1809-beta-new-installer-bootloader.html</guid></item><item><title>#07 - NixOS in production, nix-devel is now Discourse</title><link>https://weekly.nixos.org/2018/07-nixos-in-production-nix-devel-is-now-discourse.html</link><description>&lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="http://www.haskellforall.com/2018/08/nixos-in-production.html"&gt;NixOS in production&lt;/a&gt;&lt;/p&gt;
@@ -485,7 +485,7 @@ or look at the &lt;a class="reference external" href="https://github.com/NixOS/n
 &lt;p&gt;You can help too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
 or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-08-22:/2018/07-nixos-in-production-nix-devel-is-now-discourse.html</guid></item><item><title>#06 - Formalizing review workflow, OfBorg update, String Context explanation</title><link>http://weekly.nixos.org/2018/06-formalizing-review-workflow-ofborg-update-string-context-explanation.html</link><description>&lt;div class="section" id="news"&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-08-22:/2018/07-nixos-in-production-nix-devel-is-now-discourse.html</guid></item><item><title>#06 - Formalizing review workflow, OfBorg update, String Context explanation</title><link>https://weekly.nixos.org/2018/06-formalizing-review-workflow-ofborg-update-string-context-explanation.html</link><description>&lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
 &lt;!-- - Example news item title `with link`_ --&gt;
 &lt;!--  --&gt;
@@ -558,7 +558,7 @@ and nix-prefetch-git.&lt;/p&gt;
 &lt;p&gt;You can help too! Comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
 or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 15 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-08-15:/2018/06-formalizing-review-workflow-ofborg-update-string-context-explanation.html</guid></item><item><title>#05 - NixOS 18.09 preparations, incremental builds and other tooling</title><link>http://weekly.nixos.org/2018/05.html</link><description>&lt;!-- - Example news item title `with link`_ --&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 15 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-08-15:/2018/06-formalizing-review-workflow-ofborg-update-string-context-explanation.html</guid></item><item><title>#05 - NixOS 18.09 preparations, incremental builds and other tooling</title><link>https://weekly.nixos.org/2018/05.html</link><description>&lt;!-- - Example news item title `with link`_ --&gt;
 &lt;!--  --&gt;
 &lt;!-- News item description (optional) --&gt;
 &lt;!--  --&gt;
@@ -591,7 +591,7 @@ central role in each release. Thank you Vladimír and Samuel!&lt;/p&gt;
 &lt;p&gt;You can help too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
 or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Thu, 02 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-08-02:/2018/05.html</guid></item><item><title>#04 - NixCon2018, Nix Core Team, binary cache improvements</title><link>http://weekly.nixos.org/2018/04-nixconf0218-nix-core-team-binary-cache-improvements.html</link><description>&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Thu, 02 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-08-02:/2018/05.html</guid></item><item><title>#04 - NixCon2018, Nix Core Team, binary cache improvements</title><link>https://weekly.nixos.org/2018/04-nixconf0218-nix-core-team-binary-cache-improvements.html</link><description>&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
 &lt;!-- (OPTIONAL) Introduction text, as an editor this is your space to express
 opinions --&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
@@ -671,7 +671,7 @@ on &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/
 &lt;p&gt;You can help too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
 or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 25 Jul 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-07-25:/2018/04-nixconf0218-nix-core-team-binary-cache-improvements.html</guid></item><item><title>#03 - A tree with strong roots ...</title><link>http://weekly.nixos.org/2018/03-a-tree-with-strong-roots.html</link><description>&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 25 Jul 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-07-25:/2018/04-nixconf0218-nix-core-team-binary-cache-improvements.html</guid></item><item><title>#03 - A tree with strong roots ...</title><link>https://weekly.nixos.org/2018/03-a-tree-with-strong-roots.html</link><description>&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
 &lt;!-- (OPTIONAL) Introduction text, as an editor this is your space to express
 opinions --&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
@@ -812,7 +812,7 @@ articles once this is moved into article template --&gt;
 &lt;p&gt;You can help too! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next edition
 or look at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Mon, 26 Feb 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-02-26:/2018/03-a-tree-with-strong-roots.html</guid></item><item><title>#02 - Life before death, strength before weakness, ...</title><link>http://weekly.nixos.org/2018/02-life-before-death.html</link><description>&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Mon, 26 Feb 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-02-26:/2018/03-a-tree-with-strong-roots.html</guid></item><item><title>#02 - Life before death, strength before weakness, ...</title><link>https://weekly.nixos.org/2018/02-life-before-death.html</link><description>&lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
 &lt;!-- (OPTIONAL) Introduction text, as an editor this is your space to express
 opinions --&gt;
 &lt;!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --&gt;
@@ -940,7 +940,7 @@ articles once this is moved into article template --&gt;
 request&lt;/a&gt; for the next edition or loot at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other
 improvements.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Thu, 01 Feb 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-02-01:/2018/02-life-before-death.html</guid></item><item><title>#01 - Phoenixes burst into flame ...</title><link>http://weekly.nixos.org/2018/01-phoenixes-burst-into-flame.html</link><description>&lt;p&gt;The phoenix is a long-lived fiery bird that is present in many different
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Thu, 01 Feb 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-02-01:/2018/02-life-before-death.html</guid></item><item><title>#01 - Phoenixes burst into flame ...</title><link>https://weekly.nixos.org/2018/01-phoenixes-burst-into-flame.html</link><description>&lt;p&gt;The phoenix is a long-lived fiery bird that is present in many different
 mythologies from around the world. When a phoenix “dies”, it does so by
 combustion and is reborn of the ashes left behind. It rises from its own ashes,
 in the freshness of youth, to live through another cycle of years. So in
@@ -1021,7 +1021,7 @@ function in nixpkgs.&lt;/li&gt;
 request&lt;/a&gt; for the next edition or loot at the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other
 improvements.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Mon, 08 Jan 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-01-08:/2018/01-phoenixes-burst-into-flame.html</guid></item><item><title>#08 - Not all those who wander are lost</title><link>http://weekly.nixos.org/2017/08-not-all-those-who-wander-are-lost.html</link><description>&lt;p&gt;Welcome to another edition of NixOS Weekly.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Mon, 08 Jan 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2018-01-08:/2018/01-phoenixes-burst-into-flame.html</guid></item><item><title>#08 - Not all those who wander are lost</title><link>https://weekly.nixos.org/2017/08-not-all-those-who-wander-are-lost.html</link><description>&lt;p&gt;Welcome to another edition of NixOS Weekly.&lt;/p&gt;
 &lt;p&gt;Major announcements include NixCon 2017 and the old wiki migration.
 This edition adds a new Tooling section for possibly useful
 Nix-related tools in addition to News, Jobs, Reading, and Events.&lt;/p&gt;
@@ -1102,7 +1102,7 @@ missing programs.&lt;/li&gt;
 &lt;p&gt;You can help! Create or comment on the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/pulls"&gt;pull request&lt;/a&gt; for the next
 edition or help with the &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;issue tracker&lt;/a&gt; to add other improvements.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Fri, 19 May 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-05-19:/2017/08-not-all-those-who-wander-are-lost.html</guid></item><item><title>#07 - You have one hell of a Linux system here</title><link>http://weekly.nixos.org/2017/07-you-have-one-hell-of-a-linux-system-here.html</link><description>&lt;p&gt;A few months ago a proposal to define improvements process (&lt;a class="reference external" href="https://github.com/nixos/rfcs"&gt;nixos/rfcs&lt;/a&gt;) was
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Fri, 19 May 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-05-19:/2017/08-not-all-those-who-wander-are-lost.html</guid></item><item><title>#07 - You have one hell of a Linux system here</title><link>https://weekly.nixos.org/2017/07-you-have-one-hell-of-a-linux-system-here.html</link><description>&lt;p&gt;A few months ago a proposal to define improvements process (&lt;a class="reference external" href="https://github.com/nixos/rfcs"&gt;nixos/rfcs&lt;/a&gt;) was
 announced.&lt;/p&gt;
 &lt;p&gt;While many contributions to Nix and NixOS related projects fits into GitHub
 pull requests model, doing a substantial change requires more involvement from
@@ -1168,7 +1168,7 @@ planned. It's up to the participants, what's going to happen.&lt;/p&gt;
 &lt;h2&gt;Editor's corner&lt;/h2&gt;
 &lt;p&gt;Help us shape &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;next issue&lt;/a&gt; of the NixOS weekly newsletter.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Tue, 02 May 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-05-02:/2017/07-you-have-one-hell-of-a-linux-system-here.html</guid></item><item><title>#06 - I never wished a man dead</title><link>http://weekly.nixos.org/2017/06-i-never-wished-a-man-dead.html</link><description>&lt;p&gt;Or in other words: no more Perl in Nix! Shea Levy's last branch for his
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Tue, 02 May 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-05-02:/2017/07-you-have-one-hell-of-a-linux-system-here.html</guid></item><item><title>#06 - I never wished a man dead</title><link>https://weekly.nixos.org/2017/06-i-never-wished-a-man-dead.html</link><description>&lt;p&gt;Or in other words: no more Perl in Nix! Shea Levy's last branch for his
 long-ongoing work to remove Perl from the Nix tool has &lt;a class="reference external" href="https://github.com/NixOS/nix/pull/1027"&gt;finally been merged&lt;/a&gt;&lt;/p&gt;
 &lt;div class="section" id="news"&gt;
 &lt;h2&gt;News&lt;/h2&gt;
@@ -1251,7 +1251,7 @@ mean in numbers for last month?&lt;/p&gt;
 &lt;p&gt;Source: &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/pulse/monthly"&gt;https://github.com/NixOS/nixpkgs/pulse/monthly&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Help us shape &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly/issues"&gt;next issue&lt;/a&gt; of NixOS weekly newslettter.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Fri, 14 Apr 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-04-14:/2017/06-i-never-wished-a-man-dead.html</guid></item><item><title>#05 - Tonight We Ride</title><link>http://weekly.nixos.org/2017/05-tonight-we-ride.html</link><description>&lt;p&gt;The &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023302.html"&gt;17.03 &amp;quot;Gorilla&amp;quot; release&lt;/a&gt; has been tagged! There are too many good things
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Fri, 14 Apr 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-04-14:/2017/06-i-never-wished-a-man-dead.html</guid></item><item><title>#05 - Tonight We Ride</title><link>https://weekly.nixos.org/2017/05-tonight-we-ride.html</link><description>&lt;p&gt;The &lt;a class="reference external" href="http://lists.science.uu.nl/pipermail/nix-dev/2017-March/023302.html"&gt;17.03 &amp;quot;Gorilla&amp;quot; release&lt;/a&gt; has been tagged! There are too many good things
 in this release to pick favourites. I refer you to the &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/blob/master/nixos/doc/manual/release-notes/rl-1703.xml"&gt;release notes&lt;/a&gt;
 instead.&lt;/p&gt;
 &lt;p&gt;Some fun stats:&lt;/p&gt;
@@ -1314,7 +1314,7 @@ the news in the first place. If you see anything cool, want to share a job,
 meetup or presentation add a comment with your item at
 &lt;a class="reference external" href="https://github.com/NixOS/nixos-weekly"&gt;https://github.com/NixOS/nixos-weekly&lt;/a&gt;. It's super helpful!&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Mon, 03 Apr 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-04-03:/2017/05-tonight-we-ride.html</guid></item><item><title>#04 - Everything not saved will be lost</title><link>http://weekly.nixos.org/2017/04-everything-not-saved-will-be-lost.html</link><description>&lt;p&gt;Nix, NixOS and nixpkgs are all moving ahead at good speed. The &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/milestone/10"&gt;17.03
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Mon, 03 Apr 2017 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-04-03:/2017/05-tonight-we-ride.html</guid></item><item><title>#04 - Everything not saved will be lost</title><link>https://weekly.nixos.org/2017/04-everything-not-saved-will-be-lost.html</link><description>&lt;p&gt;Nix, NixOS and nixpkgs are all moving ahead at good speed. The &lt;a class="reference external" href="https://github.com/NixOS/nixpkgs/milestone/10"&gt;17.03
 milestone&lt;/a&gt; is more than 50% complete, and we merged 144 pull requests for
 nixpkgs just in the last seven days.&lt;/p&gt;
 &lt;div class="section" id="news"&gt;
@@ -1440,7 +1440,7 @@ people spontaneously helping out to make it happen after a call for help from
 next edition by providing a hint regarding a presentation, an event, a relevant
 change or discussion.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Mon, 13 Mar 2017 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-03-13:/2017/04-everything-not-saved-will-be-lost.html</guid></item><item><title>#03 - Better Late Than Never</title><link>http://weekly.nixos.org/2017/03-better-late-then-never.html</link><description>&lt;p&gt;Another two weeks have passed and it is time for our summary.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Mon, 13 Mar 2017 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-03-13:/2017/04-everything-not-saved-will-be-lost.html</guid></item><item><title>#03 - Better Late Than Never</title><link>https://weekly.nixos.org/2017/03-better-late-then-never.html</link><description>&lt;p&gt;Another two weeks have passed and it is time for our summary.&lt;/p&gt;
 &lt;p&gt;A new section &lt;strong&gt;Questions&lt;/strong&gt; was added to the newsletter. The intention for this
 new section is that it is going to expose some of the questions that happen in
 the past. We hope that none of the questions will be left unanswered.&lt;/p&gt;
@@ -1643,7 +1643,7 @@ a good chance of seeing some adoption here.&lt;/p&gt;
 trying to get it out in time, but life happens also. If you would like to help
 release weekly newsletter please &lt;a class="reference external" href="https://twitter.com/garbas"&gt;contact me&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 22 Feb 2017 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-02-22:/2017/03-better-late-then-never.html</guid></item><item><title>#02 - Here we go</title><link>http://weekly.nixos.org/2017/02-here-we-go.html</link><description>&lt;p&gt;Let us together review what happened in NixOS community in last 2 weeks. We are
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Wed, 22 Feb 2017 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-02-22:/2017/03-better-late-then-never.html</guid></item><item><title>#02 - Here we go</title><link>https://weekly.nixos.org/2017/02-here-we-go.html</link><description>&lt;p&gt;Let us together review what happened in NixOS community in last 2 weeks. We are
 always looking to improve.&lt;/p&gt;
 &lt;p&gt;&lt;a class="reference external" href="https://github.com/nixos/nixos-weekly/issues/new"&gt;Let us know&lt;/a&gt; how we can do better.&lt;/p&gt;
 &lt;div class="section" id="news"&gt;
@@ -1748,7 +1748,7 @@ it is quite &lt;strong&gt;advance Nix&lt;/strong&gt; oriented. Would a section w
 &lt;strong&gt;promote&lt;/strong&gt; questions from reddit / stack overflow be of any help to newcomers?
 &lt;a class="reference external" href="https://twitter.com/garbas"&gt;Let me know.&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Mon, 06 Feb 2017 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-02-06:/2017/02-here-we-go.html</guid></item><item><title>#01 - We need to start somewhere</title><link>http://weekly.nixos.org/2017/01-we-need-to-start-somewhere.html</link><description>&lt;p&gt;Welcome to the first edition of NixOS weekly. We will do our best to release
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">NixOS Weekly Team</dc:creator><pubDate>Mon, 06 Feb 2017 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:weekly.nixos.org,2017-02-06:/2017/02-here-we-go.html</guid></item><item><title>#01 - We need to start somewhere</title><link>https://weekly.nixos.org/2017/01-we-need-to-start-somewhere.html</link><description>&lt;p&gt;Welcome to the first edition of NixOS weekly. We will do our best to release
 this newsletter every second week. If there is something you think we could
 improve, please &lt;a class="reference external" href="https://github.com/nixos/nixos-weekly/issues/new"&gt;let us know&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="section" id="news"&gt;
