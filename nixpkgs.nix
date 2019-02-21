@@ -1,5 +1,5 @@
 # to update: $ nix-prefetch-url --unpack url
 import (builtins.fetchTarball {
-   url = "https://github.com/NixOS/nixpkgs/archive/39e3248141eb2f778ef5adc7643eb36094416974.tar.gz";
-   sha256 = "17l5fjpkhsr70z6p43k9b1g7flxkvcv3azwqqjsc666s44sgiw9j";
+   url = "https://github.com/NixOS/nixpkgs/archive/54568a7cafb8538220fa04b93e9a038a314b65df.tar.gz";
+   sha256 = "0sdhizxcp7vzsipbffx3npns23lfgdhxwkiawmi3msl50dxmc8p1";
 }) { config = {}; overlays = []; }
