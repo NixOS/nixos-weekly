@@ -1,5 +1,5 @@
-Title: #(TODO: NUM) - (TODO: title)
-Date: 2019-(TODO: MM-DD)
+Title: #${nextissue} - (TODO: title)
+Date: ${year}-(TODO: MM-DD)
 Description: (TODO: QUOTE)
 
 # News
@@ -7,7 +7,6 @@ Description: (TODO: QUOTE)
 - Example news item title [with a link](http://example.com)
 
   Optional item description
-
 
 
 # Contribute to NixOS Weekly Newsletter
