@@ -10,17 +10,17 @@ Description: Let us sacrifice our today so that our children can have a better t
 
 - [Why I use NixOS](https://kalbas.it/2019/03/24/why-i-use-nixos/)
 
-- [Announcing tree sitter Nix](https://discourse.nixos.org/t/announcing-tree-sitter-nix/2483)
+- [Announcing tree-sitter-nix](https://discourse.nixos.org/t/announcing-tree-sitter-nix/2483)
 
-- [A simple formatter for Nix using tree-parser-nix](https://github.com/justinwoo/format-nix)
+- [A simple formatter for Nix using tree-sitter-nix](https://github.com/justinwoo/format-nix)
 
 - [Announcing Mixnix - Build Elixir projects with Nix](https://discourse.nixos.org/t/announcing-mixnix-build-elixir-projects-with-nix/2444)
 
-- Target and Tweag announce lorri, a nix-shell replacement for project development.
+- [Target and Tweag announce lorri, a nix-shell replacement for project development](https://www.tweag.io/posts/2019-03-28-introducing-lorri.html)
+
   lorri is based around fast direnv integration for robust CLI and editor integration.
 
-  Read about it at https://www.tweag.io/posts/2019-03-28-introducing-lorri.html
-  and try it out at http://github.com/target/lorri!
+  [Try it out](http://github.com/target/lorri)
 
 - [PatchELF 0.10 released](https://nixos.org/releases/patchelf/patchelf-0.10/)
 
