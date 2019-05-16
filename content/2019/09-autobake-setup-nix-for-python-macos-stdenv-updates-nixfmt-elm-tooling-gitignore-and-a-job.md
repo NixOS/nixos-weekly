@@ -16,7 +16,7 @@ Description: The essence of all art is to have pleasure in giving pleasure - Dal
 
 - [nixpkgs macOS stdenv updates](https://matthewbauer.us/blog/darwin-stdenv-update.html)
 
-  Matthew's overview of recent stdenv updates, which also bumps minimal supported version to 10.15.
+  Matthew's overview of recent stdenv updates, which also bumps minimal supported version to 10.12.
 
 - [Phoronix: NixOS Takes Action After 1.2GB/s ZFS Encryption Speed Drops To 200MB/s With Linux
 5.0+](https://www.phoronix.com/scan.php?page=news_item&px=NixOS-Linux-5.0-ZFS-FPU-Drop)
