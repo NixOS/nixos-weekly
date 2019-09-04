@@ -177,6 +177,11 @@ body {
     padding: 2em;
 }
 
+article {
+  margin: auto;
+  width: 1200px;
+}
+
 #articles-past-issues {
     text-align: left;
     margin-bottom: 1em;
