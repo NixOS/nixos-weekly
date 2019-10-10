@@ -18,7 +18,7 @@ Description: No act of kindness, no matter how small, is ever wasted. - Aesop
 
   Serokell is looking for remote full-time Nix SREs.
 
-- [Yants - Yet Another Nix Type System](https://gist.github.com/tazjin/ad6d48bc2416335acc5da4a197eb9ddc)
+- [Yants - Yet Another Nix Type System](https://github.com/tazjin/yants)
 
   Yants is a small runtime type-checker for Nix that can check primitives (`int`, `string`, etc.) ,
   simple polymorphic types (`option`, `list`, `attrs`), structs/records, enums, functions and more.
