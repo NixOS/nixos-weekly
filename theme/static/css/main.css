@@ -179,7 +179,8 @@ body {
 
 article {
   margin: auto;
-  width: 1200px;
+  max-width: 1200px;
+  min-width: 480px;
 }
 
 #articles-past-issues {
