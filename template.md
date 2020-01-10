@@ -1,4 +1,4 @@
-Title: #${nextissue} - (TODO: title)
+Title: NixOS Weekly #${nextissue}
 Date: ${year}-(TODO: MM-DD)
 Description: (TODO: QUOTE)
 
