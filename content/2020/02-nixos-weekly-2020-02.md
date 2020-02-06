@@ -22,7 +22,7 @@ Description: We are here to make another world - W. Edwards Deming
   A small command-line tool and python library that makes bisecting nix builds much more convenient.
   It prevents common pitfalls in simple cases and saves a lot of time in more complicated ones.
 
-- [Job: ShowSeeker is looiking for devops and SRE engineers](https://discourse.nixos.org/t/job-devops-engineer-and-sre-nixos-remote/5413/3)
+- [Job: ShowSeeker is looking for DevOps and SRE engineers](https://discourse.nixos.org/t/job-devops-engineer-and-sre-nixos-remote/5413/3)
 
 - [Cachix: CDN and double storage](https://blog.cachix.org/post/2020-01-28-cdn-and-double-storage/)
 
