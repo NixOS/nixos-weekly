@@ -58,11 +58,11 @@ Description: Problems are not stop signs, they are guidelines - Robert H. Schull
   they want to know). This is in the context of a bioinformatics application, written in Haskell,
   but the nixpkgs integration can be done without writing Haskell code ([NGLess](https://ngless.embl.de/))
 
-- [Nix override packages with overlays
+- [Nix: override packages with overlays
   ](https://thomashartmann.dev/blog/nix-override-packages-with-overlays/)
   
-  Thomas has written a tutorial what problem are overlays
-  trying to address and how to use them.
+  Thomas has written a tutorial covering the problem that overlays
+  are trying to solve, as well as how to use them.
 
 - [Announcing TUNA Nix mirror for China users
   ](https://discourse.nixos.org/t/announcing-tuna-nix-mirror/6144)
@@ -73,7 +73,7 @@ Description: Problems are not stop signs, they are guidelines - Robert H. Schull
 - [How NixOS Is Enabling Edge and IoT Projects
   ](https://www.worksonarm.com/blog/how-nixos-is-enabling-edge-and-iot-projects/)
 
-- [Interact1ive tutorials for using Nix and Nixpkgs written as Jupyter notebook
+- [Interactive tutorials for using Nix and Nixpkgs written as a Jupyter notebook
   ](https://github.com/FRidh/nix-tutorials)
   
   made by [@FRidh](https://github.com/FRidh)
