@@ -78,6 +78,8 @@ Description: Problems are not stop signs, they are guidelines - Robert H. Schull
   
   made by [@FRidh](https://github.com/FRidh)
 
+- [A declarative process manager-agnostic deployment framework based on Nix tooling
+  ](https://sandervanderburg.blogspot.com/2020/02/a-declarative-process-manager-agnostic.html)
 
 # Contribute to NixOS Weekly Newsletter
 
