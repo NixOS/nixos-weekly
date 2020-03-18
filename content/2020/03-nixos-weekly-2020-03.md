@@ -30,7 +30,7 @@ Description: Problems are not stop signs, they are guidelines - Robert H. Schull
   by evaluating the output of `nix-freeze-tree` can reuse existing files in the destination store, as 
   fixed-output derivations can be checked against a hash before copying.
 
-- [I was wrong abount Nix
+- [I was wrong about Nix
   ](https://christine.website/blog/i-was-wrong-about-nix-2020-02-10)
 
   Christine talks about packaging Go and Elm application with Nix
