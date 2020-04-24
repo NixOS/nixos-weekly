@@ -8,6 +8,11 @@ Description: (TODO: QUOTE)
 
   Optional item description
 
+## Announcements
+
+## Tutorials & Resources
+
+## Jobs
 
 # Contribute to NixOS Weekly Newsletter
 
