@@ -20,7 +20,7 @@ Description: One today is worth two tomorrows - Benjamin Franklin
     - Linux: ~20s -> ~7s
     - MacOS: ~90s -> ~20s
 
-- [Nix Flakes, Part 1: An introduction and tutorial](https://www.tweag.io/posts/2020-05-25-flakes.html)
+- [Nix Flakes, Part 1: An introduction and tutorial](https://www.tweag.io/blog/2020-05-25-flakes/)
 
   This is the first in a series of blog posts intended to provide a gentle introduction to flakes,
   a new Nix feature that improves reproducibility, composability and usability in the Nix ecosystem. 
