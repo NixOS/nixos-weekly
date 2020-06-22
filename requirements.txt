@@ -1,3 +1,2 @@
 pelican
 markdown
-livereload
