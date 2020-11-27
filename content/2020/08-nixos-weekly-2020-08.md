@@ -91,7 +91,7 @@ Description:
 
 - [swift2nix: Run Swift inside Nix builds](https://euandre.org/2020/10/05/swift2nix-run-swift-inside-nix-builds.html)
 
-- [cargo2nix: Dramatically simpler Rust inside Nix](https://euandre.org/2020/10/05/cargo2nix-dramatically-simpler-rust-in-nix.htmla)
+- [cargo2nix: Dramatically simpler Rust inside Nix](https://euandre.org/2020/10/05/cargo2nix-dramatically-simpler-rust-in-nix.html)
 
 - [Publishing Doxygen and Sphinx with Nix and Rake](https://rgoswami.me/posts/pub-doc-cpp-dox-sph-nix/)
 
