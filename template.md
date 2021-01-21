@@ -14,7 +14,7 @@ Description: (TODO: QUOTE)
 
 ## Jobs
 
-# Contribute to NixOS Weekly Newsletter
+# Contribute to NixOS Weekly
 
 This work would not be possible without the many contributions of the community.
 
