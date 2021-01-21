@@ -1,6 +1,0 @@
-language: nix
-
-script:
-- nix-build -Q default.nix;
-- ./lint.sh
-
