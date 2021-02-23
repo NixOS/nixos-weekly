@@ -8,13 +8,13 @@ Description: You always have two choices: your commitment versus your fear - Sam
 
 - [Introducing flox - Nix for simplicity and scale](https://discourse.nixos.org/t/introducing-flox-nix-for-simplicity-and-scale/11275)
 
-  [flox](https://floxdev.com) makes it easy to build software or manage development environments with Nix at any scale
+  [flox](https://floxdev.com) makes it easy to build software or manage development environments with Nix at any scale.
 
 - [Trustix](https://www.tweag.io/blog/2020-12-16-trustix-announcement/)
 
-  Distributed trust and reproducibility tracking for binary caches
+  Distributed trust and reproducibility tracking for binary caches.
 
-- [Recurring funding for making macOS first-class citizen in Nix ecosystem](https://discourse.nixos.org/t/recurring-funding-for-making-macos-first-class-citizen-in-nix-ecosystem/11386)
+- [Recurring funding for making macOS a first-class citizen in Nix ecosystem](https://discourse.nixos.org/t/recurring-funding-for-making-macos-first-class-citizen-in-nix-ecosystem/11386)
 
   A call for companies/developers to contribute financially towards addressing major macOS issues in the ecosystem.
 
@@ -50,7 +50,7 @@ Description: You always have two choices: your commitment versus your fear - Sam
 
 - [PDT Partners: Experienced DevOps Engineer (New York)](https://boards.greenhouse.io/pdtpartners/jobs/1473543)
 
-- [KittyHawk: DevOps Engineer (SF Bar Area)](https://discourse.nixos.org/t/job-devops-engineer-at-kitty-hawk-sf-bay-area/11636)
+- [KittyHawk: DevOps Engineer (SF Bay Area)](https://discourse.nixos.org/t/job-devops-engineer-at-kitty-hawk-sf-bay-area/11636)
 
 - [Tweag: Software Engineer - Developer Productivity (Remote or Paris)](https://boards.greenhouse.io/tweag/jobs/4212663002)
 
