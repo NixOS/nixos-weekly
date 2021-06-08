@@ -28,7 +28,7 @@ Description: Never give up on a dream just because of the time it will take to a
 - [NixNG, a late sibling distribution to NixOS, without systemd!](https://gitea.redalder.org/Magic_RB/NixNG)
 
   NixNG is a proof-of-concept distribution which works very similarly to NixOS, but aims to run well 
-  in containers and also smells more BSD-esque. Currently it uses runit instead of systemd, but we're 
+  in containers and also smells more BSD-esque. Currently, it uses runit instead of systemd, but we're 
   open to multi-init support and also to our own init system.
 
 - [Nix 🖤 macOS May Update](https://discourse.nixos.org/t/nix-macos-monthly/12330/4?u=domenkozar)
@@ -83,7 +83,7 @@ Description: Never give up on a dream just because of the time it will take to a
 
 - [Writing a “Hello World” RiscV Kernel with Nix in Rust](https://justin.restivo.me/posts/2021-05-30-nix-rust-riscv-toy-kernel.html)
 
-  Use Nix Flakes to build and run a 64 bit RiscV Kernel written Rust.
+  Use Nix Flakes to build and run a 64 bit RiscV Kernel written in Rust.
 
 
 ## Jobs
@@ -92,6 +92,7 @@ Description: Never give up on a dream just because of the time it will take to a
 
 - [Senior Site Reliability Engineer at Serokell](https://serokell.io/blog/hiring-senior-sre)
 
+- [Software Engineer (Developer Productivity) at Tweag](https://boards.greenhouse.io/tweag/jobs/4212663002)
 
 # Contribute to NixOS Weekly
 
