@@ -5,7 +5,7 @@ Description: Never give up on a dream just because of the time it will take to a
 # News
 ## Announcements
 
-- [NixOS 21.09 released!](https://nixos.org/blog/announcements.html#21.05)
+- [NixOS 21.05 released!](https://nixos.org/blog/announcements.html#21.05)
 
   Jonathan Ringer, release manager, announces NixOS 21.05 release with 1745 contributors in 33474 commits.
 
